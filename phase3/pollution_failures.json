@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "phase": "phase3",
+  "measurement_environment_id": "derived:phase2-merged",
+  "source_environment_ids": [
+    "env:0fd7b54e0a2a55d4208d",
+    "env:7a9cda66bc6b151a7886"
+  ],
+  "task_count": 64,
+  "pollution_failure_count": 0,
+  "correctness_mismatch_count": 0,
+  "proxy_object_action_count": 178,
+  "failures": []
+}
