@@ -1,0 +1,406 @@
+{
+  "bias_ms": -19744.346676,
+  "error_by_resource_kind_rows": [
+    {
+      "bias": -23861.234742,
+      "mae": 23861.234742,
+      "max_absolute_error": 61579.745144,
+      "median_absolute_error": 25262.615598,
+      "p95_absolute_error": 39742.363013,
+      "pair_count": 3087,
+      "resource_kind": "build_cache"
+    },
+    {
+      "bias": -4171.420172,
+      "mae": 4171.420172,
+      "max_absolute_error": 8089.234414,
+      "median_absolute_error": 4010.645141,
+      "p95_absolute_error": 8042.480178,
+      "pair_count": 801,
+      "resource_kind": "dependency_view"
+    },
+    {
+      "bias": -17248.683678,
+      "mae": 17248.683678,
+      "max_absolute_error": 17248.683678,
+      "median_absolute_error": 17248.683678,
+      "p95_absolute_error": 17248.683678,
+      "pair_count": 2,
+      "resource_kind": "node_runtime"
+    },
+    {
+      "bias": -17355.363157,
+      "mae": 17355.363157,
+      "max_absolute_error": 17355.73021,
+      "median_absolute_error": 17355.73021,
+      "p95_absolute_error": 17355.73021,
+      "pair_count": 16,
+      "resource_kind": "source_overlay"
+    },
+    {
+      "bias": -18222.884218,
+      "mae": 18222.884218,
+      "max_absolute_error": 36040.777054,
+      "median_absolute_error": 18025.634655,
+      "p95_absolute_error": 18810.027169,
+      "pair_count": 126,
+      "resource_kind": "test_transform_cache"
+    }
+  ],
+  "full_pair_count": 4032,
+  "fully_predictable_count": 4032,
+  "largest_asymmetries": [
+    {
+      "absolute_asymmetry": 365740.999948,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 26665.08832,
+      "pair_a": "swesmith/babel__babel.2ea3fc8f",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 424884.380308,
+      "predicted_b_to_a": 29889.933019
+    },
+    {
+      "absolute_asymmetry": 365740.999948,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 26665.08832,
+      "pair_a": "swesmith/coder__code-server.e90504b8",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 424899.700896,
+      "predicted_b_to_a": 29905.253608
+    },
+    {
+      "absolute_asymmetry": 365740.999948,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 26665.08832,
+      "pair_a": "swesmith/directus__directus.ac922d18",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 424899.700896,
+      "predicted_b_to_a": 29905.253608
+    },
+    {
+      "absolute_asymmetry": 365740.999948,
+      "measured_a_to_b": 365781.263001,
+      "measured_b_to_a": 40.263053,
+      "pair_a": "swesmith/humanlayer__12-factor-agents.d20c7283",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 412327.573257,
+      "predicted_b_to_a": 17395.993263
+    },
+    {
+      "absolute_asymmetry": 359192.328033,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 33213.760235,
+      "pair_a": "swesmith/Automattic__mongoose.5f57a5bb",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 425161.647773,
+      "predicted_b_to_a": 37239.725965
+    },
+    {
+      "absolute_asymmetry": 359192.328033,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 33213.760235,
+      "pair_a": "swesmith/balderdashy__sails.ffebacc5",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 425161.647773,
+      "predicted_b_to_a": 37239.725965
+    },
+    {
+      "absolute_asymmetry": 359192.328033,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 33213.760235,
+      "pair_a": "swesmith/mholt__PapaParse.b10b87ef",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 425161.647773,
+      "predicted_b_to_a": 37239.725965
+    },
+    {
+      "absolute_asymmetry": 359192.328033,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 33213.760235,
+      "pair_a": "swesmith/necolas__react-native-web.a9de220b",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 425161.647773,
+      "predicted_b_to_a": 37239.725965
+    },
+    {
+      "absolute_asymmetry": 359192.328033,
+      "measured_a_to_b": 33213.760235,
+      "measured_b_to_a": 392406.088268,
+      "pair_a": "swesmith/nestjs__nest.346c9543",
+      "pair_b": "swesmith/remy__nodemon.daad5c16",
+      "predicted_a_to_b": 37239.725965,
+      "predicted_b_to_a": 425161.647773
+    },
+    {
+      "absolute_asymmetry": 359192.328033,
+      "measured_a_to_b": 33213.760235,
+      "measured_b_to_a": 392406.088268,
+      "pair_a": "swesmith/nestjs__nest.346c9543",
+      "pair_b": "swesmith/websockets__ws.726c3732",
+      "predicted_a_to_b": 37239.725965,
+      "predicted_b_to_a": 425161.647773
+    },
+    {
+      "absolute_asymmetry": 359192.328032,
+      "measured_a_to_b": 6588.934969,
+      "measured_b_to_a": 365781.263001,
+      "pair_a": "swesmith/nestjs__nest.346c9543",
+      "pair_b": "swesmith/novnc__noVNC.d44f7e04",
+      "predicted_a_to_b": 24730.46562,
+      "predicted_b_to_a": 412589.520134
+    },
+    {
+      "absolute_asymmetry": 358406.486857,
+      "measured_a_to_b": 33999.601411,
+      "measured_b_to_a": 392406.088268,
+      "pair_a": "swesmith/nestjs__nest.346c9543",
+      "pair_b": "swesmith/nightwatchjs__nightwatch.54c8550c",
+      "predicted_a_to_b": 38119.868082,
+      "predicted_b_to_a": 425193.08142
+    },
+    {
+      "absolute_asymmetry": 352643.656118,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 39762.43215,
+      "pair_a": "swesmith/caolan__async.23dbf76a",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 425161.647773,
+      "predicted_b_to_a": 44574.23851
+    },
+    {
+      "absolute_asymmetry": 352643.656118,
+      "measured_a_to_b": 39762.43215,
+      "measured_b_to_a": 392406.088268,
+      "pair_a": "swesmith/nestjs__nest.346c9543",
+      "pair_b": "swesmith/nock__nock.e7418da2",
+      "predicted_a_to_b": 44558.917921,
+      "predicted_b_to_a": 425146.327184
+    },
+    {
+      "absolute_asymmetry": 325331.755659,
+      "measured_a_to_b": 392406.088268,
+      "measured_b_to_a": 67074.332609,
+      "pair_a": "swesmith/advplyr__audiobookshelf.626596b1",
+      "pair_b": "swesmith/nestjs__nest.346c9543",
+      "predicted_a_to_b": 425193.08142,
+      "predicted_b_to_a": 75163.567023
+    },
+    {
+      "absolute_asymmetry": 282688.050149,
+      "measured_a_to_b": 309353.138469,
+      "measured_b_to_a": 26665.08832,
+      "pair_a": "swesmith/babel__babel.2ea3fc8f",
+      "pair_b": "swesmith/voideditor__void.17e7a5b1",
+      "predicted_a_to_b": 335187.194525,
+      "predicted_b_to_a": 29889.933019
+    },
+    {
+      "absolute_asymmetry": 282688.050149,
+      "measured_a_to_b": 309353.138469,
+      "measured_b_to_a": 26665.08832,
+      "pair_a": "swesmith/coder__code-server.e90504b8",
+      "pair_b": "swesmith/voideditor__void.17e7a5b1",
+      "predicted_a_to_b": 335202.515114,
+      "predicted_b_to_a": 29905.253608
+    },
+    {
+      "absolute_asymmetry": 282688.050149,
+      "measured_a_to_b": 309353.138469,
+      "measured_b_to_a": 26665.08832,
+      "pair_a": "swesmith/directus__directus.ac922d18",
+      "pair_b": "swesmith/voideditor__void.17e7a5b1",
+      "predicted_a_to_b": 335202.515114,
+      "predicted_b_to_a": 29905.253608
+    },
+    {
+      "absolute_asymmetry": 282688.050149,
+      "measured_a_to_b": 309353.138469,
+      "measured_b_to_a": 26665.08832,
+      "pair_a": "swesmith/humanlayer__12-factor-agents.d20c7283",
+      "pair_b": "swesmith/voideditor__void.17e7a5b1",
+      "predicted_a_to_b": 335187.194525,
+      "predicted_b_to_a": 29889.933019
+    },
+    {
+      "absolute_asymmetry": 281902.208973,
+      "measured_a_to_b": 308567.297293,
+      "measured_b_to_a": 26665.08832,
+      "pair_a": "swesmith/babel__babel.2ea3fc8f",
+      "pair_b": "swesmith/mochajs__mocha.410ce0d2",
+      "predicted_a_to_b": 334353.806643,
+      "predicted_b_to_a": 29905.253608
+    }
+  ],
+  "mae_ms": 19744.346676,
+  "measurement_environment_id": "env:7a9cda66bc6b151a7886",
+  "median_absolute_error_ms": 18022.738422,
+  "p95_absolute_error_ms": 39640.127396,
+  "pair_coverage_counts": {
+    "diff_node_diff_rootfs": 2526,
+    "low_overlap": 3318,
+    "native_abi_change": 2526,
+    "rootfs_change": 3318,
+    "same_build_tool": 786,
+    "same_native_bundle": 36,
+    "same_node_diff_rootfs": 792,
+    "same_node_same_rootfs": 714,
+    "same_test_tool": 942
+  },
+  "partial_count": 0,
+  "pearson": 0.9975448845207183,
+  "phase": "phase4",
+  "phase3_anchor_count": 63,
+  "sample_bias_ms": -32453.189801,
+  "sample_count": 100,
+  "sample_mae_ms": 32453.189801,
+  "sample_median_absolute_error_ms": 29164.95711,
+  "sample_p95_absolute_error_ms": 61166.278035,
+  "sample_pearson": 0.9980793190256226,
+  "sample_spearman": 0.9929536199184764,
+  "schema_version": 1,
+  "spearman": 0.9945727031855763,
+  "status": "passed_with_constraints",
+  "top_error_pairs": [
+    {
+      "absolute_error": 61579.745144,
+      "measured_ms": 365111.680638,
+      "predicted_ms": 426691.425781,
+      "source_profile_id": "swesmith/fabricjs__fabric.js.6742471c",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61579.745144,
+      "measured_ms": 365111.680638,
+      "predicted_ms": 426691.425781,
+      "source_profile_id": "swesmith/marko-js__marko.24b9402c",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61579.745144,
+      "measured_ms": 365111.680638,
+      "predicted_ms": 426691.425781,
+      "source_profile_id": "swesmith/payloadcms__payload.8f660355",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61579.745144,
+      "measured_ms": 365111.680638,
+      "predicted_ms": 426691.425781,
+      "source_profile_id": "swesmith/strapi__strapi.e5b87a54",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61579.745144,
+      "measured_ms": 365111.680638,
+      "predicted_ms": 426691.425781,
+      "source_profile_id": "swesmith/webpack__webpack.24e3c2d2",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61144.516608,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426925.779608,
+      "source_profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61144.516608,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426925.779608,
+      "source_profile_id": "swesmith/Effect-TS__effect.5df4da10",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61144.516608,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426925.779608,
+      "source_profile_id": "swesmith/homebridge__homebridge.3a341e08",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61144.516608,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426925.779608,
+      "source_profile_id": "swesmith/josdejong__jsoneditor.0319b213",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61144.516608,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426925.779608,
+      "source_profile_id": "swesmith/svg__svgo.c06d8f68",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61144.516608,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426925.779608,
+      "source_profile_id": "swesmith/tinacms__tinacms.dffb104f",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 61144.516608,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426925.779608,
+      "source_profile_id": "swesmith/welldone-software__why-did-you-render.3ec3512d",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 60882.569731,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426663.832732,
+      "source_profile_id": "swesmith/brianc__node-postgres.ecff60dc",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 60882.569731,
+      "measured_ms": 365781.263001,
+      "predicted_ms": 426663.832732,
+      "source_profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+      "target_profile_id": "swesmith/nestjs__nest.346c9543"
+    },
+    {
+      "absolute_error": 51071.1161,
+      "measured_ms": 282049.518557,
+      "predicted_ms": 333120.634657,
+      "source_profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+      "target_profile_id": "swesmith/mochajs__mocha.410ce0d2"
+    },
+    {
+      "absolute_error": 50392.322002,
+      "measured_ms": 275393.800111,
+      "predicted_ms": 325786.122113,
+      "source_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "target_profile_id": "swesmith/Shopify__draggable.8a1eed57"
+    },
+    {
+      "absolute_error": 50392.322002,
+      "measured_ms": 275393.800111,
+      "predicted_ms": 325786.122113,
+      "source_profile_id": "swesmith/Shopify__draggable.8a1eed57",
+      "target_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91"
+    },
+    {
+      "absolute_error": 50392.322002,
+      "measured_ms": 275393.800111,
+      "predicted_ms": 325786.122113,
+      "source_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "target_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91"
+    },
+    {
+      "absolute_error": 50392.322002,
+      "measured_ms": 275393.800111,
+      "predicted_ms": 325786.122113,
+      "source_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "target_profile_id": "swesmith/Shopify__draggable.8a1eed57"
+    },
+    {
+      "absolute_error": 50276.426006,
+      "measured_ms": 275509.696106,
+      "predicted_ms": 325786.122113,
+      "source_profile_id": "swesmith/ajayyy__SponsorBlock.dfddffbc",
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8"
+    }
+  ],
+  "unknown_count": 0
+}

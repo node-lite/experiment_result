@@ -1,0 +1,908 @@
+{
+  "anchor_count": 63,
+  "sample_count": 100,
+  "sample_limit": 100,
+  "samples": [
+    {
+      "phase3_fresh_ms": 122838.022617,
+      "phase3_observed_ms": 249.93931899999998,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/advplyr__audiobookshelf.626596b1",
+      "source_sequence_index": 1,
+      "target_profile_id": "swesmith/ajayyy__SponsorBlock.dfddffbc",
+      "target_sequence_index": 2
+    },
+    {
+      "phase3_fresh_ms": 117159.83980999999,
+      "phase3_observed_ms": 271.920874,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/ajayyy__SponsorBlock.dfddffbc",
+      "source_sequence_index": 2,
+      "target_profile_id": "swesmith/antvis__G6.91c0ac85",
+      "target_sequence_index": 3
+    },
+    {
+      "phase3_fresh_ms": 7140.2145199999995,
+      "phase3_observed_ms": 137.22566899999998,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/antvis__G6.91c0ac85",
+      "source_sequence_index": 3,
+      "target_profile_id": "swesmith/Automattic__mongoose.5f57a5bb",
+      "target_sequence_index": 4
+    },
+    {
+      "phase3_fresh_ms": 218991.67398300002,
+      "phase3_observed_ms": 368.93671700000004,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/Automattic__mongoose.5f57a5bb",
+      "source_sequence_index": 4,
+      "target_profile_id": "swesmith/axios__axios.ef36347f",
+      "target_sequence_index": 5
+    },
+    {
+      "phase3_fresh_ms": 28606.521358,
+      "phase3_observed_ms": 603.305273,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/axios__axios.ef36347f",
+      "source_sequence_index": 5,
+      "target_profile_id": "swesmith/babel__babel.2ea3fc8f",
+      "target_sequence_index": 6
+    },
+    {
+      "phase3_fresh_ms": 33256.238389,
+      "phase3_observed_ms": 137.430574,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/babel__babel.2ea3fc8f",
+      "source_sequence_index": 6,
+      "target_profile_id": "swesmith/balderdashy__sails.ffebacc5",
+      "target_sequence_index": 7
+    },
+    {
+      "phase3_fresh_ms": 123001.14829,
+      "phase3_observed_ms": 166.244899,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/balderdashy__sails.ffebacc5",
+      "source_sequence_index": 7,
+      "target_profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+      "target_sequence_index": 8
+    },
+    {
+      "phase3_fresh_ms": 122869.09225100001,
+      "phase3_observed_ms": 253.67841299999998,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+      "source_sequence_index": 8,
+      "target_profile_id": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+      "target_sequence_index": 9
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+      "source_sequence_index": 8,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 212457.979392,
+      "phase3_observed_ms": 365.72624800000006,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+      "source_sequence_index": 9,
+      "target_profile_id": "swesmith/bpampuch__pdfmake.719e7314",
+      "target_sequence_index": 10
+    },
+    {
+      "phase3_fresh_ms": 96840.336801,
+      "phase3_observed_ms": 408.87023300000004,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/bpampuch__pdfmake.719e7314",
+      "source_sequence_index": 10,
+      "target_profile_id": "swesmith/brianc__node-postgres.ecff60dc",
+      "target_sequence_index": 11
+    },
+    {
+      "phase3_fresh_ms": 16337.03343,
+      "phase3_observed_ms": 137.42910199999997,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/brianc__node-postgres.ecff60dc",
+      "source_sequence_index": 11,
+      "target_profile_id": "swesmith/caolan__async.23dbf76a",
+      "target_sequence_index": 12
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/brianc__node-postgres.ecff60dc",
+      "source_sequence_index": 11,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 1987.027376,
+      "phase3_observed_ms": 124.87263,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/caolan__async.23dbf76a",
+      "source_sequence_index": 12,
+      "target_profile_id": "swesmith/coder__code-server.e90504b8",
+      "target_sequence_index": 13
+    },
+    {
+      "phase3_fresh_ms": 26815.186245999997,
+      "phase3_observed_ms": 165.091467,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/coder__code-server.e90504b8",
+      "source_sequence_index": 13,
+      "target_profile_id": "swesmith/directus__directus.ac922d18",
+      "target_sequence_index": 14
+    },
+    {
+      "phase3_fresh_ms": 115285.716421,
+      "phase3_observed_ms": 16839.388257000002,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/directus__directus.ac922d18",
+      "source_sequence_index": 14,
+      "target_profile_id": "swesmith/Effect-TS__effect.5df4da10",
+      "target_sequence_index": 15
+    },
+    {
+      "phase3_fresh_ms": 212469.27263300002,
+      "phase3_observed_ms": 370.00357500000007,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/Effect-TS__effect.5df4da10",
+      "source_sequence_index": 15,
+      "target_profile_id": "swesmith/emotion-js__emotion.b882bcba",
+      "target_sequence_index": 16
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/Effect-TS__effect.5df4da10",
+      "source_sequence_index": 15,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 129392.17279499999,
+      "phase3_observed_ms": 251.76228199999997,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/emotion-js__emotion.b882bcba",
+      "source_sequence_index": 16,
+      "target_profile_id": "swesmith/enzymejs__enzyme.61e1b47c",
+      "target_sequence_index": 17
+    },
+    {
+      "phase3_fresh_ms": 106833.93514799999,
+      "phase3_observed_ms": 264.318413,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/enzymejs__enzyme.61e1b47c",
+      "source_sequence_index": 17,
+      "target_profile_id": "swesmith/fabricjs__fabric.js.6742471c",
+      "target_sequence_index": 18
+    },
+    {
+      "phase3_fresh_ms": 9376.203716999999,
+      "phase3_observed_ms": 2956.7460650000003,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/fabricjs__fabric.js.6742471c",
+      "source_sequence_index": 18,
+      "target_profile_id": "swesmith/foambubble__foam.2cac8162",
+      "target_sequence_index": 19
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/fabricjs__fabric.js.6742471c",
+      "source_sequence_index": 18,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 123663.01222099998,
+      "phase3_observed_ms": 366.7660660000001,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/foambubble__foam.2cac8162",
+      "source_sequence_index": 19,
+      "target_profile_id": "swesmith/foliojs__pdfkit.d0108157",
+      "target_sequence_index": 20
+    },
+    {
+      "phase3_fresh_ms": 282150.861734,
+      "phase3_observed_ms": 391.96212900000006,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/foliojs__pdfkit.d0108157",
+      "source_sequence_index": 20,
+      "target_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "target_sequence_index": 21
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/foliojs__pdfkit.d0108157",
+      "source_sequence_index": 20,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/foliojs__pdfkit.d0108157",
+      "source_sequence_index": 20,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": 205942.34892800002,
+      "phase3_observed_ms": 247.538959,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "source_sequence_index": 21,
+      "target_profile_id": "swesmith/GitbookIO__gitbook.81f8ddcf",
+      "target_sequence_index": 22
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "source_sequence_index": 21,
+      "target_profile_id": "swesmith/Shopify__draggable.8a1eed57",
+      "target_sequence_index": 52
+    },
+    {
+      "phase3_fresh_ms": 94088.661096,
+      "phase3_observed_ms": 1908.931606,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/GitbookIO__gitbook.81f8ddcf",
+      "source_sequence_index": 22,
+      "target_profile_id": "swesmith/homebridge__homebridge.3a341e08",
+      "target_sequence_index": 23
+    },
+    {
+      "phase3_fresh_ms": 1974.357667,
+      "phase3_observed_ms": 19.643387,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/homebridge__homebridge.3a341e08",
+      "source_sequence_index": 23,
+      "target_profile_id": "swesmith/humanlayer__12-factor-agents.d20c7283",
+      "target_sequence_index": 24
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/homebridge__homebridge.3a341e08",
+      "source_sequence_index": 23,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 109759.635758,
+      "phase3_observed_ms": 6143.769772999999,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/humanlayer__12-factor-agents.d20c7283",
+      "source_sequence_index": 24,
+      "target_profile_id": "swesmith/iamkun__dayjs.c8a26460",
+      "target_sequence_index": 25
+    },
+    {
+      "phase3_fresh_ms": 212441.11404100002,
+      "phase3_observed_ms": 366.01449600000007,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/iamkun__dayjs.c8a26460",
+      "source_sequence_index": 25,
+      "target_profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+      "target_sequence_index": 26
+    },
+    {
+      "phase3_fresh_ms": 191785.75443200002,
+      "phase3_observed_ms": 366.620284,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+      "source_sequence_index": 26,
+      "target_profile_id": "swesmith/jaredpalmer__formik.91475adb",
+      "target_sequence_index": 27
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+      "source_sequence_index": 26,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+      "source_sequence_index": 26,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": 105742.98291600001,
+      "phase3_observed_ms": 12616.439758,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/jaredpalmer__formik.91475adb",
+      "source_sequence_index": 27,
+      "target_profile_id": "swesmith/josdejong__jsoneditor.0319b213",
+      "target_sequence_index": 28
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/jaredpalmer__formik.91475adb",
+      "source_sequence_index": 27,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/jaredpalmer__formik.91475adb",
+      "source_sequence_index": 27,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": 54163.102719999995,
+      "phase3_observed_ms": 31158.447607000002,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/josdejong__jsoneditor.0319b213",
+      "source_sequence_index": 28,
+      "target_profile_id": "swesmith/josdejong__mathjs.04e6e2d7",
+      "target_sequence_index": 29
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/josdejong__jsoneditor.0319b213",
+      "source_sequence_index": 28,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 213684.18450499998,
+      "phase3_observed_ms": 513.213347,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/josdejong__mathjs.04e6e2d7",
+      "source_sequence_index": 29,
+      "target_profile_id": "swesmith/marko-js__marko.24b9402c",
+      "target_sequence_index": 30
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/josdejong__mathjs.04e6e2d7",
+      "source_sequence_index": 29,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/josdejong__mathjs.04e6e2d7",
+      "source_sequence_index": 29,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": 129652.64712199998,
+      "phase3_observed_ms": 177.677977,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/marko-js__marko.24b9402c",
+      "source_sequence_index": 30,
+      "target_profile_id": "swesmith/marmelab__react-admin.823caa0b",
+      "target_sequence_index": 31
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/marko-js__marko.24b9402c",
+      "source_sequence_index": 30,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 33280.241506,
+      "phase3_observed_ms": 133.246891,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/marmelab__react-admin.823caa0b",
+      "source_sequence_index": 31,
+      "target_profile_id": "swesmith/mholt__PapaParse.b10b87ef",
+      "target_sequence_index": 32
+    },
+    {
+      "phase3_fresh_ms": 198370.398816,
+      "phase3_observed_ms": 612.918632,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/mholt__PapaParse.b10b87ef",
+      "source_sequence_index": 32,
+      "target_profile_id": "swesmith/microsoft__vscode.4166e90a",
+      "target_sequence_index": 33
+    },
+    {
+      "phase3_fresh_ms": 308609.88993,
+      "phase3_observed_ms": 476.80501499999997,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/microsoft__vscode.4166e90a",
+      "source_sequence_index": 33,
+      "target_profile_id": "swesmith/mochajs__mocha.410ce0d2",
+      "target_sequence_index": 34
+    },
+    {
+      "phase3_fresh_ms": 98816.701317,
+      "phase3_observed_ms": 203.42780599999998,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/mochajs__mocha.410ce0d2",
+      "source_sequence_index": 34,
+      "target_profile_id": "swesmith/NativeScript__NativeScript.3d6a4392",
+      "target_sequence_index": 35
+    },
+    {
+      "phase3_fresh_ms": 33267.199436,
+      "phase3_observed_ms": 140.54743299999998,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/NativeScript__NativeScript.3d6a4392",
+      "source_sequence_index": 35,
+      "target_profile_id": "swesmith/necolas__react-native-web.a9de220b",
+      "target_sequence_index": 36
+    },
+    {
+      "phase3_fresh_ms": 392507.021547,
+      "phase3_observed_ms": 631.18071,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/necolas__react-native-web.a9de220b",
+      "source_sequence_index": 36,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 122847.33486199999,
+      "phase3_observed_ms": 253.136326,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/nestjs__nest.346c9543",
+      "source_sequence_index": 37,
+      "target_profile_id": "swesmith/Netflix__falcor.39d64776",
+      "target_sequence_index": 38
+    },
+    {
+      "phase3_fresh_ms": 11062.395537,
+      "phase3_observed_ms": 233.961131,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/Netflix__falcor.39d64776",
+      "source_sequence_index": 38,
+      "target_profile_id": "swesmith/nightwatchjs__nightwatch.54c8550c",
+      "target_sequence_index": 39
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/Netflix__falcor.39d64776",
+      "source_sequence_index": 38,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/Netflix__falcor.39d64776",
+      "source_sequence_index": 38,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": 11417.271387,
+      "phase3_observed_ms": 681.991543,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/nightwatchjs__nightwatch.54c8550c",
+      "source_sequence_index": 39,
+      "target_profile_id": "swesmith/nock__nock.e7418da2",
+      "target_sequence_index": 40
+    },
+    {
+      "phase3_fresh_ms": 33245.95589,
+      "phase3_observed_ms": 18.556122,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/nock__nock.e7418da2",
+      "source_sequence_index": 40,
+      "target_profile_id": "swesmith/novnc__noVNC.d44f7e04",
+      "target_sequence_index": 41
+    },
+    {
+      "phase3_fresh_ms": 116346.62364999998,
+      "phase3_observed_ms": 128.79785600000002,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/novnc__noVNC.d44f7e04",
+      "source_sequence_index": 41,
+      "target_profile_id": "swesmith/OpenCut-app__OpenCut.e84c0cfd",
+      "target_sequence_index": 42
+    },
+    {
+      "phase3_fresh_ms": 199383.858798,
+      "phase3_observed_ms": 7682.801597,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/OpenCut-app__OpenCut.e84c0cfd",
+      "source_sequence_index": 42,
+      "target_profile_id": "swesmith/payloadcms__payload.8f660355",
+      "target_sequence_index": 43
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/payloadcms__payload.8f660355",
+      "source_sequence_index": 43,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 219786.883544,
+      "phase3_observed_ms": 484.25633700000003,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/payloadcms__payload.8f660355",
+      "source_sequence_index": 43,
+      "target_profile_id": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+      "target_sequence_index": 44
+    },
+    {
+      "phase3_fresh_ms": 116337.48752499999,
+      "phase3_observed_ms": 143.65849,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+      "source_sequence_index": 44,
+      "target_profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+      "target_sequence_index": 45
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+      "source_sequence_index": 44,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+      "source_sequence_index": 44,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+      "source_sequence_index": 45,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 302035.818693,
+      "phase3_observed_ms": 480.942334,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+      "source_sequence_index": 45,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": 218996.29173800003,
+      "phase3_observed_ms": 367.51373900000004,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "source_sequence_index": 46,
+      "target_profile_id": "swesmith/Redocly__redoc.d41fd46f",
+      "target_sequence_index": 47
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "source_sequence_index": 46,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/Redocly__redoc.d41fd46f",
+      "source_sequence_index": 47,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": 105874.15757,
+      "phase3_observed_ms": 251.824297,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/Redocly__redoc.d41fd46f",
+      "source_sequence_index": 47,
+      "target_profile_id": "swesmith/redux-saga__redux-saga.a4ace10d",
+      "target_sequence_index": 48
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/Redocly__redoc.d41fd46f",
+      "source_sequence_index": 47,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/redux-saga__redux-saga.a4ace10d",
+      "source_sequence_index": 48,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": 16489.027946000002,
+      "phase3_observed_ms": 6960.3997930000005,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/redux-saga__redux-saga.a4ace10d",
+      "source_sequence_index": 48,
+      "target_profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+      "target_sequence_index": 49
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/redux-saga__redux-saga.a4ace10d",
+      "source_sequence_index": 48,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+      "source_sequence_index": 49,
+      "target_profile_id": "swesmith/mochajs__mocha.410ce0d2",
+      "target_sequence_index": 34
+    },
+    {
+      "phase3_fresh_ms": 9614.937541,
+      "phase3_observed_ms": 135.84377500000002,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+      "source_sequence_index": 49,
+      "target_profile_id": "swesmith/remy__nodemon.daad5c16",
+      "target_sequence_index": 50
+    },
+    {
+      "phase3_fresh_ms": 302086.673598,
+      "phase3_observed_ms": 495.57248899999996,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/remy__nodemon.daad5c16",
+      "source_sequence_index": 50,
+      "target_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "target_sequence_index": 51
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "source_sequence_index": 51,
+      "target_profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "target_sequence_index": 46
+    },
+    {
+      "phase3_fresh_ms": 100698.99570999999,
+      "phase3_observed_ms": 6683.077537,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "source_sequence_index": 51,
+      "target_profile_id": "swesmith/Shopify__draggable.8a1eed57",
+      "target_sequence_index": 52
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/Shopify__draggable.8a1eed57",
+      "source_sequence_index": 52,
+      "target_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "target_sequence_index": 21
+    },
+    {
+      "phase3_fresh_ms": 123901.37979299999,
+      "phase3_observed_ms": 365.532058,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/Shopify__draggable.8a1eed57",
+      "source_sequence_index": 52,
+      "target_profile_id": "swesmith/strapi__strapi.e5b87a54",
+      "target_sequence_index": 53
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/strapi__strapi.e5b87a54",
+      "source_sequence_index": 53,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 94592.34188200001,
+      "phase3_observed_ms": 3032.318237,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/strapi__strapi.e5b87a54",
+      "source_sequence_index": 53,
+      "target_profile_id": "swesmith/sveltejs__svelte.6c9717a9",
+      "target_sequence_index": 54
+    },
+    {
+      "phase3_fresh_ms": 212461.69365600002,
+      "phase3_observed_ms": 252.46425699999998,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/sveltejs__svelte.6c9717a9",
+      "source_sequence_index": 54,
+      "target_profile_id": "swesmith/svg__svgo.c06d8f68",
+      "target_sequence_index": 55
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/svg__svgo.c06d8f68",
+      "source_sequence_index": 55,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 120049.494205,
+      "phase3_observed_ms": 1438.4414279999999,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/svg__svgo.c06d8f68",
+      "source_sequence_index": 55,
+      "target_profile_id": "swesmith/tinacms__tinacms.dffb104f",
+      "target_sequence_index": 56
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/tinacms__tinacms.dffb104f",
+      "source_sequence_index": 56,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 218542.677193,
+      "phase3_observed_ms": 10127.948735,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/tinacms__tinacms.dffb104f",
+      "source_sequence_index": 56,
+      "target_profile_id": "swesmith/trpc__trpc.2f40ba93",
+      "target_sequence_index": 57
+    },
+    {
+      "phase3_fresh_ms": 170720.03404300002,
+      "phase3_observed_ms": 7666.516232,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/trpc__trpc.2f40ba93",
+      "source_sequence_index": 57,
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "target_sequence_index": 58
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "source_sequence_index": 58,
+      "target_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "target_sequence_index": 21
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "source_sequence_index": 58,
+      "target_profile_id": "swesmith/Shopify__draggable.8a1eed57",
+      "target_sequence_index": 52
+    },
+    {
+      "phase3_fresh_ms": 116299.445004,
+      "phase3_observed_ms": 251.049521,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "source_sequence_index": 58,
+      "target_profile_id": "swesmith/umijs__qiankun.693cdde7",
+      "target_sequence_index": 59
+    },
+    {
+      "phase3_fresh_ms": 98688.03975899999,
+      "phase3_observed_ms": 271.975862,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/umijs__qiankun.693cdde7",
+      "source_sequence_index": 59,
+      "target_profile_id": "swesmith/vitejs__vite.8b47ff76",
+      "target_sequence_index": 60
+    },
+    {
+      "phase3_fresh_ms": 215602.689266,
+      "phase3_observed_ms": 12047.882770999999,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/vitejs__vite.8b47ff76",
+      "source_sequence_index": 60,
+      "target_profile_id": "swesmith/voideditor__void.17e7a5b1",
+      "target_sequence_index": 61
+    },
+    {
+      "phase3_fresh_ms": 99413.338794,
+      "phase3_observed_ms": 2267.799869,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/voideditor__void.17e7a5b1",
+      "source_sequence_index": 61,
+      "target_profile_id": "swesmith/webpack__webpack.24e3c2d2",
+      "target_sequence_index": 62
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/webpack__webpack.24e3c2d2",
+      "source_sequence_index": 62,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    },
+    {
+      "phase3_fresh_ms": 33230.203901,
+      "phase3_observed_ms": 133.349877,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/webpack__webpack.24e3c2d2",
+      "source_sequence_index": 62,
+      "target_profile_id": "swesmith/websockets__ws.726c3732",
+      "target_sequence_index": 63
+    },
+    {
+      "phase3_fresh_ms": 129391.99728099999,
+      "phase3_observed_ms": 135.022891,
+      "sampling_reason": "phase3_anchor",
+      "source_profile_id": "swesmith/websockets__ws.726c3732",
+      "source_sequence_index": 63,
+      "target_profile_id": "swesmith/welldone-software__why-did-you-render.3ec3512d",
+      "target_sequence_index": 64
+    },
+    {
+      "phase3_fresh_ms": null,
+      "phase3_observed_ms": null,
+      "sampling_reason": "largest_residual",
+      "source_profile_id": "swesmith/welldone-software__why-did-you-render.3ec3512d",
+      "source_sequence_index": 64,
+      "target_profile_id": "swesmith/nestjs__nest.346c9543",
+      "target_sequence_index": 37
+    }
+  ],
+  "schema_version": 1
+}
