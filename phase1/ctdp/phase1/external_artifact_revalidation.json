@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "scope": "baseline 21 external profiles, G1 only",
+  "results": [
+    {
+      "profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": null,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/bluesky-social__social-app.cbd48c85/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/bluesky-social__social-app.cbd48c85/root-g1.stdout.log",
+      "outbound_requests": [],
+      "verification_note": "targeted G1 rerun completed successfully"
+    },
+    {
+      "profile_id": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": null,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/bootstrap-vue__bootstrap-vue.9a246f45/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/bootstrap-vue__bootstrap-vue.9a246f45/root-g1.stdout.log",
+      "outbound_requests": [],
+      "verification_note": "targeted G1 rerun completed successfully"
+    },
+    {
+      "profile_id": "swesmith/brianc__node-postgres.ecff60dc",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": null,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/brianc__node-postgres.ecff60dc/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/brianc__node-postgres.ecff60dc/root-g1.stdout.log",
+      "outbound_requests": [],
+      "verification_note": "targeted G1 rerun completed successfully"
+    },
+    {
+      "profile_id": "swesmith/directus__directus.ac922d18",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": null,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/directus__directus.ac922d18/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/directus__directus.ac922d18/root-g1.stdout.log",
+      "outbound_requests": [],
+      "verification_note": "targeted G1 rerun completed successfully"
+    },
+    {
+      "profile_id": "swesmith/enzymejs__enzyme.61e1b47c",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 85234,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/enzymejs__enzyme.61e1b47c/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/enzymejs__enzyme.61e1b47c/root-g1.stdout.log",
+      "outbound_requests": [],
+      "verification_note": "targeted G1 rerun after gist source alias normalization"
+    },
+    {
+      "profile_id": "swesmith/fabricjs__fabric.js.6742471c",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": null,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/fabricjs__fabric.js.6742471c/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/fabricjs__fabric.js.6742471c/root-g1.stdout.log",
+      "outbound_requests": [],
+      "verification_note": "targeted G1 rerun completed successfully"
+    },
+    {
+      "profile_id": "swesmith/foambubble__foam.2cac8162",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 3532,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/foambubble__foam.2cac8162/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/foambubble__foam.2cac8162/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 2235,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/FuelLabs__fuels-ts.b3f37c91/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/FuelLabs__fuels-ts.b3f37c91/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/jaredpalmer__formik.91475adb",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 3331,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/jaredpalmer__formik.91475adb/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/jaredpalmer__formik.91475adb/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/NativeScript__NativeScript.3d6a4392",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 12322,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/NativeScript__NativeScript.3d6a4392/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/NativeScript__NativeScript.3d6a4392/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/OpenCut-app__OpenCut.e84c0cfd",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 579,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/OpenCut-app__OpenCut.e84c0cfd/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/OpenCut-app__OpenCut.e84c0cfd/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/payloadcms__payload.8f660355",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 3332,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/payloadcms__payload.8f660355/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/payloadcms__payload.8f660355/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 6397,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/ReactiveX__rxjs.c15b37f8/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/ReactiveX__rxjs.c15b37f8/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/Redocly__redoc.d41fd46f",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 7567,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/Redocly__redoc.d41fd46f/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/Redocly__redoc.d41fd46f/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/redux-saga__redux-saga.a4ace10d",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 11530,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/redux-saga__redux-saga.a4ace10d/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/redux-saga__redux-saga.a4ace10d/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 17360,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/segmentio__evergreen.9b774aee/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/segmentio__evergreen.9b774aee/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/Shopify__draggable.8a1eed57",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 5544,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/Shopify__draggable.8a1eed57/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/Shopify__draggable.8a1eed57/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/trpc__trpc.2f40ba93",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 4073,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/trpc__trpc.2f40ba93/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/trpc__trpc.2f40ba93/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/umijs__qiankun.693cdde7",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 5684,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/umijs__qiankun.693cdde7/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/umijs__qiankun.693cdde7/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/webpack__webpack.24e3c2d2",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 16823,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/webpack__webpack.24e3c2d2/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/webpack__webpack.24e3c2d2/root-g1.stdout.log",
+      "outbound_requests": []
+    },
+    {
+      "profile_id": "swesmith/welldone-software__why-did-you-render.3ec3512d",
+      "status": "success",
+      "exit_code": 0,
+      "elapsed_ms": 8013,
+      "stderr_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/welldone-software__why-did-you-render.3ec3512d/root-g1.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp_target21/logs/validate/welldone-software__why-did-you-render.3ec3512d/root-g1.stdout.log",
+      "outbound_requests": []
+    }
+  ],
+  "generated_at": "2026-09-05T12:20:00+00:00",
+  "completed_count": 21,
+  "success_count": 21,
+  "external_artifact_miss_count": 0,
+  "outbound_request_count": 0
+}

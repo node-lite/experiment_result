@@ -2,11 +2,15 @@ phase1/ctdp/cas/
 phase1/ctdp/native-cache/
 phase1/ctdp/normalized.json
 phase1/ctdp/prefetch.json
+phase1/ctdp/warm-cache.json
 phase1/ctdp/logs/prefetch.jsonl
 phase1/ctdp/reports/artifacts.json
+phase1/ctdp/reports/artifacts.csv
+phase1/ctdp/reports/summary.json
 phase1/ctdp/global/artifact_index.json
 phase1/ctdp/global/global_manifest.json
 phase1/ctdp/validation.json
+phase1/ctdp_target21/
 
 # phase2 raw dumps are too large for the repo
 phase2/inventory.json

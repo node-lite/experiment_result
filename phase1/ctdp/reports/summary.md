@@ -1,6 +1,6 @@
 # SWE-smith Dependency Preparation Summary
 
-Generated: 2026-09-04T17:24:16.362544+00:00
+Generated: 2026-09-05T11:37:59.936331+00:00
 
 - Input profile count: 64
 - Discovered profile count: 64
@@ -14,22 +14,22 @@ Generated: 2026-09-04T17:24:16.362544+00:00
 
 ## Lockfile classification
 
-- Counts: `{"authoritative_existing": 10, "existing_requires_resolution": 37, "missing_requires_resolution": 8, "unsupported_or_manual_review": 10}`
-- Authoritative / re-resolution / missing / manual-review: 10 / 37 / 8 / 10
+- Counts: `{"authoritative_existing": 10, "existing_requires_resolution": 44, "missing_requires_resolution": 8, "unsupported_or_manual_review": 3}`
+- Authoritative / re-resolution / missing / manual-review: 10 / 44 / 8 / 3
 
-- Resolution success/failure: 55/9
-- Resolution time total/P50/P95/max (ms): 8546532/35036.0/420972.4/445440
+- Resolution success/failure: 62/2
+- Resolution time total/P50/P95/max (ms): 1484196/4714.0/93847.3999999999/369942
 
 ## Artifacts
 
-- Dependency references: 101967
-- Unique logical package versions: 27259
-- Unique immutable artifacts: 33769
-- CAS artifact bytes: 17605669618
-- CAS directory bytes (including metadata): 31876726845
-- Dedup bytes before/after: 25309178036/17605669618 (measured after: True)
-- Dedup ratio: 0.6688242274461346
-- Prefetch success/failure: 32488/1
+- Dependency references: 105097
+- Unique logical package versions: 27691
+- Unique immutable artifacts: 34462
+- CAS artifact bytes: 17672905706
+- CAS directory bytes (including metadata): 32306292093
+- Dedup bytes before/after: 25418483974/17672905706 (measured after: True)
+- Dedup ratio: 0.6720933994310019
+- Prefetch success/failure: 32940/1
 - CAS integrity failures: 0
 
 ## Native cache warmup
@@ -39,11 +39,23 @@ Generated: 2026-09-04T17:24:16.362544+00:00
 
 ## Performance
 
-- Stage timing summaries (ms): `{"discover": {"count": 64, "max": 401911, "p50": 1093.5, "p95": 1571.249999999997, "total": 654230}, "normalize": {"count": 65, "max": 6606, "p50": 14.0, "p95": 1372.8, "total": 20458}, "prefetch": {"count": 32489, "max": 2212963, "p50": 4.0, "p95": 460.59999999999854, "total": 43281948}, "resolve": {"count": 65, "max": 445440, "p50": 35036.0, "p95": 420972.4, "total": 8546532}, "validate": {"count": 64, "max": 69813, "p50": 4414.5, "p95": 44723.949999999975, "total": 633738}, "warm-cache": {"count": 21, "max": 191657, "p50": 36815.0, "p95": 127762.0, "total": 1050577}}`
+- Stage timing summaries (ms): `{"discover": {"count": 64, "max": 401911, "p50": 1093.5, "p95": 1571.249999999997, "total": 654230}, "normalize": {"count": 65, "max": 6289, "p50": 15.0, "p95": 1437.9999999999998, "total": 20444}, "prefetch": {"count": 32941, "max": 498944, "p50": 2.0, "p95": 10.0, "total": 3056385}, "resolve": {"count": 65, "max": 369942, "p50": 4714.0, "p95": 93847.3999999999, "total": 1484196}, "validate": {"count": 64, "max": 138745, "p50": 6574.5, "p95": 54508.049999999945, "total": 1018246}, "warm-cache": {"count": 21, "max": 191657, "p50": 36815.0, "p95": 127762.0, "total": 1050577}}`
 
 ## Dynamic validation
 
-- Results: `{"external_artifact_miss": 16, "native_or_system_dependency_failure": 0, "other_failure": 30, "success": 18}`
-- Profiles with external artifact misses: `["swesmith/bootstrap-vue__bootstrap-vue.9a246f45", "swesmith/brianc__node-postgres.ecff60dc", "swesmith/Effect-TS__effect.5df4da10", "swesmith/enzymejs__enzyme.61e1b47c", "swesmith/fabricjs__fabric.js.6742471c", "swesmith/foambubble__foam.2cac8162", "swesmith/jaredpalmer__formik.91475adb", "swesmith/microsoft__vscode.4166e90a", "swesmith/NativeScript__NativeScript.3d6a4392", "swesmith/nestjs__nest.346c9543", "swesmith/Redocly__redoc.d41fd46f", "swesmith/redux-saga__redux-saga.a4ace10d", "swesmith/segmentio__evergreen.9b774aee", "swesmith/Shopify__draggable.8a1eed57", "swesmith/sveltejs__svelte.6c9717a9", "swesmith/voideditor__void.17e7a5b1"]`
+- Results: `{"external_artifact_miss": 30, "native_or_system_dependency_failure": 3, "other_failure": 12, "success": 19}`
+- Profiles with external artifact misses: `["swesmith/antvis__G6.91c0ac85", "swesmith/bluesky-social__social-app.cbd48c85", "swesmith/bootstrap-vue__bootstrap-vue.9a246f45", "swesmith/brianc__node-postgres.ecff60dc", "swesmith/directus__directus.ac922d18", "swesmith/Effect-TS__effect.5df4da10", "swesmith/emotion-js__emotion.b882bcba", "swesmith/enzymejs__enzyme.61e1b47c", "swesmith/fabricjs__fabric.js.6742471c", "swesmith/foambubble__foam.2cac8162", "swesmith/foliojs__pdfkit.d0108157", "swesmith/FuelLabs__fuels-ts.b3f37c91", "swesmith/jaredpalmer__formik.91475adb", "swesmith/microsoft__vscode.4166e90a", "swesmith/NativeScript__NativeScript.3d6a4392", "swesmith/nestjs__nest.346c9543", "swesmith/OpenCut-app__OpenCut.e84c0cfd", "swesmith/payloadcms__payload.8f660355", "swesmith/react-hook-form__react-hook-form.3adba2b8", "swesmith/ReactiveX__rxjs.c15b37f8", "swesmith/Redocly__redoc.d41fd46f", "swesmith/redux-saga__redux-saga.a4ace10d", "swesmith/segmentio__evergreen.9b774aee", "swesmith/Shopify__draggable.8a1eed57", "swesmith/sveltejs__svelte.6c9717a9", "swesmith/tinacms__tinacms.dffb104f", "swesmith/trpc__trpc.2f40ba93", "swesmith/umijs__qiankun.693cdde7", "swesmith/webpack__webpack.24e3c2d2", "swesmith/welldone-software__why-did-you-render.3ec3512d"]`
 - First-run Internet bytes: 9234461362
-- Second-run Internet bytes: 3582234320
+- Second-run Internet bytes: 213832627
+
+## Targeted external artifact revalidation
+
+The post-fix targeted rerun covers the 21 actionable external-artifact profiles from the baseline classification: 10 registry/proxy cases, 5 CAS tarball cases, and 6 Git/VCS cases.
+
+- Scope: 21 profiles, G1 dependency preparation and local-registry install only.
+- Successful targeted reruns: 21 / 21.
+- Remaining external artifact misses in this scope: 0 / 21.
+- Outbound requests during targeted reruns: 0.
+- Evidence: `phase1/external_artifact_revalidation.json`.
+
+This targeted result does not replace the baseline 64-profile dynamic validation above. Full G2 lifecycle/build validation has not been rerun for all 64 profiles, so the report remains partial rather than claiming a full Phase 1 pass.

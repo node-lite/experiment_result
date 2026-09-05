@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-05T11:38:00.361076+00:00",
+  "baseline": {
+    "count": 30,
+    "category_counts": {
+      "toolchain_bootstrap": 13,
+      "resolution_record_unavailable": 10,
+      "original_install_or_lifecycle": 3,
+      "install_timeout": 2,
+      "lockfile_or_peer_resolution": 1,
+      "project_snapshot_incomplete": 1
+    },
+    "items": [
+      {
+        "profile_id": "swesmith/babel__babel.2ea3fc8f",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/emotion-js__emotion.b882bcba",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/foliojs__pdfkit.d0108157",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/marmelab__react-admin.823caa0b",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/payloadcms__payload.8f660355",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/strapi__strapi.e5b87a54",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/svg__svgo.c06d8f68",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/trpc__trpc.2f40ba93",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/umijs__qiankun.693cdde7",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/vitejs__vite.8b47ff76",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/OpenCut-app__OpenCut.e84c0cfd",
+        "category": "toolchain_bootstrap",
+        "explanation": "package-manager CLI bootstrap failed"
+      },
+      {
+        "profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/directus__directus.ac922d18",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/GitbookIO__gitbook.81f8ddcf",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/marko-js__marko.24b9402c",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/Netflix__falcor.39d64776",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/webpack__webpack.24e3c2d2",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/welldone-software__why-did-you-render.3ec3512d",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/axios__axios.ef36347f",
+        "category": "original_install_or_lifecycle",
+        "explanation": "original install or lifecycle command failed"
+      },
+      {
+        "profile_id": "swesmith/coder__code-server.e90504b8",
+        "category": "original_install_or_lifecycle",
+        "explanation": "original install or lifecycle command failed"
+      },
+      {
+        "profile_id": "swesmith/homebridge__homebridge.3a341e08",
+        "category": "original_install_or_lifecycle",
+        "explanation": "original install or lifecycle command failed"
+      },
+      {
+        "profile_id": "swesmith/antvis__G6.91c0ac85",
+        "category": "install_timeout",
+        "explanation": "install command exceeded validation timeout"
+      },
+      {
+        "profile_id": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+        "category": "install_timeout",
+        "explanation": "install command exceeded validation timeout"
+      },
+      {
+        "profile_id": "swesmith/mochajs__mocha.410ce0d2",
+        "category": "project_snapshot_incomplete",
+        "explanation": "required test fixture file is absent"
+      },
+      {
+        "profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+        "category": "lockfile_or_peer_resolution",
+        "explanation": "npm ci has no usable package lockfile"
+      }
+    ]
+  },
+  "current": {
+    "count": 12,
+    "category_counts": {
+      "project_snapshot_incomplete": 5,
+      "resolution_record_unavailable": 3,
+      "node_engine_or_runtime": 2,
+      "lockfile_or_peer_resolution": 1,
+      "project_install_failure": 1
+    },
+    "items": [
+      {
+        "profile_id": "swesmith/coder__code-server.e90504b8",
+        "category": "node_engine_or_runtime",
+        "explanation": "project requires a newer Node runtime"
+      },
+      {
+        "profile_id": "swesmith/GitbookIO__gitbook.81f8ddcf",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/homebridge__homebridge.3a341e08",
+        "category": "node_engine_or_runtime",
+        "explanation": "project requires a newer Node runtime"
+      },
+      {
+        "profile_id": "swesmith/marko-js__marko.24b9402c",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/marmelab__react-admin.823caa0b",
+        "category": "project_install_failure",
+        "explanation": "project install failed without a narrower signature"
+      },
+      {
+        "profile_id": "swesmith/mochajs__mocha.410ce0d2",
+        "category": "project_snapshot_incomplete",
+        "explanation": "required workspace, patch, or fixture file is absent"
+      },
+      {
+        "profile_id": "swesmith/Netflix__falcor.39d64776",
+        "category": "resolution_record_unavailable",
+        "explanation": "resolution record unavailable or manual review"
+      },
+      {
+        "profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+        "category": "lockfile_or_peer_resolution",
+        "explanation": "lockfile or peer dependency contract rejected"
+      },
+      {
+        "profile_id": "swesmith/strapi__strapi.e5b87a54",
+        "category": "project_snapshot_incomplete",
+        "explanation": "required workspace, patch, or fixture file is absent"
+      },
+      {
+        "profile_id": "swesmith/svg__svgo.c06d8f68",
+        "category": "project_snapshot_incomplete",
+        "explanation": "required workspace, patch, or fixture file is absent"
+      },
+      {
+        "profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+        "category": "project_snapshot_incomplete",
+        "explanation": "required workspace, patch, or fixture file is absent"
+      },
+      {
+        "profile_id": "swesmith/vitejs__vite.8b47ff76",
+        "category": "project_snapshot_incomplete",
+        "explanation": "required workspace, patch, or fixture file is absent"
+      }
+    ]
+  },
+  "external_artifact_breakdown": {
+    "count": 30,
+    "category_counts": {
+      "registry_or_proxy_unavailable": 10,
+      "git_vcs_dependency": 6,
+      "artifact_integrity_mismatch": 5,
+      "cas_tarball_missing": 5,
+      "browser_runtime_download": 2,
+      "cas_fetch_failure": 1,
+      "static_runtime_download": 1
+    },
+    "items": [
+      {
+        "profile_id": "swesmith/antvis__G6.91c0ac85",
+        "category": "artifact_integrity_mismatch",
+        "explanation": "cached artifact does not match the lockfile integrity"
+      },
+      {
+        "profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/brianc__node-postgres.ecff60dc",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/directus__directus.ac922d18",
+        "category": "cas_tarball_missing",
+        "explanation": "required package tarball is absent from the local package-manager cache"
+      },
+      {
+        "profile_id": "swesmith/Effect-TS__effect.5df4da10",
+        "category": "cas_fetch_failure",
+        "explanation": "CAS prefetch failed before validation"
+      },
+      {
+        "profile_id": "swesmith/emotion-js__emotion.b882bcba",
+        "category": "artifact_integrity_mismatch",
+        "explanation": "cached artifact does not match the lockfile integrity"
+      },
+      {
+        "profile_id": "swesmith/enzymejs__enzyme.61e1b47c",
+        "category": "git_vcs_dependency",
+        "explanation": "Git/VCS dependency is not served by the local registry"
+      },
+      {
+        "profile_id": "swesmith/fabricjs__fabric.js.6742471c",
+        "category": "git_vcs_dependency",
+        "explanation": "Git/VCS dependency is not served by the local registry"
+      },
+      {
+        "profile_id": "swesmith/foambubble__foam.2cac8162",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/foliojs__pdfkit.d0108157",
+        "category": "artifact_integrity_mismatch",
+        "explanation": "cached artifact does not match the lockfile integrity"
+      },
+      {
+        "profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+        "category": "cas_tarball_missing",
+        "explanation": "required package tarball is absent from the local package-manager cache"
+      },
+      {
+        "profile_id": "swesmith/jaredpalmer__formik.91475adb",
+        "category": "git_vcs_dependency",
+        "explanation": "Git/VCS dependency is not served by the local registry"
+      },
+      {
+        "profile_id": "swesmith/microsoft__vscode.4166e90a",
+        "category": "browser_runtime_download",
+        "explanation": "Playwright/Chromium runtime download is unavailable"
+      },
+      {
+        "profile_id": "swesmith/NativeScript__NativeScript.3d6a4392",
+        "category": "git_vcs_dependency",
+        "explanation": "Git/VCS dependency is not served by the local registry"
+      },
+      {
+        "profile_id": "swesmith/nestjs__nest.346c9543",
+        "category": "browser_runtime_download",
+        "explanation": "Playwright/Chromium runtime download is unavailable"
+      },
+      {
+        "profile_id": "swesmith/OpenCut-app__OpenCut.e84c0cfd",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/payloadcms__payload.8f660355",
+        "category": "cas_tarball_missing",
+        "explanation": "required package tarball is absent from the local package-manager cache"
+      },
+      {
+        "profile_id": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+        "category": "artifact_integrity_mismatch",
+        "explanation": "cached artifact does not match the lockfile integrity"
+      },
+      {
+        "profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/Redocly__redoc.d41fd46f",
+        "category": "git_vcs_dependency",
+        "explanation": "Git/VCS dependency is not served by the local registry"
+      },
+      {
+        "profile_id": "swesmith/redux-saga__redux-saga.a4ace10d",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/segmentio__evergreen.9b774aee",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/Shopify__draggable.8a1eed57",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/sveltejs__svelte.6c9717a9",
+        "category": "static_runtime_download",
+        "explanation": "project requires a non-registry runtime download"
+      },
+      {
+        "profile_id": "swesmith/tinacms__tinacms.dffb104f",
+        "category": "artifact_integrity_mismatch",
+        "explanation": "cached artifact does not match the lockfile integrity"
+      },
+      {
+        "profile_id": "swesmith/trpc__trpc.2f40ba93",
+        "category": "cas_tarball_missing",
+        "explanation": "required package tarball is absent from the local package-manager cache"
+      },
+      {
+        "profile_id": "swesmith/umijs__qiankun.693cdde7",
+        "category": "cas_tarball_missing",
+        "explanation": "required package tarball is absent from the local package-manager cache"
+      },
+      {
+        "profile_id": "swesmith/webpack__webpack.24e3c2d2",
+        "category": "registry_or_proxy_unavailable",
+        "explanation": "registry or proxy returned a network failure"
+      },
+      {
+        "profile_id": "swesmith/welldone-software__why-did-you-render.3ec3512d",
+        "category": "git_vcs_dependency",
+        "explanation": "Git/VCS dependency is not served by the local registry"
+      }
+    ]
+  },
+  "baseline_to_current": {
+    "resolved_or_reclassified": [
+      {
+        "profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/OpenCut-app__OpenCut.e84c0cfd",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/antvis__G6.91c0ac85",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/axios__axios.ef36347f",
+        "new_status": "native_or_system_dependency_failure"
+      },
+      {
+        "profile_id": "swesmith/babel__babel.2ea3fc8f",
+        "new_status": "native_or_system_dependency_failure"
+      },
+      {
+        "profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/directus__directus.ac922d18",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/emotion-js__emotion.b882bcba",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/foliojs__pdfkit.d0108157",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+        "new_status": "success"
+      },
+      {
+        "profile_id": "swesmith/payloadcms__payload.8f660355",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+        "new_status": "success"
+      },
+      {
+        "profile_id": "swesmith/trpc__trpc.2f40ba93",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/umijs__qiankun.693cdde7",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/webpack__webpack.24e3c2d2",
+        "new_status": "external_artifact_miss"
+      },
+      {
+        "profile_id": "swesmith/welldone-software__why-did-you-render.3ec3512d",
+        "new_status": "external_artifact_miss"
+      }
+    ],
+    "remaining_count": 12,
+    "remaining_profile_ids": [
+      "swesmith/GitbookIO__gitbook.81f8ddcf",
+      "swesmith/Netflix__falcor.39d64776",
+      "swesmith/coder__code-server.e90504b8",
+      "swesmith/homebridge__homebridge.3a341e08",
+      "swesmith/marko-js__marko.24b9402c",
+      "swesmith/marmelab__react-admin.823caa0b",
+      "swesmith/mochajs__mocha.410ce0d2",
+      "swesmith/refined-github__refined-github.d4a7c3fb",
+      "swesmith/strapi__strapi.e5b87a54",
+      "swesmith/svg__svgo.c06d8f68",
+      "swesmith/ueberdosis__tiptap.2d6de06c",
+      "swesmith/vitejs__vite.8b47ff76"
+    ]
+  }
+}
