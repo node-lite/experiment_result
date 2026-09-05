@@ -1,0 +1,34 @@
+[
+  {
+    "path": "fifo_schedule.json",
+    "scheduler_name": "fifo"
+  },
+  {
+    "path": "similarity_schedule.json",
+    "scheduler_name": "similarity"
+  },
+  {
+    "path": "nodelite_schedule.json",
+    "scheduler_name": "nodelite"
+  },
+  {
+    "path": "random_schedules/random_seed_11.json",
+    "scheduler_name": "random_seed_11"
+  },
+  {
+    "path": "random_schedules/random_seed_23.json",
+    "scheduler_name": "random_seed_23"
+  },
+  {
+    "path": "random_schedules/random_seed_37.json",
+    "scheduler_name": "random_seed_37"
+  },
+  {
+    "path": "random_schedules/random_seed_53.json",
+    "scheduler_name": "random_seed_53"
+  },
+  {
+    "path": "random_schedules/random_seed_71.json",
+    "scheduler_name": "random_seed_71"
+  }
+]
