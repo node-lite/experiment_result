@@ -19,9 +19,9 @@
     "source_lockfile": null,
     "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
     "source_lockfile_sha256": null,
-    "resolved_lockfile_sha256": "4a9d0e1a52e2c010f88dc4964ad656748342b36172816611259752e3c5ec9054",
+    "resolved_lockfile_sha256": "74685711b4e6bcc37a3e5aabdb2845400e4c232d23c9e72fe7f69fb7a0a6a8a1",
     "lockfile_changed": true,
-    "resolve_elapsed_ms": 408542,
+    "resolve_elapsed_ms": 65269,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/Automattic__mongoose.5f57a5bb/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/Automattic__mongoose.5f57a5bb/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/Automattic__mongoose.5f57a5bb/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/Automattic__mongoose.5f57a5bb/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -75,7 +75,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "5f57a5bbb2e8dfed8d04be47cdd17728633c44c1",
-        "path": "/tmp/nodelite-deps-resolve-d5jxhz4i/checkout"
+        "path": "/tmp/nodelite-deps-resolve-0490f_54/checkout"
       },
       {
         "source": "installed",
@@ -4275,18 +4275,18 @@
     {
       "type": "registry",
       "name": "browserslist",
-      "version": "4.28.8",
+      "version": "4.28.9",
       "optional": false,
       "dev": true,
-      "resolved_url": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.8.tgz",
-      "integrity": "sha512-V2NpofLblG64mfOtSgDhOJESZEGogzDMBv/q+W6oc4LXWP/q75eOXoOaaOu1EOadB9U4Bwx/e0yzbvwKH8zalA==",
-      "source": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.8.tgz",
+      "resolved_url": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.9.tgz",
+      "integrity": "sha512-EWazOblFYUvlGZcfGhPUPmYh3nikUxBVb+y9MJun5f3hBi812X+8MSQTujLBtgK3cf51fJWbWfOjyeO954d+Eg==",
+      "source": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.9.tgz",
       "dependencies": {
-        "baseline-browser-mapping": "^2.11.12",
-        "caniuse-lite": "^1.0.30001809",
-        "electron-to-chromium": "^1.5.402",
-        "node-releases": "^2.0.53",
-        "update-browserslist-db": "^1.3.0"
+        "baseline-browser-mapping": "^2.11.20",
+        "caniuse-lite": "^1.0.30001810",
+        "electron-to-chromium": "^1.5.420",
+        "node-releases": "^2.0.54",
+        "update-browserslist-db": "^1.3.2"
       },
       "raw_path": "node_modules/browserslist",
       "profile_id": "swesmith/Automattic__mongoose.5f57a5bb",
@@ -16400,12 +16400,12 @@
     {
       "type": "registry",
       "name": "undici",
-      "version": "6.28.0",
+      "version": "6.28.1",
       "optional": false,
       "dev": true,
-      "resolved_url": "https://registry.npmjs.org/undici/-/undici-6.28.0.tgz",
-      "integrity": "sha512-LIY910g9TI13YS95lrMFrs8Rm/u/irgHeTWoKCoteeJ04CUJ92eEfj0rVn+7VKMPBpUPiUoBKfhNyLI23EE/KA==",
-      "source": "https://registry.npmjs.org/undici/-/undici-6.28.0.tgz",
+      "resolved_url": "https://registry.npmjs.org/undici/-/undici-6.28.1.tgz",
+      "integrity": "sha512-zWpdTVD54H48CIybL0rWQ3ukpb9d23wM7eH5RtfdmeP70cWHNjtfo7P4vZX+5CoDcO53J4Pu5uXp7lNfjc6DRA==",
+      "source": "https://registry.npmjs.org/undici/-/undici-6.28.1.tgz",
       "dependencies": {},
       "raw_path": "node_modules/undici",
       "profile_id": "swesmith/Automattic__mongoose.5f57a5bb",
@@ -17499,5 +17499,5 @@
   ],
   "manual_review": [],
   "normalize_elapsed_ms": 9,
-  "generated_at": "2026-09-04T06:47:27.932828+00:00"
+  "generated_at": "2026-09-05T09:17:45.357903+00:00"
 }

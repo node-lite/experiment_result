@@ -1,8 +1,8 @@
 npm ERR! code ENOTDIR
 npm ERR! syscall open
-npm ERR! path /tmp/nodelite-deps-resolve-eokmmw4c/checkout/scripts/babel-register.js/package.json
+npm ERR! path /tmp/nodelite-deps-resolve-ptno9tix/checkout/scripts/babel-register.js/package.json
 npm ERR! errno -20
-npm ERR! ENOTDIR: not a directory, open '/tmp/nodelite-deps-resolve-eokmmw4c/checkout/scripts/babel-register.js/package.json'
+npm ERR! ENOTDIR: not a directory, open '/tmp/nodelite-deps-resolve-ptno9tix/checkout/scripts/babel-register.js/package.json'
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /root/.npm/_logs/2026-09-04T06_30_51_588Z-debug-0.log
+npm ERR!     /root/.npm/_logs/2026-09-05T09_11_17_980Z-debug-0.log

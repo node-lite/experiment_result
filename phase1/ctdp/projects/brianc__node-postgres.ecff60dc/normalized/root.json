@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "ac69cf7675d96f1d569e5a4c4a593b3be2429fd8335a12700c9b7641aee01f67",
     "resolved_lockfile_sha256": "ac69cf7675d96f1d569e5a4c4a593b3be2429fd8335a12700c9b7641aee01f67",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 7990,
+    "resolve_elapsed_ms": 12301,
     "exit_code": 0,
     "command": [
       "/usr/local/bin/yarn",
@@ -36,8 +36,8 @@
     "tool_version": "1.22.22",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/brianc__node-postgres.ecff60dc/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/brianc__node-postgres.ecff60dc/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/brianc__node-postgres.ecff60dc/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/brianc__node-postgres.ecff60dc/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -81,7 +81,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "ecff60dc8aa0bd1ad5ea8f4623af0756a86dc110",
-        "path": "/tmp/nodelite-deps-resolve-ttyf_hmh/checkout"
+        "path": "/tmp/nodelite-deps-resolve-vohj4rmz/checkout"
       },
       {
         "source": "installed",
@@ -25326,6 +25326,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 17,
-  "generated_at": "2026-09-04T06:47:28.185396+00:00"
+  "normalize_elapsed_ms": 18,
+  "generated_at": "2026-09-05T09:17:57.236429+00:00"
 }

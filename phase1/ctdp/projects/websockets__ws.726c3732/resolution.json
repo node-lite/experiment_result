@@ -12,9 +12,9 @@
       "source_lockfile": null,
       "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
       "source_lockfile_sha256": null,
-      "resolved_lockfile_sha256": "f30b7a4e205af679322fb0db5f8bb954fa88290b21251429aaa465af89f66949",
+      "resolved_lockfile_sha256": "1473dbc19fd0fff57b46c99d9bb7fa4a30b46a39b7c0398fe4f9ac6d928c44dd",
       "lockfile_changed": true,
-      "resolve_elapsed_ms": 345715,
+      "resolve_elapsed_ms": 21499,
       "exit_code": 0,
       "command": [
         "/usr/bin/npm",
@@ -31,8 +31,8 @@
       "tool_version": "9.2.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/websockets__ws.726c3732/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/websockets__ws.726c3732/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/websockets__ws.726c3732/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/websockets__ws.726c3732/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -68,7 +68,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "726c3732b3e5319219ed73cac4826fd36917e2e1",
-          "path": "/tmp/nodelite-deps-resolve-90jtjm52/checkout"
+          "path": "/tmp/nodelite-deps-resolve-obbleuh3/checkout"
         },
         {
           "source": "installed",

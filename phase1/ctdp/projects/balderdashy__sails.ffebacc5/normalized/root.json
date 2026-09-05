@@ -21,7 +21,7 @@
     "source_lockfile_sha256": null,
     "resolved_lockfile_sha256": "033ccb77bf41090664d2d7b9f7e1551becb9650a67bdad54d10ebf260a00c6f6",
     "lockfile_changed": true,
-    "resolve_elapsed_ms": 383378,
+    "resolve_elapsed_ms": 53405,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/balderdashy__sails.ffebacc5/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/balderdashy__sails.ffebacc5/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/balderdashy__sails.ffebacc5/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/balderdashy__sails.ffebacc5/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -67,7 +67,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "ffebacc58c27f878c9373702bc3a3f91a02bca0c",
-        "path": "/tmp/nodelite-deps-resolve-2bm_4xpk/checkout"
+        "path": "/tmp/nodelite-deps-resolve-b61jm34v/checkout"
       },
       {
         "source": "installed",
@@ -12077,5 +12077,5 @@
   ],
   "manual_review": [],
   "normalize_elapsed_ms": 6,
-  "generated_at": "2026-09-04T06:47:28.031802+00:00"
+  "generated_at": "2026-09-05T09:17:57.076647+00:00"
 }

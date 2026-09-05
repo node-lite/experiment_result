@@ -1,15 +1,12 @@
 {
-  "total_dependency_references": 101967,
-  "unique_logical_package_versions": 27259,
-  "unique_immutable_artifacts": 33769,
-  "duplicate_references_eliminated": 68198,
-  "network_artifact_count": 32489,
-  "bytes_before_global_dedup": 25309178036,
-  "bytes_after_global_dedup": 17605669618,
-  "dedup_ratio": 0.6688242274461346,
-  "bytes_are_measured": true,
-  "generated_at": "2026-09-04T06:47:50.282152+00:00",
-  "bytes_before_global_dedup_complete": false,
-  "bytes_after_global_dedup_complete": false,
-  "missing_artifact_byte_counts": 1281
+  "total_dependency_references": 105097,
+  "unique_logical_package_versions": 27691,
+  "unique_immutable_artifacts": 34462,
+  "duplicate_references_eliminated": 70635,
+  "network_artifact_count": 32941,
+  "bytes_before_global_dedup": 0,
+  "bytes_after_global_dedup": null,
+  "dedup_ratio": 0.6720933994310019,
+  "bytes_are_measured": false,
+  "generated_at": "2026-09-05T09:18:16.404018+00:00"
 }

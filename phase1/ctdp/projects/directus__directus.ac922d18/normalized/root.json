@@ -14,16 +14,20 @@
     "package_manager": "pnpm",
     "package_manager_version": "10",
     "resolution_mode": "existing_requires_resolution",
-    "resolution_source": "native_resolver_failed",
-    "classification": "unsupported_or_manual_review",
+    "resolution_source": "native_resolver",
+    "classification": "existing_requires_resolution",
     "source_lockfile": "pnpm-lock.yaml",
-    "resolved_lockfile": null,
+    "resolved_lockfile": "resolved-lockfiles/root/pnpm-lock.yaml",
     "source_lockfile_sha256": "2b92fcea821d07329341c89167fb98effae03374b816ad54d1f5c6798395ded7",
+    "resolved_lockfile_sha256": "2b92fcea821d07329341c89167fb98effae03374b816ad54d1f5c6798395ded7",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 6758,
-    "exit_code": 1,
+    "resolve_elapsed_ms": 1474,
+    "exit_code": 0,
     "command": [
+      "env",
+      "npm_config_registry=https://registry.npmjs.org",
       "npx",
+      "--offline",
       "--yes",
       "--package",
       "pnpm@10",
@@ -38,14 +42,11 @@
       "--lockfile-only",
       "--ignore-scripts"
     ],
-    "tool_version": "10",
+    "tool_version": "10.34.5",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/directus__directus.ac922d18/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/directus__directus.ac922d18/logs/resolution/root.stderr.log",
-    "manual_review": [
-      null
-    ],
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/directus__directus.ac922d18/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/directus__directus.ac922d18/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -107,11 +108,15 @@
       {
         "kind": "temporary_checkout",
         "commit": "ac922d18f6039582a18737a6dc6d1d9a08a194e8",
-        "path": "/tmp/nodelite-deps-resolve-9s61xrfo/checkout"
+        "path": "/tmp/nodelite-deps-resolve-jx8yz1hh/checkout"
       },
       {
-        "source": "npx",
+        "source": "npx-offline-cache",
         "version": "10"
+      },
+      {
+        "kind": "resolution",
+        "reason": "pnpm lockfile-only resolver"
       }
     ]
   },
@@ -51597,6 +51602,6 @@
       "dependency_root": "."
     }
   ],
-  "normalize_elapsed_ms": 1214,
-  "generated_at": "2026-09-04T06:47:29.442066+00:00"
+  "normalize_elapsed_ms": 1301,
+  "generated_at": "2026-09-05T09:17:58.582330+00:00"
 }

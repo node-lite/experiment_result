@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "53df8633198c6f333acab870ebdee0bfd1ce1145a71bb1c886a15fd6f09e136e",
     "resolved_lockfile_sha256": "53df8633198c6f333acab870ebdee0bfd1ce1145a71bb1c886a15fd6f09e136e",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 6,
+    "resolve_elapsed_ms": 8,
     "exit_code": 0,
     "command": [
       "cd client && npm ci && npm run generate"
@@ -26038,5 +26038,5 @@
   ],
   "manual_review": [],
   "normalize_elapsed_ms": 13,
-  "generated_at": "2026-09-04T06:47:26.467264+00:00"
+  "generated_at": "2026-09-05T09:17:55.437999+00:00"
 }

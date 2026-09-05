@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "231f2c674eecc38e13b20e78fd256e63a5ea8d63066186a99be747df3136c92c",
     "resolved_lockfile_sha256": "231f2c674eecc38e13b20e78fd256e63a5ea8d63066186a99be747df3136c92c",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 387091,
+    "resolve_elapsed_ms": 3083,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/humanlayer__12-factor-agents.d20c7283/logs/resolution/packages__walkthroughgen.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/humanlayer__12-factor-agents.d20c7283/logs/resolution/packages__walkthroughgen.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/humanlayer__12-factor-agents.d20c7283/logs/resolution/packages__walkthroughgen.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/humanlayer__12-factor-agents.d20c7283/logs/resolution/packages__walkthroughgen.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -75,7 +75,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "d20c728368bf9c189d6d7aab704744decb6ec0cc",
-        "path": "/tmp/nodelite-deps-resolve-4zecqsnq/checkout"
+        "path": "/tmp/nodelite-deps-resolve-d3zf4b4x/checkout"
       },
       {
         "source": "installed",
@@ -4985,5 +4985,5 @@
   ],
   "manual_review": [],
   "normalize_elapsed_ms": 3,
-  "generated_at": "2026-09-04T06:47:38.149206+00:00"
+  "generated_at": "2026-09-05T09:17:58.819975+00:00"
 }

@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "7fb655fa88697a9a7a5b40502df3677c927d4743606e90eae2a63d05c3378a71",
     "resolved_lockfile_sha256": "7fb655fa88697a9a7a5b40502df3677c927d4743606e90eae2a63d05c3378a71",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 1,
+    "resolve_elapsed_ms": 100,
     "exit_code": 0,
     "command": [
       "pnpm install --frozen-lockfile"
@@ -25015,6 +25015,6 @@
       "dependency_root": "."
     }
   ],
-  "normalize_elapsed_ms": 596,
-  "generated_at": "2026-09-04T06:47:47.897966+00:00"
+  "normalize_elapsed_ms": 593,
+  "generated_at": "2026-09-05T09:18:06.830497+00:00"
 }

@@ -12,7 +12,7 @@ added 617 packages in 3s
 > npm install rimraf && rimraf lib/
 
 
-removed 7 packages, and changed 1 package in 762ms
+removed 7 packages, and changed 1 package in 779ms
 
 162 packages are looking for funding
   run `npm fund` for details

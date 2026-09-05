@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "4d82c730c747052258c37039d87b75ac12d95e26d49854cb5fca5282ac1fe20b",
     "resolved_lockfile_sha256": "1757422535048d10608d721da4c42d9974bf7059082786ff4cf829443ef3fe62",
     "lockfile_changed": true,
-    "resolve_elapsed_ms": 304095,
+    "resolve_elapsed_ms": 32475,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/nestjs__nest.346c9543/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/nestjs__nest.346c9543/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/nestjs__nest.346c9543/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/nestjs__nest.346c9543/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -75,7 +75,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "346c9543120c692f314bdbf55fc9956d2fa6d87e",
-        "path": "/tmp/nodelite-deps-resolve-1419m10h/checkout"
+        "path": "/tmp/nodelite-deps-resolve-qvctnpqa/checkout"
       },
       {
         "source": "installed",
@@ -45759,6 +45759,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 22,
-  "generated_at": "2026-09-04T06:47:38.524662+00:00"
+  "normalize_elapsed_ms": 24,
+  "generated_at": "2026-09-05T09:17:59.146954+00:00"
 }

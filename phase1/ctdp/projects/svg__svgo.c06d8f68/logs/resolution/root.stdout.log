@@ -2,8 +2,8 @@
 ➤ YN0000: └ Completed
 ➤ YN0000: ┌ Fetch step
 ➤ YN0013: │ @rollup/rollup-linux-x64-gnu@npm:4.40.1 can't be found in the cache and will be fetched from the remote registry
-➤ YN0000: └ Completed in 1s 120ms
+➤ YN0000: └ Completed
 ➤ YN0000: ┌ Link step
 ➤ YN0073: │ Skipped due to mode=update-lockfile
 ➤ YN0000: └ Completed
-➤ YN0000: Done with warnings in 1s 321ms
+➤ YN0000: Done with warnings in 0s 315ms

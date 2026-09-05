@@ -21,10 +21,13 @@
     "source_lockfile_sha256": "e3122b4a0e1aa47b2a937131ebf796f715362efbdec2e9567fe4c1dfd625cebb",
     "resolved_lockfile_sha256": "e3122b4a0e1aa47b2a937131ebf796f715362efbdec2e9567fe4c1dfd625cebb",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 2775,
+    "resolve_elapsed_ms": 1132,
     "exit_code": 0,
     "command": [
+      "env",
+      "npm_config_registry=https://registry.npmjs.org",
       "npx",
+      "--offline",
       "--yes",
       "--package",
       "@yarnpkg/cli-dist@3.8.7",
@@ -40,8 +43,8 @@
     "tool_version": "3.8.7",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/svg__svgo.c06d8f68/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/svg__svgo.c06d8f68/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/svg__svgo.c06d8f68/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/svg__svgo.c06d8f68/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -95,10 +98,10 @@
       {
         "kind": "temporary_checkout",
         "commit": "c06d8f6899788defae9594537063c2f4307803e4",
-        "path": "/tmp/nodelite-deps-resolve-55778p_m/checkout"
+        "path": "/tmp/nodelite-deps-resolve-2dxvhdfb/checkout"
       },
       {
-        "source": "npx",
+        "source": "npx-offline-cache",
         "version": "3.8.7"
       },
       {
@@ -11764,5 +11767,5 @@
     }
   ],
   "normalize_elapsed_ms": 6,
-  "generated_at": "2026-09-04T06:47:42.572742+00:00"
+  "generated_at": "2026-09-05T09:18:01.450533+00:00"
 }

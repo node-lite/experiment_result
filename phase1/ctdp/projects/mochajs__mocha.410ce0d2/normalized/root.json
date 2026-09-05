@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "77b617ee60467b9aad3786bd5fa8b04e228477eb2691f100d52de42ff513e079",
     "resolved_lockfile_sha256": "d940b2a81d97055b4529ebb3fd2fb7892ee5176c0e358e42297e1ba25c5b7418",
     "lockfile_changed": true,
-    "resolve_elapsed_ms": 118693,
+    "resolve_elapsed_ms": 14262,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/mochajs__mocha.410ce0d2/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/mochajs__mocha.410ce0d2/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/mochajs__mocha.410ce0d2/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/mochajs__mocha.410ce0d2/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -83,7 +83,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "410ce0d2a0f799aaca2c0bc627294d70c62dd3f4",
-        "path": "/tmp/nodelite-deps-resolve-wbpue6pf/checkout"
+        "path": "/tmp/nodelite-deps-resolve-stya4xxz/checkout"
       },
       {
         "source": "installed",
@@ -23501,5 +23501,5 @@
     }
   ],
   "normalize_elapsed_ms": 14,
-  "generated_at": "2026-09-04T06:47:38.407827+00:00"
+  "generated_at": "2026-09-05T09:17:59.087816+00:00"
 }

@@ -1,2 +1,24 @@
-error assemblyscript@0.28.9: The engine "node" is incompatible with this module. Expected version ">=20". Got "18.19.1"
-error Found incompatible module.
+warning " > terser-webpack-plugin@5.3.16" has unmet peer dependency "webpack@^5.1.0".
+warning " > babel-loader@10.0.0" has unmet peer dependency "webpack@>=5.61.0".
+warning " > coffee-loader@5.0.0" has unmet peer dependency "webpack@^5.0.0".
+warning "eslint-plugin-jest > @typescript-eslint/utils@8.36.0" has incorrect peer dependency "typescript@>=4.8.4 <5.9.0".
+warning "eslint-plugin-jest > @typescript-eslint/utils > @typescript-eslint/typescript-estree@8.36.0" has incorrect peer dependency "typescript@>=4.8.4 <5.9.0".
+warning "eslint-plugin-jest > @typescript-eslint/utils > @typescript-eslint/typescript-estree > @typescript-eslint/project-service@8.36.0" has incorrect peer dependency "typescript@>=4.8.4 <5.9.0".
+warning "eslint-plugin-jest > @typescript-eslint/utils > @typescript-eslint/typescript-estree > @typescript-eslint/tsconfig-utils@8.36.0" has incorrect peer dependency "typescript@>=4.8.4 <5.9.0".
+warning " > file-loader@6.2.0" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > fork-ts-checker-webpack-plugin@9.1.0" has unmet peer dependency "webpack@^5.11.0".
+warning " > mini-css-extract-plugin@2.9.4" has unmet peer dependency "webpack@^5.0.0".
+warning " > pug-loader@2.4.0" has incorrect peer dependency "pug@^2.0.0".
+warning " > raw-loader@4.0.2" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > style-loader@4.0.0" has unmet peer dependency "webpack@^5.27.0".
+warning " > ts-loader@9.5.4" has unmet peer dependency "webpack@^5.0.0".
+warning " > url-loader@4.1.1" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > webpack-cli@6.0.1" has unmet peer dependency "webpack@^5.82.0".
+warning "webpack-cli > @webpack-cli/configtest@3.0.1" has unmet peer dependency "webpack@^5.82.0".
+warning "webpack-cli > @webpack-cli/info@3.0.1" has unmet peer dependency "webpack@^5.82.0".
+warning "webpack-cli > @webpack-cli/serve@3.0.1" has unmet peer dependency "webpack@^5.82.0".
+warning Workspaces can only be enabled in private projects.
+warning Workspaces can only be enabled in private projects.
+warning Workspaces can only be enabled in private projects.
+warning Workspaces can only be enabled in private projects.
+warning Ignored scripts due to flag.

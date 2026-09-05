@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "5951b44524aa69b11a88dbe4cb594f47763a182f5ab364b5200f79461c226ea4",
     "resolved_lockfile_sha256": "5951b44524aa69b11a88dbe4cb594f47763a182f5ab364b5200f79461c226ea4",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 30357,
+    "resolve_elapsed_ms": 6823,
     "exit_code": 0,
     "command": [
       "/usr/local/bin/yarn",
@@ -36,8 +36,8 @@
     "tool_version": "1.22.22",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/Shopify__draggable.8a1eed57/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/Shopify__draggable.8a1eed57/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/Shopify__draggable.8a1eed57/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/Shopify__draggable.8a1eed57/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -81,7 +81,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d",
-        "path": "/tmp/nodelite-deps-resolve-y_d9z3lp/checkout"
+        "path": "/tmp/nodelite-deps-resolve-fg2_ujza/checkout"
       },
       {
         "source": "installed",
@@ -18666,6 +18666,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 13,
-  "generated_at": "2026-09-04T06:47:42.289330+00:00"
+  "normalize_elapsed_ms": 14,
+  "generated_at": "2026-09-05T09:17:55.400206+00:00"
 }

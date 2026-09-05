@@ -14,11 +14,11 @@
       "source_lockfile_sha256": "fdd0cb43f8868f9e794fe6111d7033057086132e02b74e7d72257eee7ae64b83",
       "resolved_lockfile_sha256": "fdd0cb43f8868f9e794fe6111d7033057086132e02b74e7d72257eee7ae64b83",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 1232,
+      "resolve_elapsed_ms": 1246,
       "exit_code": 0,
       "command": [
         "/usr/bin/node",
-        "/tmp/nodelite-deps-resolve-vjs52qsc/checkout/.yarn/releases/yarn-4.9.1.cjs",
+        "/tmp/nodelite-deps-resolve-s5pehwme/checkout/.yarn/releases/yarn-4.9.1.cjs",
         "install",
         "--mode=update-lockfile"
       ],
@@ -30,8 +30,8 @@
       "tool_version": "4.9.1",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/babel__babel.2ea3fc8f/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/babel__babel.2ea3fc8f/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/babel__babel.2ea3fc8f/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/babel__babel.2ea3fc8f/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -85,7 +85,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "2ea3fc8f9b33a911840f17fbc407e7bfae2ed66f",
-          "path": "/tmp/nodelite-deps-resolve-vjs52qsc/checkout"
+          "path": "/tmp/nodelite-deps-resolve-s5pehwme/checkout"
         },
         {
           "source": "project_yarn_path",

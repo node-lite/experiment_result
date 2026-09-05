@@ -14,7 +14,7 @@
       "source_lockfile_sha256": "8118db77d559a658a3777013806503463de014ea63b0b1694a1cf690bd88c4b5",
       "resolved_lockfile_sha256": "8118db77d559a658a3777013806503463de014ea63b0b1694a1cf690bd88c4b5",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 116173,
+      "resolve_elapsed_ms": 16772,
       "exit_code": 0,
       "command": [
         "/usr/local/bin/yarn",
@@ -29,8 +29,8 @@
       "tool_version": "1.22.22",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/foambubble__foam.2cac8162/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/foambubble__foam.2cac8162/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/foambubble__foam.2cac8162/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/foambubble__foam.2cac8162/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -74,7 +74,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "2cac816272157f3a964b30adf4f29c0b2973cce8",
-          "path": "/tmp/nodelite-deps-resolve-l6t4us6s/checkout"
+          "path": "/tmp/nodelite-deps-resolve-6zldsznr/checkout"
         },
         {
           "source": "installed",

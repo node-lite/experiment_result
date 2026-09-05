@@ -7,16 +7,20 @@
       "package_manager": "pnpm",
       "package_manager_version": "9.4.0",
       "resolution_mode": "existing_requires_resolution",
-      "resolution_source": "native_resolver_failed",
-      "classification": "unsupported_or_manual_review",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
       "source_lockfile": "pnpm-lock.yaml",
-      "resolved_lockfile": null,
+      "resolved_lockfile": "resolved-lockfiles/root/pnpm-lock.yaml",
       "source_lockfile_sha256": "471ddc5c5a27de320e8248d36bdb2249c0247127d789b2745f7ea0fda18a5982",
+      "resolved_lockfile_sha256": "471ddc5c5a27de320e8248d36bdb2249c0247127d789b2745f7ea0fda18a5982",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 4013,
-      "exit_code": 1,
+      "resolve_elapsed_ms": 1031,
+      "exit_code": 0,
       "command": [
+        "env",
+        "npm_config_registry=https://registry.npmjs.org",
         "npx",
+        "--offline",
         "--yes",
         "--package",
         "pnpm@9.4.0",
@@ -34,11 +38,8 @@
       "tool_version": "9.4.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/FuelLabs__fuels-ts.b3f37c91/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/FuelLabs__fuels-ts.b3f37c91/logs/resolution/root.stderr.log",
-      "manual_review": [
-        null
-      ],
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/FuelLabs__fuels-ts.b3f37c91/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/FuelLabs__fuels-ts.b3f37c91/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -108,11 +109,15 @@
         {
           "kind": "temporary_checkout",
           "commit": "b3f37c91aca4aa9d5e4c0d3967f66237190826ea",
-          "path": "/tmp/nodelite-deps-resolve-kvpftm15/checkout"
+          "path": "/tmp/nodelite-deps-resolve-g79wp5vb/checkout"
         },
         {
-          "source": "npx",
+          "source": "npx-offline-cache",
           "version": "9.4.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "pnpm lockfile-only resolver"
         }
       ]
     }

@@ -1,0 +1,12 @@
+➤ YN0000: ┌ Resolution step
+➤ YN0060: │ emotion-monorepo@workspace:. provides react (pbdc5f) with version 16.14.0, which doesn't satisfy what react-native and some of its descendants request
+➤ YN0060: │ emotion-monorepo@workspace:. provides react (p1a43a) with version 16.14.0, which doesn't satisfy what react-dom requests
+➤ YN0060: │ emotion-monorepo@workspace:. provides react (p639e7) with version 16.14.0, which doesn't satisfy what react-test-renderer and some of its descendants request
+➤ YN0002: │ emotion-monorepo@workspace:. doesn't provide react-art (p71d09), requested by react-primitives
+➤ YN0002: │ emotion-monorepo@workspace:. doesn't provide react-native-web (peed21), requested by react-primitives
+➤ YN0000: │ Some peer dependencies are incorrectly met; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Post-resolution validation
+➤ YN0028: │ The lockfile would have been modified by this install, which is explicitly forbidden.
+➤ YN0000: └ Completed
+➤ YN0000: Failed with errors in 0s 256ms

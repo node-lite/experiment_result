@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "579fe631d378a055a8fe3a108308cfdd9bcefb801cef87cfbf02f32a17d849ed",
     "resolved_lockfile_sha256": "579fe631d378a055a8fe3a108308cfdd9bcefb801cef87cfbf02f32a17d849ed",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 399911,
+    "resolve_elapsed_ms": 11854,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/caolan__async.23dbf76a/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/caolan__async.23dbf76a/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/caolan__async.23dbf76a/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/caolan__async.23dbf76a/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -75,7 +75,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "23dbf76aeb04c7c3dd56276115b277e3fa9dd5cc",
-        "path": "/tmp/nodelite-deps-resolve-awneqbrp/checkout"
+        "path": "/tmp/nodelite-deps-resolve-o5bjtl07/checkout"
       },
       {
         "source": "installed",
@@ -13302,5 +13302,5 @@
   ],
   "manual_review": [],
   "normalize_elapsed_ms": 7,
-  "generated_at": "2026-09-04T06:47:28.207569+00:00"
+  "generated_at": "2026-09-05T09:17:57.260371+00:00"
 }

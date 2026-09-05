@@ -12,9 +12,9 @@
       "source_lockfile": null,
       "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
       "source_lockfile_sha256": null,
-      "resolved_lockfile_sha256": "76f1f2f658ef2585dbc12f1c1ad3382719c765b7c26e14965d3e9d093a524c8e",
+      "resolved_lockfile_sha256": "d68fedf7e9ecc8c19a3cf8dda00443c4222a19efebdc81034fbc1557997579d4",
       "lockfile_changed": true,
-      "resolve_elapsed_ms": 440561,
+      "resolve_elapsed_ms": 12086,
       "exit_code": 0,
       "command": [
         "/usr/bin/npm",
@@ -31,8 +31,8 @@
       "tool_version": "9.2.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/novnc__noVNC.d44f7e04/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/novnc__noVNC.d44f7e04/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/novnc__noVNC.d44f7e04/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/novnc__noVNC.d44f7e04/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -60,7 +60,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "d44f7e04fc456844836c7c5ac911d0f4e8dd06e6",
-          "path": "/tmp/nodelite-deps-resolve-um_5j8ki/checkout"
+          "path": "/tmp/nodelite-deps-resolve-pyblub30/checkout"
         },
         {
           "source": "installed",

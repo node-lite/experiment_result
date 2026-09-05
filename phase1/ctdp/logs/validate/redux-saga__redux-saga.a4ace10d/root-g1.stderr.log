@@ -8,4 +8,5 @@ error Error: https://registry.yarnpkg.com/@babel/cli/-/cli-7.28.3.tgz: tunneling
     at readableAddChunk (node:internal/streams/readable:341:9)
     at Readable.push (node:internal/streams/readable:278:10)
     at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+error https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz: tunneling socket could not be established, statusCode=502
 error https://registry.yarnpkg.com/chokidar/-/chokidar-3.6.0.tgz: tunneling socket could not be established, statusCode=502

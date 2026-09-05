@@ -1,112 +1,128 @@
 Scope: all 8 workspace projects
 Progress: resolved 1, reused 0, downloaded 0, added 0
-Progress: resolved 7, reused 0, downloaded 0, added 0
  WARN  deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
-Progress: resolved 11, reused 0, downloaded 0, added 0
-Progress: resolved 23, reused 0, downloaded 0, added 0
-Progress: resolved 26, reused 0, downloaded 0, added 0
-Progress: resolved 39, reused 0, downloaded 0, added 0
-Progress: resolved 46, reused 0, downloaded 0, added 0
-Progress: resolved 74, reused 0, downloaded 0, added 0
-Progress: resolved 80, reused 0, downloaded 0, added 0
-Progress: resolved 90, reused 0, downloaded 0, added 0
-Progress: resolved 106, reused 0, downloaded 0, added 0
+Progress: resolved 13, reused 0, downloaded 0, added 0
+Progress: resolved 22, reused 0, downloaded 0, added 0
+Progress: resolved 36, reused 0, downloaded 0, added 0
+Progress: resolved 40, reused 0, downloaded 0, added 0
+Progress: resolved 48, reused 0, downloaded 0, added 0
+Progress: resolved 56, reused 0, downloaded 0, added 0
+Progress: resolved 73, reused 0, downloaded 0, added 0
+Progress: resolved 78, reused 0, downloaded 0, added 0
+Progress: resolved 84, reused 0, downloaded 0, added 0
+Progress: resolved 88, reused 0, downloaded 0, added 0
+Progress: resolved 104, reused 0, downloaded 0, added 0
+Progress: resolved 108, reused 0, downloaded 0, added 0
 Progress: resolved 110, reused 0, downloaded 0, added 0
+
+   ╭───────────────────────────────────────────────────────────────────╮
+   │                                                                   │
+   │                Update available! 9.15.5 → 11.25.0.                │
+   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v11.25.0   │
+   │                 Run "pnpm add -g pnpm" to update.                 │
+   │                                                                   │
+   ╰───────────────────────────────────────────────────────────────────╯
+
+Progress: resolved 111, reused 0, downloaded 0, added 0
 Progress: resolved 112, reused 0, downloaded 0, added 0
 Progress: resolved 113, reused 0, downloaded 0, added 0
-Progress: resolved 156, reused 0, downloaded 0, added 0
-Progress: resolved 215, reused 0, downloaded 0, added 0
-Progress: resolved 254, reused 0, downloaded 0, added 0
-Progress: resolved 261, reused 0, downloaded 0, added 0
-Progress: resolved 275, reused 0, downloaded 0, added 0
-Progress: resolved 349, reused 0, downloaded 0, added 0
-Progress: resolved 399, reused 0, downloaded 0, added 0
-Progress: resolved 441, reused 0, downloaded 0, added 0
+Progress: resolved 171, reused 0, downloaded 0, added 0
+Progress: resolved 182, reused 0, downloaded 0, added 0
+Progress: resolved 188, reused 0, downloaded 0, added 0
+Progress: resolved 208, reused 0, downloaded 0, added 0
+Progress: resolved 252, reused 0, downloaded 0, added 0
+Progress: resolved 274, reused 0, downloaded 0, added 0
+Progress: resolved 377, reused 0, downloaded 0, added 0
+Progress: resolved 412, reused 0, downloaded 0, added 0
+Progress: resolved 459, reused 0, downloaded 0, added 0
 Progress: resolved 486, reused 0, downloaded 0, added 0
 Progress: resolved 492, reused 0, downloaded 0, added 0
-Progress: resolved 523, reused 0, downloaded 0, added 0
-Progress: resolved 576, reused 0, downloaded 0, added 0
-Progress: resolved 599, reused 0, downloaded 0, added 0
-Progress: resolved 633, reused 0, downloaded 0, added 0
-Progress: resolved 643, reused 0, downloaded 0, added 0
-Progress: resolved 679, reused 0, downloaded 0, added 0
-Progress: resolved 763, reused 0, downloaded 0, added 0
-Progress: resolved 820, reused 0, downloaded 0, added 0
-Progress: resolved 846, reused 0, downloaded 0, added 0
-Progress: resolved 934, reused 0, downloaded 0, added 0
-Progress: resolved 1005, reused 0, downloaded 0, added 0
-Progress: resolved 1044, reused 0, downloaded 0, added 0
-Progress: resolved 1097, reused 0, downloaded 0, added 0
-Progress: resolved 1127, reused 0, downloaded 0, added 0
-Progress: resolved 1213, reused 0, downloaded 0, added 0
-Progress: resolved 1246, reused 0, downloaded 0, added 0
-Progress: resolved 1286, reused 0, downloaded 0, added 0
-Progress: resolved 1430, reused 0, downloaded 0, added 0
-Progress: resolved 1553, reused 0, downloaded 0, added 0
-Progress: resolved 1585, reused 0, downloaded 0, added 0
-Progress: resolved 1655, reused 0, downloaded 0, added 0
-Progress: resolved 1707, reused 0, downloaded 0, added 0
-Progress: resolved 1835, reused 0, downloaded 0, added 0
-Progress: resolved 1978, reused 0, downloaded 0, added 0
-Progress: resolved 2103, reused 0, downloaded 0, added 0
-Progress: resolved 2144, reused 0, downloaded 0, added 0
-Progress: resolved 2234, reused 0, downloaded 0, added 0
-Progress: resolved 2267, reused 0, downloaded 0, added 0
-Progress: resolved 2371, reused 0, downloaded 0, added 0
-Progress: resolved 2420, reused 0, downloaded 0, added 0
-Progress: resolved 2472, reused 0, downloaded 0, added 0
-Progress: resolved 2510, reused 0, downloaded 0, added 0
-Progress: resolved 2586, reused 0, downloaded 0, added 0
-Progress: resolved 2735, reused 0, downloaded 0, added 0
-Progress: resolved 2857, reused 0, downloaded 0, added 0
-Progress: resolved 2990, reused 0, downloaded 0, added 0
-Progress: resolved 3083, reused 0, downloaded 0, added 0
-Progress: resolved 3084, reused 0, downloaded 0, added 0
+Progress: resolved 506, reused 0, downloaded 0, added 0
+Progress: resolved 552, reused 0, downloaded 0, added 0
+Progress: resolved 584, reused 0, downloaded 0, added 0
+Progress: resolved 608, reused 0, downloaded 0, added 0
+Progress: resolved 632, reused 0, downloaded 0, added 0
+Progress: resolved 664, reused 0, downloaded 0, added 0
+Progress: resolved 699, reused 0, downloaded 0, added 0
+Progress: resolved 750, reused 0, downloaded 0, added 0
+Progress: resolved 789, reused 0, downloaded 0, added 0
+Progress: resolved 829, reused 0, downloaded 0, added 0
+Progress: resolved 847, reused 0, downloaded 0, added 0
+Progress: resolved 911, reused 0, downloaded 0, added 0
+Progress: resolved 985, reused 0, downloaded 0, added 0
+Progress: resolved 1030, reused 0, downloaded 0, added 0
+Progress: resolved 1062, reused 0, downloaded 0, added 0
+Progress: resolved 1080, reused 0, downloaded 0, added 0
+Progress: resolved 1104, reused 0, downloaded 0, added 0
+Progress: resolved 1190, reused 0, downloaded 0, added 0
+Progress: resolved 1230, reused 0, downloaded 0, added 0
+Progress: resolved 1252, reused 0, downloaded 0, added 0
+Progress: resolved 1300, reused 0, downloaded 0, added 0
+Progress: resolved 1366, reused 0, downloaded 0, added 0
+Progress: resolved 1451, reused 0, downloaded 0, added 0
+Progress: resolved 1563, reused 0, downloaded 0, added 0
+Progress: resolved 1587, reused 0, downloaded 0, added 0
+Progress: resolved 1638, reused 0, downloaded 0, added 0
+Progress: resolved 1728, reused 0, downloaded 0, added 0
+Progress: resolved 1822, reused 0, downloaded 0, added 0
+Progress: resolved 1966, reused 0, downloaded 0, added 0
+Progress: resolved 1997, reused 0, downloaded 0, added 0
+Progress: resolved 2065, reused 0, downloaded 0, added 0
+Progress: resolved 2093, reused 0, downloaded 0, added 0
+Progress: resolved 2181, reused 0, downloaded 0, added 0
+Progress: resolved 2233, reused 0, downloaded 0, added 0
+Progress: resolved 2269, reused 0, downloaded 0, added 0
+Progress: resolved 2293, reused 0, downloaded 0, added 0
+Progress: resolved 2387, reused 0, downloaded 0, added 0
+Progress: resolved 2454, reused 0, downloaded 0, added 0
+Progress: resolved 2520, reused 0, downloaded 0, added 0
+Progress: resolved 2591, reused 0, downloaded 0, added 0
+Progress: resolved 2711, reused 0, downloaded 0, added 0
+Progress: resolved 2792, reused 0, downloaded 0, added 0
+Progress: resolved 2862, reused 0, downloaded 0, added 0
+Progress: resolved 2941, reused 0, downloaded 0, added 0
 Progress: resolved 3115, reused 0, downloaded 0, added 0
  WARN  52 deprecated subdependencies found: @babel/plugin-proposal-class-properties@7.18.6, @esbuild-kit/cjs-loader@2.4.4, @esbuild-kit/core-utils@3.3.2, @esbuild-kit/esm-loader@2.6.5, @floating-ui/react-dom-interactions@0.3.1, @humanwhocodes/config-array@0.13.0, @humanwhocodes/config-array@0.5.0, @humanwhocodes/object-schema@1.2.1, @humanwhocodes/object-schema@2.0.3, @stagewise/toolbar@0.6.2, @stylelint/postcss-css-in-js@0.37.3, @stylelint/postcss-markdown@0.36.2, @types/minimatch@6.0.0, abab@2.0.6, axios@0.18.1, copy-concurrently@1.0.5, docsearch.js@2.6.3, domexception@4.0.0, eslint@7.32.0, formidable@1.2.6, fs-write-stream-atomic@1.0.10, git-raw-commits@2.0.11, glob@10.5.0, glob@11.1.0, glob@7.2.3, glob@8.1.0, har-validator@5.1.5, hast@1.0.0, inflight@1.0.6, intersection-observer@0.12.2, lodash.get@4.4.2, lodash.isequal@4.5.0, mkdirp@0.3.0, move-concurrently@1.0.1, node-domexception@1.0.0, node-fetch-npm@2.0.4, osenv@0.1.5, prebuild-install@7.1.3, q@1.5.1, request@2.88.2, rimraf@2.7.1, rimraf@3.0.2, socks@1.1.10, source-map-resolve@0.6.0, stable@0.1.8, superagent@5.3.1, superagent@8.1.2, uri-parse@1.0.0, uuid@3.4.0, uuid@8.3.2, whatwg-encoding@2.0.0, whatwg-encoding@3.1.1
-Progress: resolved 3123, reused 0, downloaded 0, added 0
-Progress: resolved 3123, reused 0, downloaded 0, added 0, done
+Progress: resolved 3122, reused 0, downloaded 0, added 0
+Progress: resolved 3122, reused 0, downloaded 0, added 0, done
 
  WARN  Issues with peer dependencies found
 packages/site
 ├─┬ dumi 2.4.17
-│ ├─┬ react-intl 7.1.14
-│ │ ├── ✕ unmet peer typescript@^5.6.0: found 4.9.5
-│ │ └─┬ @formatjs/intl 3.1.8
-│ │   └── ✕ unmet peer typescript@^5.6.0: found 4.9.5
-│ └─┬ umi 4.7.13
-│   ├─┬ @umijs/renderer-react 4.7.13
-│   │ └─┬ react-helmet-async 1.3.0
-│   │   ├── ✕ unmet peer react@"^16.6.0 || ^17.0.0 || ^18.0.0": found 19.2.8
-│   │   └── ✕ unmet peer react-dom@"^16.6.0 || ^17.0.0 || ^18.0.0": found 19.2.8
-│   └─┬ @umijs/preset-umi 4.7.13
-│     ├─┬ @umijs/bundler-vite 4.7.13
-│     │ └─┬ vite 7.3.6
-│     │   └── ✕ unmet peer sugarss@^5.0.0: found 2.0.0
-│     └─┬ @umijs/bundler-utoopack 4.7.13
-│       └─┬ @utoo/pack 1.5.14
-│         ├── ✕ unmet peer less-loader@^12.0.0: found 11.1.0
-│         └── ✕ unmet peer postcss@8.4.31: found 8.5.28
+│ ├─┬ umi 4.7.14
+│ │ ├─┬ @umijs/renderer-react 4.7.14
+│ │ │ └─┬ react-helmet-async 1.3.0
+│ │ │   ├── ✕ unmet peer react@"^16.6.0 || ^17.0.0 || ^18.0.0": found 19.2.8
+│ │ │   └── ✕ unmet peer react-dom@"^16.6.0 || ^17.0.0 || ^18.0.0": found 19.2.8
+│ │ └─┬ @umijs/preset-umi 4.7.14
+│ │   ├─┬ @umijs/bundler-utoopack 4.7.14
+│ │   │ └─┬ @utoo/pack 1.5.14
+│ │   │   ├── ✕ unmet peer less-loader@^12.0.0: found 11.1.0
+│ │   │   └── ✕ unmet peer postcss@8.4.31: found 8.5.28
+│ │   └─┬ @umijs/bundler-vite 4.7.14
+│ │     └─┬ vite 7.3.6
+│ │       └── ✕ unmet peer sugarss@^5.0.0: found 2.0.0
+│ └─┬ react-intl 7.1.14
+│   ├── ✕ unmet peer typescript@^5.6.0: found 4.9.5
+│   └─┬ @formatjs/intl 3.1.8
+│     └── ✕ unmet peer typescript@^5.6.0: found 4.9.5
 ├─┬ valtio 1.13.2
 │ └─┬ use-sync-external-store 1.2.0
 │   └── ✕ unmet peer react@"^16.8.0 || ^17.0.0 || ^18.0.0": found 19.2.8
-├─┬ @antv/dumi-theme-antv 0.8.0-beta.25
-│ ├─┬ react-slick 0.29.0
-│ │ ├── ✕ unmet peer react@"^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.2.8
-│ │ └── ✕ unmet peer react-dom@"^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.2.8
-│ ├─┬ video-react 0.16.0
-│ │ ├── ✕ unmet peer react@"^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.2.8
-│ │ └── ✕ unmet peer react-dom@"^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.2.8
-│ ├─┬ react-split-pane 0.1.92
-│ │ ├── ✕ unmet peer react@^16.0.0-0: found 19.2.8
-│ │ └── ✕ unmet peer react-dom@^16.0.0-0: found 19.2.8
-│ └─┬ @petercatai/assistant 2.1.0
-│   ├── ✕ unmet peer react@">=18.0.0 <19.0.0": found 19.2.8
-│   ├── ✕ unmet peer react-dom@">=18.0.0 <19.0.0": found 19.2.8
-│   └─┬ swr 2.2.5
-│     └── ✕ unmet peer react@"^16.11.0 || ^17.0.0 || ^18.0.0": found 19.2.8
-└─┬ vite 7.3.6
-  ├── ✕ unmet peer sugarss@^5.0.0: found 2.0.0
-  └── ✕ unmet peer sass@^1.70.0: found 1.54.0
+└─┬ @antv/dumi-theme-antv 0.8.0-beta.25
+  ├─┬ react-slick 0.29.0
+  │ ├── ✕ unmet peer react@"^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.2.8
+  │ └── ✕ unmet peer react-dom@"^0.14.0 || ^15.0.1 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.2.8
+  ├─┬ video-react 0.16.0
+  │ ├── ✕ unmet peer react@"^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.2.8
+  │ └── ✕ unmet peer react-dom@"^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0": found 19.2.8
+  ├─┬ react-split-pane 0.1.92
+  │ ├── ✕ unmet peer react@^16.0.0-0: found 19.2.8
+  │ └── ✕ unmet peer react-dom@^16.0.0-0: found 19.2.8
+  └─┬ @petercatai/assistant 2.1.0
+    ├── ✕ unmet peer react@">=18.0.0 <19.0.0": found 19.2.8
+    ├── ✕ unmet peer react-dom@">=18.0.0 <19.0.0": found 19.2.8
+    └─┬ swr 2.2.5
+      └── ✕ unmet peer react@"^16.11.0 || ^17.0.0 || ^18.0.0": found 19.2.8
 
-Done in 1m 7.9s
+Done in 1m 40.8s

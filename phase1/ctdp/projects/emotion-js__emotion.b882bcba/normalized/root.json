@@ -21,11 +21,11 @@
     "source_lockfile_sha256": "0f78ed9b2143da623d93f86ce3175d2148bdf7d8db3d86b9a477cc70b3e700ca",
     "resolved_lockfile_sha256": "0f78ed9b2143da623d93f86ce3175d2148bdf7d8db3d86b9a477cc70b3e700ca",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 39664,
+    "resolve_elapsed_ms": 1260,
     "exit_code": 0,
     "command": [
       "/usr/bin/node",
-      "/tmp/nodelite-deps-resolve-we2jjmmc/checkout/.yarn/releases/yarn-3.2.3.cjs",
+      "/tmp/nodelite-deps-resolve-6mlegsey/checkout/.yarn/releases/yarn-3.2.3.cjs",
       "install",
       "--mode=update-lockfile"
     ],
@@ -37,8 +37,8 @@
     "tool_version": "3.2.3",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/emotion-js__emotion.b882bcba/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/emotion-js__emotion.b882bcba/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/emotion-js__emotion.b882bcba/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/emotion-js__emotion.b882bcba/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -100,7 +100,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "b882bcba85132554992e4bd49e94c95939bbf810",
-        "path": "/tmp/nodelite-deps-resolve-we2jjmmc/checkout"
+        "path": "/tmp/nodelite-deps-resolve-6mlegsey/checkout"
       },
       {
         "source": "project_yarn_path",
@@ -60495,6 +60495,6 @@
       "dependency_root": "."
     }
   ],
-  "normalize_elapsed_ms": 30,
-  "generated_at": "2026-09-04T06:47:30.095072+00:00"
+  "normalize_elapsed_ms": 32,
+  "generated_at": "2026-09-05T09:17:58.646692+00:00"
 }

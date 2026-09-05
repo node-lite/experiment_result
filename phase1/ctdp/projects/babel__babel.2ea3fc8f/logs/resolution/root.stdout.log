@@ -1,6 +1,6 @@
 ➤ YN0000: · Yarn 4.9.1
 ➤ YN0000: ┌ Resolution step
-➤ YN0000: └ Completed in 0s 310ms
+➤ YN0000: └ Completed in 0s 307ms
 ➤ YN0000: ┌ Post-resolution validation
 ➤ YN0060: │ @babel/core is listed by your project with version 8.0.0-beta.0 (p5fada), which doesn't satisfy what @babel/eslint-parser and other dependencies request (but they have non-overlapping ranges!).
 ➤ YN0060: │ eslint is listed by your project with version 9.22.0 (p10c3b), which doesn't satisfy what eslint-plugin-jest and other dependencies request (^8.57.0).
@@ -19,4 +19,4 @@
 ➤ YN0000: ┌ Link step
 ➤ YN0073: │ Skipped due to mode=update-lockfile
 ➤ YN0000: └ Completed
-➤ YN0000: · Done with warnings in 0s 661ms
+➤ YN0000: · Done with warnings in 0s 631ms

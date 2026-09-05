@@ -12,9 +12,9 @@
       "source_lockfile": null,
       "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
       "source_lockfile_sha256": null,
-      "resolved_lockfile_sha256": "878d7d6e962e7cf825476ecbac9d665f4f866f30d033518a7dc54c011666b151",
+      "resolved_lockfile_sha256": "756912f2e74d859001312ffb9053744f93eb2ed16050c3781c64315a60673cb8",
       "lockfile_changed": true,
-      "resolve_elapsed_ms": 445440,
+      "resolve_elapsed_ms": 106779,
       "exit_code": 0,
       "command": [
         "/usr/bin/npm",
@@ -31,8 +31,8 @@
       "tool_version": "9.2.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/enzymejs__enzyme.61e1b47c/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/enzymejs__enzyme.61e1b47c/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/enzymejs__enzyme.61e1b47c/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/enzymejs__enzyme.61e1b47c/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -68,7 +68,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "61e1b47c4bdc4509b2ac286c0d3ae3df172d26f0",
-          "path": "/tmp/nodelite-deps-resolve-e64mg7qr/checkout"
+          "path": "/tmp/nodelite-deps-resolve-io6tqo0h/checkout"
         },
         {
           "source": "installed",

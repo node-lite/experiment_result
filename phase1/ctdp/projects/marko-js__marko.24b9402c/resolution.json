@@ -13,7 +13,7 @@
       "resolved_lockfile": null,
       "source_lockfile_sha256": "ee77bb8c40aead106918916e39039aa8683962223d8eedddd2b207f9dbd325ce",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 634,
+      "resolve_elapsed_ms": 763,
       "exit_code": 236,
       "command": [
         "/usr/bin/npm",
@@ -30,8 +30,8 @@
       "tool_version": "9.2.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/marko-js__marko.24b9402c/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/marko-js__marko.24b9402c/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/marko-js__marko.24b9402c/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/marko-js__marko.24b9402c/logs/resolution/root.stderr.log",
       "manual_review": [
         null
       ],
@@ -70,7 +70,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "24b9402cd54c3a74f200da0f79dd19350995a9ba",
-          "path": "/tmp/nodelite-deps-resolve-eokmmw4c/checkout"
+          "path": "/tmp/nodelite-deps-resolve-ptno9tix/checkout"
         },
         {
           "source": "installed",

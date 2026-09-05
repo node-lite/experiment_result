@@ -24,7 +24,7 @@
 ➤ YN0060: │ nextjs-playground@workspace:playgrounds/nextjs provides react-dom (p1267e) with version 16.14.0, which doesn't satisfy what next requests
 ➤ YN0060: │ postcss-normalize@npm:8.0.1 provides browserslist (p31ded) with version 3.2.8, which doesn't satisfy what postcss-browser-comments requests
 ➤ YN0000: │ Some peer dependencies are incorrectly met; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code
-➤ YN0000: └ Completed in 0s 287ms
+➤ YN0000: └ Completed in 0s 283ms
 ➤ YN0000: ┌ Fetch step
 ➤ YN0013: │ @lmdb/lmdb-linux-x64@npm:2.8.5 can't be found in the cache and will be fetched from the remote registry
 ➤ YN0013: │ @msgpackr-extract/msgpackr-extract-linux-x64@npm:3.0.3 can't be found in the cache and will be fetched from the remote registry
@@ -36,8 +36,8 @@
 ➤ YN0013: │ @parcel/watcher-linux-x64-glibc@npm:2.5.0 can't be found in the cache and will be fetched from the remote registry
 ➤ YN0013: │ @swc/core-linux-x64-gnu@npm:1.10.1 can't be found in the cache and will be fetched from the remote registry
 ➤ YN0013: │ lightningcss-linux-x64-gnu@npm:1.28.2 can't be found in the cache and will be fetched from the remote registry
-➤ YN0000: └ Completed in 38s 456ms
+➤ YN0000: └ Completed
 ➤ YN0000: ┌ Link step
 ➤ YN0073: │ Skipped due to mode=update-lockfile
 ➤ YN0000: └ Completed
-➤ YN0000: Done with warnings in 39s 143ms
+➤ YN0000: Done with warnings in 0s 765ms

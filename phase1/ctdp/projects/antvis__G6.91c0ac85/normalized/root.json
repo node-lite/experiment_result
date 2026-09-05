@@ -19,9 +19,9 @@
     "source_lockfile": null,
     "resolved_lockfile": "resolved-lockfiles/root/pnpm-lock.yaml",
     "source_lockfile_sha256": null,
-    "resolved_lockfile_sha256": "526e57b816621dcf29781b76eeb371512c108c3b77a1ac6c5b815b7f78df5613",
+    "resolved_lockfile_sha256": "f82ca5fc5b3a174112b79d31ec1e4c23a9e0749241f040e9c2fd8c984058dfd9",
     "lockfile_changed": true,
-    "resolve_elapsed_ms": 68071,
+    "resolve_elapsed_ms": 100992,
     "exit_code": 0,
     "command": [
       "/usr/local/bin/pnpm",
@@ -38,8 +38,8 @@
     "tool_version": "9.15.5",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/antvis__G6.91c0ac85/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/antvis__G6.91c0ac85/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/antvis__G6.91c0ac85/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/antvis__G6.91c0ac85/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -75,7 +75,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "91c0ac85e4e636a05bd1a3c5e56a4928d1242a9b",
-        "path": "/tmp/nodelite-deps-resolve-iy2h10hl/checkout"
+        "path": "/tmp/nodelite-deps-resolve-xe2_hqri/checkout"
       },
       {
         "source": "installed",
@@ -91,14 +91,14 @@
     {
       "type": "registry",
       "name": "@ai-sdk/gateway",
-      "version": "2.0.146",
+      "version": "2.0.147",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@ai-sdk/gateway/-/gateway-2.0.146.tgz",
-      "integrity": "sha512-kFvoUmtaK6qcyPWriiO0o3TNsDqLe2dkhS0wBTeehvZugpYASfymxfPPXkPQ3Lc1PD+ZPzeJ5fqTrAUVxs2fPg==",
+      "resolved_url": "https://registry.npmjs.org/@ai-sdk/gateway/-/gateway-2.0.147.tgz",
+      "integrity": "sha512-uBi+N+9ApEKPrasD+QeUhGoDaXGZF4VuEfBrd1eh/taKQeThK02RzbPsLP9UmJNZJnqjr+7VPcZ5+Cj65QfGiw==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@ai-sdk/gateway@2.0.146",
+      "raw_locator": "@ai-sdk/gateway@2.0.147",
       "snapshot": {
         "dependencies": {
           "@ai-sdk/provider": "2.0.3",
@@ -113,14 +113,14 @@
     {
       "type": "registry",
       "name": "@ai-sdk/openai",
-      "version": "2.0.123",
+      "version": "2.0.124",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@ai-sdk/openai/-/openai-2.0.123.tgz",
-      "integrity": "sha512-KB9KY1yxTGkeYE7lskYydS7AkAvEdTSALJfsSsq8oDgTj4zJMfKWS+K5yJVp7ErWZ+tRyMqx3aepnxPsv9fWeA==",
+      "resolved_url": "https://registry.npmjs.org/@ai-sdk/openai/-/openai-2.0.124.tgz",
+      "integrity": "sha512-Oocban2zG9qpcH/6gQ8DztEekMGR3moIw2kTCCMMgn9c9QHHRdd92D4cdrYX3jXf8Q1Tyeqhpz1e1R64efg1IQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@ai-sdk/openai@2.0.123",
+      "raw_locator": "@ai-sdk/openai@2.0.124",
       "snapshot": {
         "dependencies": {
           "@ai-sdk/provider": "2.0.3",
@@ -176,18 +176,18 @@
     {
       "type": "registry",
       "name": "@ai-sdk/react",
-      "version": "2.0.255",
+      "version": "2.0.256",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@ai-sdk/react/-/react-2.0.255.tgz",
-      "integrity": "sha512-88AGv/A/Uwk2q10BVlRnpTDEJS2KwlJ67k/8JE++c+lnmyqih8S7onEFS/oG/aXpfkeZm5aXRqXrYZmURGdNVQ==",
+      "resolved_url": "https://registry.npmjs.org/@ai-sdk/react/-/react-2.0.256.tgz",
+      "integrity": "sha512-tR6EPQ++wEqAFcyoCBPBkGY2CATOk57hysEXxms8tRFBRCqfclCGal9RL0FgNEXvEymb8to1lHlj+btMoTylwg==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@ai-sdk/react@2.0.255",
+      "raw_locator": "@ai-sdk/react@2.0.256",
       "snapshot": {
         "dependencies": {
           "@ai-sdk/provider-utils": "3.0.36(zod@3.25.76)",
-          "ai": "5.0.252(zod@3.25.76)",
+          "ai": "5.0.253(zod@3.25.76)",
           "react": "19.2.8",
           "swr": "2.5.1(react@19.2.8)",
           "throttleit": "2.1.0"
@@ -1292,8 +1292,8 @@
       "raw_locator": "@antv/dumi-theme-antv@0.8.0-beta.25",
       "snapshot": {
         "dependencies": {
-          "@ai-sdk/openai": "2.0.123(zod@3.25.76)",
-          "@ai-sdk/react": "2.0.255(react@19.2.8)(zod@3.25.76)",
+          "@ai-sdk/openai": "2.0.124(zod@3.25.76)",
+          "@ai-sdk/react": "2.0.256(react@19.2.8)(zod@3.25.76)",
           "@ant-design/cssinjs": "1.24.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
           "@ant-design/icons": "4.8.3(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
           "@ant-design/pro-components": "2.8.10(antd@5.29.3(moment@2.30.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(rc-field-form@2.7.1(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
@@ -1309,11 +1309,11 @@
           "@stackblitz/sdk": "1.11.1",
           "@tanstack/react-query": "5.102.8(react@19.2.8)",
           "ahooks": "3.9.7(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
-          "ai": "5.0.252(zod@3.25.76)",
+          "ai": "5.0.253(zod@3.25.76)",
           "antd": "5.29.3(moment@2.30.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
           "antd-style": "3.7.1(@types/react@19.2.18)(antd@5.29.3(moment@2.30.1)(react-dom@19.2.8(react@19.2.8))(react@19.2.8))(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
           "axios": "1.20.0",
-          "babel-loader": "10.1.1(@babel/core@7.29.7)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "babel-loader": "10.1.1(@babel/core@7.29.7)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "babel-plugin-import": "1.13.8",
           "chalk": "4.1.2",
           "cheerio": "1.2.0",
@@ -1322,7 +1322,7 @@
           "critters-webpack-plugin": "3.0.2",
           "d3-dsv": "3.0.1",
           "docsearch.js": "2.6.3",
-          "dumi": "2.4.17(@babel/core@7.29.7)(@swc/helpers@0.5.15)(@types/node@20.19.43)(@types/react@19.2.18)(jiti@1.21.7)(lightningcss@1.22.1)(prettier@3.9.6)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.63.1)(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))(sugarss@2.0.0)(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))(yaml@2.9.0)",
+          "dumi": "2.4.17(@babel/core@7.29.7)(@swc/helpers@0.5.15)(@types/node@20.19.43)(@types/react@19.2.18)(jiti@1.21.7)(lightningcss@1.22.1)(prettier@3.9.6)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.63.1)(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))(sugarss@2.0.0)(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))(yaml@2.9.0)",
           "front-matter": "4.0.2",
           "fs-extra": "10.1.0",
           "glob": "8.1.0",
@@ -1333,7 +1333,7 @@
           "localforage": "1.10.0",
           "lodash-es": "4.18.1",
           "lodash.merge": "4.6.2",
-          "mini-css-extract-plugin": "2.10.2(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "mini-css-extract-plugin": "2.10.2(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "moment": "2.30.1",
           "monaco-editor": "0.51.0",
           "nprogress": "0.2.0",
@@ -1853,7 +1853,7 @@
       "snapshot": {
         "dependencies": {
           "@antv/g-webgpu": "0.7.2",
-          "@antv/layout": "1.2.14-beta.7(workerize-loader@2.0.2(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))",
+          "@antv/layout": "1.2.14-beta.7(workerize-loader@2.0.2(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))",
           "@antv/util": "3.3.11",
           "tslib": "2.8.1"
         },
@@ -1877,7 +1877,7 @@
       "raw_locator": "@antv/layout-wasm@1.4.2",
       "snapshot": {
         "dependencies": {
-          "@antv/layout": "1.2.14-beta.7(workerize-loader@2.0.2(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))",
+          "@antv/layout": "1.2.14-beta.7(workerize-loader@2.0.2(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))",
           "@antv/util": "3.3.11",
           "comlink": "4.4.2",
           "tslib": "2.8.1",
@@ -1906,7 +1906,7 @@
           "@antv/event-emitter": "0.1.3",
           "@antv/graphlib": "2.0.4",
           "@antv/util": "3.3.11",
-          "@naoak/workerize-transferable": "0.1.0(workerize-loader@2.0.2(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))",
+          "@naoak/workerize-transferable": "0.1.0(workerize-loader@2.0.2(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))",
           "comlink": "4.4.2",
           "d3-force": "3.0.0",
           "d3-force-3d": "3.0.6",
@@ -1939,7 +1939,7 @@
           "@antv/event-emitter": "0.1.3",
           "@antv/graphlib": "2.0.4",
           "@antv/util": "3.3.11",
-          "@naoak/workerize-transferable": "0.1.0(workerize-loader@2.0.2(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))",
+          "@naoak/workerize-transferable": "0.1.0(workerize-loader@2.0.2(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))",
           "comlink": "4.4.2",
           "d3-force": "3.0.0",
           "d3-force-3d": "3.0.6",
@@ -2382,7 +2382,7 @@
         "dependencies": {
           "@babel/compat-data": "7.29.7",
           "@babel/helper-validator-option": "7.29.7",
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "lru-cache": "5.1.1",
           "semver": "6.3.1"
         }
@@ -9211,7 +9211,7 @@
       "raw_locator": "@hono/node-server@1.19.17",
       "snapshot": {
         "dependencies": {
-          "hono": "4.13.5"
+          "hono": "4.13.7"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -9230,8 +9230,8 @@
       "raw_locator": "@hono/node-ws@1.3.1",
       "snapshot": {
         "dependencies": {
-          "@hono/node-server": "1.19.17(hono@4.13.5)",
-          "hono": "4.13.5",
+          "@hono/node-server": "1.19.17(hono@4.13.7)",
+          "hono": "4.13.7",
           "ws": "8.21.3"
         },
         "transitivePeerDependencies": [
@@ -9526,7 +9526,7 @@
           "exit": "0.1.2",
           "graceful-fs": "4.2.11",
           "jest-changed-files": "29.7.0",
-          "jest-config": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.1)(@types/node@20.19.43)(typescript@5.9.3))",
+          "jest-config": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.2)(@types/node@20.19.43)(typescript@5.9.3))",
           "jest-haste-map": "29.7.0",
           "jest-message-util": "29.7.0",
           "jest-regex-util": "29.6.3",
@@ -10599,7 +10599,7 @@
       "raw_locator": "@naoak/workerize-transferable@0.1.0",
       "snapshot": {
         "dependencies": {
-          "workerize-loader": "2.0.2(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))"
+          "workerize-loader": "2.0.2(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -11405,17 +11405,17 @@
     {
       "type": "registry",
       "name": "@playwright/test",
-      "version": "1.62.1",
+      "version": "1.63.0",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@playwright/test/-/test-1.62.1.tgz",
-      "integrity": "sha512-DTcUc8qii+cpHvtOwggMtBRMjKZHXYWdw8syRYu2vtzuq4Wxphqq4NfCs5Zt44L6mA8rfDfj+PHnxFc/FeK6mQ==",
+      "resolved_url": "https://registry.npmjs.org/@playwright/test/-/test-1.63.0.tgz",
+      "integrity": "sha512-oxMK4vllB9RK5NQ2l1pq1IfOf2AvnEuj/vYGDj0H2nMtmtZpKtCwt/l00GEO6xjGfpBNAvjovvYdCm50dRQkpQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@playwright/test@1.62.1",
+      "raw_locator": "@playwright/test@1.63.0",
       "snapshot": {
         "dependencies": {
-          "playwright": "1.62.1"
+          "playwright": "1.63.0"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -12698,7 +12698,7 @@
         "dependencies": {
           "@babel/core": "7.29.7",
           "postcss": "7.0.39",
-          "postcss-syntax": "0.36.2(postcss@8.5.28)"
+          "postcss-syntax": "0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)"
         },
         "transitivePeerDependencies": [
           "supports-color"
@@ -12721,7 +12721,7 @@
       "snapshot": {
         "dependencies": {
           "postcss": "7.0.39",
-          "postcss-syntax": "0.36.2(postcss@8.5.28)",
+          "postcss-syntax": "0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)",
           "remark": "13.0.0",
           "unist-util-find-all-after": "3.0.2"
         },
@@ -13019,7 +13019,7 @@
       "snapshot": {
         "dependencies": {
           "@mole-inc/bin-wrapper": "8.0.1",
-          "@swc/core": "1.16.1",
+          "@swc/core": "1.16.2",
           "commander": "7.2.0",
           "fast-glob": "3.3.3",
           "minimatch": "9.0.9",
@@ -13037,14 +13037,14 @@
     {
       "type": "registry",
       "name": "@swc/core-darwin-arm64",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.16.1.tgz",
-      "integrity": "sha512-zlJblJ8ncErD43lKdxjbUaUskJQf+LxiPXYcWXD8/8ZMV+7uuAT+CwjciLXpyZBd5Pq/S726bMpeeAwSeL1hhg==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-darwin-arm64/-/core-darwin-arm64-1.16.2.tgz",
+      "integrity": "sha512-i/j0HNbnn79qnTVPicvay92Nark8fW8NQqn1e2mGERjUXNpBV0+SwQxlRpk2zBhn6laJ8PDI6Kn1nHZhnz3LCA==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-darwin-arm64@1.16.1",
+      "raw_locator": "@swc/core-darwin-arm64@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13071,14 +13071,14 @@
     {
       "type": "registry",
       "name": "@swc/core-darwin-x64",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-darwin-x64/-/core-darwin-x64-1.16.1.tgz",
-      "integrity": "sha512-IN0BmPWb0YAh/17mmlWB/HDBtTw2MfuW4hulf/tQAgTQBRH17l+z499bNJLK6LizSjqs0P7V+jU38Zj+vJC1DA==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-darwin-x64/-/core-darwin-x64-1.16.2.tgz",
+      "integrity": "sha512-HrwqHyEyHVXO3qTk8EkNK7/b6sOZSEoNh+pot6RdE5x0LbNqfo8LtJUvi3UTXr+5ja/o5HbJdW80eCXo+NjbiA==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-darwin-x64@1.16.1",
+      "raw_locator": "@swc/core-darwin-x64@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13105,14 +13105,14 @@
     {
       "type": "registry",
       "name": "@swc/core-linux-arm-gnueabihf",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.16.1.tgz",
-      "integrity": "sha512-EYgrx2YOCQ2Twz2S793kqNjPkpvYVUPzzR95bIb7by+VQcyaai4lZZ2iz/tZvcFVKSNcN3/JTKwx+aBn2ZL52A==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-arm-gnueabihf/-/core-linux-arm-gnueabihf-1.16.2.tgz",
+      "integrity": "sha512-MdXi83Z/gGp1LIrg+h7HKxiul/z/Bty/ZJSvYAFqDl9zteC1XLSAZdScquKtXPp50rdyXqritTDCqQBhwVfZKA==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-linux-arm-gnueabihf@1.16.1",
+      "raw_locator": "@swc/core-linux-arm-gnueabihf@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13139,14 +13139,14 @@
     {
       "type": "registry",
       "name": "@swc/core-linux-arm64-gnu",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.16.1.tgz",
-      "integrity": "sha512-moyKm0YZlHdHohzm1YwgAyesqnE853rO0REMfJLFAova51wF9BNi+3ZW2PeS7Vqvn6HeJuepLpAHbBdZctxpHA==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-arm64-gnu/-/core-linux-arm64-gnu-1.16.2.tgz",
+      "integrity": "sha512-/jcTmK6Ktz3owM3YtiKvjofV6p3VpHnYzTIrOGwDIOsDigRAAVuZ8east33wYO/7UTdKYFlyHNnJNT0WJqOA3Q==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-linux-arm64-gnu@1.16.1",
+      "raw_locator": "@swc/core-linux-arm64-gnu@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13173,14 +13173,14 @@
     {
       "type": "registry",
       "name": "@swc/core-linux-arm64-musl",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.16.1.tgz",
-      "integrity": "sha512-kKGBO9wdapiSzuf5ZzZ2fYtlu1BNSYtIIUxvH1ir/gcelTOREEHGDCLTDFx/2Knf878nU11A40z7LxwasEFxqA==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-arm64-musl/-/core-linux-arm64-musl-1.16.2.tgz",
+      "integrity": "sha512-4gFarKaFnlJTSlJYKmMhV4u+3YE4uYfiydpBoYjmgQhCf9lAieOq+WilZaK9vVSHeqLuQpTEiGULZqAdsRX5Dw==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-linux-arm64-musl@1.16.1",
+      "raw_locator": "@swc/core-linux-arm64-musl@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13207,14 +13207,14 @@
     {
       "type": "registry",
       "name": "@swc/core-linux-ppc64-gnu",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-ppc64-gnu/-/core-linux-ppc64-gnu-1.16.1.tgz",
-      "integrity": "sha512-nZ6qahtLxC3PM54cWOQZHxt4lTCF/3J4LIoWWzz6v7A+rLs8Dx54anYQf7mH3eIi8KlNpgKci/ie8ZSqFN8O7A==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-ppc64-gnu/-/core-linux-ppc64-gnu-1.16.2.tgz",
+      "integrity": "sha512-syqSLGd6KlZ1PciNzs6bIUlhOuFztZufebOHaERjc4N4SqNZxyqYd4I+jj/EfOYnpe0kNjccn9HJLN1p5dz3+w==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-linux-ppc64-gnu@1.16.1",
+      "raw_locator": "@swc/core-linux-ppc64-gnu@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13224,14 +13224,14 @@
     {
       "type": "registry",
       "name": "@swc/core-linux-s390x-gnu",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-s390x-gnu/-/core-linux-s390x-gnu-1.16.1.tgz",
-      "integrity": "sha512-4ji5PNzhYq193Z4/4xUaSoNJza6iCkDJSzhetrbB6KOYxsr+kxtQr8ePWhMJUiMt6JUWtXaZ1PYT8FhtED+nGA==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-s390x-gnu/-/core-linux-s390x-gnu-1.16.2.tgz",
+      "integrity": "sha512-ZBBLK+ewGyXLzWeMS7wbKtWBdnif6etn7xvPY/iOfbdsjX/+bgkp1pQt2lWF2wlu2hXYZuhJ/tHZE/QR8/apzg==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-linux-s390x-gnu@1.16.1",
+      "raw_locator": "@swc/core-linux-s390x-gnu@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13241,14 +13241,14 @@
     {
       "type": "registry",
       "name": "@swc/core-linux-x64-gnu",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.16.1.tgz",
-      "integrity": "sha512-VJQxqrisHV+B394IgrOu8YsIIXZgffnf5tO+yc9Z/hoUpuZEvuQTjWwlnpZdpyD+0nx6LTD1/3k646JYm43yJA==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.16.2.tgz",
+      "integrity": "sha512-LyHJgxCA4Tje0ysBMbEb0tt/ie8kgUKoFE3JAKFhpevmTmhYEoC0H9s47WuDsqiFckF1ITUguZIXJG6K5e0dvg==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-linux-x64-gnu@1.16.1",
+      "raw_locator": "@swc/core-linux-x64-gnu@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13275,14 +13275,14 @@
     {
       "type": "registry",
       "name": "@swc/core-linux-x64-musl",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.16.1.tgz",
-      "integrity": "sha512-r9oV1mwxxsIGcLV1IQ/tw76MW3doatKze1QFWuC+a7QqJUkhY/bKTSVk6NpKKUGm2LDsE33Va8VqSClfA7vSiQ==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.16.2.tgz",
+      "integrity": "sha512-PghXJlVM1cgtLfNUR1vxFo1z+PDRAe8cWAJlZZ7spmeiN7BospGXg/MHUg7oNSgwSX7Zo//YKv9P5yD9apsFJQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-linux-x64-musl@1.16.1",
+      "raw_locator": "@swc/core-linux-x64-musl@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13309,14 +13309,14 @@
     {
       "type": "registry",
       "name": "@swc/core-win32-arm64-msvc",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.16.1.tgz",
-      "integrity": "sha512-6huNRessoBLxWEqBm5zJXyCQ27TO7anvkdiuQ5MDO4CJni0nOXEqKtV9RllQ2TdyENKKsUMXVnIfW2hIXx/R5Q==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-win32-arm64-msvc/-/core-win32-arm64-msvc-1.16.2.tgz",
+      "integrity": "sha512-StTOSefYBxemvNYYUI3UmO1a8y+hSPjjfHogC2TEHL+Z1PlEBim/XtLas5rS04jAzT9RrNmbtX911SZ42H9jSQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-win32-arm64-msvc@1.16.1",
+      "raw_locator": "@swc/core-win32-arm64-msvc@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13343,14 +13343,14 @@
     {
       "type": "registry",
       "name": "@swc/core-win32-ia32-msvc",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.16.1.tgz",
-      "integrity": "sha512-OVKJFUzphrGmsh+BGtcZDesx0YryV7/Yvy5XGgTqnrZfjnyfcr5uaqYQugCckdIlupc5Vs3XtDjRAj12z4ZPlw==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-win32-ia32-msvc/-/core-win32-ia32-msvc-1.16.2.tgz",
+      "integrity": "sha512-fycER209DYIzsibpTMC+chND05OfOjgztWL9U8OE6/uUlsOUZH3eh98isBLEnOymYUhlJLEt5++W1+KL/FOh5Q==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-win32-ia32-msvc@1.16.1",
+      "raw_locator": "@swc/core-win32-ia32-msvc@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13377,14 +13377,14 @@
     {
       "type": "registry",
       "name": "@swc/core-win32-x64-msvc",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.16.1.tgz",
-      "integrity": "sha512-Bt+VIhWYCGk4urklnkkteLUOeLv1VxigwTCeB/xC6rBZxY6IIKdDwCJf6on3E3SUGsIqmQS6QqtuJQc1VxF4Aw==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core-win32-x64-msvc/-/core-win32-x64-msvc-1.16.2.tgz",
+      "integrity": "sha512-cSd1z6ivSrJPVr+moVwOHWjeKy6TpO4/Shwcv5KCrKYXCccxwh4pRy1C3fDioNx2PF1jPZWHKZjtXt+Be9VbaQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core-win32-x64-msvc@1.16.1",
+      "raw_locator": "@swc/core-win32-x64-msvc@1.16.2",
       "snapshot": {
         "optional": true
       },
@@ -13411,32 +13411,32 @@
     {
       "type": "registry",
       "name": "@swc/core",
-      "version": "1.16.1",
+      "version": "1.16.2",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@swc/core/-/core-1.16.1.tgz",
-      "integrity": "sha512-nUaeu91O5QZKrQdaDCHd402ogUIoNOOjpkZNq0UomWK0G6gDaGmLhvddF1/3BXf5O8aLyo6ZPY/aMDWvaJQ/hg==",
+      "resolved_url": "https://registry.npmjs.org/@swc/core/-/core-1.16.2.tgz",
+      "integrity": "sha512-95I4kiSMeveI/Mhi+tE4fiWcWLUMfzfKrk0jtr8LRMqHgOgq+xHS+zExkDqoO4b5OeeuXHMWVdD5MeP3X6sULw==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@swc/core@1.16.1",
+      "raw_locator": "@swc/core@1.16.2",
       "snapshot": {
         "dependencies": {
           "@swc/counter": "0.1.3",
           "@swc/types": "0.1.28"
         },
         "optionalDependencies": {
-          "@swc/core-darwin-arm64": "1.16.1",
-          "@swc/core-darwin-x64": "1.16.1",
-          "@swc/core-linux-arm-gnueabihf": "1.16.1",
-          "@swc/core-linux-arm64-gnu": "1.16.1",
-          "@swc/core-linux-arm64-musl": "1.16.1",
-          "@swc/core-linux-ppc64-gnu": "1.16.1",
-          "@swc/core-linux-s390x-gnu": "1.16.1",
-          "@swc/core-linux-x64-gnu": "1.16.1",
-          "@swc/core-linux-x64-musl": "1.16.1",
-          "@swc/core-win32-arm64-msvc": "1.16.1",
-          "@swc/core-win32-ia32-msvc": "1.16.1",
-          "@swc/core-win32-x64-msvc": "1.16.1"
+          "@swc/core-darwin-arm64": "1.16.2",
+          "@swc/core-darwin-x64": "1.16.2",
+          "@swc/core-linux-arm-gnueabihf": "1.16.2",
+          "@swc/core-linux-arm64-gnu": "1.16.2",
+          "@swc/core-linux-arm64-musl": "1.16.2",
+          "@swc/core-linux-ppc64-gnu": "1.16.2",
+          "@swc/core-linux-s390x-gnu": "1.16.2",
+          "@swc/core-linux-x64-gnu": "1.16.2",
+          "@swc/core-linux-x64-musl": "1.16.2",
+          "@swc/core-win32-arm64-msvc": "1.16.2",
+          "@swc/core-win32-ia32-msvc": "1.16.2",
+          "@swc/core-win32-x64-msvc": "1.16.2"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -13542,7 +13542,7 @@
       "snapshot": {
         "dependencies": {
           "@jest/create-cache-key-function": "30.5.1",
-          "@swc/core": "1.16.1",
+          "@swc/core": "1.16.2",
           "@swc/counter": "0.1.3",
           "jsonc-parser": "3.3.1"
         }
@@ -15748,17 +15748,17 @@
     {
       "type": "registry",
       "name": "@umijs/ast",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/ast/-/ast-4.7.13.tgz",
-      "integrity": "sha512-Dz2PLp9ZSEhwYkQq02j7Tseq8DxUYmw9btrPpf4kk9jL4JnwlkOj3WyGuidUS/rNL/Caz4rKw4mh/NDlDMP4hw==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/ast/-/ast-4.7.14.tgz",
+      "integrity": "sha512-o1I0vaXt8VxkVczuwdtmm32Q/WuOiHsfmltkzFVWKlmHj+kzOkk7J3UJ7xsEp4u5mH+1tqJ1WhbAbvCiHaKNSA==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/ast@4.7.13",
+      "raw_locator": "@umijs/ast@4.7.14",
       "snapshot": {
         "dependencies": {
-          "@umijs/bundler-utils": "4.7.13"
+          "@umijs/bundler-utils": "4.7.14"
         },
         "transitivePeerDependencies": [
           "supports-color"
@@ -15770,20 +15770,20 @@
     {
       "type": "registry",
       "name": "@umijs/babel-preset-umi",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/babel-preset-umi/-/babel-preset-umi-4.7.13.tgz",
-      "integrity": "sha512-oQBRDO4oyg3XPfxHPG4/N2KBRr4uhGub105vQKYLrxS3oZN5SxHLw+9de4PlkqitbOUZwLf2gBTgNcAnon6sRw==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/babel-preset-umi/-/babel-preset-umi-4.7.14.tgz",
+      "integrity": "sha512-h8aELTwNbxAqXcUxsrZfBZ53eYXiOOohQ2Deo0YhHLF28+wxH+9vY+ZmSCAiIaKqg8Qeve1VG8z7Wlkcc/GAQw==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/babel-preset-umi@4.7.13",
+      "raw_locator": "@umijs/babel-preset-umi@4.7.14",
       "snapshot": {
         "dependencies": {
           "@babel/runtime": "7.23.6",
           "@bloomberg/record-tuple-polyfill": "0.0.4",
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/utils": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/utils": "4.7.14",
           "core-js": "3.34.0"
         },
         "transitivePeerDependencies": [
@@ -15796,18 +15796,18 @@
     {
       "type": "registry",
       "name": "@umijs/bundler-esbuild",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-esbuild/-/bundler-esbuild-4.7.13.tgz",
-      "integrity": "sha512-0OefsLiXXAjKGoQbdvaFT7YU5aV84OysxQ2kY4ptyWtQYKFBsrA+7XLyp54zUfefA2+p+e5wB+WgxVWbmsWNUg==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-esbuild/-/bundler-esbuild-4.7.14.tgz",
+      "integrity": "sha512-TCg5EwZslrrTRSelYJM3BArpNAv3vu4kDblBtyEcq/NZyy54THO93ToxM97zvpwzWVj80SWEr0E9BlMemDHrQQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/bundler-esbuild@4.7.13",
+      "raw_locator": "@umijs/bundler-esbuild@4.7.14",
       "snapshot": {
         "dependencies": {
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/utils": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/utils": "4.7.14",
           "enhanced-resolve": "5.9.3",
           "postcss": "8.5.28",
           "postcss-flexbugs-fixes": "5.0.2(postcss@8.5.28)",
@@ -15833,7 +15833,7 @@
       "raw_locator": "@umijs/bundler-mako@0.11.10",
       "snapshot": {
         "dependencies": {
-          "@umijs/bundler-utils": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
           "@umijs/mako": "0.9.2",
           "chalk": "4.1.2",
           "compression": "1.8.1",
@@ -15856,17 +15856,17 @@
     {
       "type": "registry",
       "name": "@umijs/bundler-utils",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-utils/-/bundler-utils-4.7.13.tgz",
-      "integrity": "sha512-BF+ZKgnG1eiRGUFh/KJsph/DpUGcWMPO8a0GW6zYXAdV0DoBv75fb2LbvllGsvF+fq4PAGqDESeyJ+XWdi+SKA==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-utils/-/bundler-utils-4.7.14.tgz",
+      "integrity": "sha512-5xGAQ2ZEvXXudJz8NMeTRIxVvQCUoVZ5f/iOB+S3qmfTVP+vF+TbXW37j4zKyCnd5tyWUNMM/Wxb4gAUmMfEfA==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/bundler-utils@4.7.13",
+      "raw_locator": "@umijs/bundler-utils@4.7.14",
       "snapshot": {
         "dependencies": {
-          "@umijs/utils": "4.7.13",
+          "@umijs/utils": "4.7.14",
           "esbuild": "0.28.2",
           "regenerate": "1.4.2",
           "regenerate-unicode-properties": "10.1.1",
@@ -15882,30 +15882,30 @@
     {
       "type": "registry",
       "name": "@umijs/bundler-utoopack",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-utoopack/-/bundler-utoopack-4.7.13.tgz",
-      "integrity": "sha512-vpPthKwwD2d5r976rEXpyioapggNPOa6UJ0aP96ludrfhqyZqkD9tPbzctSLQa0OqD41rbcLef3CU7mEPzW20Q==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-utoopack/-/bundler-utoopack-4.7.14.tgz",
+      "integrity": "sha512-/fBu5uTkhiv0S3eFmV3kl0uzqTeGnNtojIbA3v8KTYeiLuzfIHDrNOjhR+ceNMoXdZATlUZuz2/yAVosoupR5w==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/bundler-utoopack@4.7.13",
+      "raw_locator": "@umijs/bundler-utoopack@4.7.14",
       "snapshot": {
         "dependencies": {
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/bundler-webpack": "4.7.13(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
-          "@utoo/pack": "1.5.14(less-loader@11.1.0(less@4.1.3)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))(less@4.1.3)(postcss@8.5.28)(resolve-url-loader@5.0.0)(sass-loader@13.2.0(sass@1.54.0)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))(sass@1.54.0)(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/bundler-webpack": "4.7.14(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "@utoo/pack": "1.5.14(less-loader@11.1.0(less@4.1.3)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))(less@4.1.3)(postcss@8.5.28)(resolve-url-loader@5.0.0)(sass-loader@13.2.0(sass@1.54.0)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)))(sass@1.54.0)(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))",
           "compression": "1.8.1",
           "connect-history-api-fallback": "2.0.0",
           "cors": "2.8.6",
           "express": "4.22.2",
           "express-http-proxy": "2.1.2",
           "less": "4.1.3",
-          "less-loader": "11.1.0(less@4.1.3)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "less-loader": "11.1.0(less@4.1.3)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "postcss": "8.5.28",
           "resolve-url-loader": "5.0.0",
           "sass": "1.54.0",
-          "sass-loader": "13.2.0(sass@1.54.0)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))"
+          "sass-loader": "13.2.0(sass@1.104.0)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))"
         },
         "transitivePeerDependencies": [
           "@types/webpack",
@@ -15931,20 +15931,20 @@
     {
       "type": "registry",
       "name": "@umijs/bundler-vite",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-vite/-/bundler-vite-4.7.13.tgz",
-      "integrity": "sha512-AYVxkDR6HxRBnbxcGgQ4fw2KnAbrVEsqcXujqbPuTqA1m7FSx7ctzx4aUuil759kinAlf8Wy2yIIhzKmr48LJg==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-vite/-/bundler-vite-4.7.14.tgz",
+      "integrity": "sha512-puEORHdBqv5SvI0BCaSLsyREMh/Qyh1B/ts4Jr9FjJpS+HRusgjXR0DBbvbBPOMQ2qWqXTLjKqYsDaiMeCE8Vw==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/bundler-vite@4.7.13",
+      "raw_locator": "@umijs/bundler-vite@4.7.14",
       "snapshot": {
         "dependencies": {
           "@svgr/core": "6.5.1",
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/bundler-webpack": "4.7.13(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
-          "@umijs/utils": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/bundler-webpack": "4.7.14(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "@umijs/utils": "4.7.14",
           "@vitejs/plugin-react": "5.2.0(vite@7.3.6(@types/node@20.19.43)(jiti@1.21.7)(less@4.1.3)(lightningcss@1.22.1)(sass@1.104.0)(sugarss@2.0.0)(terser@5.49.0)(yaml@2.9.0))",
           "core-js": "3.34.0",
           "less": "4.1.3",
@@ -15952,7 +15952,7 @@
           "rollup-plugin-visualizer": "6.0.11(rollup@4.63.1)",
           "systemjs": "6.15.1",
           "terser": "5.49.0",
-          "vite": "7.3.6(@types/node@20.19.43)(jiti@1.21.7)(less@4.1.3)(lightningcss@1.22.1)(sass@1.54.0)(sugarss@2.0.0)(terser@5.49.0)(yaml@2.9.0)"
+          "vite": "7.3.6(@types/node@20.19.43)(jiti@1.21.7)(less@4.1.3)(lightningcss@1.22.1)(sass@1.104.0)(sugarss@2.0.0)(terser@5.49.0)(yaml@2.9.0)"
         },
         "transitivePeerDependencies": [
           "@types/node",
@@ -15984,30 +15984,30 @@
     {
       "type": "registry",
       "name": "@umijs/bundler-webpack",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-webpack/-/bundler-webpack-4.7.13.tgz",
-      "integrity": "sha512-MRPXqQwPzdnX4VwMJ2TJdr+x/AIed4RubhqQ1xQJNHZ1VkId7x1VFoh9wuKNs/HorMGmRQJq3FLvmOzM8gPqfA==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/bundler-webpack/-/bundler-webpack-4.7.14.tgz",
+      "integrity": "sha512-+o4cnmA7PwhFMLTe6d8eIgaU55Zsjb+8Q7h+CofWX8H0Pd13ft2O7ahnSIJ6ZfcefDnnOj521/bApoJZNMtl1A==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/bundler-webpack@4.7.13",
+      "raw_locator": "@umijs/bundler-webpack@4.7.14",
       "snapshot": {
         "dependencies": {
           "@svgr/core": "6.5.1",
           "@svgr/plugin-jsx": "6.5.1(@svgr/core@6.5.1)",
           "@svgr/plugin-svgo": "6.5.1(@svgr/core@6.5.1)",
           "@types/hapi__joi": "17.1.9",
-          "@umijs/babel-preset-umi": "4.7.13",
-          "@umijs/bundler-utils": "4.7.13",
+          "@umijs/babel-preset-umi": "4.7.14",
+          "@umijs/bundler-utils": "4.7.14",
           "@umijs/case-sensitive-paths-webpack-plugin": "1.0.1",
-          "@umijs/mfsu": "4.7.13",
-          "@umijs/react-refresh-webpack-plugin": "0.5.11(react-refresh@0.14.0)(type-fest@0.21.3)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
-          "@umijs/utils": "4.7.13",
+          "@umijs/mfsu": "4.7.14",
+          "@umijs/react-refresh-webpack-plugin": "0.5.11(react-refresh@0.14.0)(type-fest@0.21.3)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "@umijs/utils": "4.7.14",
           "cors": "2.8.6",
-          "css-loader": "6.7.1(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "css-loader": "6.7.1(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "es5-imcompatible-versions": "0.1.90",
-          "fork-ts-checker-webpack-plugin": "8.0.0(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "fork-ts-checker-webpack-plugin": "8.0.0(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "jest-worker": "29.4.3",
           "lightningcss": "1.22.1",
           "node-libs-browser": "2.2.1",
@@ -16049,18 +16049,18 @@
     {
       "type": "registry",
       "name": "@umijs/core",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/core/-/core-4.7.13.tgz",
-      "integrity": "sha512-Ycl2tv1QrcYgtPZelECuaTUFJAS4ojrBg5+HtpaDTEGCbbQ1vvvz6PLkZV8RdZ15Ji1x5hz6PO2bTbd7CuiBTw==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/core/-/core-4.7.14.tgz",
+      "integrity": "sha512-5/drKO+fdbgNc2D4E/OY3bIIeLvb/QFrK3qFiyQUl70Sb9ERrlov/fOVySW3aIDXUsDQX1TwfAO9B8Heaav7Dw==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/core@4.7.13",
+      "raw_locator": "@umijs/core@4.7.14",
       "snapshot": {
         "dependencies": {
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/utils": "4.7.13"
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/utils": "4.7.14"
         },
         "transitivePeerDependencies": [
           "supports-color"
@@ -16340,19 +16340,19 @@
     {
       "type": "registry",
       "name": "@umijs/mfsu",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/mfsu/-/mfsu-4.7.13.tgz",
-      "integrity": "sha512-23+k/f0bnrtLakV4FBVeWHby1hstGjt2O0sPjl3/Ac78DGdoYI+gEXpk6CKy/HZc3+Tkvr/1WweMveK00rEGJQ==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/mfsu/-/mfsu-4.7.14.tgz",
+      "integrity": "sha512-s+JdH0C4kuIh9q+7pzlT+aioN9BKxyqjN0KUEDXteMeExD/NwVrabGfagOq5kK2pjLyFDvwkJyOAYUhdXnfmnA==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/mfsu@4.7.13",
+      "raw_locator": "@umijs/mfsu@4.7.14",
       "snapshot": {
         "dependencies": {
-          "@umijs/bundler-esbuild": "4.7.13",
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/utils": "4.7.13",
+          "@umijs/bundler-esbuild": "4.7.14",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/utils": "4.7.14",
           "enhanced-resolve": "5.9.3",
           "is-equal": "1.8.0"
         },
@@ -16366,17 +16366,17 @@
     {
       "type": "registry",
       "name": "@umijs/plugin-run",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/plugin-run/-/plugin-run-4.7.13.tgz",
-      "integrity": "sha512-KFJWsKt679jzXeO1a+7PLRkGWlJwZ91/xWqbKiKSOI0Gu+V4STZknaITYt/aObXl+7u2TR1NYyUuLCvxc9BQag==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/plugin-run/-/plugin-run-4.7.14.tgz",
+      "integrity": "sha512-xpoZtksjl4/VL7xDf15DKMRMDafzB5nLUyb2id/qCDOyk4MX2AXtwQsJTpNVh3d9lIFA/Q5JnYVFdQScHEuT3w==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/plugin-run@4.7.13",
+      "raw_locator": "@umijs/plugin-run@4.7.14",
       "snapshot": {
         "dependencies": {
-          "@umijs/utils": "4.7.13",
+          "@umijs/utils": "4.7.14",
           "tsx": "3.12.2"
         }
       },
@@ -16386,37 +16386,37 @@
     {
       "type": "registry",
       "name": "@umijs/preset-umi",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/preset-umi/-/preset-umi-4.7.13.tgz",
-      "integrity": "sha512-3WDlgRoXxK263l2rXKzJ1TUNIzDfPpbJdat04y5N0EFK8zZmK097dpKCGx5thK7jXBJGRj0Lk1Ob4xfzpQAU7A==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/preset-umi/-/preset-umi-4.7.14.tgz",
+      "integrity": "sha512-BOrWjI0APkGVGzXxsgLFLV9ieKN46ILrasiWJj4JtxHjnl+BLNEZgDAtD16duNJwNhgYyx9KQCXk8kgvSlQaBw==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/preset-umi@4.7.13",
+      "raw_locator": "@umijs/preset-umi@4.7.14",
       "snapshot": {
         "dependencies": {
           "@iconify/utils": "2.1.1",
           "@stagewise/toolbar": "0.6.2",
           "@svgr/core": "6.5.1",
-          "@umijs/ast": "4.7.13",
-          "@umijs/babel-preset-umi": "4.7.13",
-          "@umijs/bundler-esbuild": "4.7.13",
+          "@umijs/ast": "4.7.14",
+          "@umijs/babel-preset-umi": "4.7.14",
+          "@umijs/bundler-esbuild": "4.7.14",
           "@umijs/bundler-mako": "0.11.10",
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/bundler-utoopack": "4.7.13(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
-          "@umijs/bundler-vite": "4.7.13(@types/node@20.19.43)(jiti@1.21.7)(lightningcss@1.22.1)(postcss@8.5.28)(rollup@4.63.1)(sass@1.104.0)(sugarss@2.0.0)(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))(yaml@2.9.0)",
-          "@umijs/bundler-webpack": "4.7.13(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
-          "@umijs/core": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/bundler-utoopack": "4.7.14(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "@umijs/bundler-vite": "4.7.14(@types/node@20.19.43)(jiti@1.21.7)(lightningcss@1.22.1)(postcss@8.5.28)(rollup@4.63.1)(sass@1.104.0)(sugarss@2.0.0)(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))(yaml@2.9.0)",
+          "@umijs/bundler-webpack": "4.7.14(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "@umijs/core": "4.7.14",
           "@umijs/did-you-know": "1.0.4",
           "@umijs/history": "5.3.1",
-          "@umijs/mfsu": "4.7.13",
-          "@umijs/plugin-run": "4.7.13",
-          "@umijs/renderer-react": "4.7.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)",
-          "@umijs/server": "4.7.13",
+          "@umijs/mfsu": "4.7.14",
+          "@umijs/plugin-run": "4.7.14",
+          "@umijs/renderer-react": "4.7.14(react-dom@18.3.1(react@18.3.1))(react@18.3.1)",
+          "@umijs/server": "4.7.14",
           "@umijs/ui": "3.0.1",
-          "@umijs/utils": "4.7.13",
-          "@umijs/zod2ts": "4.7.13",
+          "@umijs/utils": "4.7.14",
+          "@umijs/zod2ts": "4.7.14",
           "babel-plugin-dynamic-import-node": "2.3.3",
           "babel-plugin-react-compiler": "1.0.0",
           "click-to-react-component": "1.1.3(@types/react@19.2.18)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)",
@@ -16424,7 +16424,7 @@
           "current-script-polyfill": "1.0.0",
           "enhanced-resolve": "5.9.3",
           "fast-glob": "3.2.12",
-          "html-webpack-plugin": "5.5.0(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "html-webpack-plugin": "5.5.0(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "less-plugin-resolve": "1.0.2",
           "path-to-regexp": "1.7.0",
           "postcss": "8.5.28",
@@ -16490,7 +16490,7 @@
           "react-refresh": "0.14.0",
           "schema-utils": "3.3.0",
           "source-map": "0.7.6",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         },
         "optionalDependencies": {
           "type-fest": "0.21.3"
@@ -16502,19 +16502,19 @@
     {
       "type": "registry",
       "name": "@umijs/renderer-react",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/renderer-react/-/renderer-react-4.7.13.tgz",
-      "integrity": "sha512-uvSXQ392+WgwGp5dNDNvNperh/zwViiBnLBsIGdKYgpenlhvgyzRgOQVCFIPRb/y1jWlGooUj5H6PGXfC0kkRA==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/renderer-react/-/renderer-react-4.7.14.tgz",
+      "integrity": "sha512-h+ewsPnUTs0RLXsFOEFovugOwmA+fj/BBrlOeJue9d7ZJ9E5lLbcgHXDCfRNBUG0tyI3Za3RpU9AzeYDeM2dPA==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/renderer-react@4.7.13",
+      "raw_locator": "@umijs/renderer-react@4.7.14",
       "snapshot": {
         "dependencies": {
           "@babel/runtime": "7.23.6",
           "@loadable/component": "5.15.2(react@18.3.1)",
-          "@umijs/server": "4.7.13",
+          "@umijs/server": "4.7.14",
           "history": "5.3.0",
           "react": "18.3.1",
           "react-dom": "18.3.1(react@18.3.1)",
@@ -16546,17 +16546,17 @@
     {
       "type": "registry",
       "name": "@umijs/server",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/server/-/server-4.7.13.tgz",
-      "integrity": "sha512-NoQTWe+Uf6zDw9jBDLJc+KkcvPmz9I7GzTdv14zogDaHqCiNVPVbgz0AvpRpM9bZCCgUEXxffvzxdSE6lSczvA==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/server/-/server-4.7.14.tgz",
+      "integrity": "sha512-MZ8fTuigk/3Rx4Y2gnstsW6WkKPymH8JY6GBwk1vKkz2KYtATJfjAse+/2/qucYjagJDF5J3VV7eUeUjaRCA7A==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/server@4.7.13",
+      "raw_locator": "@umijs/server@4.7.14",
       "snapshot": {
         "dependencies": {
-          "@umijs/bundler-utils": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
           "history": "5.3.0",
           "react": "18.3.1",
           "react-dom": "18.3.1(react@18.3.1)",
@@ -16572,20 +16572,20 @@
     {
       "type": "registry",
       "name": "@umijs/test",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/test/-/test-4.7.13.tgz",
-      "integrity": "sha512-VBXac62cvg5qlvXiGtXL9Fol/GnGublV/j3CnpxiRcmibUrfmBydtjzxrQW6nrkt3I90Q9Mom/82pdduDVEIMA==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/test/-/test-4.7.14.tgz",
+      "integrity": "sha512-NqYY/ZjOBnDVZ0bjXweYBwG3vAI+iDVVQttJ3m89Qa9qfrHiBdpZJLS7N5NGWgqHi+Q+XfTiUdiZi+xY+JRJ7Q==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/test@4.7.13",
+      "raw_locator": "@umijs/test@4.7.14",
       "snapshot": {
         "dependencies": {
           "@babel/plugin-transform-modules-commonjs": "7.23.3(@babel/core@7.29.7)",
           "@jest/types": "27.5.1",
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/utils": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/utils": "4.7.14",
           "babel-jest": "29.7.0(@babel/core@7.29.7)",
           "identity-obj-proxy": "3.0.0",
           "isomorphic-unfetch": "4.0.2"
@@ -16635,14 +16635,14 @@
     {
       "type": "registry",
       "name": "@umijs/utils",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/utils/-/utils-4.7.13.tgz",
-      "integrity": "sha512-s8PrFFQZxur63NFeuQQF+ta9Lbs4CXLZQFZbqcjiuRdMUNEfj0c7+pINTRlzQld8NxdH4MZ6mvKMEFVZHFqE8Q==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/utils/-/utils-4.7.14.tgz",
+      "integrity": "sha512-8m4S9p/wj3nu1aNTZyglfNPPBYunfMsjOhJ5kKdMh64Oi1Go551mDY1DlOFHpDRG1PA+yJ9o8jWZG1FWvWMcLA==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/utils@4.7.13",
+      "raw_locator": "@umijs/utils@4.7.14",
       "snapshot": {
         "dependencies": {
           "chokidar": "3.5.3",
@@ -16655,14 +16655,14 @@
     {
       "type": "registry",
       "name": "@umijs/zod2ts",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/@umijs/zod2ts/-/zod2ts-4.7.13.tgz",
-      "integrity": "sha512-EuE8L19PBFE3vB1fL4Orv+rFpnZ6nAP2gM/6bPl1GFNWA4jvTSYtdT/NePhEWsj+g5Ry7JWR8Lhb/NUE8aJSUA==",
+      "resolved_url": "https://registry.npmjs.org/@umijs/zod2ts/-/zod2ts-4.7.14.tgz",
+      "integrity": "sha512-WTiR8Zc8MKdi4wy6DZOgw/QFOQudpwE8umu2uIsaa/jRE5O6dbeyXGZdw8tu+CP9HX3GnxtbAidjg/KE+rp2tQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "@umijs/zod2ts@4.7.13",
+      "raw_locator": "@umijs/zod2ts@4.7.14",
       "snapshot": {},
       "profile_id": "swesmith/antvis__G6.91c0ac85",
       "dependency_root": "."
@@ -16835,24 +16835,24 @@
       "snapshot": {
         "dependencies": {
           "@babel/code-frame": "7.22.5",
-          "@hono/node-server": "1.19.17(hono@4.13.5)",
-          "@hono/node-ws": "1.3.1(@hono/node-server@1.19.17(hono@4.13.5))(hono@4.13.5)",
+          "@hono/node-server": "1.19.17(hono@4.13.7)",
+          "@hono/node-ws": "1.3.1(@hono/node-server@1.19.17(hono@4.13.7))(hono@4.13.7)",
           "@jridgewell/trace-mapping": "0.3.31",
           "@swc/helpers": "0.5.15",
           "@utoo/pack-shared": "1.5.14",
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "domparser-rs": "0.0.7",
           "find-up": "4.1.0",
           "get-port": "5.1.1",
-          "hono": "4.13.5",
+          "hono": "4.13.7",
           "less": "4.1.3",
-          "less-loader": "11.1.0(less@4.1.3)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "less-loader": "11.1.0(less@4.1.3)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "nanoid": "3.3.18",
           "picocolors": "1.1.1",
           "postcss": "8.5.28",
           "resolve-url-loader": "5.0.0",
           "sass": "1.54.0",
-          "sass-loader": "13.2.0(sass@1.54.0)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "sass-loader": "13.2.0(sass@1.104.0)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "semver": "7.8.5",
           "send": "0.17.1",
           "styled-jsx": "5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8)",
@@ -16910,7 +16910,7 @@
           "@rolldown/pluginutils": "1.0.0-rc.3",
           "@types/babel__core": "7.20.5",
           "react-refresh": "0.18.0",
-          "vite": "7.3.6(@types/node@20.19.43)(jiti@1.21.7)(less@4.1.3)(lightningcss@1.22.1)(sass@1.54.0)(sugarss@2.0.0)(terser@5.49.0)(yaml@2.9.0)"
+          "vite": "7.3.6(@types/node@20.19.43)(jiti@1.21.7)(less@4.1.3)(lightningcss@1.22.1)(sass@1.104.0)(sugarss@2.0.0)(terser@5.49.0)(yaml@2.9.0)"
         },
         "transitivePeerDependencies": [
           "supports-color"
@@ -17238,7 +17238,7 @@
       "raw_locator": "@webpack-cli/configtest@2.1.1",
       "snapshot": {
         "dependencies": {
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(svgo@3.3.5)(webpack-cli@5.1.4)",
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(svgo@3.3.5)(webpack-cli@5.1.4)",
           "webpack-cli": "5.1.4(webpack@5.110.3)"
         }
       },
@@ -17258,7 +17258,7 @@
       "raw_locator": "@webpack-cli/info@2.0.2",
       "snapshot": {
         "dependencies": {
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(svgo@3.3.5)(webpack-cli@5.1.4)",
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(svgo@3.3.5)(webpack-cli@5.1.4)",
           "webpack-cli": "5.1.4(webpack@5.110.3)"
         }
       },
@@ -17278,7 +17278,7 @@
       "raw_locator": "@webpack-cli/serve@2.0.5",
       "snapshot": {
         "dependencies": {
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(svgo@3.3.5)(webpack-cli@5.1.4)",
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(svgo@3.3.5)(webpack-cli@5.1.4)",
           "webpack-cli": "5.1.4(webpack@5.110.3)"
         }
       },
@@ -17669,17 +17669,17 @@
     {
       "type": "registry",
       "name": "ai",
-      "version": "5.0.252",
+      "version": "5.0.253",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/ai/-/ai-5.0.252.tgz",
-      "integrity": "sha512-DeSj6rUyptyv+dL31CBNBReWVUsFVmQWf+m3SRyPhIIVLKsNqvIg1g7fC5tdMqL/iYwffltxGvS9dA6e0Txu5w==",
+      "resolved_url": "https://registry.npmjs.org/ai/-/ai-5.0.253.tgz",
+      "integrity": "sha512-Z784HqUI3GOYiK/CACH9H8A7aqf67cuUnNslS2+//TJZZzCCFuQq6L2socSkIeVGkB8kC4arThXAYl6lWOq/lQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "ai@5.0.252",
+      "raw_locator": "ai@5.0.253",
       "snapshot": {
         "dependencies": {
-          "@ai-sdk/gateway": "2.0.146(zod@3.25.76)",
+          "@ai-sdk/gateway": "2.0.147(zod@3.25.76)",
           "@ai-sdk/provider": "2.0.3",
           "@ai-sdk/provider-utils": "3.0.36(zod@3.25.76)",
           "@opentelemetry/api": "1.9.0",
@@ -18969,17 +18969,17 @@
     {
       "type": "registry",
       "name": "autoprefixer",
-      "version": "10.5.4",
+      "version": "10.5.5",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.4.tgz",
-      "integrity": "sha512-MaU0U/za7N3r6brxD4YB/l4NSrFzLPlANv6wEuQVaIPlD3L4W9rFcQPbL/EilY9BHhHvhfcz3gInDLrEtWT4EA==",
+      "resolved_url": "https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.5.5.tgz",
+      "integrity": "sha512-uiRYvQYe/nNSzBJ7OUnd2/TZVsAdob3blml44teEpee9Cc1f4rGZFewO+JT3Wo8mgFOSzNqes4FHZn/Qz8WOuw==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "autoprefixer@10.5.4",
+      "raw_locator": "autoprefixer@10.5.5",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "caniuse-lite": "1.0.30001810",
           "fraction.js": "5.3.4",
           "picocolors": "1.1.1",
@@ -19003,7 +19003,7 @@
       "raw_locator": "autoprefixer@9.8.8",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "caniuse-lite": "1.0.30001810",
           "normalize-range": "0.1.2",
           "num2fraction": "1.2.2",
@@ -19159,7 +19159,7 @@
           "find-up": "5.0.0"
         },
         "optionalDependencies": {
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -20141,21 +20141,21 @@
     {
       "type": "registry",
       "name": "browserslist",
-      "version": "4.28.8",
+      "version": "4.28.9",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.8.tgz",
-      "integrity": "sha512-V2NpofLblG64mfOtSgDhOJESZEGogzDMBv/q+W6oc4LXWP/q75eOXoOaaOu1EOadB9U4Bwx/e0yzbvwKH8zalA==",
+      "resolved_url": "https://registry.npmjs.org/browserslist/-/browserslist-4.28.9.tgz",
+      "integrity": "sha512-EWazOblFYUvlGZcfGhPUPmYh3nikUxBVb+y9MJun5f3hBi812X+8MSQTujLBtgK3cf51fJWbWfOjyeO954d+Eg==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "browserslist@4.28.8",
+      "raw_locator": "browserslist@4.28.9",
       "snapshot": {
         "dependencies": {
           "baseline-browser-mapping": "2.11.21",
           "caniuse-lite": "1.0.30001810",
           "electron-to-chromium": "1.5.422",
           "node-releases": "2.0.54",
-          "update-browserslist-db": "1.3.2(browserslist@4.28.8)"
+          "update-browserslist-db": "1.3.2(browserslist@4.28.9)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -20827,7 +20827,7 @@
       "raw_locator": "caniuse-api@3.0.0",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "caniuse-lite": "1.0.30001810",
           "lodash.memoize": "4.1.2",
           "lodash.uniq": "4.5.0"
@@ -21183,7 +21183,7 @@
           "parse5": "7.3.0",
           "parse5-htmlparser2-tree-adapter": "7.1.0",
           "parse5-parser-stream": "7.1.2",
-          "undici": "7.29.0",
+          "undici": "7.29.1",
           "whatwg-mimetype": "4.0.0"
         }
       },
@@ -22732,7 +22732,7 @@
       "raw_locator": "core-js-compat@3.50.0",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8"
+          "browserslist": "4.28.9"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -22991,7 +22991,7 @@
           "chalk": "4.1.2",
           "exit": "0.1.2",
           "graceful-fs": "4.2.11",
-          "jest-config": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.1)(@types/node@20.19.43)(typescript@5.9.3))",
+          "jest-config": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.2)(@types/node@20.19.43)(typescript@5.9.3))",
           "jest-util": "29.7.0",
           "prompts": "2.4.2"
         },
@@ -23328,7 +23328,7 @@
           "postcss-modules-values": "4.0.0(postcss@8.5.28)",
           "postcss-value-parser": "4.2.0",
           "semver": "7.8.5",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -23683,7 +23683,7 @@
       "raw_locator": "cssnano-preset-default@7.0.17",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "css-declaration-sorter": "7.4.0(postcss@8.5.28)",
           "cssnano-utils": "5.0.3(postcss@8.5.28)",
           "postcss": "8.5.28",
@@ -26069,9 +26069,9 @@
           "@swc/core": "1.9.2(@swc/helpers@0.5.15)",
           "@types/hast": "2.3.10",
           "@types/mdast": "3.0.15",
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/core": "4.7.13",
-          "@umijs/utils": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/core": "4.7.14",
+          "@umijs/utils": "4.7.14",
           "animated-scroll-to": "2.3.2",
           "classnames": "2.3.2",
           "codesandbox": "2.2.3",
@@ -26102,7 +26102,7 @@
           "prism-react-renderer": "1.3.5(react@19.2.8)",
           "prism-themes": "1.9.0",
           "prismjs": "1.30.0",
-          "raw-loader": "4.0.2(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "raw-loader": "4.0.2(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "rc-motion": "2.9.5(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
           "rc-tabs": "12.15.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
           "rc-tooltip": "6.4.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
@@ -26126,7 +26126,7 @@
           "sass": "1.104.0",
           "sitemap": "7.1.3",
           "sucrase": "3.35.1",
-          "umi": "4.7.13(@babel/core@7.29.7)(@types/node@20.19.43)(@types/react@19.2.18)(jiti@1.21.7)(lightningcss@1.22.1)(prettier@3.9.6)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.63.1)(sass@1.104.0)(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))(sugarss@2.0.0)(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))(yaml@2.9.0)",
+          "umi": "4.7.14(@babel/core@7.29.7)(@types/node@20.19.43)(@types/react@19.2.18)(jiti@1.21.7)(lightningcss@1.22.1)(prettier@3.9.6)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)(rollup@4.63.1)(sass@1.104.0)(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))(sugarss@2.0.0)(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))(yaml@2.9.0)",
           "unified": "10.1.2",
           "unist-util-visit": "4.1.2",
           "unist-util-visit-parents": "5.1.3",
@@ -29851,7 +29851,7 @@
           "semver": "7.8.5",
           "tapable": "2.3.3",
           "typescript": "4.9.5",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -30305,23 +30305,6 @@
       "dependencies": {},
       "raw_locator": "fs.realpath@1.0.0",
       "snapshot": {},
-      "profile_id": "swesmith/antvis__G6.91c0ac85",
-      "dependency_root": "."
-    },
-    {
-      "type": "registry",
-      "name": "fsevents",
-      "version": "2.3.2",
-      "optional": false,
-      "dev": false,
-      "resolved_url": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz",
-      "integrity": "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==",
-      "source": "https://registry.npmjs.org/",
-      "dependencies": {},
-      "raw_locator": "fsevents@2.3.2",
-      "snapshot": {
-        "optional": true
-      },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
       "dependency_root": "."
     },
@@ -32643,14 +32626,14 @@
     {
       "type": "registry",
       "name": "hono",
-      "version": "4.13.5",
+      "version": "4.13.7",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/hono/-/hono-4.13.5.tgz",
-      "integrity": "sha512-O6+/eCYRkzzzy0rPWwKLiGBR1nFuUPZynnwjxN1MBA62NNqbT0wQEzQyK2gSO5yDIDB336sXQleAhOHrzlYyKw==",
+      "resolved_url": "https://registry.npmjs.org/hono/-/hono-4.13.7.tgz",
+      "integrity": "sha512-c8/gF9ac8Y78/agExVocyLevgR+JlpNB444Py0FSX8pJoPdYUfUzRcXtYEYGwt6l19qIlVZPN5Mfsw9jFShmQQ==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "hono@4.13.5",
+      "raw_locator": "hono@4.13.7",
       "snapshot": {},
       "profile_id": "swesmith/antvis__G6.91c0ac85",
       "dependency_root": "."
@@ -32977,7 +32960,7 @@
           "lodash": "4.18.1",
           "pretty-error": "4.0.0",
           "tapable": "2.3.3",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -34281,7 +34264,7 @@
       "snapshot": {
         "dependencies": {
           "glob": "11.1.0",
-          "playwright": "1.62.1",
+          "playwright": "1.63.0",
           "systeminformation": "5.33.8",
           "vite": "5.4.21(@types/node@20.19.43)(less@4.9.1)(lightningcss@1.22.1)(sass@1.104.0)(sugarss@2.0.0)(terser@5.51.2)",
           "ws": "8.21.3"
@@ -36265,14 +36248,14 @@
       "raw_locator": "jest-cli@29.7.0",
       "snapshot": {
         "dependencies": {
-          "@jest/core": "29.7.0(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.1)(@types/node@20.19.43)(typescript@5.9.3))",
+          "@jest/core": "29.7.0(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.2)(@types/node@20.19.43)(typescript@5.9.3))",
           "@jest/test-result": "29.7.0",
           "@jest/types": "29.6.3",
           "chalk": "4.1.2",
-          "create-jest": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.1)(@types/node@20.19.43)(typescript@5.9.3))",
+          "create-jest": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.2)(@types/node@20.19.43)(typescript@5.9.3))",
           "exit": "0.1.2",
           "import-local": "3.2.0",
-          "jest-config": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.1)(@types/node@20.19.43)(typescript@5.9.3))",
+          "jest-config": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.2)(@types/node@20.19.43)(typescript@5.9.3))",
           "jest-util": "29.7.0",
           "jest-validate": "29.7.0",
           "yargs": "17.7.3"
@@ -36325,7 +36308,7 @@
         },
         "optionalDependencies": {
           "@types/node": "20.19.43",
-          "ts-node": "10.9.2(@swc/core@1.16.1)(@types/node@20.19.43)(typescript@5.9.3)"
+          "ts-node": "10.9.2(@swc/core@1.16.2)(@types/node@20.19.43)(typescript@5.9.3)"
         },
         "transitivePeerDependencies": [
           "babel-plugin-macros",
@@ -36983,10 +36966,10 @@
       "raw_locator": "jest@29.7.0",
       "snapshot": {
         "dependencies": {
-          "@jest/core": "29.7.0(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.1)(@types/node@20.19.43)(typescript@5.9.3))",
+          "@jest/core": "29.7.0(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.2)(@types/node@20.19.43)(typescript@5.9.3))",
           "@jest/types": "29.6.3",
           "import-local": "3.2.0",
-          "jest-cli": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.1)(@types/node@20.19.43)(typescript@5.9.3))"
+          "jest-cli": "29.7.0(@types/node@20.19.43)(babel-plugin-macros@3.1.0)(ts-node@10.9.2(@swc/core@1.16.2)(@types/node@20.19.43)(typescript@5.9.3))"
         },
         "transitivePeerDependencies": [
           "@types/node",
@@ -37925,7 +37908,7 @@
         "dependencies": {
           "klona": "2.0.6",
           "less": "4.1.3",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -42187,7 +42170,7 @@
         "dependencies": {
           "schema-utils": "4.3.3",
           "tapable": "2.3.3",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -42390,10 +42373,10 @@
           "jest-worker": "27.5.1",
           "schema-utils": "4.3.3",
           "terser": "5.51.2",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         },
         "optionalDependencies": {
-          "@swc/core": "1.16.1",
+          "@swc/core": "1.16.2",
           "lightningcss": "1.22.1",
           "postcss": "8.5.28",
           "svgo": "3.3.5"
@@ -42550,7 +42533,7 @@
       "raw_locator": "mkdist@1.6.0",
       "snapshot": {
         "dependencies": {
-          "autoprefixer": "10.5.4(postcss@8.5.28)",
+          "autoprefixer": "10.5.5(postcss@8.5.28)",
           "citty": "0.1.6",
           "cssnano": "7.1.9(postcss@8.5.28)",
           "defu": "6.1.7",
@@ -45778,14 +45761,14 @@
     {
       "type": "registry",
       "name": "playwright-core",
-      "version": "1.62.1",
+      "version": "1.63.0",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.62.1.tgz",
-      "integrity": "sha512-wPYSwEBJY9GHraISXqyqtx0na0LpO3XEX7jNDhntbex7tzUS7kLnZsOlFruFJB4Hi/rhDMjXGqHewDZ68nYZVw==",
+      "resolved_url": "https://registry.npmjs.org/playwright-core/-/playwright-core-1.63.0.tgz",
+      "integrity": "sha512-rYCsBF/M5HjUch52bbtVONEFjv6Xu8sm8h72dNlR5bzIE1fvC/bxgspzkjSfU+MweEMmPM8KJebG6nnyxo5mCg==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "playwright-core@1.62.1",
+      "raw_locator": "playwright-core@1.63.0",
       "snapshot": {},
       "profile_id": "swesmith/antvis__G6.91c0ac85",
       "dependency_root": "."
@@ -45793,20 +45776,17 @@
     {
       "type": "registry",
       "name": "playwright",
-      "version": "1.62.1",
+      "version": "1.63.0",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/playwright/-/playwright-1.62.1.tgz",
-      "integrity": "sha512-0M+L3LAD8/nm554LOla9Ayx0j0tmFZ0FBcoQ7F1VuVHpM/XpiC8RcDzBQB8W5+hA8L22THxELzeF+2WcUzvcLg==",
+      "resolved_url": "https://registry.npmjs.org/playwright/-/playwright-1.63.0.tgz",
+      "integrity": "sha512-+7ziBLidS4NaNCdt57SUDT+wYmmd5fmiQejUic/kb+YsYSCPyOOE9sebzMjNmQrsnNpDJqd4WHvV/8lfKfUDUg==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "playwright@1.62.1",
+      "raw_locator": "playwright@1.63.0",
       "snapshot": {
         "dependencies": {
-          "playwright-core": "1.62.1"
-        },
-        "optionalDependencies": {
-          "fsevents": "2.3.2"
+          "playwright-core": "1.63.0"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -46046,7 +46026,7 @@
       "snapshot": {
         "dependencies": {
           "@colordx/core": "5.8.0",
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "caniuse-api": "3.0.0",
           "postcss": "8.5.28",
           "postcss-value-parser": "4.2.0"
@@ -46068,7 +46048,7 @@
       "raw_locator": "postcss-convert-values@7.0.12",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "postcss": "8.5.28",
           "postcss-value-parser": "4.2.0"
         }
@@ -46386,7 +46366,7 @@
         "dependencies": {
           "htmlparser2": "3.10.1",
           "postcss": "7.0.39",
-          "postcss-syntax": "0.36.2(postcss@8.5.28)"
+          "postcss-syntax": "0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -46643,7 +46623,7 @@
       "raw_locator": "postcss-merge-rules@7.0.11",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "caniuse-api": "3.0.0",
           "cssnano-utils": "5.0.3(postcss@8.5.28)",
           "postcss": "8.5.28",
@@ -46708,7 +46688,7 @@
       "raw_locator": "postcss-minify-params@7.0.9",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "cssnano-utils": "5.0.3(postcss@8.5.28)",
           "postcss": "8.5.28",
           "postcss-value-parser": "4.2.0"
@@ -46730,7 +46710,7 @@
       "raw_locator": "postcss-minify-selectors@7.1.2",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "caniuse-api": "3.0.0",
           "cssesc": "3.0.0",
           "postcss": "8.5.28",
@@ -46994,7 +46974,7 @@
       "raw_locator": "postcss-normalize-unicode@7.0.9",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "postcss": "8.5.28",
           "postcss-value-parser": "4.2.0"
         }
@@ -47183,8 +47163,8 @@
           "@csstools/postcss-progressive-custom-properties": "1.3.0(postcss@8.5.28)",
           "@csstools/postcss-stepped-value-functions": "1.0.1(postcss@8.5.28)",
           "@csstools/postcss-unset-value": "1.0.2(postcss@8.5.28)",
-          "autoprefixer": "10.5.4(postcss@8.5.28)",
-          "browserslist": "4.28.8",
+          "autoprefixer": "10.5.5(postcss@8.5.28)",
+          "browserslist": "4.28.9",
           "css-blank-pseudo": "3.0.3(postcss@8.5.28)",
           "css-has-pseudo": "3.0.4(postcss@8.5.28)",
           "css-prefers-color-scheme": "6.0.3(postcss@8.5.28)",
@@ -47257,7 +47237,7 @@
       "raw_locator": "postcss-reduce-initial@7.0.9",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "caniuse-api": "3.0.0",
           "postcss": "8.5.28"
         }
@@ -47491,7 +47471,12 @@
       "raw_locator": "postcss-syntax@0.36.2",
       "snapshot": {
         "dependencies": {
-          "postcss": "8.5.28"
+          "postcss": "7.0.39"
+        },
+        "optionalDependencies": {
+          "postcss-html": "0.36.0(postcss-syntax@0.36.2(postcss@8.5.28))(postcss@7.0.39)",
+          "postcss-less": "3.1.4",
+          "postcss-scss": "2.1.1"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -48802,7 +48787,7 @@
         "dependencies": {
           "loader-utils": "2.0.4",
           "schema-utils": "3.3.0",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -52789,10 +52774,10 @@
         "dependencies": {
           "klona": "2.0.6",
           "neo-async": "2.6.2",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         },
         "optionalDependencies": {
-          "sass": "1.54.0"
+          "sass": "1.104.0"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -55785,7 +55770,7 @@
       "raw_locator": "stylehacks@7.0.11",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "postcss": "8.5.28",
           "postcss-selector-parser": "7.1.6"
         }
@@ -55902,8 +55887,8 @@
       "raw_locator": "stylelint@13.13.1",
       "snapshot": {
         "dependencies": {
-          "@stylelint/postcss-css-in-js": "0.37.3(postcss-syntax@0.36.2)(postcss@7.0.39)",
-          "@stylelint/postcss-markdown": "0.36.2(postcss-syntax@0.36.2)(postcss@7.0.39)",
+          "@stylelint/postcss-css-in-js": "0.37.3(postcss-syntax@0.36.2(postcss@8.5.28))(postcss@7.0.39)",
+          "@stylelint/postcss-markdown": "0.36.2(postcss-syntax@0.36.2(postcss@8.5.28))(postcss@7.0.39)",
           "autoprefixer": "9.8.8",
           "balanced-match": "2.0.0",
           "chalk": "4.1.2",
@@ -55929,7 +55914,7 @@
           "micromatch": "4.0.8",
           "normalize-selector": "0.2.0",
           "postcss": "7.0.39",
-          "postcss-html": "0.36.0(postcss-syntax@0.36.2)(postcss@7.0.39)",
+          "postcss-html": "0.36.0(postcss-syntax@0.36.2(postcss@8.5.28))(postcss@7.0.39)",
           "postcss-less": "3.1.4",
           "postcss-media-query-parser": "0.2.3",
           "postcss-resolve-nested-selector": "0.1.6",
@@ -55937,7 +55922,7 @@
           "postcss-sass": "0.4.4",
           "postcss-scss": "2.1.1",
           "postcss-selector-parser": "6.1.4",
-          "postcss-syntax": "0.36.2(postcss@8.5.28)",
+          "postcss-syntax": "0.36.2(postcss-html@0.36.0)(postcss-less@3.1.4)(postcss-scss@2.1.1)(postcss@7.0.39)",
           "postcss-value-parser": "4.2.0",
           "resolve-from": "5.0.0",
           "slash": "3.0.0",
@@ -56403,8 +56388,8 @@
       "raw_locator": "swc@1.0.11",
       "snapshot": {
         "dependencies": {
-          "@swc/cli": "0.1.65(@swc/core@1.16.1)(chokidar@3.6.0)",
-          "@swc/core": "1.16.1"
+          "@swc/cli": "0.1.65(@swc/core@1.16.2)(chokidar@3.6.0)",
+          "@swc/core": "1.16.2"
         },
         "transitivePeerDependencies": [
           "@swc/helpers",
@@ -57612,7 +57597,7 @@
           "yn": "3.1.1"
         },
         "optionalDependencies": {
-          "@swc/core": "1.16.1"
+          "@swc/core": "1.16.2"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -58205,25 +58190,25 @@
     {
       "type": "registry",
       "name": "umi",
-      "version": "4.7.13",
+      "version": "4.7.14",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/umi/-/umi-4.7.13.tgz",
-      "integrity": "sha512-/l4BpEGBGgaPQt4V21MTAfEE1Erp6Vlu4X1JfmAjJwJ6oak32o807Lwttcu7ZFKN1jq/Dr0xOZty68+AAPe20Q==",
+      "resolved_url": "https://registry.npmjs.org/umi/-/umi-4.7.14.tgz",
+      "integrity": "sha512-l7g6094uzqR/Y5xHSejzOYAcX+iitH8L5AY9122gS6x0f8rAJ71SkgR1EWVC0AxjalRtSGg4Zo0Ar8qSbeRzww==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "umi@4.7.13",
+      "raw_locator": "umi@4.7.14",
       "snapshot": {
         "dependencies": {
           "@babel/runtime": "7.23.6",
-          "@umijs/bundler-utils": "4.7.13",
-          "@umijs/bundler-webpack": "4.7.13(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
-          "@umijs/core": "4.7.13",
-          "@umijs/preset-umi": "4.7.13(@types/node@20.19.43)(@types/react@19.2.18)(jiti@1.21.7)(lightningcss@1.22.1)(rollup@4.63.1)(sass@1.104.0)(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))(sugarss@2.0.0)(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))(yaml@2.9.0)",
-          "@umijs/renderer-react": "4.7.13(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
-          "@umijs/server": "4.7.13",
-          "@umijs/test": "4.7.13(@babel/core@7.29.7)",
-          "@umijs/utils": "4.7.13",
+          "@umijs/bundler-utils": "4.7.14",
+          "@umijs/bundler-webpack": "4.7.14(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "@umijs/core": "4.7.14",
+          "@umijs/preset-umi": "4.7.14(@types/node@20.19.43)(@types/react@19.2.18)(jiti@1.21.7)(lightningcss@1.22.1)(rollup@4.63.1)(sass@1.104.0)(styled-jsx@5.1.7(@babel/core@7.29.7)(babel-plugin-macros@3.1.0)(react@19.2.8))(sugarss@2.0.0)(type-fest@0.21.3)(typescript@4.9.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))(yaml@2.9.0)",
+          "@umijs/renderer-react": "4.7.14(react-dom@19.2.8(react@19.2.8))(react@19.2.8)",
+          "@umijs/server": "4.7.14",
+          "@umijs/test": "4.7.14(@babel/core@7.29.7)",
+          "@umijs/utils": "4.7.14",
           "prettier-plugin-organize-imports": "3.2.4(prettier@3.9.6)(typescript@4.9.5)",
           "prettier-plugin-packagejson": "2.4.3(prettier@3.9.6)"
         },
@@ -58390,14 +58375,14 @@
     {
       "type": "registry",
       "name": "undici",
-      "version": "7.29.0",
+      "version": "7.29.1",
       "optional": false,
       "dev": false,
-      "resolved_url": "https://registry.npmjs.org/undici/-/undici-7.29.0.tgz",
-      "integrity": "sha512-IDxfleLmmbSskfWSUATiN1nfn2rDuvnMOqb5CWR92iIfojA0Ud+ulOAAEQ57LPr9rWmsreUyf5lwyao+7GNNVw==",
+      "resolved_url": "https://registry.npmjs.org/undici/-/undici-7.29.1.tgz",
+      "integrity": "sha512-RYONW2MeafgYlkVOKYKkA/Ag7BmXqgIWCa8t1m0JcxrQg9pI9lEqRhAOruOBCbAohOa/gkCF+iPi9hrgvTzu6Q==",
       "source": "https://registry.npmjs.org/",
       "dependencies": {},
-      "raw_locator": "undici@7.29.0",
+      "raw_locator": "undici@7.29.1",
       "snapshot": {},
       "profile_id": "swesmith/antvis__G6.91c0ac85",
       "dependency_root": "."
@@ -59086,7 +59071,7 @@
       "raw_locator": "update-browserslist-db@1.3.2",
       "snapshot": {
         "dependencies": {
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "escalade": "3.2.0",
           "picocolors": "1.1.1"
         }
@@ -59954,7 +59939,7 @@
           "jiti": "1.21.7",
           "less": "4.1.3",
           "lightningcss": "1.22.1",
-          "sass": "1.54.0",
+          "sass": "1.104.0",
           "sugarss": "2.0.0",
           "terser": "5.49.0",
           "yaml": "2.9.0"
@@ -60197,7 +60182,7 @@
           "import-local": "3.2.0",
           "interpret": "3.1.1",
           "rechoir": "0.8.0",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(svgo@3.3.5)(webpack-cli@5.1.4)",
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(svgo@3.3.5)(webpack-cli@5.1.4)",
           "webpack-merge": "5.10.0"
         }
       },
@@ -60300,14 +60285,14 @@
           "@webassemblyjs/wasm-edit": "1.14.1",
           "@webassemblyjs/wasm-parser": "1.14.1",
           "acorn": "8.18.0",
-          "browserslist": "4.28.8",
+          "browserslist": "4.28.9",
           "chrome-trace-event": "1.0.4",
           "enhanced-resolve": "5.24.5",
           "es-module-lexer": "2.3.2",
           "events": "3.3.0",
           "graceful-fs": "4.2.11",
           "mime-db": "1.54.0",
-          "minimizer-webpack-plugin": "5.9.0(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)(webpack@5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
+          "minimizer-webpack-plugin": "5.9.0(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)(webpack@5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5))",
           "neo-async": "2.6.2",
           "schema-utils": "4.3.3",
           "tapable": "2.3.3",
@@ -60661,7 +60646,7 @@
       "snapshot": {
         "dependencies": {
           "loader-utils": "2.0.4",
-          "webpack": "5.110.3(@swc/core@1.16.1)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
+          "webpack": "5.110.3(@swc/core@1.16.2)(lightningcss@1.22.1)(postcss@8.5.28)(svgo@3.3.5)"
         }
       },
       "profile_id": "swesmith/antvis__G6.91c0ac85",
@@ -61360,6 +61345,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 1377,
-  "generated_at": "2026-09-04T06:47:27.887257+00:00"
+  "normalize_elapsed_ms": 1455,
+  "generated_at": "2026-09-05T09:17:56.933892+00:00"
 }

@@ -14,7 +14,7 @@
       "source_lockfile_sha256": "e375b9cbe15b1aee3c7d6b8ba176ea94cf600178e502f40a09aca23359462cf4",
       "resolved_lockfile_sha256": "e375b9cbe15b1aee3c7d6b8ba176ea94cf600178e502f40a09aca23359462cf4",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 4,
+      "resolve_elapsed_ms": 5,
       "exit_code": 0,
       "command": [
         "npm ci"

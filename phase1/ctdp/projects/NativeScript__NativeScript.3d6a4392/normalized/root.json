@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "085e1f7ccbe42f2531cc038f7170ef183820336f6604a3e3b2757e1d48101913",
     "resolved_lockfile_sha256": "085e1f7ccbe42f2531cc038f7170ef183820336f6604a3e3b2757e1d48101913",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 47411,
+    "resolve_elapsed_ms": 22464,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/NativeScript__NativeScript.3d6a4392/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/NativeScript__NativeScript.3d6a4392/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/NativeScript__NativeScript.3d6a4392/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/NativeScript__NativeScript.3d6a4392/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -75,7 +75,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "3d6a4392f6008e4f43f8f5439a256c50e3707101",
-        "path": "/tmp/nodelite-deps-resolve-blpogcs5/checkout"
+        "path": "/tmp/nodelite-deps-resolve-gave0d8b/checkout"
       },
       {
         "source": "installed",
@@ -34613,6 +34613,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 37,
-  "generated_at": "2026-09-04T06:47:38.460496+00:00"
+  "normalize_elapsed_ms": 16,
+  "generated_at": "2026-09-05T09:17:53.564175+00:00"
 }

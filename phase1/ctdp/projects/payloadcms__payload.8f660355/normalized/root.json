@@ -21,10 +21,13 @@
     "source_lockfile_sha256": "a2f282bd4e00dd49275d9bad872567860da509aa2eea585df389601272a8abf8",
     "resolved_lockfile_sha256": "a2f282bd4e00dd49275d9bad872567860da509aa2eea585df389601272a8abf8",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 4368,
+    "resolve_elapsed_ms": 1114,
     "exit_code": 0,
     "command": [
+      "env",
+      "npm_config_registry=https://registry.npmjs.org",
       "npx",
+      "--offline",
       "--yes",
       "--package",
       "pnpm@10.27.0",
@@ -42,8 +45,8 @@
     "tool_version": "10.27.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/payloadcms__payload.8f660355/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/payloadcms__payload.8f660355/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/payloadcms__payload.8f660355/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/payloadcms__payload.8f660355/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -113,10 +116,10 @@
       {
         "kind": "temporary_checkout",
         "commit": "8f66035522f568d42098a7ad525e7bf700662b9a",
-        "path": "/tmp/nodelite-deps-resolve-r4tdnru8/checkout"
+        "path": "/tmp/nodelite-deps-resolve-bhfgf5ha/checkout"
       },
       {
-        "source": "npx",
+        "source": "npx-offline-cache",
         "version": "10.27.0"
       },
       {
@@ -50002,6 +50005,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 1267,
-  "generated_at": "2026-09-04T06:47:41.624495+00:00"
+  "normalize_elapsed_ms": 1353,
+  "generated_at": "2026-09-05T09:18:00.583062+00:00"
 }

@@ -14,7 +14,7 @@
       "source_lockfile_sha256": "cc86648d271cc663639ac7964332665a75f6c6fe8f5a4001f1a9cd52e5790022",
       "resolved_lockfile_sha256": "cc86648d271cc663639ac7964332665a75f6c6fe8f5a4001f1a9cd52e5790022",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 318791,
+      "resolve_elapsed_ms": 3854,
       "exit_code": 0,
       "command": [
         "/usr/bin/npm",
@@ -31,8 +31,8 @@
       "tool_version": "9.2.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/coder__code-server.e90504b8/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/coder__code-server.e90504b8/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/coder__code-server.e90504b8/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/coder__code-server.e90504b8/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -84,7 +84,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "e90504b8cf1d73c36d902bbaaec7bab33f15c42e",
-          "path": "/tmp/nodelite-deps-resolve-r73tbpzk/checkout"
+          "path": "/tmp/nodelite-deps-resolve-5o63a937/checkout"
         },
         {
           "source": "installed",

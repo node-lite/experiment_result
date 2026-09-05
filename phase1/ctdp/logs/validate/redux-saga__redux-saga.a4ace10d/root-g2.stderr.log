@@ -1,5 +1,5 @@
-error https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz: tunneling socket could not be established, statusCode=502
-error Error: https://registry.yarnpkg.com/browserslist/-/browserslist-4.26.3.tgz: tunneling socket could not be established, statusCode=502
+error https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz: tunneling socket could not be established, statusCode=502
+error Error: https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.8.16.tgz: tunneling socket could not be established, statusCode=502
     at ClientRequest.onConnect (/usr/local/lib/node_modules/yarn/lib/cli.js:152885:19)
     at Object.onceWrapper (node:events:632:26)
     at ClientRequest.emit (node:events:517:28)
@@ -9,3 +9,4 @@ error Error: https://registry.yarnpkg.com/browserslist/-/browserslist-4.26.3.tgz
     at readableAddChunk (node:internal/streams/readable:341:9)
     at Readable.push (node:internal/streams/readable:278:10)
     at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+error https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz: tunneling socket could not be established, statusCode=502

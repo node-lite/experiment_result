@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "45f79d9b7f2dc887d9d859eaba45d2878724a7a7de00270d9df35a0e77eb7f35",
     "resolved_lockfile_sha256": "45f79d9b7f2dc887d9d859eaba45d2878724a7a7de00270d9df35a0e77eb7f35",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 640,
+    "resolve_elapsed_ms": 646,
     "exit_code": 0,
     "command": [
       "/usr/local/bin/pnpm",
@@ -38,8 +38,8 @@
     "tool_version": "9.15.5",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/tinacms__tinacms.dffb104f/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/tinacms__tinacms.dffb104f/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/tinacms__tinacms.dffb104f/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/tinacms__tinacms.dffb104f/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -101,7 +101,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "dffb104f1850cabc15f495a5868a33a66295965a",
-        "path": "/tmp/nodelite-deps-resolve-hz3mctyc/checkout"
+        "path": "/tmp/nodelite-deps-resolve-z8es7cpr/checkout"
       },
       {
         "source": "installed",
@@ -51605,6 +51605,6 @@
       "dependency_root": "."
     }
   ],
-  "normalize_elapsed_ms": 1356,
-  "generated_at": "2026-09-04T06:47:43.937019+00:00"
+  "normalize_elapsed_ms": 1370,
+  "generated_at": "2026-09-05T09:18:02.828972+00:00"
 }

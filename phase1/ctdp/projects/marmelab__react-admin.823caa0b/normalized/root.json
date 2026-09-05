@@ -21,11 +21,11 @@
     "source_lockfile_sha256": "f178fcbaf6a59b3b9201813bfac6acea0b669bead44e696adc8ec5854da748c5",
     "resolved_lockfile_sha256": "f178fcbaf6a59b3b9201813bfac6acea0b669bead44e696adc8ec5854da748c5",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 115857,
+    "resolve_elapsed_ms": 1105,
     "exit_code": 0,
     "command": [
       "/usr/bin/node",
-      "/tmp/nodelite-deps-resolve-5qmef_vh/checkout/.yarn/releases/yarn-4.0.2.cjs",
+      "/tmp/nodelite-deps-resolve-gzlgp_7t/checkout/.yarn/releases/yarn-4.0.2.cjs",
       "install",
       "--mode=update-lockfile"
     ],
@@ -37,8 +37,8 @@
     "tool_version": "4.0.2",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/marmelab__react-admin.823caa0b/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/marmelab__react-admin.823caa0b/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/marmelab__react-admin.823caa0b/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/marmelab__react-admin.823caa0b/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -92,7 +92,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "823caa0b6489fc8133685525e22d30ddf57643fa",
-        "path": "/tmp/nodelite-deps-resolve-5qmef_vh/checkout"
+        "path": "/tmp/nodelite-deps-resolve-gzlgp_7t/checkout"
       },
       {
         "source": "project_yarn_path",
@@ -46851,6 +46851,6 @@
       "dependency_root": "."
     }
   ],
-  "normalize_elapsed_ms": 24,
-  "generated_at": "2026-09-04T06:47:38.328175+00:00"
+  "normalize_elapsed_ms": 26,
+  "generated_at": "2026-09-05T09:17:59.008137+00:00"
 }

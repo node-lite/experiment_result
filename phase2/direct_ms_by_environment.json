@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "environments": {
+    "env:7a9cda66bc6b151a7886": "direct_ms.json",
+    "env:0fd7b54e0a2a55d4208d": "exact_workload/direct_ms.json"
+  },
+  "mixing_policy": "select one calibration environment; do not merge latency windows from different hosts"
+}

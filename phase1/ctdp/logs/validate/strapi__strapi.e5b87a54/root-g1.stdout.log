@@ -1,0 +1,14 @@
+➤ YN0000: · Yarn 4.12.0
+➤ YN0000: ┌ Resolution step
+➤ YN0001: │ Error: @strapi/admin-test-utils@workspace:*: Workspace not found (@strapi/admin-test-utils@workspace:*)
+    at t.getWorkspaceByDescriptor (/root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:209:3520)
+    at t.getCandidates (/root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:140:109683)
+    at rm.getCandidates (/root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:141:1311)
+    at rm.getCandidates (/root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:141:1311)
+    at /root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:209:8420
+    at qE (/root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:140:45054)
+    at mt (/root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:209:8400)
+    at async Promise.allSettled (index 14)
+    at async Uu (/root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:140:44382)
+➤ YN0000: └ Completed
+➤ YN0000: · Failed with errors in 0s 190ms

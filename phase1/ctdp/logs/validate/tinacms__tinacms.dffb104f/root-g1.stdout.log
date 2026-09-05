@@ -2,22 +2,43 @@ Lockfile is up to date, resolution step is skipped
 Progress: resolved 1, reused 0, downloaded 0, added 0
 Packages: +191
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Progress: resolved 191, reused 191, downloaded 0, added 191, done
+ WARN  GET http://127.0.0.1:42901/extendable-error/-/extendable-error-0.1.7.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/errors/-/errors-0.2.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/react-colorful/-/react-colorful-5.6.1.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@manypkg/find-root/-/find-root-1.1.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/types/-/types-4.1.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/locate-path/-/locate-path-5.0.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/types/-/types-6.1.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/find-up/-/find-up-4.1.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/apply-release-plan/-/apply-release-plan-7.0.14.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/highlight.js/-/highlight.js-11.11.1.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/config/-/config-3.1.2.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/cli/-/cli-2.27.8.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/react/-/react-19.2.3.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/dotenv/-/dotenv-8.6.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@babel/runtime/-/runtime-7.28.4.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+ WARN  GET http://127.0.0.1:42901/@types/node/-/node-12.20.55.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 10 seconds. 2 retries left.
+Progress: resolved 191, reused 0, downloaded 0, added 0
+ WARN  GET http://127.0.0.1:42901/extendable-error/-/extendable-error-0.1.7.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/errors/-/errors-0.2.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/react-colorful/-/react-colorful-5.6.1.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@manypkg/find-root/-/find-root-1.1.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/locate-path/-/locate-path-5.0.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/types/-/types-4.1.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/types/-/types-6.1.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/find-up/-/find-up-4.1.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/highlight.js/-/highlight.js-11.11.1.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/apply-release-plan/-/apply-release-plan-7.0.14.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/config/-/config-3.1.2.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@changesets/cli/-/cli-2.27.8.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/dotenv/-/dotenv-8.6.0.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/react/-/react-19.2.3.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@babel/runtime/-/runtime-7.28.4.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ WARN  GET http://127.0.0.1:42901/@types/node/-/node-12.20.55.tgz error (ERR_PNPM_TARBALL_INTEGRITY). Will retry in 1 minute. 1 retries left.
+ ERR_PNPM_TARBALL_INTEGRITY  Got unexpected checksum for "http://127.0.0.1:42901/extendable-error/-/extendable-error-0.1.7.tgz". Wanted "sha512-UOiS2in6/Q0FK0R0q6UY9vYpQ21mr/Qn1KOnte7vsACuNJf514WvCCUHSRCPcgjPT2bAhNIJdlE6bVap1GKmeg==". Got "sha512-dn8sj7VThssayeR1uqiAOgd+FD77/ts3sx9O7NOx1ULMmIOGazR2rViCX6f68Kr9CPuzxf47CDae6jbRdXeQew==".
 
-dependencies:
-+ highlight.js 11.11.1
-+ react-colorful 5.6.1
+This error may happen when a package is republished to the registry with the same version.
+In this case, the metadata in the local pnpm cache will contain the old integrity checksum.
 
-devDependencies:
-+ @biomejs/biome 1.9.4
-+ @changesets/changelog-github 0.5.2
-+ @changesets/cli 2.27.8
-+ @types/jest 29.5.14
-+ @types/picomatch 3.0.2
-+ picomatch 4.0.3
-+ pretty-quick 3.3.1
-+ turbo 2.6.3
-+ typescript 5.9.3
-+ vite 4.5.14
-
-Done in 820ms
+If you think that this is the case, then run "pnpm store prune" and rerun the command that failed.
+"pnpm store prune" will remove your local metadata cache.

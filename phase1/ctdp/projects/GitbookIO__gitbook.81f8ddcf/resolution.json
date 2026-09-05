@@ -13,10 +13,13 @@
       "resolved_lockfile": null,
       "source_lockfile_sha256": "b1ab37fbc3435ed44a679bc1bc392a031f947cbd0d84aee3c91dcec267e3739c",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 330,
+      "resolve_elapsed_ms": 409,
       "exit_code": 1,
       "command": [
+        "env",
+        "npm_config_registry=https://registry.npmjs.org",
         "npx",
+        "--offline",
         "--yes",
         "--package",
         "bun@1.3.7",
@@ -29,11 +32,11 @@
         "install",
         "--lockfile-only"
       ],
-      "tool_version": "1.3.7",
+      "tool_version": "1.4.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/GitbookIO__gitbook.81f8ddcf/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/GitbookIO__gitbook.81f8ddcf/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/GitbookIO__gitbook.81f8ddcf/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/GitbookIO__gitbook.81f8ddcf/logs/resolution/root.stderr.log",
       "manual_review": [
         null
       ],
@@ -90,10 +93,10 @@
         {
           "kind": "temporary_checkout",
           "commit": "81f8ddcf27ec398a33b6f676a81e9a791b673ce2",
-          "path": "/tmp/nodelite-deps-resolve-8dnorokx/checkout"
+          "path": "/tmp/nodelite-deps-resolve-08azmd70/checkout"
         },
         {
-          "source": "npx",
+          "source": "npx-offline-cache",
           "version": "1.3.7"
         }
       ]

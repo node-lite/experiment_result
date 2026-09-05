@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "895cf8cafc9837f4a0ff740a0e5b3e866ccc46c466c8f221c74aba13177fc5e5",
     "resolved_lockfile_sha256": "541f81ce3f744a6f43c782321497c9578bd30318fb1eb9578275fa83992b34b8",
     "lockfile_changed": true,
-    "resolve_elapsed_ms": 250699,
+    "resolve_elapsed_ms": 16340,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/nock__nock.e7418da2/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/nock__nock.e7418da2/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/nock__nock.e7418da2/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/nock__nock.e7418da2/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -75,7 +75,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "e7418da29feb4a7bf0aa1612bfb9d32a4051651e",
-        "path": "/tmp/nodelite-deps-resolve-sbgy4_ev/checkout"
+        "path": "/tmp/nodelite-deps-resolve-42ytbca0/checkout"
       },
       {
         "source": "installed",
@@ -21974,6 +21974,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 9,
-  "generated_at": "2026-09-04T06:47:38.582960+00:00"
+  "normalize_elapsed_ms": 10,
+  "generated_at": "2026-09-05T09:17:59.203625+00:00"
 }

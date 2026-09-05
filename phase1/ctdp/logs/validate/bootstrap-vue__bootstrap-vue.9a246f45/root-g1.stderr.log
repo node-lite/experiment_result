@@ -1,4 +1,4 @@
-error Error: https://registry.yarnpkg.com/consola/-/consola-2.15.3.tgz: tunneling socket could not be established, statusCode=502
+error Error: https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-4.3.0.tgz: tunneling socket could not be established, statusCode=502
     at ClientRequest.onConnect (/usr/local/lib/node_modules/yarn/lib/cli.js:152885:19)
     at Object.onceWrapper (node:events:632:26)
     at ClientRequest.emit (node:events:517:28)

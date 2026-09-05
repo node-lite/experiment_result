@@ -14,10 +14,13 @@
       "source_lockfile_sha256": "0bd9814a60fd8695a456d0bbb85d28f68fc2e2ee38e527d2c82bb3a352c9bbbd",
       "resolved_lockfile_sha256": "0bd9814a60fd8695a456d0bbb85d28f68fc2e2ee38e527d2c82bb3a352c9bbbd",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 1093,
+      "resolve_elapsed_ms": 1103,
       "exit_code": 0,
       "command": [
+        "env",
+        "npm_config_registry=https://registry.npmjs.org",
         "npx",
+        "--offline",
         "--yes",
         "--package",
         "pnpm@9.15.4",
@@ -35,8 +38,8 @@
       "tool_version": "9.15.4",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/ueberdosis__tiptap.2d6de06c/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/ueberdosis__tiptap.2d6de06c/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/ueberdosis__tiptap.2d6de06c/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/ueberdosis__tiptap.2d6de06c/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -98,10 +101,10 @@
         {
           "kind": "temporary_checkout",
           "commit": "2d6de06c34c239e78fedd6bd2a0bcea42d0fdbfa",
-          "path": "/tmp/nodelite-deps-resolve-q4ybuubk/checkout"
+          "path": "/tmp/nodelite-deps-resolve-s5yfxldd/checkout"
         },
         {
-          "source": "npx",
+          "source": "npx-offline-cache",
           "version": "9.15.4"
         },
         {

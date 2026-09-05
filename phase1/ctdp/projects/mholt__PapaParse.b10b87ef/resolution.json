@@ -14,7 +14,7 @@
       "source_lockfile_sha256": null,
       "resolved_lockfile_sha256": "c10e6ee7af71dd789435e3c690dea536fec07e97d59d558ec12cd6517445c921",
       "lockfile_changed": true,
-      "resolve_elapsed_ms": 392304,
+      "resolve_elapsed_ms": 9638,
       "exit_code": 0,
       "command": [
         "/usr/bin/npm",
@@ -31,8 +31,8 @@
       "tool_version": "9.2.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/mholt__PapaParse.b10b87ef/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/mholt__PapaParse.b10b87ef/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/mholt__PapaParse.b10b87ef/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/mholt__PapaParse.b10b87ef/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -60,7 +60,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "b10b87ef8686c6f88299b50dd25e83606e9c36d4",
-          "path": "/tmp/nodelite-deps-resolve-4s_ex426/checkout"
+          "path": "/tmp/nodelite-deps-resolve-h1shui6o/checkout"
         },
         {
           "source": "installed",

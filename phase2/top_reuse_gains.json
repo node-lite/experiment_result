@@ -1,5 +1,33 @@
 [
   {
+    "object_id": "dependency_view:redux-saga__redux-saga.a4ace10d:root:c1bcbd93da3b0eeb",
+    "cold_median_ms": 9529.210058,
+    "reuse_median_ms": 0.024563,
+    "gain_ms": 9529.185495,
+    "gain_ratio": 0.9999974223466739
+  },
+  {
+    "object_id": "dependency_view:foambubble__foam.2cac8162:root:8118db77d559a658",
+    "cold_median_ms": 5856.183836,
+    "reuse_median_ms": 0.024103,
+    "gain_ms": 5856.159733,
+    "gain_ratio": 0.9999958841797535
+  },
+  {
+    "object_id": "dependency_view:jaredpalmer__formik.91475adb:root:0ea1f56b0c1e2753",
+    "cold_median_ms": 5837.946796,
+    "reuse_median_ms": 0.027308,
+    "gain_ms": 5837.9194880000005,
+    "gain_ratio": 0.9999953223280454
+  },
+  {
+    "object_id": "dependency_view:sveltejs__svelte.6c9717a9:root:b0c07bc3f3203c46",
+    "cold_median_ms": 1802.468041,
+    "reuse_median_ms": 0.023804,
+    "gain_ms": 1802.4442370000002,
+    "gain_ratio": 0.9999867936632115
+  },
+  {
     "object_id": "system_toolchain:ubuntu24:gcc13:python3.12",
     "cold_median_ms": 790.082898,
     "reuse_median_ms": 1.414631,
@@ -110,33 +138,5 @@
     "reuse_median_ms": 232.89811,
     "gain_ms": 7.351489999999984,
     "gain_ratio": 0.03059938497296139
-  },
-  {
-    "object_id": "node_runtime:18.19.1:linux:x86_64:glibc:abi109",
-    "cold_median_ms": 126.513325,
-    "reuse_median_ms": 120.904195,
-    "gain_ms": 5.609129999999993,
-    "gain_ratio": 0.044336278411779895
-  },
-  {
-    "object_id": "dependency_view:fixture:yarn:4.0.2",
-    "cold_median_ms": 371.878527,
-    "reuse_median_ms": 367.835596,
-    "gain_ms": 4.04293100000001,
-    "gain_ratio": 0.010871644116198217
-  },
-  {
-    "object_id": "build_cache:synthetic:rollup:4.63.1",
-    "cold_median_ms": 119.888181,
-    "reuse_median_ms": 115.849327,
-    "gain_ms": 4.038854000000001,
-    "gain_ratio": 0.0336885084610634
-  },
-  {
-    "object_id": "build_cache:synthetic:vite:8.2.2",
-    "cold_median_ms": 355.514422,
-    "reuse_median_ms": 351.747687,
-    "gain_ms": 3.7667350000000397,
-    "gain_ratio": 0.010595167922611138
   }
 ]

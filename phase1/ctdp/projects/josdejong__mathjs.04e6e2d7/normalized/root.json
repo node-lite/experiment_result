@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "653bb0be0a5e4b8c639de15ef02a3a5923fffbdc397a184b902813468683e4c1",
     "resolved_lockfile_sha256": "653bb0be0a5e4b8c639de15ef02a3a5923fffbdc397a184b902813468683e4c1",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 214897,
+    "resolve_elapsed_ms": 4943,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/josdejong__mathjs.04e6e2d7/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/josdejong__mathjs.04e6e2d7/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/josdejong__mathjs.04e6e2d7/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/josdejong__mathjs.04e6e2d7/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -75,7 +75,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "04e6e2d7a949d6ddc7d7139bf1e3a88e6fe5365b",
-        "path": "/tmp/nodelite-deps-resolve-cjgev4qj/checkout"
+        "path": "/tmp/nodelite-deps-resolve-owqysalm/checkout"
       },
       {
         "source": "installed",
@@ -16750,6 +16750,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 8,
-  "generated_at": "2026-09-04T06:47:38.276644+00:00"
+  "normalize_elapsed_ms": 9,
+  "generated_at": "2026-09-05T09:17:58.953860+00:00"
 }

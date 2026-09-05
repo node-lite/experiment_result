@@ -21,10 +21,13 @@
     "source_lockfile_sha256": "b0c07bc3f3203c46b64a85436a5962b620f8da99f7aa934c496a879cdf4343da",
     "resolved_lockfile_sha256": "b0c07bc3f3203c46b64a85436a5962b620f8da99f7aa934c496a879cdf4343da",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 1289,
+    "resolve_elapsed_ms": 950,
     "exit_code": 0,
     "command": [
+      "env",
+      "npm_config_registry=https://registry.npmjs.org",
       "npx",
+      "--offline",
       "--yes",
       "--package",
       "pnpm@10.4.0",
@@ -42,8 +45,8 @@
     "tool_version": "10.4.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/sveltejs__svelte.6c9717a9/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/sveltejs__svelte.6c9717a9/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/sveltejs__svelte.6c9717a9/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/sveltejs__svelte.6c9717a9/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -133,10 +136,10 @@
       {
         "kind": "temporary_checkout",
         "commit": "6c9717a91f2f6ae10641d1cf502ba13d227fbe45",
-        "path": "/tmp/nodelite-deps-resolve-2xmd8dqr/checkout"
+        "path": "/tmp/nodelite-deps-resolve-7p9q4nck/checkout"
       },
       {
-        "source": "npx",
+        "source": "npx-offline-cache",
         "version": "10.4.0"
       },
       {
@@ -9735,5 +9738,5 @@
   ],
   "manual_review": [],
   "normalize_elapsed_ms": 185,
-  "generated_at": "2026-09-04T06:47:42.558447+00:00"
+  "generated_at": "2026-09-05T09:18:01.436849+00:00"
 }

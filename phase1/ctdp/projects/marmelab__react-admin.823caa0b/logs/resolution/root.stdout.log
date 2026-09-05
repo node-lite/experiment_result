@@ -1,6 +1,6 @@
 ➤ YN0000: · Yarn 4.0.2
 ➤ YN0000: ┌ Resolution step
-➤ YN0000: └ Completed in 0s 347ms
+➤ YN0000: └ Completed in 0s 352ms
 ➤ YN0000: ┌ Post-resolution validation
 ➤ YN0060: │ @tiptap/core is listed by your project with version 2.0.3, which doesn't satisfy what @tiptap/extension-link (p29b5b) requests (^2.7.0).
 ➤ YN0060: │ @tiptap/core is listed by your project with version 2.0.3, which doesn't satisfy what @tiptap/extension-link (p2bcd4) requests (^2.7.0).
@@ -37,9 +37,8 @@
 ➤ YN0086: │ Some peer dependencies are incorrectly met; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code.
 ➤ YN0000: └ Completed
 ➤ YN0000: ┌ Fetch step
-➤ YN0013: │ 9 packages were added to the project (+ 120.88 MiB).
-➤ YN0000: └ Completed in 1m 55s
+➤ YN0000: └ Completed
 ➤ YN0000: ┌ Link step
 ➤ YN0073: │ Skipped due to mode=update-lockfile
 ➤ YN0000: └ Completed
-➤ YN0000: · Done with warnings in 1m 56s
+➤ YN0000: · Done with warnings in 0s 661ms

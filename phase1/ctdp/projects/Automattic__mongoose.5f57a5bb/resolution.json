@@ -12,9 +12,9 @@
       "source_lockfile": null,
       "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
       "source_lockfile_sha256": null,
-      "resolved_lockfile_sha256": "4a9d0e1a52e2c010f88dc4964ad656748342b36172816611259752e3c5ec9054",
+      "resolved_lockfile_sha256": "74685711b4e6bcc37a3e5aabdb2845400e4c232d23c9e72fe7f69fb7a0a6a8a1",
       "lockfile_changed": true,
-      "resolve_elapsed_ms": 408542,
+      "resolve_elapsed_ms": 65269,
       "exit_code": 0,
       "command": [
         "/usr/bin/npm",
@@ -31,8 +31,8 @@
       "tool_version": "9.2.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/Automattic__mongoose.5f57a5bb/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/Automattic__mongoose.5f57a5bb/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/Automattic__mongoose.5f57a5bb/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/Automattic__mongoose.5f57a5bb/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -68,7 +68,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "5f57a5bbb2e8dfed8d04be47cdd17728633c44c1",
-          "path": "/tmp/nodelite-deps-resolve-d5jxhz4i/checkout"
+          "path": "/tmp/nodelite-deps-resolve-0490f_54/checkout"
         },
         {
           "source": "installed",

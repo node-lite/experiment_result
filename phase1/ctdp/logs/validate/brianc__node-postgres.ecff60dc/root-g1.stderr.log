@@ -1,4 +1,4 @@
-error Error: https://registry.yarnpkg.com/semver/-/semver-7.7.2.tgz: tunneling socket could not be established, statusCode=502
+error Error: https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz: tunneling socket could not be established, statusCode=502
     at ClientRequest.onConnect (/usr/local/lib/node_modules/yarn/lib/cli.js:152885:19)
     at Object.onceWrapper (node:events:632:26)
     at ClientRequest.emit (node:events:517:28)

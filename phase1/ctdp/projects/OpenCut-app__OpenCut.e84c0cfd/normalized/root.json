@@ -21,10 +21,13 @@
     "source_lockfile_sha256": "34da0118cee1c5ca60c259e06483b1e65c7fb185abbdcb5d8472358903951b1c",
     "resolved_lockfile_sha256": "34da0118cee1c5ca60c259e06483b1e65c7fb185abbdcb5d8472358903951b1c",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 630,
+    "resolve_elapsed_ms": 428,
     "exit_code": 0,
     "command": [
+      "env",
+      "npm_config_registry=https://registry.npmjs.org",
       "npx",
+      "--offline",
       "--yes",
       "--package",
       "bun@1.2.18",
@@ -40,8 +43,8 @@
     "tool_version": "1.2.18",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/OpenCut-app__OpenCut.e84c0cfd/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/OpenCut-app__OpenCut.e84c0cfd/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/OpenCut-app__OpenCut.e84c0cfd/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/OpenCut-app__OpenCut.e84c0cfd/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -95,10 +98,10 @@
       {
         "kind": "temporary_checkout",
         "commit": "e84c0cfda6784abb9bcb72aae757233cd8951780",
-        "path": "/tmp/nodelite-deps-resolve-hw05b2fb/checkout"
+        "path": "/tmp/nodelite-deps-resolve-zhpc91rh/checkout"
       },
       {
-        "source": "npx",
+        "source": "npx-offline-cache",
         "version": "1.2.18"
       },
       {
@@ -10481,6 +10484,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 1739,
-  "generated_at": "2026-09-04T06:47:40.348539+00:00"
+  "normalize_elapsed_ms": 1676,
+  "generated_at": "2026-09-05T09:17:55.264340+00:00"
 }

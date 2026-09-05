@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "ebafff009f16e7113be2598e37b8ddb424f1dc47bf5da880dcc0f7d1d321e138",
     "resolved_lockfile_sha256": "ebafff009f16e7113be2598e37b8ddb424f1dc47bf5da880dcc0f7d1d321e138",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 417330,
+    "resolve_elapsed_ms": 15013,
     "exit_code": 0,
     "command": [
       "/usr/bin/npm",
@@ -38,8 +38,8 @@
     "tool_version": "9.2.0",
     "scripts_ran": false,
     "network_metadata_accessed": true,
-    "stdout_path": "/root/phase1/ctdp/projects/microsoft__vscode.4166e90a/logs/resolution/root.stdout.log",
-    "stderr_path": "/root/phase1/ctdp/projects/microsoft__vscode.4166e90a/logs/resolution/root.stderr.log",
+    "stdout_path": "/root/experiment_result/phase1/ctdp/projects/microsoft__vscode.4166e90a/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/experiment_result/phase1/ctdp/projects/microsoft__vscode.4166e90a/logs/resolution/root.stderr.log",
     "manifest_edits_applied": [],
     "evidence": [
       {
@@ -91,7 +91,7 @@
       {
         "kind": "temporary_checkout",
         "commit": "4166e90ac290db7f77800a4f6702903ea4eed476",
-        "path": "/tmp/nodelite-deps-resolve-l404sy2l/checkout"
+        "path": "/tmp/nodelite-deps-resolve-cj45um2l/checkout"
       },
       {
         "source": "installed",
@@ -24722,6 +24722,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 12,
-  "generated_at": "2026-09-04T06:47:38.377468+00:00"
+  "normalize_elapsed_ms": 13,
+  "generated_at": "2026-09-05T09:17:59.057113+00:00"
 }

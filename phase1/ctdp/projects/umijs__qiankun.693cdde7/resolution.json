@@ -14,10 +14,13 @@
       "source_lockfile_sha256": "af8a3045705a19cc8b9fc95c927082f12001bab7fe6f548ecfbef96c7c7ec8a3",
       "resolved_lockfile_sha256": "af8a3045705a19cc8b9fc95c927082f12001bab7fe6f548ecfbef96c7c7ec8a3",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 2314,
+      "resolve_elapsed_ms": 962,
       "exit_code": 0,
       "command": [
+        "env",
+        "npm_config_registry=https://registry.npmjs.org",
         "npx",
+        "--offline",
         "--yes",
         "--package",
         "pnpm@9.15.0",
@@ -35,8 +38,8 @@
       "tool_version": "9.15.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/umijs__qiankun.693cdde7/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/umijs__qiankun.693cdde7/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/umijs__qiankun.693cdde7/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/umijs__qiankun.693cdde7/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -90,10 +93,10 @@
         {
           "kind": "temporary_checkout",
           "commit": "693cdde75049830820ff9490dd267f9701db25e6",
-          "path": "/tmp/nodelite-deps-resolve-t72wkldz/checkout"
+          "path": "/tmp/nodelite-deps-resolve-9jt8rvf3/checkout"
         },
         {
-          "source": "npx",
+          "source": "npx-offline-cache",
           "version": "9.15.0"
         },
         {

@@ -1,8 +1,8 @@
 {
   "stage": "prefetch",
   "status": "partial",
-  "fingerprint": "5ac54b6d04e8d82288c20326b4420020446d3c77ad459546a4d8147f1056a102",
-  "updated_at": "2026-09-04T16:58:09.239788+00:00",
-  "downloaded_bytes": 3582234320,
+  "fingerprint": "b470b55303c3ab2e3c36a15fb814bf6bcb85ef0f896cc095d773b704dfd041ac",
+  "updated_at": "2026-09-05T09:31:26.866015+00:00",
+  "downloaded_bytes": 213832627,
   "failures": 1
 }

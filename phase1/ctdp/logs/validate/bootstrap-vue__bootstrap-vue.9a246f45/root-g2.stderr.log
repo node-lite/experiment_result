@@ -1,4 +1,4 @@
-error Error: https://registry.yarnpkg.com/defu/-/defu-3.2.2.tgz: tunneling socket could not be established, statusCode=502
+error Error: https://registry.yarnpkg.com/html-tags/-/html-tags-3.3.1.tgz: tunneling socket could not be established, statusCode=502
     at ClientRequest.onConnect (/usr/local/lib/node_modules/yarn/lib/cli.js:152885:19)
     at Object.onceWrapper (node:events:632:26)
     at ClientRequest.emit (node:events:517:28)
@@ -8,3 +8,4 @@ error Error: https://registry.yarnpkg.com/defu/-/defu-3.2.2.tgz: tunneling socke
     at readableAddChunk (node:internal/streams/readable:341:9)
     at Readable.push (node:internal/streams/readable:278:10)
     at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+error https://registry.yarnpkg.com/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz: tunneling socket could not be established, statusCode=502

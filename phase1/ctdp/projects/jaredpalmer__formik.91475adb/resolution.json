@@ -14,7 +14,7 @@
       "source_lockfile_sha256": "0ea1f56b0c1e2753f967011014f549126978eed35986c3c141493f886c3b37b3",
       "resolved_lockfile_sha256": "0ea1f56b0c1e2753f967011014f549126978eed35986c3c141493f886c3b37b3",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 3,
+      "resolve_elapsed_ms": 4,
       "exit_code": 0,
       "command": [
         "yarn install --frozen-lockfile"

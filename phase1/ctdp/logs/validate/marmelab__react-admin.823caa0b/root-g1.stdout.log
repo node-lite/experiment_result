@@ -1,0 +1,16 @@
+➤ YN0000: · Yarn 4.0.2
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ - @alcalzone/ansi-tokenize@npm:0.1.3, @apollo/client@npm:3.12.4, @astrojs/compiler@npm:2.13.0, @astrojs/internal-helpers@npm:0.7.2, and 908 more.
+➤ YN0000: └ Completed in 0s 266ms
+➤ YN0000: ┌ Post-resolution validation
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p00baa), requested by @babel/plugin-proposal-private-methods.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p1e32a), requested by @babel/plugin-proposal-private-property-in-object.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p404d5), requested by @babel/preset-react.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p4bae7), requested by @babel/preset-typescript.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p74480), requested by @babel/plugin-proposal-class-properties.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (pca95b), requested by @babel/preset-env.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide jsdom (pded67), requested by global-jsdom.
+➤ YN0086: │ Some peer dependencies are incorrectly met; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code.
+➤ YN0028: │ The lockfile would have been modified by this install, which is explicitly forbidden.
+➤ YN0000: └ Completed
+➤ YN0000: · Failed with errors in 0s 331ms

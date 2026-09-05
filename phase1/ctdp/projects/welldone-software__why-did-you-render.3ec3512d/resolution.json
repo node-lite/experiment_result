@@ -7,14 +7,15 @@
       "package_manager": "yarn",
       "package_manager_version": "1.22.22",
       "resolution_mode": "existing_requires_resolution",
-      "resolution_source": "native_resolver_failed",
-      "classification": "unsupported_or_manual_review",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
       "source_lockfile": "yarn.lock",
-      "resolved_lockfile": null,
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
       "source_lockfile_sha256": "773c5e8f586ea9c4d07578e5815495749143e3f74aebdc883ac73de838b0059d",
+      "resolved_lockfile_sha256": "773c5e8f586ea9c4d07578e5815495749143e3f74aebdc883ac73de838b0059d",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 51868,
-      "exit_code": 1,
+      "resolve_elapsed_ms": 7304,
+      "exit_code": 0,
       "command": [
         "/usr/local/bin/yarn",
         "install",
@@ -28,11 +29,8 @@
       "tool_version": "1.22.22",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/welldone-software__why-did-you-render.3ec3512d/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/welldone-software__why-did-you-render.3ec3512d/logs/resolution/root.stderr.log",
-      "manual_review": [
-        null
-      ],
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/welldone-software__why-did-you-render.3ec3512d/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/welldone-software__why-did-you-render.3ec3512d/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -76,11 +74,29 @@
         {
           "kind": "temporary_checkout",
           "commit": "3ec3512d750c49448fe2241e26d05db9e42f0c21",
-          "path": "/tmp/nodelite-deps-resolve-sdgqgy9a/checkout"
+          "path": "/tmp/nodelite-deps-resolve-4shsgf6p/checkout"
         },
         {
           "source": "installed",
           "version": "1.22.22"
+        },
+        {
+          "kind": "resolution",
+          "reason": "Yarn Classic native resolver"
+        },
+        {
+          "trigger": "known resolver compatibility failure",
+          "original_command": [
+            "/usr/local/bin/yarn",
+            "install",
+            "--ignore-scripts"
+          ],
+          "retry_command": [
+            "/usr/local/bin/yarn",
+            "install",
+            "--ignore-scripts",
+            "--ignore-engines"
+          ]
         }
       ]
     }

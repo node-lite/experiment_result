@@ -14,7 +14,7 @@
       "source_lockfile_sha256": "671774675e08f64e15a38860f06a4c2b90f5c09d55e66b6819ba2e6af97e07b5",
       "resolved_lockfile_sha256": "671774675e08f64e15a38860f06a4c2b90f5c09d55e66b6819ba2e6af97e07b5",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 20,
+      "resolve_elapsed_ms": 22,
       "exit_code": 0,
       "command": [
         "npm ci"
@@ -78,7 +78,7 @@
       "source_lockfile_sha256": "53df8633198c6f333acab870ebdee0bfd1ce1145a71bb1c886a15fd6f09e136e",
       "resolved_lockfile_sha256": "53df8633198c6f333acab870ebdee0bfd1ce1145a71bb1c886a15fd6f09e136e",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 6,
+      "resolve_elapsed_ms": 8,
       "exit_code": 0,
       "command": [
         "cd client && npm ci && npm run generate"

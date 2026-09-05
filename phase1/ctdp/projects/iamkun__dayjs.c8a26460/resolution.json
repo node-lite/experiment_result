@@ -14,7 +14,7 @@
       "source_lockfile_sha256": "c68f1e093a72eecf1b9e9f8340b4e8865d0d22b5be31beeafd33910e80b165aa",
       "resolved_lockfile_sha256": "c68f1e093a72eecf1b9e9f8340b4e8865d0d22b5be31beeafd33910e80b165aa",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 35036,
+      "resolve_elapsed_ms": 18338,
       "exit_code": 0,
       "command": [
         "/usr/bin/npm",
@@ -31,8 +31,8 @@
       "tool_version": "9.2.0",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/iamkun__dayjs.c8a26460/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/iamkun__dayjs.c8a26460/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/iamkun__dayjs.c8a26460/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/iamkun__dayjs.c8a26460/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -68,7 +68,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "c8a26460d89a2ee9a7d3b9cafa124ea856ee883f",
-          "path": "/tmp/nodelite-deps-resolve-h3ulqcon/checkout"
+          "path": "/tmp/nodelite-deps-resolve-9vbawxdt/checkout"
         },
         {
           "source": "installed",

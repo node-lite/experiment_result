@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "671774675e08f64e15a38860f06a4c2b90f5c09d55e66b6819ba2e6af97e07b5",
     "resolved_lockfile_sha256": "671774675e08f64e15a38860f06a4c2b90f5c09d55e66b6819ba2e6af97e07b5",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 20,
+    "resolve_elapsed_ms": 22,
     "exit_code": 0,
     "command": [
       "npm ci"
@@ -8073,5 +8073,5 @@
   ],
   "manual_review": [],
   "normalize_elapsed_ms": 4,
-  "generated_at": "2026-09-04T06:47:26.447778+00:00"
+  "generated_at": "2026-09-05T09:17:55.418168+00:00"
 }

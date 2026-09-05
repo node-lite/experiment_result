@@ -14,7 +14,7 @@
       "source_lockfile_sha256": "f10d22bc872be4f07fe84e1f7669fd2510acb3945dfe5f77bcb25b2d97be8635",
       "resolved_lockfile_sha256": "f10d22bc872be4f07fe84e1f7669fd2510acb3945dfe5f77bcb25b2d97be8635",
       "lockfile_changed": false,
-      "resolve_elapsed_ms": 481,
+      "resolve_elapsed_ms": 510,
       "exit_code": 0,
       "command": [
         "/usr/local/bin/pnpm",
@@ -31,8 +31,8 @@
       "tool_version": "9.15.5",
       "scripts_ran": false,
       "network_metadata_accessed": true,
-      "stdout_path": "/root/phase1/ctdp/projects/react-hook-form__react-hook-form.3adba2b8/logs/resolution/root.stdout.log",
-      "stderr_path": "/root/phase1/ctdp/projects/react-hook-form__react-hook-form.3adba2b8/logs/resolution/root.stderr.log",
+      "stdout_path": "/root/experiment_result/phase1/ctdp/projects/react-hook-form__react-hook-form.3adba2b8/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/experiment_result/phase1/ctdp/projects/react-hook-form__react-hook-form.3adba2b8/logs/resolution/root.stderr.log",
       "manifest_edits_applied": [],
       "evidence": [
         {
@@ -76,7 +76,7 @@
         {
           "kind": "temporary_checkout",
           "commit": "3adba2b816dd50bbca460bbe61df64b50bc6b1da",
-          "path": "/tmp/nodelite-deps-resolve-jycbxo44/checkout"
+          "path": "/tmp/nodelite-deps-resolve-jlxm_t7d/checkout"
         },
         {
           "source": "installed",

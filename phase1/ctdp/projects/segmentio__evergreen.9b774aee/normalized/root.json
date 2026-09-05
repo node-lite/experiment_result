@@ -21,7 +21,7 @@
     "source_lockfile_sha256": "c290fc2f869fd91a7641c454789a4ab4cacae4fba4e803a14ccd1176d3ae25c4",
     "resolved_lockfile_sha256": "c290fc2f869fd91a7641c454789a4ab4cacae4fba4e803a14ccd1176d3ae25c4",
     "lockfile_changed": false,
-    "resolve_elapsed_ms": 2,
+    "resolve_elapsed_ms": 3,
     "exit_code": 0,
     "command": [
       "yarn install --frozen-lockfile"
@@ -38911,6 +38911,6 @@
     }
   ],
   "manual_review": [],
-  "normalize_elapsed_ms": 47,
-  "generated_at": "2026-09-04T06:47:42.252772+00:00"
+  "normalize_elapsed_ms": 26,
+  "generated_at": "2026-09-05T09:18:01.160917+00:00"
 }
