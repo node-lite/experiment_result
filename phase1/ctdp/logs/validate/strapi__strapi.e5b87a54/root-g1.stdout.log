@@ -11,4 +11,4 @@
     at async Promise.allSettled (index 14)
     at async Uu (/root/.npm/_npx/65705b124b98ded3/node_modules/@yarnpkg/cli-dist/bin/yarn.js:140:44382)
 ➤ YN0000: └ Completed
-➤ YN0000: · Failed with errors in 0s 190ms
+➤ YN0000: · Failed with errors in 0s 199ms

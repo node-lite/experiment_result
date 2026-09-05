@@ -98,35 +98,35 @@ npm WARN EBADENGINE   package: 'undici@7.18.2',
 npm WARN EBADENGINE   required: { node: '>=20.18.1' },
 npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
 npm WARN EBADENGINE }
-npm WARN deprecated osenv@0.1.5: This package is no longer supported.
-npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
-npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
-npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-npm WARN deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
-npm WARN deprecated glob@5.0.15: Glob versions prior to v9 are no longer supported
-npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
 npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
-npm WARN deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
+npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
+npm WARN deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
+npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated osenv@0.1.5: This package is no longer supported.
+npm WARN deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
 npm WARN deprecated is-data-descriptor@1.0.0: Please upgrade to v1.0.1
+npm WARN deprecated glob@7.1.7: Glob versions prior to v9 are no longer supported
 npm WARN deprecated is-accessor-descriptor@1.0.0: Please upgrade to v1.0.1
 npm WARN deprecated keygrip@1.1.0: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
-npm WARN deprecated asar@3.0.3: Please use @electron/asar moving forward.  There is no API change, just a package name change
-npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
 npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
 npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
 npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
 npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
+npm WARN deprecated glob@5.0.15: Glob versions prior to v9 are no longer supported
 npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
 npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
-npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
 npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
 npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
-npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
 npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
 npm WARN deprecated glob@7.1.7: Glob versions prior to v9 are no longer supported
-npm WARN deprecated glob@7.1.7: Glob versions prior to v9 are no longer supported
+npm WARN deprecated asar@3.0.3: Please use @electron/asar moving forward.  There is no API change, just a package name change
 npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
 npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
 npm WARN deprecated gulp-vinyl-zip@2.1.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
@@ -134,7 +134,7 @@ npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates
 npm WARN deprecated sinon@12.0.1: 16.1.1
 npm WARN deprecated @azure/core-http@2.3.2: This package is no longer supported. Please migrate to use @azure/core-rest-pipeline
 npm ERR! code 1
-npm ERR! path /tmp/nodelite-deps-validate-bvsm4q_g/node_modules/@playwright/browser-chromium
+npm ERR! path /tmp/nodelite-deps-validate-ju0d_wtn/node_modules/@playwright/browser-chromium
 npm ERR! command failed
 npm ERR! command sh -c node install.js
 npm ERR! Downloading Chromium 141.0.7390.37 (playwright build v1194)[2m from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip[22m
@@ -143,45 +143,45 @@ npm ERR! Downloading Chromium 141.0.7390.37 (playwright build v1194)[2m from ht
 npm ERR! Downloading Chromium 141.0.7390.37 (playwright build v1194)[2m from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip[22m
 npm ERR! Downloading Chromium 141.0.7390.37 (playwright build v1194)[2m from https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip[22m
 npm ERR! Error: Download failed: server returned code 502 body ''. URL: https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip
-npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
+npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
 npm ERR!     at IncomingMessage.emit (node:events:529:35)
 npm ERR!     at endReadableNT (node:internal/streams/readable:1400:12)
 npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 npm ERR! Error: Download failed: server returned code 502 body ''. URL: https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip
-npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
+npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
 npm ERR!     at IncomingMessage.emit (node:events:529:35)
 npm ERR!     at endReadableNT (node:internal/streams/readable:1400:12)
 npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 npm ERR! Error: Download failed: server returned code 502 body ''. URL: https://cdn.playwright.dev/builds/chromium/1194/chromium-linux.zip
-npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
+npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
 npm ERR!     at IncomingMessage.emit (node:events:529:35)
 npm ERR!     at endReadableNT (node:internal/streams/readable:1400:12)
 npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 npm ERR! Error: Download failed: server returned code 502 body ''. URL: https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip
-npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
+npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
 npm ERR!     at IncomingMessage.emit (node:events:529:35)
 npm ERR!     at endReadableNT (node:internal/streams/readable:1400:12)
 npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 npm ERR! Error: Download failed: server returned code 502 body ''. URL: https://playwright.download.prss.microsoft.com/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip
-npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
+npm ERR!     at IncomingMessage.handleError (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/oopDownloadBrowserMain.js:56:23)
 npm ERR!     at IncomingMessage.emit (node:events:529:35)
 npm ERR!     at endReadableNT (node:internal/streams/readable:1400:12)
 npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
-npm ERR! /tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/index.js:1132
+npm ERR! /tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/index.js:1132
 npm ERR!       throw new Error(`Failed to download ${title}, caused by
 npm ERR!             ^
 npm ERR! 
 npm ERR! Error: Failed to download Chromium 141.0.7390.37 (playwright build v1194), caused by
 npm ERR! Error: Download failure, code=1
-npm ERR!     at ChildProcess.<anonymous> (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/browserFetcher.js:94:32)
+npm ERR!     at ChildProcess.<anonymous> (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/browserFetcher.js:94:32)
 npm ERR!     at ChildProcess.emit (node:events:517:28)
 npm ERR!     at ChildProcess._handle.onexit (node:internal/child_process:292:12)
-npm ERR!     at /tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/index.js:1132:13
-npm ERR!     at async Registry._downloadExecutable (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/index.js:1131:5)
-npm ERR!     at async Registry.install (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/index.js:1025:9)
-npm ERR!     at async installBrowsersForNpmInstall (/tmp/nodelite-deps-validate-bvsm4q_g/node_modules/playwright-core/lib/server/registry/index.js:1282:3)
+npm ERR!     at /tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/index.js:1132:13
+npm ERR!     at async Registry._downloadExecutable (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/index.js:1131:5)
+npm ERR!     at async Registry.install (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/index.js:1025:9)
+npm ERR!     at async installBrowsersForNpmInstall (/tmp/nodelite-deps-validate-ju0d_wtn/node_modules/playwright-core/lib/server/registry/index.js:1282:3)
 npm ERR! 
 npm ERR! Node.js v18.19.1
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /root/.npm/_logs/2026-09-05T10_16_14_490Z-debug-0.log
+npm ERR!     /root/.npm/_logs/2026-09-05T10_50_22_320Z-debug-0.log

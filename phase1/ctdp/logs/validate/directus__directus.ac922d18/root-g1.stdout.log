@@ -3,4 +3,28 @@ Lockfile is up to date, resolution step is skipped
 Progress: resolved 1, reused 0, downloaded 0, added 0
 Packages: +932
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
- ERR_PNPM_NO_OFFLINE_TARBALL  A package is missing from the store but cannot download it in offline mode. The missing package may be downloaded from http://127.0.0.1:37181/@changesets/cli/-/cli-2.29.7.tgz.
+Progress: resolved 932, reused 0, downloaded 306, added 306
+Progress: resolved 932, reused 0, downloaded 696, added 696
+Progress: resolved 932, reused 0, downloaded 932, added 932, done
+
+devDependencies:
++ @changesets/cli 2.29.7
++ @directus/release-notes-generator 0.0.0 <- packages/release-notes-generator
++ @eslint/js 9.39.1
++ eslint 9.39.1
++ eslint-config-prettier 10.1.8
++ eslint-plugin-import 2.32.0
++ eslint-plugin-vue 10.5.1
++ globals 16.5.0
++ postcss-html 1.8.0
++ prettier 3.6.2
++ rimraf 6.1.0
++ stylelint 16.25.0
++ stylelint-config-standard 39.0.1
++ stylelint-config-standard-scss 15.0.1
++ stylelint-config-standard-vue 1.0.0
++ stylelint-use-logical 2.1.2
++ typescript 5.9.3
++ typescript-eslint 8.46.4
+
+Done in 3.8s using pnpm v10.27.0

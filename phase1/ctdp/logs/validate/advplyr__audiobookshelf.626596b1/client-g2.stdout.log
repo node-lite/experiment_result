@@ -12,14 +12,14 @@ added 1540 packages in 15s
 ℹ Bundling for server and client side
 ℹ Target: static
 ✔ Builder initialized
-⚙ App root: /tmp/nodelite-deps-validate-nueau13i/client
+⚙ App root: /tmp/nodelite-deps-validate-us9td3ne/client
 ⚙ Generating nuxt files
 ⚙ Generating routes...
 ✔ Nuxt files generated
 [webpackbar] ℹ Compiling Client
-[webpackbar] ✔ Client: Compiled successfully in 3.22s
+[webpackbar] ✔ Client: Compiled successfully in 3.78s
 [webpackbar] ℹ Compiling Server
-[webpackbar] ✔ Server: Compiled successfully in 278.38ms
+[webpackbar] ✔ Server: Compiled successfully in 308.59ms
 ℹ Generating output directory: dist/
 ⚙ Preparing routes for generate...
 ℹ Generating pages

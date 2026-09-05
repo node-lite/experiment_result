@@ -12,7 +12,7 @@ node:internal/modules/cjs/loader:1137
   throw err;
   ^
 
-Error: Cannot find module '/tmp/nodelite-deps-validate-jnmx9fhe/ci/dev/preinstall.js'
+Error: Cannot find module '/tmp/nodelite-deps-validate-khxl3bx5/ci/dev/preinstall.js'
     at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
     at Module._load (node:internal/modules/cjs/loader:975:27)
     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
@@ -23,9 +23,9 @@ Error: Cannot find module '/tmp/nodelite-deps-validate-jnmx9fhe/ci/dev/preinstal
 
 Node.js v18.19.1
 npm ERR! code 1
-npm ERR! path /tmp/nodelite-deps-validate-jnmx9fhe
+npm ERR! path /tmp/nodelite-deps-validate-khxl3bx5
 npm ERR! command failed
 npm ERR! command sh -c node ./ci/dev/preinstall.js
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /root/.npm/_logs/2026-09-05T10_14_18_607Z-debug-0.log
+npm ERR!     /root/.npm/_logs/2026-09-05T10_48_24_511Z-debug-0.log

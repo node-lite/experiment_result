@@ -1,4 +1,4 @@
-error Error: https://registry.yarnpkg.com/which-module/-/which-module-2.0.1.tgz: tunneling socket could not be established, statusCode=502
+error Error: https://registry.npmjs.org/inquirer/-/inquirer-7.3.3.tgz: tunneling socket could not be established, statusCode=502
     at ClientRequest.onConnect (/usr/local/lib/node_modules/yarn/lib/cli.js:152885:19)
     at Object.onceWrapper (node:events:632:26)
     at ClientRequest.emit (node:events:517:28)

@@ -1,4 +1,4 @@
  WARN  Unsupported engine: wanted: {"node":"^20.19.0 || >=22.12.0"} (current: {"node":"v18.19.1","pnpm":"10.28.2"})
- ENOENT  ENOENT: no such file or directory, open '/tmp/nodelite-deps-validate-5rsjpjw7/patches/sirv@3.0.2.patch'
+ ENOENT  ENOENT: no such file or directory, open '/tmp/nodelite-deps-validate-jvtliyra/patches/sirv@3.0.2.patch'
 
-pnpm: ENOENT: no such file or directory, open '/tmp/nodelite-deps-validate-5rsjpjw7/patches/sirv@3.0.2.patch'
+pnpm: ENOENT: no such file or directory, open '/tmp/nodelite-deps-validate-jvtliyra/patches/sirv@3.0.2.patch'

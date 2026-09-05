@@ -1,3 +1,3 @@
 run,processed_artifacts,downloaded_artifacts,reused_artifacts,failed_artifacts,network_bytes,measurement_status
-first,32489,11206,,,9234461362,observed; artifact count retained from first-run execution record
-second,32489,2766,29722,1,3582234320,observed
+first,32941,11206,,,9234461362,observed; artifact count retained from first-run execution record
+second,32941,397,32543,1,213832627,observed

@@ -48,6 +48,7 @@ npm WARN EBADENGINE   package: 'tinybench@5.1.0',
 npm WARN EBADENGINE   required: { node: '>=20.0.0' },
 npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
 npm WARN EBADENGINE }
+npm WARN deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
 npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 npm WARN deprecated har-validator@5.1.5: this library is no longer supported
 npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
@@ -56,14 +57,13 @@ npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supporte
 npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
 npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
 npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-npm WARN deprecated lodash.get@4.4.2: This package is deprecated. Use the optional chaining (?.) operator instead.
-npm WARN deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
 npm WARN deprecated q@1.5.1: You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
 npm WARN deprecated 
 npm WARN deprecated (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
-npm WARN deprecated argv@0.0.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
+npm WARN deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
 npm WARN deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
 npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
 npm WARN deprecated request@2.88.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated argv@0.0.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 npm WARN deprecated codecov@3.8.3: https://about.codecov.io/blog/codecov-uploader-deprecation-plan/
 npm WARN deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.

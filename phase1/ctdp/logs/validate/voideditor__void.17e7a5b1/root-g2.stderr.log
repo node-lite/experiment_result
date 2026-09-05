@@ -28,104 +28,109 @@ npm WARN EBADENGINE   package: 'undici@7.2.3',
 npm WARN EBADENGINE   required: { node: '>=20.18.1' },
 npm WARN EBADENGINE   current: { node: 'v18.19.1', npm: '9.2.0' }
 npm WARN EBADENGINE }
-npm WARN deprecated osenv@0.1.5: This package is no longer supported.
 npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
-npm WARN deprecated is-data-descriptor@1.0.0: Please upgrade to v1.0.1
-npm WARN deprecated is-accessor-descriptor@1.0.0: Please upgrade to v1.0.1
-npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
-npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
+npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+npm WARN deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
 npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
 npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
 npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
-npm WARN deprecated eslint-plugin-local@6.0.0: Since the coming of ESLint flat config file, you can specify local rules without the need of this package. For running ESLint rule unit tests, use eslint-rule-tester instead
-npm WARN deprecated glob@8.1.0: Glob versions prior to v9 are no longer supported
 npm WARN deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
 npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+npm WARN deprecated osenv@0.1.5: This package is no longer supported.
 npm WARN deprecated rimraf@2.6.3: Rimraf versions prior to v4 are no longer supported
 npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
-npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm WARN deprecated is-data-descriptor@1.0.0: Please upgrade to v1.0.1
+npm WARN deprecated is-accessor-descriptor@1.0.0: Please upgrade to v1.0.1
 npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
 npm WARN deprecated glob@7.1.7: Glob versions prior to v9 are no longer supported
-npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
-npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
 npm WARN deprecated asar@3.0.3: Please use @electron/asar moving forward.  There is no API change, just a package name change
 npm WARN deprecated source-map-url@0.4.0: See https://github.com/lydell/source-map-url#deprecated
+npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
+npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
 npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
 npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
+npm WARN deprecated eslint-plugin-local@6.0.0: Since the coming of ESLint flat config file, you can specify local rules without the need of this package. For running ESLint rule unit tests, use eslint-rule-tester instead
 npm WARN deprecated glob@5.0.15: Glob versions prior to v9 are no longer supported
-npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
-npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
 npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
 npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
+npm WARN deprecated is-data-descriptor@0.1.4: Please upgrade to v0.1.5
+npm WARN deprecated is-accessor-descriptor@0.1.6: Please upgrade to v0.1.7
+npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
+npm WARN deprecated fstream@1.0.12: This package is no longer supported.
 npm WARN deprecated glob@7.1.7: Glob versions prior to v9 are no longer supported
+npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
 npm WARN deprecated glob@7.1.6: Glob versions prior to v9 are no longer supported
 npm WARN deprecated gulp-vinyl-zip@2.1.2: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 npm WARN deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
-npm WARN deprecated fstream@1.0.12: This package is no longer supported.
 npm WARN deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
 npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
 npm WARN deprecated sinon@12.0.1: 16.1.1
+npm WARN cleanup Failed to remove some directories [
+npm WARN cleanup   [
+npm WARN cleanup     '/tmp/nodelite-deps-validate-7yw6qifg/node_modules/node-pty',
+npm WARN cleanup     [Error: ENOTEMPTY: directory not empty, rmdir '/tmp/nodelite-deps-validate-7yw6qifg/node_modules/node-pty/build/Release/obj.target'] {
+npm WARN cleanup       errno: -39,
+npm WARN cleanup       code: 'ENOTEMPTY',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: '/tmp/nodelite-deps-validate-7yw6qifg/node_modules/node-pty/build/Release/obj.target'
+npm WARN cleanup     }
+npm WARN cleanup   ],
+npm WARN cleanup   [
+npm WARN cleanup     '/tmp/nodelite-deps-validate-7yw6qifg/node_modules',
+npm WARN cleanup     [Error: ENOTEMPTY: directory not empty, rmdir '/tmp/nodelite-deps-validate-7yw6qifg/node_modules/node-pty/build/Release/obj.target'] {
+npm WARN cleanup       errno: -39,
+npm WARN cleanup       code: 'ENOTEMPTY',
+npm WARN cleanup       syscall: 'rmdir',
+npm WARN cleanup       path: '/tmp/nodelite-deps-validate-7yw6qifg/node_modules/node-pty/build/Release/obj.target'
+npm WARN cleanup     }
+npm WARN cleanup   ]
+npm WARN cleanup ]
 npm ERR! code 1
-npm ERR! path /tmp/nodelite-deps-validate-85k5pr7l/node_modules/@playwright/browser-chromium
+npm ERR! path /tmp/nodelite-deps-validate-7yw6qifg/node_modules/native-keymap
 npm ERR! command failed
-npm ERR! command sh -c node install.js
-npm ERR! Downloading Chromium 129.0.6668.29 (playwright build v1134)[2m from https://playwright.azureedge.net/builds/chromium/1134/chromium-linux.zip[22m
-npm ERR! Downloading Chromium 129.0.6668.29 (playwright build v1134)[2m from https://playwright-akamai.azureedge.net/builds/chromium/1134/chromium-linux.zip[22m
-npm ERR! Downloading Chromium 129.0.6668.29 (playwright build v1134)[2m from https://playwright-verizon.azureedge.net/builds/chromium/1134/chromium-linux.zip[22m
-npm ERR! Error [ERR_SOCKET_CLOSED]: Socket is closed
-npm ERR!     at new NodeError (node:internal/errors:405:5)
-npm ERR!     at Socket._writeGeneric (node:net:953:8)
-npm ERR!     at Socket._write (node:net:975:8)
-npm ERR!     at doWrite (node:internal/streams/writable:411:12)
-npm ERR!     at clearBuffer (node:internal/streams/writable:572:7)
-npm ERR!     at Writable.uncork (node:internal/streams/writable:351:7)
-npm ERR!     at ClientRequest._flushOutput (node:_http_outgoing:1147:10)
-npm ERR!     at ClientRequest._flush (node:_http_outgoing:1116:22)
-npm ERR!     at onSocketNT (node:_http_client:905:9)
-npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
-npm ERR!   code: 'ERR_SOCKET_CLOSED'
-npm ERR! }
-npm ERR! Error [ERR_SOCKET_CLOSED]: Socket is closed
-npm ERR!     at new NodeError (node:internal/errors:405:5)
-npm ERR!     at Socket._writeGeneric (node:net:953:8)
-npm ERR!     at Socket._write (node:net:975:8)
-npm ERR!     at doWrite (node:internal/streams/writable:411:12)
-npm ERR!     at clearBuffer (node:internal/streams/writable:572:7)
-npm ERR!     at Writable.uncork (node:internal/streams/writable:351:7)
-npm ERR!     at ClientRequest._flushOutput (node:_http_outgoing:1147:10)
-npm ERR!     at ClientRequest._flush (node:_http_outgoing:1116:22)
-npm ERR!     at onSocketNT (node:_http_client:905:9)
-npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
-npm ERR!   code: 'ERR_SOCKET_CLOSED'
-npm ERR! }
-npm ERR! Error [ERR_SOCKET_CLOSED]: Socket is closed
-npm ERR!     at new NodeError (node:internal/errors:405:5)
-npm ERR!     at Socket._writeGeneric (node:net:953:8)
-npm ERR!     at Socket._write (node:net:975:8)
-npm ERR!     at doWrite (node:internal/streams/writable:411:12)
-npm ERR!     at clearBuffer (node:internal/streams/writable:572:7)
-npm ERR!     at Writable.uncork (node:internal/streams/writable:351:7)
-npm ERR!     at ClientRequest._flushOutput (node:_http_outgoing:1147:10)
-npm ERR!     at ClientRequest._flush (node:_http_outgoing:1116:22)
-npm ERR!     at onSocketNT (node:_http_client:905:9)
-npm ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
-npm ERR!   code: 'ERR_SOCKET_CLOSED'
-npm ERR! }
-npm ERR! /tmp/nodelite-deps-validate-85k5pr7l/node_modules/playwright-core/lib/server/registry/index.js:756
-npm ERR!       throw new Error(`Failed to download ${title}, caused by\n${e.stack}`);
-npm ERR!             ^
-npm ERR! 
-npm ERR! Error: Failed to download Chromium 129.0.6668.29 (playwright build v1134), caused by
-npm ERR! Error: Download failure, code=1
-npm ERR!     at ChildProcess.<anonymous> (/tmp/nodelite-deps-validate-85k5pr7l/node_modules/playwright-core/lib/server/registry/browserFetcher.js:91:16)
-npm ERR!     at ChildProcess.emit (node:events:517:28)
-npm ERR!     at ChildProcess._handle.onexit (node:internal/child_process:292:12)
-npm ERR!     at /tmp/nodelite-deps-validate-85k5pr7l/node_modules/playwright-core/lib/server/registry/index.js:756:13
-npm ERR!     at async Registry._downloadExecutable (/tmp/nodelite-deps-validate-85k5pr7l/node_modules/playwright-core/lib/server/registry/index.js:755:5)
-npm ERR!     at async Registry.install (/tmp/nodelite-deps-validate-85k5pr7l/node_modules/playwright-core/lib/server/registry/index.js:680:9)
-npm ERR!     at async installBrowsersForNpmInstall (/tmp/nodelite-deps-validate-85k5pr7l/node_modules/playwright-core/lib/server/registry/index.js:897:3)
-npm ERR! 
-npm ERR! Node.js v18.19.1
+npm ERR! command sh -c node-gyp rebuild
+npm ERR! gyp info it worked if it ends with ok
+npm ERR! gyp info using node-gyp@9.3.0
+npm ERR! gyp info using node@18.19.1 | linux | x64
+npm ERR! gyp info find Python using Python version 3.12.3 found at "/usr/bin/python3"
+npm ERR! gyp info spawn /usr/bin/python3
+npm ERR! gyp info spawn args [
+npm ERR! gyp info spawn args   '/usr/share/nodejs/node-gyp/gyp/gyp_main.py',
+npm ERR! gyp info spawn args   'binding.gyp',
+npm ERR! gyp info spawn args   '-f',
+npm ERR! gyp info spawn args   'make',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/tmp/nodelite-deps-validate-7yw6qifg/node_modules/native-keymap/build/config.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/usr/share/nodejs/node-gyp/addon.gypi',
+npm ERR! gyp info spawn args   '-I',
+npm ERR! gyp info spawn args   '/root/.cache/node-gyp/34.3.2/include/node/common.gypi',
+npm ERR! gyp info spawn args   '-Dlibrary=shared_library',
+npm ERR! gyp info spawn args   '-Dvisibility=default',
+npm ERR! gyp info spawn args   '-Dnode_root_dir=/root/.cache/node-gyp/34.3.2',
+npm ERR! gyp info spawn args   '-Dnode_gyp_dir=/usr/share/nodejs/node-gyp',
+npm ERR! gyp info spawn args   '-Dnode_lib_file=/root/.cache/node-gyp/34.3.2/<(target_arch)/node.lib',
+npm ERR! gyp info spawn args   '-Dmodule_root_dir=/tmp/nodelite-deps-validate-7yw6qifg/node_modules/native-keymap',
+npm ERR! gyp info spawn args   '-Dnode_engine=v8',
+npm ERR! gyp info spawn args   '--depth=.',
+npm ERR! gyp info spawn args   '--no-parallel',
+npm ERR! gyp info spawn args   '--generator-output',
+npm ERR! gyp info spawn args   'build',
+npm ERR! gyp info spawn args   '-Goutput_dir=.'
+npm ERR! gyp info spawn args ]
+npm ERR! /bin/sh: 1: pkg-config: not found
+npm ERR! gyp: Call to '${PKG_CONFIG:-pkg-config} x11 xkbfile --cflags | sed s/-I//g' returned exit status 0 while in binding.gyp. while trying to load binding.gyp
+npm ERR! gyp ERR! configure error 
+npm ERR! gyp ERR! stack Error: `gyp` failed with exit code: 1
+npm ERR! gyp ERR! stack     at ChildProcess.onCpExit (/usr/share/nodejs/node-gyp/lib/configure.js:329:16)
+npm ERR! gyp ERR! stack     at ChildProcess.emit (node:events:517:28)
+npm ERR! gyp ERR! stack     at ChildProcess._handle.onexit (node:internal/child_process:292:12)
+npm ERR! gyp ERR! System Linux 6.8.0-136-generic
+npm ERR! gyp ERR! command "/usr/bin/node" "/usr/share/nodejs/node-gyp/bin/node-gyp.js" "rebuild"
+npm ERR! gyp ERR! cwd /tmp/nodelite-deps-validate-7yw6qifg/node_modules/native-keymap
+npm ERR! gyp ERR! node -v v18.19.1
+npm ERR! gyp ERR! node-gyp -v v9.3.0
+npm ERR! gyp ERR! not ok
 
 npm ERR! A complete log of this run can be found in:
-npm ERR!     /root/.npm/_logs/2026-09-05T10_05_30_390Z-debug-0.log
+npm ERR!     /root/.npm/_logs/2026-09-05T10_59_29_870Z-debug-0.log

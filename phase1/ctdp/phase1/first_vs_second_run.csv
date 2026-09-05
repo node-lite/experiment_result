@@ -1,4 +1,4 @@
 metric,first_run,second_run,absolute_change,relative_change
-network_bytes,9234461362,3582234320,-5652227042,-0.6120797760071889
-downloaded_artifacts,11206,2766,-8440,-0.7531679457433518
-processed_artifacts,32489,32489,0,0.0
+network_bytes,9234461362,213832627,-9020628735,-0.9768440606747324
+downloaded_artifacts,11206,397,-10809,-0.9645725504194181
+processed_artifacts,32941,32941,0,0.0

@@ -1,15 +1,4 @@
-Internal Error: Cannot find module '/tmp/nodelite-deps-validate-os6ea6j8/.yarn/plugins/@yarnpkg/plugin-interactive-tools.cjs'
-Require stack:
-- /root/.npm/_npx/1a7b3d2c9ef11921/node_modules/@yarnpkg/cli-dist/bin/yarn.js
-Require stack:
-- /root/.npm/_npx/1a7b3d2c9ef11921/node_modules/@yarnpkg/cli-dist/bin/yarn.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1134:15)
-    at Module._load (node:internal/modules/cjs/loader:975:27)
-    at Module.require (node:internal/modules/cjs/loader:1225:19)
-    at require (node:internal/modules/helpers:177:18)
-    at hW (/root/.npm/_npx/1a7b3d2c9ef11921/node_modules/@yarnpkg/cli-dist/bin/yarn.js:391:12724)
-    at mf (/root/.npm/_npx/1a7b3d2c9ef11921/node_modules/@yarnpkg/cli-dist/bin/yarn.js:391:13567)
-    at P (/root/.npm/_npx/1a7b3d2c9ef11921/node_modules/@yarnpkg/cli-dist/bin/yarn.js:392:21934)
-    at ja.find (/root/.npm/_npx/1a7b3d2c9ef11921/node_modules/@yarnpkg/cli-dist/bin/yarn.js:392:22540)
-    at async i (/root/.npm/_npx/1a7b3d2c9ef11921/node_modules/@yarnpkg/cli-dist/bin/yarn.js:447:10705)
-    at async t (/root/.npm/_npx/1a7b3d2c9ef11921/node_modules/@yarnpkg/cli-dist/bin/yarn.js:447:10283)
+➤ YN0000: ┌ Resolution step
+➤ YN0001: │ Error: sax@patch:sax@npm%3A1.4.1#./.yarn/patches/sax-npm-1.4.1-503b1923cb.patch::locator=svgo%40workspace%3A.: ENOENT: no such file or directory, open '/tmp/nodelite-deps-validate-zbu7spro/.yarn/patches/sax-npm-1.4.1-503b1923cb.patch'
+➤ YN0000: └ Completed in 1s 94ms
+➤ YN0000: Failed with errors in 1s 111ms

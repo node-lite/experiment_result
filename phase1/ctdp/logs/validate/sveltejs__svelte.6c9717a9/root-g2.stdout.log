@@ -1,5 +1,5 @@
  ERR_PNPM_WORKSPACE_PKG_NOT_FOUND  In : "svelte@workspace:^" is in the dependencies but no package named "svelte" is present in the workspace
 
-This error happened while installing a direct dependency of /tmp/nodelite-deps-validate-6p4gy0p5
+This error happened while installing a direct dependency of /tmp/nodelite-deps-validate-wh42yqkg
 
 Packages found in the workspace: 

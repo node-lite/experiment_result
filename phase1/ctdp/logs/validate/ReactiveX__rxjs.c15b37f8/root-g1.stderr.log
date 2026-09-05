@@ -1,4 +1,4 @@
-error Error: https://registry.yarnpkg.com/@phenomnomnominal/tsquery/-/tsquery-5.0.1.tgz: tunneling socket could not be established, statusCode=502
+error Error: https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz: tunneling socket could not be established, statusCode=502
     at ClientRequest.onConnect (/root/.npm/_npx/b46c977e38d22b05/node_modules/yarn/lib/cli.js:152349:19)
     at Object.onceWrapper (node:events:632:26)
     at ClientRequest.emit (node:events:517:28)
