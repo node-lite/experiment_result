@@ -1,2 +1,7 @@
 phase1/ctdp/cas/
 phase1/ctdp/native-cache/
+
+# phase2 raw dumps are too large for the repo
+phase2/inventory.json
+phase2/objects.json
+phase2/object_action_observations.jsonl

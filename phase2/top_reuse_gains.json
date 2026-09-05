@@ -1,0 +1,142 @@
+[
+  {
+    "object_id": "system_toolchain:ubuntu24:gcc13:python3.12",
+    "cold_median_ms": 790.082898,
+    "reuse_median_ms": 1.414631,
+    "gain_ms": 788.668267,
+    "gain_ratio": 0.9982095157310948
+  },
+  {
+    "object_id": "native_binary_bundle:synthetic:node-addon:abi109",
+    "cold_median_ms": 785.841176,
+    "reuse_median_ms": 116.258813,
+    "gain_ms": 669.582363,
+    "gain_ratio": 0.852058130127811
+  },
+  {
+    "object_id": "package_manager:pnpm:default:10.17.1:linux:x86_64",
+    "cold_median_ms": 755.362826,
+    "reuse_median_ms": 349.785267,
+    "gain_ms": 405.57755900000006,
+    "gain_ratio": 0.5369307901313111
+  },
+  {
+    "object_id": "dependency_view:Automattic__mongoose.5f57a5bb:root:f4a039d5d472a10b",
+    "cold_median_ms": 385.908853,
+    "reuse_median_ms": 0.352764,
+    "gain_ms": 385.55608900000004,
+    "gain_ratio": 0.9990858877756816
+  },
+  {
+    "object_id": "browser_process:chromium:151.0.7922.77:headless",
+    "cold_median_ms": 281.798033,
+    "reuse_median_ms": 0.548871,
+    "gain_ms": 281.24916199999996,
+    "gain_ratio": 0.9980522539701332
+  },
+  {
+    "object_id": "build_cache:synthetic:typescript:7.0.2",
+    "cold_median_ms": 525.484661,
+    "reuse_median_ms": 251.987763,
+    "gain_ms": 273.496898,
+    "gain_ratio": 0.5204659970084264
+  },
+  {
+    "object_id": "network_ports:host-loopback:v1",
+    "cold_median_ms": 185.208092,
+    "reuse_median_ms": 0.000641,
+    "gain_ms": 185.207451,
+    "gain_ratio": 0.9999965390281111
+  },
+  {
+    "object_id": "node_runtime:20.19.1:linux:x86_64:glibc:abi115",
+    "cold_median_ms": 132.305396,
+    "reuse_median_ms": 5.008199,
+    "gain_ms": 127.297197,
+    "gain_ratio": 0.9621466761642888
+  },
+  {
+    "object_id": "task_harness:synthetic:rollout:v1",
+    "cold_median_ms": 120.28362,
+    "reuse_median_ms": 0.001192,
+    "gain_ms": 120.282428,
+    "gain_ratio": 0.9999900900887418
+  },
+  {
+    "object_id": "test_transform_cache:synthetic:ava:8.0.1",
+    "cold_median_ms": 556.927064,
+    "reuse_median_ms": 464.696077,
+    "gain_ms": 92.23098699999997,
+    "gain_ratio": 0.16560694022943007
+  },
+  {
+    "object_id": "test_transform_cache:synthetic:jest:30.4.2",
+    "cold_median_ms": 588.237591,
+    "reuse_median_ms": 566.659971,
+    "gain_ms": 21.57761999999991,
+    "gain_ratio": 0.03668181076853334
+  },
+  {
+    "object_id": "dependency_view:fixture:yarn:3.8.7",
+    "cold_median_ms": 374.669056,
+    "reuse_median_ms": 357.662314,
+    "gain_ms": 17.00674200000003,
+    "gain_ratio": 0.04539137067140135
+  },
+  {
+    "object_id": "node_runtime:22.23.2:linux:x86_64:glibc:abi127",
+    "cold_median_ms": 127.671573,
+    "reuse_median_ms": 112.054731,
+    "gain_ms": 15.616841999999991,
+    "gain_ratio": 0.12232043228605002
+  },
+  {
+    "object_id": "database_daemon:redis:Redis server v=7.0.15 sha=00000000:0 malloc=jemalloc-5.3.0 bits=64 build=e53ff17674aa6190:default",
+    "cold_median_ms": 14.710122,
+    "reuse_median_ms": 0.071048,
+    "gain_ms": 14.639074,
+    "gain_ratio": 0.9951701284326534
+  },
+  {
+    "object_id": "home_tmp_xdg:isolated-template:v1",
+    "cold_median_ms": 14.770302,
+    "reuse_median_ms": 1.430555,
+    "gain_ms": 13.339747,
+    "gain_ratio": 0.9031465301115712
+  },
+  {
+    "object_id": "build_cache:synthetic:babel:7.28.4",
+    "cold_median_ms": 240.2496,
+    "reuse_median_ms": 232.89811,
+    "gain_ms": 7.351489999999984,
+    "gain_ratio": 0.03059938497296139
+  },
+  {
+    "object_id": "node_runtime:18.19.1:linux:x86_64:glibc:abi109",
+    "cold_median_ms": 126.513325,
+    "reuse_median_ms": 120.904195,
+    "gain_ms": 5.609129999999993,
+    "gain_ratio": 0.044336278411779895
+  },
+  {
+    "object_id": "dependency_view:fixture:yarn:4.0.2",
+    "cold_median_ms": 371.878527,
+    "reuse_median_ms": 367.835596,
+    "gain_ms": 4.04293100000001,
+    "gain_ratio": 0.010871644116198217
+  },
+  {
+    "object_id": "build_cache:synthetic:rollup:4.63.1",
+    "cold_median_ms": 119.888181,
+    "reuse_median_ms": 115.849327,
+    "gain_ms": 4.038854000000001,
+    "gain_ratio": 0.0336885084610634
+  },
+  {
+    "object_id": "build_cache:synthetic:vite:8.2.2",
+    "cold_median_ms": 355.514422,
+    "reuse_median_ms": 351.747687,
+    "gain_ms": 3.7667350000000397,
+    "gain_ratio": 0.010595167922611138
+  }
+]
