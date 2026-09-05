@@ -1,0 +1,84 @@
+{
+  "profile_id": "swesmith/Redocly__redoc.d41fd46f",
+  "roots": [
+    {
+      "profile_id": "swesmith/Redocly__redoc.d41fd46f",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "398d8eda0bb00a78cfeda10fa713d7f94403e56456d5374e5772ab6f93903083",
+      "resolved_lockfile_sha256": "398d8eda0bb00a78cfeda10fa713d7f94403e56456d5374e5772ab6f93903083",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 302374,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/Redocly__redoc.d41fd46f/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/Redocly__redoc.d41fd46f/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "d41fd46f7cbee86bf83dc17b7ec51baf54f72a54",
+          "path": "/tmp/nodelite-deps-resolve-ngny7pvx/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

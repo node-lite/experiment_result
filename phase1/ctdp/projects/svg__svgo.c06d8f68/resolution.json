@@ -1,0 +1,104 @@
+{
+  "profile_id": "swesmith/svg__svgo.c06d8f68",
+  "roots": [
+    {
+      "profile_id": "swesmith/svg__svgo.c06d8f68",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_version": "3.8.7",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "yarn.lock",
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
+      "source_lockfile_sha256": "e3122b4a0e1aa47b2a937131ebf796f715362efbdec2e9567fe4c1dfd625cebb",
+      "resolved_lockfile_sha256": "e3122b4a0e1aa47b2a937131ebf796f715362efbdec2e9567fe4c1dfd625cebb",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 2775,
+      "exit_code": 0,
+      "command": [
+        "npx",
+        "--yes",
+        "--package",
+        "@yarnpkg/cli-dist@3.8.7",
+        "yarn",
+        "install",
+        "--mode=update-lockfile"
+      ],
+      "requested_command": [
+        "yarn",
+        "install",
+        "--mode=update-lockfile"
+      ],
+      "tool_version": "3.8.7",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/svg__svgo.c06d8f68/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/svg__svgo.c06d8f68/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "corepack enable && yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@3.8.7",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "corepack enable && yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@3.8.7",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "c06d8f6899788defae9594537063c2f4307803e4",
+          "path": "/tmp/nodelite-deps-resolve-55778p_m/checkout"
+        },
+        {
+          "source": "npx",
+          "version": "3.8.7"
+        },
+        {
+          "kind": "resolution",
+          "reason": "Yarn native lockfile resolver"
+        }
+      ]
+    }
+  ]
+}

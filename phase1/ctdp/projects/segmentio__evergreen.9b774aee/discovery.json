@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/segmentio__evergreen.9b774aee",
+  "safe_profile_id": "segmentio__evergreen.9b774aee",
+  "owner": "segmentio",
+  "repo": "evergreen",
+  "commit": "9b774aee2d794f6cf2f73a054bd33066ca5898a9",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "yarn",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install --frozen-lockfile"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": null,
+      "install_commands": [
+        "yarn install --frozen-lockfile"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "871730dbe5045a5eb62d3a7ca4178c0d201251c9027c94017f1b98b6be189e2e",
+          "size_bytes": 7641,
+          "source_url": "https://raw.githubusercontent.com/segmentio/evergreen/9b774aee2d794f6cf2f73a054bd33066ca5898a9/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "f3fc23758ab91be5f94a8c5eaff433d1ccd6a206cf1d381d332eb63716009337",
+          "size_bytes": 19,
+          "source_url": "https://raw.githubusercontent.com/segmentio/evergreen/9b774aee2d794f6cf2f73a054bd33066ca5898a9/.npmrc"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "2a60924243b684d9e7ed9afa6a12c26851e1c581f7aa22be2cdc6bef4b3884d2",
+          "size_bytes": 5,
+          "source_url": "https://raw.githubusercontent.com/segmentio/evergreen/9b774aee2d794f6cf2f73a054bd33066ca5898a9/.nvmrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "c290fc2f869fd91a7641c454789a4ab4cacae4fba4e803a14ccd1176d3ae25c4",
+          "size_bytes": 678106,
+          "source_url": "https://raw.githubusercontent.com/segmentio/evergreen/9b774aee2d794f6cf2f73a054bd33066ca5898a9/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 8
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/segmentio__evergreen.9b774aee/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L2418",
+  "dockerfile_sha256": "ba97748cc2d2714c23259e6b511a779b2d5a1fb344d492b5ef798dfcbf319122",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install --frozen-lockfile",
+      "install_fragment": "yarn install --frozen-lockfile",
+      "dockerfile_line": 8
+    }
+  ],
+  "discovery_elapsed_ms": 1139,
+  "discovered_at": "2026-09-04T06:20:39.161601+00:00"
+}

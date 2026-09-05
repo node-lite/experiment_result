@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/sveltejs__svelte.6c9717a9",
+  "safe_profile_id": "sveltejs__svelte.6c9717a9",
+  "owner": "sveltejs",
+  "repo": "svelte",
+  "commit": "6c9717a91f2f6ae10641d1cf502ba13d227fbe45",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "pnpm",
+  "package_manager_version": "10.4.0",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install",
+    "pnpm playwright install chromium",
+    "pnpm exec playwright install-deps"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    "pnpm-workspace.yaml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "10.4.0",
+      "install_commands": [
+        "pnpm install",
+        "pnpm playwright install chromium",
+        "pnpm exec playwright install-deps"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        "pnpm-workspace.yaml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "85b839d59475471d910c414948cd44c31a749f91edbd6a31e427839e784e191d",
+          "size_bytes": 1563,
+          "source_url": "https://raw.githubusercontent.com/sveltejs/svelte/6c9717a91f2f6ae10641d1cf502ba13d227fbe45/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "277d691cd1d9aa637cc8bf6b3b0ddd342a9741dd511f67c99bd036dbd5992e6b",
+          "size_bytes": 34,
+          "source_url": "https://raw.githubusercontent.com/sveltejs/svelte/6c9717a91f2f6ae10641d1cf502ba13d227fbe45/.npmrc"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "47c546c33a5c8309e83bf404b59d7b674a9e121d245d92190a5dac835c137bac",
+          "size_bytes": 47,
+          "source_url": "https://raw.githubusercontent.com/sveltejs/svelte/6c9717a91f2f6ae10641d1cf502ba13d227fbe45/pnpm-workspace.yaml"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "b0c07bc3f3203c46b64a85436a5962b620f8da99f7aa934c496a879cdf4343da",
+          "size_bytes": 153251,
+          "source_url": "https://raw.githubusercontent.com/sveltejs/svelte/6c9717a91f2f6ae10641d1cf502ba13d227fbe45/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 6
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm playwright install chromium",
+          "install_fragment": "pnpm playwright install chromium",
+          "dockerfile_line": 7
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm exec playwright install-deps",
+          "install_fragment": "pnpm exec playwright install-deps",
+          "dockerfile_line": 8
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.4.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/sveltejs__svelte.6c9717a9/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L519",
+  "dockerfile_sha256": "ff0e4140efe8c463788cc4d97893db6e67205036a6972dbc078b5d1adcd20384",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-bullseye"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 3,
+      "value": "npm install -g pnpm@10.4.0"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 6
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm playwright install chromium",
+      "install_fragment": "pnpm playwright install chromium",
+      "dockerfile_line": 7
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm exec playwright install-deps",
+      "install_fragment": "pnpm exec playwright install-deps",
+      "dockerfile_line": 8
+    }
+  ],
+  "discovery_elapsed_ms": 1075,
+  "discovered_at": "2026-09-04T06:20:42.986383+00:00"
+}

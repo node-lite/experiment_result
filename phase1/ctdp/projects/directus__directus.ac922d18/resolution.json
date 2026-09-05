@@ -1,0 +1,112 @@
+{
+  "profile_id": "swesmith/directus__directus.ac922d18",
+  "roots": [
+    {
+      "profile_id": "swesmith/directus__directus.ac922d18",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_version": "10",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver_failed",
+      "classification": "unsupported_or_manual_review",
+      "source_lockfile": "pnpm-lock.yaml",
+      "resolved_lockfile": null,
+      "source_lockfile_sha256": "2b92fcea821d07329341c89167fb98effae03374b816ad54d1f5c6798395ded7",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 6758,
+      "exit_code": 1,
+      "command": [
+        "npx",
+        "--yes",
+        "--package",
+        "pnpm@10",
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "10",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/directus__directus.ac922d18/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/directus__directus.ac922d18/logs/resolution/root.stderr.log",
+      "manual_review": [
+        null
+      ],
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.27.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.27.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "ac922d18f6039582a18737a6dc6d1d9a08a194e8",
+          "path": "/tmp/nodelite-deps-resolve-9s61xrfo/checkout"
+        },
+        {
+          "source": "npx",
+          "version": "10"
+        }
+      ]
+    }
+  ]
+}

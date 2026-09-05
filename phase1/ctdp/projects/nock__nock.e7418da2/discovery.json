@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/nock__nock.e7418da2",
+  "safe_profile_id": "nock__nock.e7418da2",
+  "owner": "nock",
+  "repo": "nock",
+  "commit": "e7418da29feb4a7bf0aa1612bfb9d32a4051651e",
+  "language": "javascript",
+  "node_version": "20",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "bf94886cefe6834d880e0db03335f3c9e0f8aa2f02d83dca1307717396b33d54",
+          "size_bytes": 2378,
+          "source_url": "https://raw.githubusercontent.com/nock/nock/e7418da29feb4a7bf0aa1612bfb9d32a4051651e/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "895cf8cafc9837f4a0ff740a0e5b3e866ccc46c466c8f221c74aba13177fc5e5",
+          "size_bytes": 564183,
+          "source_url": "https://raw.githubusercontent.com/nock/nock/e7418da29feb4a7bf0aa1612bfb9d32a4051651e/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/nock__nock.e7418da2/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L2192",
+  "dockerfile_sha256": "ecdd3ac2ebd9c45bd9e0e587098c113efabd491d1a8a2ca92698d16bdd317e69",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:20"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 7
+    }
+  ],
+  "discovery_elapsed_ms": 1081,
+  "discovered_at": "2026-09-04T06:20:27.088950+00:00"
+}

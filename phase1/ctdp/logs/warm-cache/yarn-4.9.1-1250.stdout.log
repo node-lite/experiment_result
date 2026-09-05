@@ -1,0 +1,10 @@
+➤ YN0000: · Yarn 4.9.1-git.20250411.hash-1908ee79f
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + spdx-exceptions@npm:2.2.0::__archiveUrl=http%3A%2F%2F127.0.0.1%3A46763%2Ftarballs%2Fintegrity%253Asha512-2XQACfElKi9SlVb1CYadKDXvoajPgBVPn%252FgOQLrTvHdElaVhr7ZEbqJaRnJLVNeaI4cMEAgVCeBMKF6MWRDCRA%253D%253D.tgz, and 210 more.
+➤ YN0000: └ Completed in 0s 211ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 211 packages were added to the project (+ 45.5 MiB).
+➤ YN0000: └ Completed in 0s 473ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 494ms
+➤ YN0000: · Done in 1s 220ms

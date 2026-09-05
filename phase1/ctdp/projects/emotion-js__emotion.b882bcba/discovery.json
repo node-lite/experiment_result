@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/emotion-js__emotion.b882bcba",
+  "safe_profile_id": "emotion-js__emotion.b882bcba",
+  "owner": "emotion-js",
+  "repo": "emotion",
+  "commit": "b882bcba85132554992e4bd49e94c95939bbf810",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "yarn",
+  "package_manager_version": "3.2.3",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".yarnrc.yml",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "berry",
+      "package_manager_version": "3.2.3",
+      "install_commands": [
+        "yarn install"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".yarnrc.yml",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "c2de0d725c3c6fa112d032e3fc0ff7bad1ed08f2092240a02d0106ae7ce5a5d8",
+          "size_bytes": 7010,
+          "source_url": "https://raw.githubusercontent.com/emotion-js/emotion/b882bcba85132554992e4bd49e94c95939bbf810/package.json"
+        },
+        {
+          "path": ".yarnrc.yml",
+          "output_path": "source-files/root/.yarnrc.yml",
+          "sha256": "38eed9f572283b03913ca9d9ecd6ee13a5666c264e2e3766649f8990536ac20c",
+          "size_bytes": 206,
+          "source_url": "https://raw.githubusercontent.com/emotion-js/emotion/b882bcba85132554992e4bd49e94c95939bbf810/.yarnrc.yml"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "b17ef6d19c7a5b1ee83b907c595526dcb1eb06db8227d650d5dda0a9f4ce8cd9",
+          "size_bytes": 2,
+          "source_url": "https://raw.githubusercontent.com/emotion-js/emotion/b882bcba85132554992e4bd49e94c95939bbf810/.nvmrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "0f78ed9b2143da623d93f86ce3175d2148bdf7d8db3d86b9a477cc70b3e700ca",
+          "size_bytes": 1134591,
+          "source_url": "https://raw.githubusercontent.com/emotion-js/emotion/b882bcba85132554992e4bd49e94c95939bbf810/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 11
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@3.2.3",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/emotion-js__emotion.b882bcba/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1614",
+  "dockerfile_sha256": "329e5221e3577f868a98d78a7a73936e326333578ff9530fc111bac2232a4063",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install",
+      "install_fragment": "yarn install",
+      "dockerfile_line": 11
+    }
+  ],
+  "discovery_elapsed_ms": 1148,
+  "discovered_at": "2026-09-04T06:19:56.942751+00:00"
+}

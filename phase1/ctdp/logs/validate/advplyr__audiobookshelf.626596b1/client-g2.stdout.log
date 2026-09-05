@@ -1,0 +1,30 @@
+
+added 1540 packages in 15s
+
+249 packages are looking for funding
+  run `npm fund` for details
+
+> audiobookshelf-client@2.31.0 generate
+> nuxt generate
+
+⚙ Initializing generator...
+ℹ Production build
+ℹ Bundling for server and client side
+ℹ Target: static
+✔ Builder initialized
+⚙ App root: /tmp/nodelite-deps-validate-ggw7f5sc/client
+⚙ Generating nuxt files
+⚙ Generating routes...
+✔ Nuxt files generated
+[webpackbar] ℹ Compiling Client
+[webpackbar] ✔ Client: Compiled successfully in 3.87s
+[webpackbar] ℹ Compiling Server
+[webpackbar] ✔ Server: Compiled successfully in 316.86ms
+ℹ Generating output directory: dist/
+⚙ Preparing routes for generate...
+ℹ Generating pages
+⚙ Rendering url /
+✔ Generated route "/"
+⚙ Rendering url /
+✔ Client-side fallback created: 200.html
+⚙ server closed

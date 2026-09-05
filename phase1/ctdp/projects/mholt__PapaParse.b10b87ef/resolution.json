@@ -1,0 +1,76 @@
+{
+  "profile_id": "swesmith/mholt__PapaParse.b10b87ef",
+  "roots": [
+    {
+      "profile_id": "swesmith/mholt__PapaParse.b10b87ef",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "missing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "missing_requires_resolution",
+      "source_lockfile": null,
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": null,
+      "resolved_lockfile_sha256": "c10e6ee7af71dd789435e3c690dea536fec07e97d59d558ec12cd6517445c921",
+      "lockfile_changed": true,
+      "resolve_elapsed_ms": 392304,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/mholt__PapaParse.b10b87ef/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/mholt__PapaParse.b10b87ef/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "b10b87ef8686c6f88299b50dd25e83606e9c36d4",
+          "path": "/tmp/nodelite-deps-resolve-4s_ex426/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

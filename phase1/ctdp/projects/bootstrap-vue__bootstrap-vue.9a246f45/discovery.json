@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+  "safe_profile_id": "bootstrap-vue__bootstrap-vue.9a246f45",
+  "owner": "bootstrap-vue",
+  "repo": "bootstrap-vue",
+  "commit": "9a246f45fc813f161df291fc7d6197febf8afaf4",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "yarn",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install --frozen-lockfile"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": null,
+      "install_commands": [
+        "yarn install --frozen-lockfile"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "594eccebc247d01611c5faef6cbce1d949d174711145f16fe3a92f13393c42ed",
+          "size_bytes": 6517,
+          "source_url": "https://raw.githubusercontent.com/bootstrap-vue/bootstrap-vue/9a246f45fc813f161df291fc7d6197febf8afaf4/package.json"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "d41e6daa3c1000168a423461798bfc4e8003b6f08f493a0fd6764b9c8bda8a61",
+          "size_bytes": 716368,
+          "source_url": "https://raw.githubusercontent.com/bootstrap-vue/bootstrap-vue/9a246f45fc813f161df291fc7d6197febf8afaf4/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/bootstrap-vue__bootstrap-vue.9a246f45/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1528",
+  "dockerfile_sha256": "f9c55275e6e95f6b62f19a449132e1c8b4aa384ece9c9c4dd5c528ae4c046575",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-bullseye-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install --frozen-lockfile",
+      "install_fragment": "yarn install --frozen-lockfile",
+      "dockerfile_line": 9
+    }
+  ],
+  "discovery_elapsed_ms": 1106,
+  "discovered_at": "2026-09-04T06:19:49.432715+00:00"
+}

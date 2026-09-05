@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/jaredpalmer__formik.91475adb",
+  "safe_profile_id": "jaredpalmer__formik.91475adb",
+  "owner": "jaredpalmer",
+  "repo": "formik",
+  "commit": "91475adbf33579561e580eceea0c031f4ec2e992",
+  "language": "typescript",
+  "node_version": "18",
+  "package_manager": "yarn",
+  "package_manager_version": "1.22.22",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install --frozen-lockfile"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": "1.22.22",
+      "install_commands": [
+        "yarn install --frozen-lockfile"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "be61650024fa7880680c08580f6784f8b11a364074c80b6a44dfc9dba2533438",
+          "size_bytes": 1808,
+          "source_url": "https://raw.githubusercontent.com/jaredpalmer/formik/91475adbf33579561e580eceea0c031f4ec2e992/package.json"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "da148f251bd202e54bec805a73831b6128ca7e8d1c7c45f0cb0bd17ed2543975",
+          "size_bytes": 4,
+          "source_url": "https://raw.githubusercontent.com/jaredpalmer/formik/91475adbf33579561e580eceea0c031f4ec2e992/.nvmrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "0ea1f56b0c1e2753f967011014f549126978eed35986c3c141493f886c3b37b3",
+          "size_bytes": 695130,
+          "source_url": "https://raw.githubusercontent.com/jaredpalmer/formik/91475adbf33579561e580eceea0c031f4ec2e992/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@1.22.22",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/jaredpalmer__formik.91475adb/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L1999",
+  "dockerfile_sha256": "58d46223f6cac964bbfe9df585b70493eb1f4c98f9b59655d12125b30179349b",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install --frozen-lockfile",
+      "install_fragment": "yarn install --frozen-lockfile",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1009,
+  "discovered_at": "2026-09-04T06:20:12.977514+00:00"
+}

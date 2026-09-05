@@ -1,0 +1,84 @@
+{
+  "profile_id": "swesmith/axios__axios.ef36347f",
+  "roots": [
+    {
+      "profile_id": "swesmith/axios__axios.ef36347f",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "2346329f530df5bdcff0cfcc0024ed40c5737ddf36c3a1c4d1b186d74633cf64",
+      "resolved_lockfile_sha256": "2346329f530df5bdcff0cfcc0024ed40c5737ddf36c3a1c4d1b186d74633cf64",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 305023,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/axios__axios.ef36347f/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/axios__axios.ef36347f/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "ef36347fb559383b04c755b07f1a8d11897fab7f",
+          "path": "/tmp/nodelite-deps-resolve-vugcrgap/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

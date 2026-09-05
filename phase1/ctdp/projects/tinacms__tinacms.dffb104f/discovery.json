@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/tinacms__tinacms.dffb104f",
+  "safe_profile_id": "tinacms__tinacms.dffb104f",
+  "owner": "tinacms",
+  "repo": "tinacms",
+  "commit": "dffb104f1850cabc15f495a5868a33a66295965a",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "pnpm",
+  "package_manager_version": "9.15.5",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    "pnpm-workspace.yaml",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "9.15.5",
+      "install_commands": [
+        "pnpm install"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        "pnpm-workspace.yaml",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "765d0508e257fbbbf29566cd63e9647fe3a8e1adf05a4f91230ea77154c0be3c",
+          "size_bytes": 2154,
+          "source_url": "https://raw.githubusercontent.com/tinacms/tinacms/dffb104f1850cabc15f495a5868a33a66295965a/package.json"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "8e7544d30bcfd9382e4e32c1a8fca59c80ed4d9b469bda83ecafa6270638cb42",
+          "size_bytes": 7010,
+          "source_url": "https://raw.githubusercontent.com/tinacms/tinacms/dffb104f1850cabc15f495a5868a33a66295965a/pnpm-workspace.yaml"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "a17db3c0d2c8e9d09be1557d580e9a5c4186aa41566e927ede1c6e7d1532333e",
+          "size_bytes": 4,
+          "source_url": "https://raw.githubusercontent.com/tinacms/tinacms/dffb104f1850cabc15f495a5868a33a66295965a/.nvmrc"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "45f79d9b7f2dc887d9d859eaba45d2878724a7a7de00270d9df35a0e77eb7f35",
+          "size_bytes": 966095,
+          "source_url": "https://raw.githubusercontent.com/tinacms/tinacms/dffb104f1850cabc15f495a5868a33a66295965a/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 14
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.15.5",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/tinacms__tinacms.dffb104f/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L3647",
+  "dockerfile_sha256": "eafe325d244e22bc76f86c1d84bf12d8adb787d3c1a93ef058b42ddaadd56992",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 7,
+      "value": "npm install -g pnpm@9.15.5"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 14
+    }
+  ],
+  "discovery_elapsed_ms": 1125,
+  "discovered_at": "2026-09-04T06:20:45.139737+00:00"
+}

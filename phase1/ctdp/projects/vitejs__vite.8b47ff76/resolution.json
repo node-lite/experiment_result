@@ -1,0 +1,87 @@
+{
+  "profile_id": "swesmith/vitejs__vite.8b47ff76",
+  "roots": [
+    {
+      "profile_id": "swesmith/vitejs__vite.8b47ff76",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_version": "10.28.2",
+      "resolution_mode": "authoritative_existing",
+      "resolution_source": "existing_lockfile",
+      "classification": "authoritative_existing",
+      "source_lockfile": "pnpm-lock.yaml",
+      "resolved_lockfile": "resolved-lockfiles/root/pnpm-lock.yaml",
+      "source_lockfile_sha256": "7fb655fa88697a9a7a5b40502df3677c927d4743606e90eae2a63d05c3378a71",
+      "resolved_lockfile_sha256": "7fb655fa88697a9a7a5b40502df3677c927d4743606e90eae2a63d05c3378a71",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 1,
+      "exit_code": 0,
+      "command": [
+        "pnpm install --frozen-lockfile"
+      ],
+      "tool_version": "10.28.2",
+      "scripts_ran": false,
+      "network_metadata_accessed": false,
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install --frozen-lockfile",
+          "install_fragment": "pnpm install --frozen-lockfile",
+          "dockerfile_line": 14
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.28.2",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install --frozen-lockfile",
+          "install_fragment": "pnpm install --frozen-lockfile",
+          "dockerfile_line": 14
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.28.2",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "kind": "strict_install",
+          "commands": [
+            "pnpm install --frozen-lockfile"
+          ]
+        },
+        {
+          "kind": "authority_reason",
+          "reason": "strict/immutable install command"
+        }
+      ]
+    }
+  ]
+}

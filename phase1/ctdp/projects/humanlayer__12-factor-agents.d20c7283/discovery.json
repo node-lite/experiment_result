@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/humanlayer__12-factor-agents.d20c7283",
+  "safe_profile_id": "humanlayer__12-factor-agents.d20c7283",
+  "owner": "humanlayer",
+  "repo": "12-factor-agents",
+  "commit": "d20c728368bf9c189d6d7aab704744decb6ec0cc",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "packages/walkthroughgen"
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": "packages/walkthroughgen",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "packages/walkthroughgen/package.json",
+          "output_path": "source-files/packages__walkthroughgen/package.json",
+          "sha256": "4f8adbde89c2639e79064bda5bcecdd5ff51c50b78f10d6d2f21fe62674918a4",
+          "size_bytes": 525,
+          "source_url": "https://raw.githubusercontent.com/humanlayer/12-factor-agents/d20c728368bf9c189d6d7aab704744decb6ec0cc/packages/walkthroughgen/package.json"
+        },
+        {
+          "path": "packages/walkthroughgen/package-lock.json",
+          "output_path": "source-files/packages__walkthroughgen/package-lock.json",
+          "sha256": "231f2c674eecc38e13b20e78fd256e63a5ea8d63066186a99be747df3136c92c",
+          "size_bytes": 144817,
+          "source_url": "https://raw.githubusercontent.com/humanlayer/12-factor-agents/d20c728368bf9c189d6d7aab704744decb6ec0cc/packages/walkthroughgen/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": "packages/walkthroughgen",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/humanlayer__12-factor-agents.d20c7283/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L1812",
+  "dockerfile_sha256": "de2dc96a8ee2daa8e4b2b447e131fda4c547e5f81601607d4df4afc85c02524a",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": "packages/walkthroughgen",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 13
+    }
+  ],
+  "discovery_elapsed_ms": 1058,
+  "discovered_at": "2026-09-04T06:20:05.686347+00:00"
+}

@@ -1,0 +1,80 @@
+{
+  "profile_id": "swesmith/bpampuch__pdfmake.719e7314",
+  "roots": [
+    {
+      "profile_id": "swesmith/bpampuch__pdfmake.719e7314",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "missing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "missing_requires_resolution",
+      "source_lockfile": null,
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": null,
+      "resolved_lockfile_sha256": "ea5ebee3e387e8ff796c96cb064b4c27731eba7272130806c6378815a4da5741",
+      "lockfile_changed": true,
+      "resolve_elapsed_ms": 432052,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/bpampuch__pdfmake.719e7314/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/bpampuch__pdfmake.719e7314/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "temporary_checkout_fallback",
+          "reason": "error: RPC failed; curl 92 HTTP/2 stream 5 was not closed cleanly: CANCEL (err 8)\nerror: 10 bytes of body are still expected\nfetch-pack: unexpected disconnect while reading sideband packet\nfatal: early EOF\nfatal: fetch-pack: invalid index-pack output\n",
+          "exit_code": 128
+        },
+        {
+          "kind": "discovery_snapshot_checkout",
+          "commit": "719e73140cce75a792f7f419c27fc33a230e73d2"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

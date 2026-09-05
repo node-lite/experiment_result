@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+  "safe_profile_id": "ueberdosis__tiptap.2d6de06c",
+  "owner": "ueberdosis",
+  "repo": "tiptap",
+  "commit": "2d6de06c34c239e78fedd6bd2a0bcea42d0fdbfa",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "pnpm",
+  "package_manager_version": "9.15.4",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    "pnpm-workspace.yaml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "9.15.4",
+      "install_commands": [
+        "pnpm install"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        "pnpm-workspace.yaml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "85ad102bc6036e63b44a2f52496def57c62397de16a8e2e7d6da3e9418aa4710",
+          "size_bytes": 3893,
+          "source_url": "https://raw.githubusercontent.com/ueberdosis/tiptap/2d6de06c34c239e78fedd6bd2a0bcea42d0fdbfa/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "3b943e2af88c42e2c60d70fab59ca48a1cf09140c8aeea3b0a3cb197ccd04108",
+          "size_bytes": 60,
+          "source_url": "https://raw.githubusercontent.com/ueberdosis/tiptap/2d6de06c34c239e78fedd6bd2a0bcea42d0fdbfa/.npmrc"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "139486198a745faf21ad489731b22b6de4348e0daa5c51933906c1b4b838fde4",
+          "size_bytes": 67,
+          "source_url": "https://raw.githubusercontent.com/ueberdosis/tiptap/2d6de06c34c239e78fedd6bd2a0bcea42d0fdbfa/pnpm-workspace.yaml"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "0bd9814a60fd8695a456d0bbb85d28f68fc2e2ee38e527d2c82bb3a352c9bbbd",
+          "size_bytes": 454162,
+          "source_url": "https://raw.githubusercontent.com/ueberdosis/tiptap/2d6de06c34c239e78fedd6bd2a0bcea42d0fdbfa/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.15.4",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/ueberdosis__tiptap.2d6de06c/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L3839",
+  "dockerfile_sha256": "dbc186a837b62b29cf63878503e27b3d46aea7b31791de03dab6fd4ae7ba0c5f",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 5,
+      "value": "npm install -g pnpm@9.15.4"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1075,
+  "discovered_at": "2026-09-04T06:20:47.295828+00:00"
+}

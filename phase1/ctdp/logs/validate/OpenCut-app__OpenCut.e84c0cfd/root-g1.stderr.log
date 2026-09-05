@@ -1,0 +1,7 @@
+npm ERR! code ETARGET
+npm ERR! notarget No matching version found for bun@1.2.18.
+npm ERR! notarget In most cases you or one of your dependencies are requesting
+npm ERR! notarget a package version that doesn't exist.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/phase1/ctdp/native-cache/bun/1.2.18/_logs/2026-09-04T17_14_43_859Z-debug-0.log

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/axios__axios.ef36347f",
+  "safe_profile_id": "axios__axios.ef36347f",
+  "owner": "axios",
+  "repo": "axios",
+  "commit": "ef36347fb559383b04c755b07f1a8d11897fab7f",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "0b40dadaf3bd64a10b6ee1e903ae963fdc282d64f183eff7f23579f08114b064",
+          "size_bytes": 8015,
+          "source_url": "https://raw.githubusercontent.com/axios/axios/ef36347fb559383b04c755b07f1a8d11897fab7f/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "2346329f530df5bdcff0cfcc0024ed40c5737ddf36c3a1c4d1b186d74633cf64",
+          "size_bytes": 1680037,
+          "source_url": "https://raw.githubusercontent.com/axios/axios/ef36347fb559383b04c755b07f1a8d11897fab7f/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/axios__axios.ef36347f/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L456",
+  "dockerfile_sha256": "0144b9ce57685aed216b395aab3b1f5960e24b7e44611f2a57906b6142643aa1",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-bullseye"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 5
+    }
+  ],
+  "discovery_elapsed_ms": 1050,
+  "discovered_at": "2026-09-04T06:19:45.151207+00:00"
+}

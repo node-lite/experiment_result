@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/iamkun__dayjs.c8a26460",
+  "safe_profile_id": "iamkun__dayjs.c8a26460",
+  "owner": "iamkun",
+  "repo": "dayjs",
+  "commit": "c8a26460d89a2ee9a7d3b9cafa124ea856ee883f",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "9ed6e5f7fd04778d669b87aa2195b5c3d012055571599a4c8014d672d24db751",
+          "size_bytes": 2536,
+          "source_url": "https://raw.githubusercontent.com/iamkun/dayjs/c8a26460d89a2ee9a7d3b9cafa124ea856ee883f/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "c68f1e093a72eecf1b9e9f8340b4e8865d0d22b5be31beeafd33910e80b165aa",
+          "size_bytes": 1174571,
+          "source_url": "https://raw.githubusercontent.com/iamkun/dayjs/c8a26460d89a2ee9a7d3b9cafa124ea856ee883f/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/iamkun__dayjs.c8a26460/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L504",
+  "dockerfile_sha256": "f03470030e9149e517eea4ecaf19567ae2722efeb3673cf291b1f803f4400797",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-bullseye"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 5
+    }
+  ],
+  "discovery_elapsed_ms": 1158,
+  "discovered_at": "2026-09-04T06:20:06.846796+00:00"
+}

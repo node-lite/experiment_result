@@ -1,0 +1,84 @@
+{
+  "profile_id": "swesmith/nestjs__nest.346c9543",
+  "roots": [
+    {
+      "profile_id": "swesmith/nestjs__nest.346c9543",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "4d82c730c747052258c37039d87b75ac12d95e26d49854cb5fca5282ac1fe20b",
+      "resolved_lockfile_sha256": "1757422535048d10608d721da4c42d9974bf7059082786ff4cf829443ef3fe62",
+      "lockfile_changed": true,
+      "resolve_elapsed_ms": 304095,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/nestjs__nest.346c9543/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/nestjs__nest.346c9543/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "346c9543120c692f314bdbf55fc9956d2fa6d87e",
+          "path": "/tmp/nodelite-deps-resolve-1419m10h/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

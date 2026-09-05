@@ -1,0 +1,84 @@
+{
+  "profile_id": "swesmith/homebridge__homebridge.3a341e08",
+  "roots": [
+    {
+      "profile_id": "swesmith/homebridge__homebridge.3a341e08",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "60fe2173d0493c23f79c69e965d6c46bdae07928a1ca6a79355ecdb41b9c9e13",
+      "resolved_lockfile_sha256": "5aba58d9ad81636be879ec43f013159410e143ca0bc6801c0336282a6423e299",
+      "lockfile_changed": true,
+      "resolve_elapsed_ms": 421883,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/homebridge__homebridge.3a341e08/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/homebridge__homebridge.3a341e08/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install && npm run build",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install && npm run build",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "3a341e0838c99abfdf7a2d76e5e1e2a2af7ccb09",
+          "path": "/tmp/nodelite-deps-resolve-zuo4p051/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

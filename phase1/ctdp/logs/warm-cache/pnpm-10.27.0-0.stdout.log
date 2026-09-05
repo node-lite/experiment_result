@@ -1,0 +1,258 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +250
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 250, reused 0, downloaded 250, added 250, done
+
+dependencies:
++ nodelite-2---3GRL7dDAGEfM6TseQk-U-mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0-8UnKkvlNwVU-cWQ-- <- array-timsort 1.0.3
++ nodelite-2---5VFTchJDoVj3bhoqi6UeymcD00DAwb1nJwamzPvHEszJ4FpF6SNNbUbOS8yI56qHzdV8eK0qEfOSiodkTdxg-- <- possible-typed-array-names 1.1.0
++ nodelite-2---88mFWSJx8lxCzwdAABTJL2MyWB12-eIY7MDL2SqLmAkeKU9qxRvWuSyTjm3FUmpBEMuFfckAIqEaVGUDxb6w-- <- p-limit 2.3.0 (7.2.0 is available)
++ nodelite-2---HKd6EgcQCJGh2PSjZuUitQBQynKor4wrFbRg4DtAgS1aWO-gU52xpH7M9ScGgXSYmAVS9bIJ8EzuaGw0oNAw-- <- cross-env 7.0.3
++ nodelite-2---nshmD55c46FuFw26xV-xFAaB5HF9Xdap7HJBBnrKdAd6-GxDBaNA1870O79-9ueg61cZLSVc-OaFlfmObYVQ-- <- pathval 2.0.1
++ nodelite-2--0Wx6cBwO8TfdMzpkYFacsmgFh8X1rkiYbq3xoLvk3qV8upYxaMzK1s8Q1cpKmWyI0aZrU6z7fiK4vUqB7-69w-- <- @lexical/link 0.35.0 (0.36.2 is available)
++ nodelite-2--2WmmBXHLsfRqzfHW7BNZ8SbYzE8OSk7i3WjFYvfgRHj7S1xj-16Je5fUKv3lVdVzk-zn9TXOqf-avFCFIE0yQ-- <- @types/pg 8.11.6
++ nodelite-2--3Pa9wLMvBZipKraq3AtbmTfXW6q9kyvhwOno64f1Fz7kFb8ijQFMGoATS70B2pGEZTlxkUqJFWDiisT6Q6dFg-- <- @aws-sdk/client-sts 3.398.0 (3.975.0 is available)
++ nodelite-2--5CMN3T0R4XTj4DcGaexo-roZSdSFW-0AOOTROrjxzCG1wrWXEsGbRKevjlIL-ZDE4sZlJr5ED4YW0yqmkK-eA-- <- normalize-package-data 2.5.0 (7.0.1 is available)
++ nodelite-2--6w-C21Pm1A7aZitlI5Ni-2J6FFQN8i1Cvz3kHABAAbw93v-NlvKdVOqz7CCWz-3iv-JplRSEEZ83XION15ovw-- <- ansi-colors 4.1.3
++ nodelite-2--7vRBsfmiOlg2X67EdKrzzQGw5-SbkXb7ALHQmlQLkZh8qNgvS2G2dDC6NtF3hzFlpP3j2k-KIEtql-6VrI6JA-- <- @aws-sdk/region-config-resolver 3.972.2
++ nodelite-2--9HEKfn6fwXB5aTEEoMeFh4CtG0ZzbncBb1e--OCdVpgKZ-xyMsIVYXm0w7Pv4RUel803vE6LwniB3PqD72R0Q-- <- @libsql/client 0.14.0
++ nodelite-2--A-yMY8dGixUhHmNdPUxOh0la6uVzun86vAbuMT3hIDxMrAOmn5ILBHm8ajrqHE0t8R9T1dGnde1A5DTnmi3qw-- <- @vitest/runner 4.0.15
++ nodelite-2--Ad8-nIOV7Rl--6f1BdKxFSMgmoqEoYbHRpPcx3JEfv8VRsQe9Z4mCXeJBzxs7mbHY-XOZZuXlRNfhpVPbs6ZA-- <- @types/tough-cookie 4.0.5
++ nodelite-2--anKKair6gpi8VsM-95kmomGNMD0eLz1NQ8-Pfw5sAwWH9fGYXT50E55ZpV0pHUHWf6IUTWPM-f-7AAff-wr9A-- <- @babel/plugin-transform-logical-assignment-operators 7.28.6 (8.0.1 is available)
++ nodelite-2--bjOqmgETBYB5BoEeGVea8dmvHb2m9GLy1E9W43yeyfP6QQCZGFNa-XRceJEuDB6zqr-gKpIAmlLebMpykw-MQ-- <- p-map 4.0.0 (7.0.4 is available)
++ nodelite-2--bT2uH4E5LGE7h-n3evcS-sQlJXCpIp6ym8OWJ5eV6-67Dsql-LaaT7qJBAt2rzfoa-5QBGBhxDix1dMt2kQKQ-- <- levn 0.4.1
++ nodelite-2--CGM1L1CgmtheLcBuleyYOn7NWPVu0s0EJH2C4puxgEZb9h8QpR9G2dBfZJOAUhi7VQxuBPMd0hiISWcTyiYyQ-- <- node-abi 3.87.0 (3.96.0 is available)
++ nodelite-2--d9sfos4yxzpwkDkuN7k2SqFKtYNmCTzgfEpz82x34IM9-zc8KGxQoXg1liNC-izpRM-MBdt44Nmx41ZWqk-FQ-- <- fast-fifo 1.3.2
++ nodelite-2--dbF1tHwZpXcbOJdVOkzLDxZP1ailvSxM6ZweXTegylPny803bFhA-vqBYw4s31NSAk4S2Qz-AKXK9a4wkdjcQ-- <- ws 7.5.10 (8.5.0 is available)
++ nodelite-2--djoAN709iY65ETD6LKCtyyEI04XIBP5xVvfmNxsEP0uJB5tyaGBztSryRr4HqMStr9R06PisQE7m9zDTXKu6g-- <- aws4fetch 1.0.20
++ nodelite-2--Eaoq-QyLSiXQ4lyYV23f14mZRQcXnxfHrN0vCai-ak9G0pp9iEQukIIZq5NccEvwRB8PUnZT0KsOoDCINS1qQ-- <- p-limit 5.0.0 (7.2.0 is available)
++ nodelite-2--eawOlIgy680F0kBzPUNFhMZGtJ1YmqM6l4-Crf4IkImjYrO-mqPwRMh352g23uIaQKFItcQ64I7KMaJxHgAVA-- <- node-addon-api 6.1.0 (8.5.0 is available)
++ nodelite-2--EIjOJmnY6mIfdXtE-bnozKEvTC4Uczg19yeZ2vtCz5Yyb0QQ31QWVQ8hswJ3Ysx-K2EqaNsVanjr--2-P3FHw-- <- @vitest/spy 4.0.15
++ nodelite-2--f15FfK64YQwZdJNELETdn5ibXEUQmW1DZL6KXhNnc2heoy-sg9VJJeT7n8TlMWouzWqSWavFkIhHyIbIAEapg-- <- eslint-plugin-react-hooks 5.2.0 (7.0.1 is available)
++ nodelite-2--FbBPE1o9QAYvviau-qC5SE3caw21q3xkvWKBtja5vgqOWIHHJ3ioaq1VPfn-Szqctz2bU-oYeKd9-z5BL-PVg-- <- tiny-invariant 1.3.3
++ nodelite-2--FdVbbCZ-yoh7E-RosSdqKJyUM2OEjTciH0TFNkawKgvFp1zbGlEC39RADg-xKBG1R4mhoH2j85myBQZ5wR-lw-- <- lint-staged 15.2.7
++ nodelite-2--FrVAZ76JLTWxJOERk04fm8hYENDo0PWSP3YLQKxevLwWtxemGcl5JJEzN4iqfDlRve0ckyfFaOBu4xbNH-wZw-- <- ts-essentials 10.0.3
++ nodelite-2--gaNz3R92t-dcrfCw-96pDopcmec7oCcAQ3l-M-Zxr82KT4DljD37CpgrnXV-pJC263JkW572pdbP3hP-KjcIg-- <- @napi-rs/nice-linux-x64-gnu 1.1.1
++ nodelite-2--gDYp-UtU0eA1ys8bOs9J6a-E-KWIY-DZ-Q2WESNUA0jFRsJOc0SNUO6xJ5SGA1xueg3NL65W6s-NY5l9cunuw-- <- buffer 5.6.0 (6.0.3 is available)
++ nodelite-2--gGivxi8JPKWNm-W0jSmzcMPpfpPLc3dY-6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw-- <- hoist-non-react-statics 3.3.2
++ nodelite-2--h1lkLKhZMTYjog1VEpJNG7NZJWcuc2DDk-qsqSTRRCOXiLjeQ1d1-udrUGhqMxUgAlwKNZ0cf2uqan5GLuS2A-- <- env-paths 2.2.1 (3.0.0 is available)
++ nodelite-2--hEiRIiPobgyuFlEojnqjJnhFvg4r-i3cqgcm67eehZf-WBaK3g6cD02YU9mtdVxZjv8CzCA9n-Rhrs3yAAvAw-- <- zod-validation-error 3.5.4 (4.0.2 is available)
++ nodelite-2--imKNG4EbWNrVjoNC-1H5-9GFy-tqjGBHCaSsN-P2RnPqjsLmv6UD3Ej-Kj8nBWaRAwyk7kK5ZUc-OEatnTR3A-- <- jiti 1.21.7 (2.7.0 is available)
++ nodelite-2--iWb8qaHLYKrNvGRbiYRHSdKRWhto5XlZUEBwDjYNf-ly5SVYG6zEoYIdxvf5R3zyeP16w4PLBn3rH1xc74Rag-- <- @aws-crypto/crc32c 5.2.0
++ nodelite-2--iwzCJ7C5v5KgcBuueqVoNiHVoQpwiUK5XFLjf0affFTep-Wcw93tPvmb8tqujDNmzhBDPddnWV-qgWSXgq-Hg-- <- find-versions 5.1.0 (6.0.0 is available)
++ nodelite-2--IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B-ilVJnC-R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g-- <- math-intrinsics 1.1.0
++ nodelite-2--IxzY9BZOQd-XuYPRmrvEVjF-nqj5kgT4kEq7VofrDoM1MxoRjEWkrCC3EtLi59TVawxTAn-orJwFQcrqEN1-g-- <- chownr 3.0.0
++ nodelite-2--jfEwNDdQVBCNvjkGit4h6pMOzq8bHkopq458dPt2lMjx-eBQUohZNG9A7DtO-O5ukSbxuaNGXMjHicgwy6rQQ-- <- @radix-ui/react-presence 1.1.5
++ nodelite-2--JH76XHEgfVihkY-GurohOQ5Z83zVN1nYcQzwCFnCDTh4dG4KwhnZKG-WPw6XJECocY0R-H0ivofeALHvVWJtQ-- <- @aws-sdk/middleware-sdk-sts 3.398.0
++ nodelite-2--jKZoMpw0F8GRwl4-eLROPA3cfcXtLApP0QzLmUT-HuPCZWyB7IY9ZrMeKw2O-nFIqPQB3PVM9aYm0F312AXDQ-- <- node-domexception 1.0.0
++ nodelite-2--Jm5M4RvtBFVkKWRu2BLUTNP8-M2a-UwuAX-ae4770q1qVGtfjG-WTCupoZixokjmHiry8uI-dlY8KXYV5HVVQ-- <- pkg-types 1.3.1 (2.3.0 is available)
++ nodelite-2--jPT0h-nelBT6HC9ZCHGc7DgGVy04cv4shYdAe6tKlEbjQUtwU3LzQhzbDHQyY2m6g39m6B0kOFVuLGBrxxbGg-- <- @next/eslint-plugin-next 15.1.0 (16.2.0-canary.9 is available)
++ nodelite-2--KCsg3xSlR-nCK8-8ZYSknYxvXHwubJrU82F3Lm1Fp6789VQ0-3RJKfsmRXjqfaTA--23CvC3hqmqe-2GEt6Kw-- <- @redis/client 1.6.1 (5.10.0 is available)
++ nodelite-2--KJGIyHgkGuIq3IEBNftfhW-LfWhXUIY6OmyVWjliu5KH1y0fw7VQ8YndE2O4qZdMSd9SqbnC8GOcZEy0Om7sA-- <- jwt-decode 4.0.0
++ nodelite-2--L3ccpzibovGXFK-Ap-f8LOS0ahMrHTf3xu7mMLSpEGU0EO9ucaysSylKo9eRDFNhWve-y275iPmIZ4z39a9iA-- <- stable-hash 0.0.5
++ nodelite-2--Lhy3TQTuzXI5hevh8sBGqbmurHbbIjAi0Z4S63nthVLmLxfbj4T54a4CfZrXIrt9iP4mVAPYMo-v99taj3wjQ-- <- object.groupby 1.0.3
++ nodelite-2--LpyBk7L44ZIXwz-VYfglaX-okxezESc6UxDSoyo2Ks6Jxc4Y7sGjpgU9s4PMgqgjj1gZCylTieNamqA1MF7Dg-- <- @img/sharp-libvips-linuxmusl-x64 1.2.4
++ nodelite-2--MKAJEOfaBe5SmV6t34p80MMKhjvUz0vRrvVJbPT0WElzaOJ-1xs-D-KDv-tD-NE5ujfrChEcshd4fLn0wpiqg-- <- @dnd-kit/utilities 3.2.2
++ nodelite-2--mrRod8xqpA-IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh-4FU6G9VeqpZnGW-Su8LQGc4YKni5rYSQ-- <- through2 2.0.5 (4.0.2 is available)
++ nodelite-2--mzlyzJDtngNFd-rAYvqx29a2d0VuiYKN84Y-Mu9mGw7cfMOCyRK-896tb9wV6MoPRHUX7IXuKCIL8nzz2Pz5A-- <- @aws-sdk/middleware-recursion-detection 3.972.2
++ nodelite-2--nDNmQye7nlnuuHDboPbGm00Vqg3oO8niRRL27-4LYHUsHYh0zJ1xWOz0uRwNFmM1Avzk8wZbc6rdiYhomzv-A-- <- @babel/plugin-syntax-typescript 7.28.6 (8.0.0-beta.0 is available)
++ nodelite-2--Nf7TyzTx6S3yRJObOAV7956r8cr2-Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg-- <- bytes 3.1.2
++ nodelite-2--NsyUUAZDmo6YVHzL-stxSu3t9YS1iljliy3BSDrXJ-dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg-- <- mkdirp 3.0.1
++ nodelite-2--NYs2QeMWy-GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ-93Q5NF0NocErnwkTkXVFNiX3-fpC6afS8Dhb-gz7R7eg-- <- uuid 8.3.2 (9.0.1 is available)
++ nodelite-2--oKQ-kc3CX-816oPFRtaF0CN4vNcGKNjpOQe4bHo-21A3pMD-lC7Xz1EX5HP7siCX4iCpVchDMmCOFXVQSGkUg-- <- mongodb-memory-server 10.1.4
++ nodelite-2--oWJ-OVrDg7ADDQxRLC-4g1-Nsz1g4mkYS2t6XmyMJKFTFK50FVI2t5sOdFH-zmMp-nXHKM036W94y9m4jjEcw-- <- sass-embedded-linux-musl-x64 1.97.3
++ nodelite-2--Pgi-vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61-mmDqg-- <- is-plain-obj 4.1.0
++ nodelite-2--PmQX0PiAYPMeVYe237LJAYvOMYW1j2rH5YROyS3b4CTVJum34HfRvKvAzozHAQG0TnHNdUfY9nCeUyRAs--cw-- <- @szmarczak/http-timer 5.0.1
++ nodelite-2--q-t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg-- <- at-least-node 1.0.0
++ nodelite-2--qJyx4xiKra8mZrcwhjMRMUhD5NR1R8esPkzIYxX96JiecFoxAXFuz-GpR3-ev4PE1WamHip78wV0vcmPQtp8w-- <- cacheable-lookup 7.0.0
++ nodelite-2--qNBvFLpvSa-Rmia0jpKfJdy16d4YZaAnH-TuKLAtm0BWlsPQzbXCU4h8C5Hsst0Do0zG613MEtEmWpWrVOqWA-- <- @sentry/react 8.55.0
++ nodelite-2--QnLslQgYqSJ5aUmb5F0z0caZPGHRB8LEAQ1s81vHFM5CBfnun63rxhvE-scVb-j3TbBuoZwkJyiLCkBluMpeg-- <- @vue/runtime-dom 3.5.27
++ nodelite-2--QU2zd6OTD8XWIJCbffaiQeH9U73qIqafo1x6V1snCWYGJf6cVE0cDR4D8xRzcEnfI21IFrUPzPGtcPf8AC-Rw-- <- write-file-atomic 5.0.1 (6.0.0 is available)
++ nodelite-2--sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0-NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA-- <- jsesc 3.1.0
++ nodelite-2--Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg-- <- concat-map 0.0.1
++ nodelite-2--Tb-JcjK111nNScGob5MNtsntNM1aCNUDipB-TkwZFhyDrrE47SOx-18wF2bbjgc3ZzCSKW1T5nt5EbFoAz-Vg-- <- cssesc 3.0.0
++ nodelite-2--tNWdlWKbpB3WgBN7ijjYkq9X5uhjmcvyjEght4NmH5fAU--zfQzAJ6wumLS-dNcvwEZhKx2Z-skY8m7v0wGSA-- <- @rollup/plugin-commonjs 28.0.1 (29.0.0 is available)
++ nodelite-2--tX6yfkw3-CpXLl-IoFqGSatbtZMzBcXr9HXPjbaYqCIu80SzfwjgQl8ddFeloTrA1xVPX2-eWOU04nVuACW7w-- <- @aws-sdk/credential-provider-cognito-identity 3.972.2
++ nodelite-2--vlFKAoH5Cgt3Ie-JLhRbwOsCQePABiU3tJ1egGvyQ-33R-vcwM2Zl2QR-LzjsBeItPt3oSVXapn-m4nQDvpzw-- <- lilconfig 3.1.3
++ nodelite-2--vxN46ieWDLU67CmgbArEvOb41zlYFOkOtr9QW9CnTrBLuTyGgkyNWC2y5-khvRw3Br58p2B5ZVSx-PxCTru6g-- <- @node-minify/core 8.0.6
++ nodelite-2--W6cISkXFa1jXsDEdYA8HeevQT-FULhxzR99pxphltZcVaugps53THCeiWA8SguxxpSp3gKPiuYfSWopkLQ4hw-- <- @babel/helper-globals 7.28.0 (8.0.0 is available)
++ nodelite-2--wHc-paTUmsDYN7SZkpWxogTOBNnlx7nBQYfy6JJlCT7G3mVhltk3e--N7zV0XfgGsrqBxd4rJQt9H16I21Y1Q-- <- @babel/plugin-transform-unicode-sets-regex 7.28.6 (8.0.1 is available)
++ nodelite-2--WqsrycweGGfb9sSzME4CrsuayjJF6BueBmkKlcbeU5q18OhxRrvvKlmfw3tpDsK5ilx2XUJvoukwxHB0nHs-Q-- <- @smithy/middleware-endpoint 4.4.11 (4.4.12 is available)
++ nodelite-2--xiil2lFhtTRzXkx8F053AV46QnIw6e7MV8od5Mi68E1ICOjCeCHw2XfLnDEUHnT9WGUIkwcqavXjfwuJbGlpg-- <- @smithy/property-provider 2.2.0 (4.2.8 is available)
++ nodelite-2--xqhmIIzvAYMGfBYYnbKuNicfSsk4RksY2XdmJhT-HAC01nix6fHCztU68jooFiMUB01Ky3F0FyOvhG-BZrWkg-- <- @dnd-kit/sortable 10.0.0
++ nodelite-2--ys997U96po4Kx-ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU-tyMTlRpaSejg-- <- call-bound 1.0.4
++ nodelite-2--Z5bUhzTeqYlfoPsfXMZG1pYadqLBKARD3xwMIoEAESsOhKFOrUsHHNCy2ZZW3-6oa4wokgT01k1zavA4BAQ4w-- <- effect 3.10.3 (3.19.15 is available)
++ nodelite-2--zUx-yOsIrG4Y43Eh2peDeKCxlRt-gET6aHfaKpuq267qXdYDFViVHfMaLyygZOnl0kGWxFIgsBy8QFuTLUXEQ-- <- @humanfs/node 0.16.7 (0.16.8 is available)
++ nodelite-2-0-DUvqWMValLmha6lr4kD8iAMK1HzV0-aKnCtWb9v9641TnP-MFb7Pc2bxoxQjTXAErryXVgUOfv2YqNllqGeg-- <- tinybench 2.9.0 (5.1.0 is available)
++ nodelite-2-0-PjqU7geVmo6F734pmPqpyHqiM99olvyecY7zdweCw-6tKEXnrE90pBiBbMMU8s5tICemzpQ3hi5EpxzGW-JA-- <- embla-carousel-react 8.6.0
++ nodelite-2-00o4I-DVrefhv-nX0ulyi3biSHCPDe-yLv5o-p6d-UVlirijB8E16FtfwSAi4g3tcqrQ4lRAqQSoFEZJehYEcw-- <- reflect.getprototypeof 1.0.10
++ nodelite-2-05PUHKSNE8ou2dwIxTngl4EzcnsCDZGJ-iCLtDflR-SHB-ny14rXc-qU5P4mG9JkusiV7EivzY9Mhm55AzAvCg-- <- tabbable 6.4.0
++ nodelite-2-05WQkdpL9COIMz4LjTxGpPNCdlpyimKppYNoJ5Di5EUObifl8t4tuLuUBBZEpoLYOmfvIWrsp9fCl0HoPRVTdA-- <- @babel/runtime 7.28.6 (8.0.0-beta.0 is available)
++ nodelite-2-06hBdMwUAb2WFTuGG73LSC0wfPu93xWwo5vL2et9eymgmu3Id5vFAHBbajVWiGhPO37qcsdCap-FqXvJGJWPIg-- <- @aws-crypto/supports-web-crypto 3.0.0 (5.2.0 is available)
++ nodelite-2-0a1F4l73-ZFZOakJnQ3FvkJ2-gSTQWz-r2KE5OdDY0TxPm5h4GkqkWWfM47T7HsbnOtcJVEF4epCVy6u7Q3K-g-- <- resolve-alpn 1.2.1
++ nodelite-2-0AioNCJZ2DPYz5ABT6bddIqlhgwhpHZ-l65YAYo0BCIn0xiDpsnTHz0gnoTGk0OXZW0JRs-cDwL8u-teRdz-8A-- <- postcss-safe-parser 7.0.1
++ nodelite-2-0ASV06AAoKCDkS2-xw5RXJywruurpbC4JZSm7nr7MOt1ojAzvyyaO-UxZf18j8FCF6kmzCZKcAgN-yu2gm2XgQ-- <- unist-util-stringify-position 4.0.0
++ nodelite-2-0bblUU5UNdOt5G7XqGiJtpZMONma6WAfq9vsFmtn9x1-joAObr6x1chfqyxFSDCAFwFhCQDrqeAr6MYdpwJ9Hg-- <- electron-to-chromium 1.5.279
++ nodelite-2-0bcKFXWx-NZ7tIlOo7KjQ-O2rydiHdIQahrq-fN6k9Osky29v17guy68urUKfhTobR6iY6KvxkroFWaFtTgS5w-- <- @aws-sdk/middleware-sdk-s3 3.972.0 (3.972.3 is available)
++ nodelite-2-0CWcCECdMVc2Rw3U5w9ZjqX6ga6ubk1xDVKxtBQPK7wis-0F2r9T6k4ydGYhecl7YUBxBVxhL5oisPsNxAPe2g-- <- osenv 0.1.5
++ nodelite-2-0eJJY6hXLGf1udHwfNftBqH-g73EU4B504nZeKpz1sYRKafAghwxEJunB2O7rDZkL4PGfsMVnTXZ2EjibbqcsA-- <- on-exit-leak-free 2.1.2
++ nodelite-2-0elK5-03a1JPWMDPaS726Iw6LpQg80gFut1tNpPfxFuChEEklo2yL823V94SpTZTxmKlXFtFgsP55uh3dErnIg-- <- @smithy/node-config-provider 2.3.0 (4.3.8 is available)
++ nodelite-2-0eW44TGN5SQXU1mWSkKwFstI-22X2bG1nYzZTYMAWjylYURhse752YgbE4Cx46AC-bAvI--dYTPRk1LqSUnu6w-- <- css-tree 3.1.0 (3.2.1 is available)
++ nodelite-2-0ghuzq67LI9bLXpOX-ISfve-Mq33a4aFRzoQYhnnok1JOFpmE-A2TBGkNVenOGEeSBCjIiWcc6MVOG5HEQv0sA-- <- regexpu-core 6.4.0
++ nodelite-2-0H44vDimn51F0YwvxSJSm0eCDOJTRlmN0R1yBh4HLj9wiV1Dn0QoXGbvFAWj2hSItVTlCmBF1hqKlIyUBVFLPg-- <- mdast-util-to-string 4.0.0
++ nodelite-2-0HCFSepIpLTkLcsi86GG3mTUzxV5jpmbv97hTETW3yzrAij8aqlD36toB1D0daVFJM8NK6GvKO0gslVQmm-zZA-- <- @babel/plugin-transform-literals 7.27.1 (8.0.1 is available)
++ nodelite-2-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y-CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ-- <- hasown 2.0.2 (2.0.4 is available)
++ nodelite-2-0iirZp3uVDjVGt9p49aTaqjk84TrglENEDuqfdlZQ1roC9CWlPk6Avf8EEnZNcAqPonwkG35x4n3ww-1THYAeQ-- <- formdata-node 4.4.1 (5.0.1 is available)
++ nodelite-2-0je-qPKHEMohvfRTCEo3CrPG6cAzAYgmzKyxRiYSSDkS6eGJdyVJm7WaYA5ECaAD9wLB2T4EEeymA5aFVcYXCA-- <- dequal 2.0.3
++ nodelite-2-0JKwHRiFZdmLq-6nmilxEZl3pqb4T-aKkOkOi-ZISRZwfBhVMgInxzlYU9D4KnCH3KINScLy68m-OvMXoYGZUw-- <- recharts 3.2.1
++ nodelite-2-0K65Lea881pHotoGEa5gDlMxt3pctLi2RplBb7Ezh4rRdLEOtgi7n4EwK9lamnUCkKBqaeKRVebTq6BAxSkpXQ-- <- language-subtag-registry 0.3.23
++ nodelite-2-0KI-607xoxSToH7GjN1FfSbLoU0-btTicjsQSWQlh-hZykN8KpmMf7uYwPW3R-akZ6R-w18ZlXSHBYXiYUPO3g-- <- ipaddr.js 1.9.1 (2.2.0 is available)
++ nodelite-2-0KpjqXRVvrYyCsX1swR-XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4-KlKj8YS0ZUCtRT-YUuhyYDujIQ-- <- lodash.merge 4.6.2
++ nodelite-2-0MhX9-B4iL6Re04jPrttDm-BsP8y6mS7byuv0BvXgdXhbV5PdlsHt55dvNsuBCPZ7xq1oTAOOuotR9NFbQyMSA-- <- @clack/prompts 0.7.0 (1.0.0 is available)
++ nodelite-2-0NJQ4LFFUuWkE7Oxf0htBKS6zLkkjBH-hM1uk7Ng705ReR8m-uelduy1DBo0PyBXPKVnBA6YBlU94MBGXrSBCw-- <- @radix-ui/react-popper 1.2.8
++ nodelite-2-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS-3nGINqPd00AphqJR-0LhANUS6--7SCb98YOfA-- <- y18n 5.0.8
++ nodelite-2-0R9ikRb668HB7QDxT1vkpuUBtqc53YyAwMwGeUFKRojY-NWKvdZ-9UYtRfGmhqNbRkTSVpMbmyhXipFFv2cb-A-- <- data-uri-to-buffer 4.0.1 (6.0.2 is available)
++ nodelite-2-0rFg-Rj2Q62NCm62jZw0QX7a3sz6QCQU0LpZdNrJX8byRGaGVTqbrW9jAoIAHyMQqsNpeZ81YgSizOt5WXq0Pw-- <- @radix-ui/react-focus-guards 1.1.3
++ nodelite-2-0sETKqTgQXeiAaRDjTYLyz8JcQoAPluzL8OLC8-xR1gPXLoAZ-DPdGwO9Sp5z1gqeOMgQLp-pouoxivvrWHqCA-- <- swc-plugin-transform-remove-imports 8.3.0
++ nodelite-2-0sglIs9Wmkzbr8lQwEyIzlDOOC9bGmfVKcJTaxv3vMmd3uo4o4DerC3En0bnmgceeql9BfC8hRkp7cg0fjdVqw-- <- postcss-resolve-nested-selector 0.1.6
++ nodelite-2-0TpaTfihd4QMNwrz-ob2Bp7X04yuxJkjRGi4aKmOqwhov54i6u79oCv7T-C7lo70MKH6BesI3vscD1yb-yzKXQ-- <- jose 6.1.3
++ nodelite-2-0u-TldDbKD8bFCQ-4f5-mNRrXwZ8hg2w7ZR8wa16e8z9XpePWl3eGEcUD0OXpEH-VJH-2G3gjUtR3ZOiBe2S-w-- <- string.prototype.repeat 1.0.0
++ nodelite-2-0wUoCcLp-5Ev5pDW2OriHC2MJCbwLwuRx-gAqMTOkGKJJiBCLjtrvy4PWUGn6MIVefecRpzoOZ-UV6iGdOr-Cw-- <- hermes-estree 0.25.1 (0.32.0 is available)
++ nodelite-2-0YIpccoX8m-k00O7mDDMdJpbr6mf1yWo2dfmxt5A8XVZVVMz2SSKaEbMCeJRvgQ0IaSlqhjT47p4hVIRRy90xw-- <- @azure/core-lro 2.7.2
++ nodelite-2-0YWL2RFxOqEm9Efk5PvreamxPME8OyY0wM5wh5lHjF-VtVhdneCWGzZeSqzOfiobVqQaNCd2z0tQvnI9DaPWPw-- <- @babel/plugin-transform-typescript 7.28.6 (8.0.0-beta.0 is available)
++ nodelite-2-0ZrskXVEHSWIqZM-sQZ4EV3jZJXRkio-WCxaqKZP1g--CEWEPSfeZFcms4XeKBCHU0ZKnIkdJeU-kF-eRp5lBg-- <- @babel/types 7.28.6 (8.0.4 is available)
++ nodelite-2-0Zt-s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB-j3jR81u-O2LbqK-Bm1CDSNDKVtJ-YjwY7TUd5SkeLQLw-- <- file-uri-to-path 1.0.0 (2.0.0 is available)
++ nodelite-2-1-8kFp6Fl4OsSIVTWHnNjLnTL8IqpIb-D3sTSczrKFnrE9VMNWxnrRKNvpUHOJ6zpGD5f62TPm7-17ilTJpiCQ-- <- @smithy/middleware-endpoint 2.5.1 (4.4.12 is available)
++ nodelite-2-14-H1aX7hzBBmmh7sGPd-AOMkkIrHM3Z1PAyGgZigA1H1p5O5ANnMyWzvpAETtG68-dC4pC0ncy3-PPGzXZHPg-- <- localforage 1.10.0
++ nodelite-2-17faEXbYWIRst1aU9SvPZyMdWmqIrduZjVOqCPMIsWFNxs5yQQgFrJL6b2SdiCzyW9mJoDjFtgi53xx7EH-BXA-- <- @smithy/util-stream 2.2.0 (4.5.7 is available)
++ nodelite-2-1A31mCEWCjaMxJt6qGUK-aDnLDcK6AwLAZnqpSchNysGni1pSn1RWSmk9TBF8qyTds5FH8B31H480uxMPUJ7Cw-- <- @sentry/browser 8.55.0
++ nodelite-2-1A94B18jkJ3DYq284ohPxoXbfTA5HsQ7-Mf4DEhcyLx3Bz27Rh59iScbB6EPiP-B-joue6YCxcMXSbFC1tZKwA-- <- async-mutex 0.5.0
++ nodelite-2-1BC0BVFhS-p0qtw6enp8e-8OD0UrK0oFLztSjNzhcKA3WDuJxxAPXzPuPtKkjEY9UUoEWlX-8fgKeu2S8i9JTA-- <- is-callable 1.2.7
++ nodelite-2-1bQeydJF9Nr1eBCMMbC-hdwmRlsv5XYOMu03YSWFwNs0HsAmtSxxF1fyuYPqemVldVyFmlCU7w8UE14LupUSZQ-- <- @babel/plugin-transform-function-name 7.27.1 (8.0.1 is available)
++ nodelite-2-1cDNdwJ2Jaohmb3sg4OmKaMBwuC48sYni5HUw2DvsC8LjGTLK9h-eb1X6RyuOHe4hT0ULCW68iomhjUoKUqlPQ-- <- has-symbols 1.1.0
++ nodelite-2-1FlR-gjXK7X-AsAHso35MnyN5KqGwJRi-31ft6x0M194ht7S-rWAvd7PHss9xSKMzE0asv1pyIHaJYq-BbacAQ-- <- onetime 6.0.0 (7.0.0 is available)
++ nodelite-2-1gnZf7DFcoIcajTjTwjwuDjzuz4PPcY2StKPlsGAQ1-YH20IRVrBaXSWmdjowTJ6u8Rc01PoYOGHXfP1mYcZNQ-- <- send 1.2.1
++ nodelite-2-1hBWx4OUJE2cab--aVZ7pObD6s-DK4mPGpemtnAORBvb5l-g5xFGk0vc0PjSkrDs0XaXj9yyob3d14XqvnQ4gw-- <- @esbuild/linux-x64 0.27.0 (0.28.2 is available)
++ nodelite-2-1hqclzwYwjRDFLjcFxOM5AYkkG0rpFPpr1RLPMEuGczoS7YA8gLhy8SWXYRAA-XwfEHpfo3cw5JGioS32fnMRw-- <- immutable 4.3.7 (5.1.9 is available)
++ nodelite-2-1JRFeC-h7RdXwldHzTsmdtYR-Ku8SylLgTU-reMuqdVD7CtLwf0VR1FqeprZ0eHQkO0vqsbvFLXUmYm-uNKJBg-- <- @parcel/watcher-linux-x64-musl 2.5.6 (2.6.0 is available)
++ nodelite-2-1Kc4oAGzAl7uqUStZCDvaLFqZrW9qWSjXOmBfdgyBP5La7Us6Mg4GBvRlSoaZMhQF-zSj1C8CtKMBkoiT8eL8w-- <- @types/pg 8.6.1
++ nodelite-2-1m0bIFVc7eJWyve9S0RnuRgcQqF-Xd5QsUZAZeQFr1Q3-p9JWoQQEqmVy-DPTNpGXwhgIetAoYF8JSc33q29QA-- <- @types/http-cache-semantics 4.0.4 (4.2.0 is available)
++ nodelite-2-1m4RA7xVAJrSGrrXGs0L3YTwyvBs2S8PbRHaLZAkFw7JR8oIFwYtysxlBZhYIa7xSyiYJKZ3iGrrk55cGA3i9A-- <- treeify 1.1.0
++ nodelite-2-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK-H3jv408d4jw-7Bttv5axS5IiHoLaVNHeQ-- <- postcss-value-parser 4.2.0
++ nodelite-2-1pC6N8qWJbWoPtEjgcL2xyhQOP491EQjeUo3qTKcmV8YSDDJrOepfG8pcC7h-QgnQHYSv0mJ3Z-ZWxmatVrysg-- <- is-finalizationregistry 1.1.1
++ nodelite-2-1Qed0-Hr2m-YqxnM09CjA2d-i6YZNfF6R2oRAOj36eUdS6qIV-huPJNSEpKbupewFs-ZsJlxsjjPbc0-afW6Lw-- <- is-map 2.0.3
++ nodelite-2-1qny3OExCf0UvUV-5wpYKf2YwPcOqXzkwKKSmKHiE6ZMQs5heeE-c8eXK-PNllPvmjgAbfnsbpkGZWy8cBpn9w-- <- redis-errors 1.2.0
++ nodelite-2-1rXeuUUiGGrykh-CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy-moaqkpL-jqQq0MtQOeYcrqEz4abc5f0KtU7W4A-- <- color 4.2.3 (5.0.2 is available)
++ nodelite-2-1tB5mhVo7U-ETBKNf92xT4hrQa3pm0MZ0PQvuDnWgAAGHDsfp4lPSpiS6psrSiet87wyGPh9ft6wmhOMQ0hDiw-- <- strip-json-comments 5.0.3
++ nodelite-2-1UEWRX6jnOA2y4H5WczZ44gOOjTEmlqv1uNW4GAJEO5-bauCBhv8snY65Iw5-VOS-ghKN9gr2KjnLKxrsvoMVw-- <- @radix-ui/react-direction 1.1.1
++ nodelite-2-1ugUSr8BHXRnK23KfuYS-gVMC3LB8QGH9W1iGtDPsNWoQbgtXSExkBu2aDR4epiGWZOjZsj6lDl-N-AqqTC3UA-- <- balanced-match 2.0.0 (4.0.4 is available)
++ nodelite-2-1v7fgQRj6hnSwFpq1Eu0ynr-CDEw0rXo2B61qXrLNdHZmPKgb7fqS1a2JwF0rISo9q77jDI8VMEHoApn8qDoZA-- <- character-entities-html4 2.1.0
++ nodelite-2-1VKTZJCwBrvbd-Wn3AOgQP-2Av-TfTCOlE4AcRJE72W1ksZXbAx8PPBR9RzgTeSPzlPMHrbANMH3LbltH73wxQ-- <- get-tsconfig 4.13.0
++ nodelite-2-1W07cM9gS6DcLperZfFSj-bWLtaPGSOHWhPiGzXmvVJbRLdG82sH-Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w-- <- bl 4.1.0 (6.1.4 is available)
++ nodelite-2-1X1NTtiJphryn-uLQz3whtY6jK3fTqoE3ohKs0tT-Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ-- <- fraction.js 5.3.4
++ nodelite-2-1XMJE5fQo1jGH6Y-7ebnwPOBEkIEnT4QF32d5R1-VXdXveM0IBMJt8zfaxX1P3QhVwrYe-576-jkANtSS2mBbw-- <- stackback 0.0.2
++ nodelite-2-1Y1A--QUXEZK7YKz-rD9WydcE1-EuPr6ZBgKecAB8tmoW6UFv0NREVJe1p-jRxtThkcbbKkfwIbWJe-IeE6m2Q-- <- parse-passwd 1.0.0
++ nodelite-2-2-W4CgUL1VzrPjArbTid4WhKh7HH21vREVilZdvffQPVwOEpgNTPAb69loQuTlhJVveh9hWTj2nE5UXLbLP-AA-- <- @sentry-internal/replay-canvas 7.120.4 (8.55.0 is available)
++ nodelite-2-24e6ynE2H-OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki-DHzaUoC5KuON-BiccDaCCTZBuOcfZs70kR8bQ-- <- react-is 16.13.1 (19.1.0 is available)
++ nodelite-2-27rYVQku26j-PbHYcVfRPonmOlVI6gihHtXFbTdB5sb6qA0wdAQAbyXFVarQ5t4HRojIz64IV90YtsjQSSGlQg-- <- @typescript-eslint/scope-manager 8.54.0
++ nodelite-2-2Ac2RgzDe-cn48GvOe3M-o82pEFewD3UPbyoUHHdKasHwJKjds4fLXWf-Ux5kATBKN20oaFGu-jbElp1pos0mg-- <- tsconfig-paths 3.15.0 (4.2.0 is available)
++ nodelite-2-2bmlRpNKBxT-CRmPOlyISQpNj-qSeYvcym-uT0Jx2bMOlKLtSy1ZmLuVxSEKKyor-N5yhvp-ZiG1oE3DEYMSFA-- <- err-code 2.0.3 (3.0.1 is available)
++ nodelite-2-2cNEiYDhCWKI-Gs9T0Tiysk136SnR13hhO8yW6BGNyhOC4qYFnwF1nKfD3HFAIXA5c45RrIG1ub11GiXeYd1xA-- <- micromark-util-html-tag-name 2.0.1
++ nodelite-2-2dHfToCj-pzca2Ck724OZ5L0EVrr3eHRNsG-b3xQJLA2hZpVCS99bLAX-hm1IHXDEnzU6by5z-5MIY794-a8NQ-- <- @radix-ui/react-use-previous 1.1.1
++ nodelite-2-2Dl35587xbnzR-GGZqA2MnFs8-kS4wbHQO9BioU0okA-8NRueohNMdrdQmQDdSNK4BfIpFspiZmFkXFNyEAfgw-- <- @aws-sdk/credential-provider-sso 3.398.0 (3.972.2 is available)
++ nodelite-2-2H393EYDnFznYCDFOW3MHiRzwEO5M-UBhtUjvTT-9kc-qhX4U3zc8ixQalo5UmZ5B2nh7L-inXdTFzvSRXtsRA-- <- @lexical/utils 0.35.0 (0.36.2 is available)
++ nodelite-2-2I0gnIVPtfnMw9ee9h1dJG7tp81-8Ob3OJb3Mv37rx5L40-b0i7djjCVvGOVqc9AEIQyvyu1i6ypKdFw8R8gQw-- <- @noble/ciphers 1.3.0 (2.1.1 is available)
++ nodelite-2-2JAn3z8AR6rjK8Sm8orRC0h-bcl-DqL7tRPdGZ4I1CjdF-EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ-- <- webidl-conversions 3.0.1 (8.0.1 is available)
++ nodelite-2-2K9QYubXx-NAjv4VLq1d1Ly8pWNC5L3BrixtdkyTegXWJIqY-zLNDhhX-A-ZwWt70tB1S8H4BE8FLYEFyNoOBw-- <- mnemonist 0.38.3 (0.40.3 is available)
++ nodelite-2-2kkt-7niJ6MgEPxF0bYdQ6etZaA-fQvDcLKckhy1yIQOzaoKjBBjSj63-aLVjYE3qhRt5dvM-uUyfCg6UKCBbA-- <- @jridgewell/gen-mapping 0.3.13
++ nodelite-2-2lfu57JtzctfIrcGMz992hyLlByuzgIk58-hhGCxjKZ3rWI82NnVLjXcaTqkI2NvlcvOskZaiZ5kjUALo3Lpxg-- <- @babel/compat-data 7.28.6 (8.0.0-beta.0 is available)
++ nodelite-2-2NxwbF-hZ0KpepYN0cNbo-FN6XoK7GaHlQhgx-hIZl6Va0bF45RQOOwhLIy8lQDbuCiadSLCBnH2CFYquit5bw-- <- eslint-scope 5.1.1 (9.1.2 is available)
++ nodelite-2-2O3dkPAAC6JavuMm8-4-pgTk-5hoAs-CjZ-sWcQLkX9--tHRuTkQh-Oaifr8qDmZ8iEHb771Ea6G8CdwkrgvYA-- <- fast-xml-parser 5.3.3
++ nodelite-2-2OJlpeJpCR48CC8r-uKVChzs9Iungj9wkZrl8Z041DWEWvyIHILYKCPNzJghKsivj-S3mLo6BVc7mBNzdxA46w-- <- @aws-crypto/util 3.0.0 (5.2.0 is available)
++ nodelite-2-2P-YgaXF-gRsIihwwY1gCsQSYnu9Zyj2py8kY5fFvUM1qm2WA2u639R6YNVfU4GWr-ZM5mqEsfHZZLoRONbemw-- <- @dnd-kit/accessibility 3.1.1
++ nodelite-2-2P0p0pFGzHS5EMnhdxQi7aJN-iMheud0UhG4dlE1DLAlvL8JHjJJTX-CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA-- <- dateformat 4.6.3
++ nodelite-2-2qrRsVGSCYasSz1RFOorXwl0H7g7J1frQtgpQgYrt-MOidtPAINHn9CPovQXb83r8ahapdx3Tu0fa-pdFFSdPg-- <- @radix-ui/react-collapsible 1.1.11 (1.1.12 is available)
++ nodelite-2-2RaJTAvAb4owyjllTfXzFClJ7WsGxlykkPvCr9pA--LD9goVq-m4PPAeBgNodGZ7nSrntT-auWpJ6Y5IFXcfjg-- <- unique-filename 5.0.0
++ nodelite-2-2udiRijmjpN81Pvajje4TsjbXDZNP6K9bYUanBYH8hXa-tZG5qfGCySD-TyX0sgDxCQmEDMg3LaQdfjNHBDEgQ-- <- @aws-sdk/signature-v4-multi-region 3.972.0
++ nodelite-2-2W4oUZlVaqAPAil6FUg-difl6YhqhUR7x2eZY4bQCko22UXg3hptq9KLQdqFClV-Wu85UX7hNtdGTngi-1BxcA-- <- ofetch 1.5.1
++ nodelite-2-2X3mwqsj9Bd3Ciz508ZUtoQQYpOhU-kWoUqIf49H8Z0-Vbh6UF-y0OEYp0Q0axOGzaBGs7QxRwq0knSQ8khQNA-- <- @typescript-eslint/eslint-plugin 8.26.1
++ nodelite-2-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8-SVD7jkWT4yvsHCpWqqWqAxb0zCA-- <- minimist 1.2.8
++ nodelite-2-2z-rWdzbbSZv6-rhtvzvqeZQHrBaqgogqt85sqFNbabZOuFbCVFb8kPeEtZjiKkbrm395irpNKiYeFeLiQnFPg-- <- cssstyle 4.6.0 (5.3.3 is available)
++ nodelite-2-3-o9z3X0X0fTupwsYvR03pJ-DjWuqqrfwBgTQzdWDiQSm9KitAyz-9WqsT2JQW7KV2m-bC2ol-zqpW37NHxLaA-- <- text-decoder 1.2.3 (1.2.7 is available)
++ nodelite-2-30FAj7-EoJ5mwVPOWhAyCX-FPfMDrVecJAM-Iw9NRoSl4BBAQeqj4cApHHUXOVvIPgLVDsCFoz-hGD-5QQD1GQ-- <- @emotion/memoize 0.9.0
++ nodelite-2-30iZtAPgz-LTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw-- <- @ampproject/remapping 2.3.0
++ nodelite-2-341lBBkiY1DfDNKai-wXM3aujNBkXR7tq1URPQDL9wi3AUbI80NR74uF1TXHMm7po1AcnFk8iu2S2IeU---A-Q-- <- @aws-crypto/ie11-detection 3.0.0
++ nodelite-2-34wB-Y7MW7bzjKRjUKTa46I2Z7eV62Rkhva-KkopW7Qvv-OSWBqvkSY7vusOPrNuZcUG3tApvdVgNB8POj3SPw-- <- joycon 3.1.1
++ nodelite-2-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF-8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw-- <- doctrine 2.1.0 (3.0.0 is available)
++ nodelite-2-39nnKffWz8xN1BU-2c79n9nB9HDzo0niYUqx6xyqUnyoAnQyyWpOTdZEeiCch8BBu515t4wp9ZmgVfVhn9EBpw-- <- estraverse 4.3.0 (5.3.0 is available)
++ nodelite-2-3A6sD0WYP7-QrjbfNA2FN3FsOaGGFoekCVgTyypy53gPxhbkCIjtO6YWgdrfM-n-8sI8JeXZOIxsHjMTNxQ4nQ-- <- scslre 0.3.0
++ nodelite-2-3aisLw0I1yrmUpPuhqXZg8eLWOMQhwD-kRaP57WpTJzb2dGz3VouIgkyiUQALMx4KrA2SCy74zq52HnbFxtwRg-- <- @aws-sdk/credential-providers 3.975.0
++ nodelite-2-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ-- <- @jridgewell/trace-mapping 0.3.9
++ nodelite-2-3bYs1rOD33uo8aqJfKP3JWPAibgw8Zm2-L9vBKEHJ2Rg-viTR7o5Mmv5mZcieN-FRYaAOWX5SJATX6k1PWz72g-- <- d3-interpolate 3.0.1
++ nodelite-2-3cN0tCakkT4f3zo9RXDIhy6GTvtYD6bK4CRBLN9j3E-ePqN1tugAXD5rGVfoChW6s0hiek-eyYlLNqc-BG7vBQ-- <- pino-pretty 13.1.2
++ nodelite-2-3DSP7QpmTGYU9bN-yljP0PIao4tNIQtsR4ycauWNSawxs-GQCZtSmAPcLRnCm6qpqsDDjUtKjO-1Ej8FRp0m0w-- <- @lexical/yjs 0.35.0 (0.36.2 is available)
++ nodelite-2-3duEwti880xqi4eAMN8AyR4a0ByT90zoYdLlevfrvU43vb0YZwZVfxOgxWrLXXXpyugL0hNZc9G6BiB5B3nUug-- <- arrify 2.0.1 (3.0.0 is available)
++ nodelite-2-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ-- <- minipass 5.0.0 (7.1.3 is available)
++ nodelite-2-3giAOQvZiH5F9bMlMiv8-GSPMeqg0dbaeo58-0SlA9sxSqZhnUtxzX9-2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg-- <- @opentelemetry/api 1.9.0
++ nodelite-2-3hN7NaskYvMDLQY55gnW3NQ-mesEAepTqlg-VEbj7zzqEMBVNhzcGYYeqFo-TlYz6eQiFcp1HcsCZO-nGgS8zg-- <- gensync 1.0.0-beta.2
++ nodelite-2-3KS2b-kL7fsuk-eJZ7EQdnEmQoaho-r6KUef7hxvltNA5DR8NAUM-8wJMbJyZ4G9-7i3v5zPBIMN5aybAh2-Jg-- <- typed-array-length 1.0.7 (1.0.8 is available)
++ nodelite-2-3L7mwqSLJ6ouZZKtCntoNF0HTYDNs1FDQqkGjoPWXcv1p0gnLotaDmLq1rIDqfu4ucOit0Re3ioLyYDUTpSroA-- <- @aws-sdk/endpoint-cache 3.972.2
++ nodelite-2-3N8oaj-0juUw-1H3YwmDDJXCgTB1gKU6Hc-bB502u9zR0q2vd786XJH9QfrKIEgFlZmhZiq6epXl4rHqhzsIgQ-- <- @csstools/css-calc 2.1.4 (3.3.0 is available)
++ nodelite-2-3NQWGjKTASY1xV5m7Hr0iPeXD9-RDobLll3T9d2AO-g3my8xy5peVyjSag4I50mR1bBSN-Ct12lo-R9tJk0NZQ-- <- @webassemblyjs/utf8 1.13.2
++ nodelite-2-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9-CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw-- <- balanced-match 1.0.2 (4.0.4 is available)
++ nodelite-2-3ouUOpQhtgrbOa17J7-uxOTpITYWaGP7-AhoR3-A--1e9skrzelGi-dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag-- <- process-nextick-args 2.0.1
++ nodelite-2-3pUp4e8hv07k1QlijZu6Kn7c9-ZpWWk4j3F8N3xPuCExULobqJydKYOTj1FTq58srkJsXvO7LbGAH4C0ZU3WGw-- <- cacache 20.0.3
++ nodelite-2-3QbLKy93F0EAIXLh0ogEVR6rOubA9AoZ-WRYhNbFyuB70j3dRdwH9g-qXhLAO0kiYGlg3TxDV-I4rQTr-YNXkA-- <- @webassemblyjs/helper-wasm-bytecode 1.13.2
++ nodelite-2-3ShymTWOgqGyNlh5lMJAejLuIv3W1K3fbI5Ewc6YErZU3Sp0PqsNs8UIU1O8z5-KVl-Du5ag56Gza9vdorGEoA-- <- npx-import 1.1.4
++ nodelite-2-3sUqbMEc77XqpdNO7FRyRog-eW3ph-GYCbj-rK-uYyRMuwsVy0rMiVtPn-QJlKFvWP-1PYpapqYn0Me2knFn-A-- <- deepmerge 4.3.1
++ nodelite-2-3TaVTaAv2gTiMB35i3FiGJaRfwb3Pyn-j3m-bfAvGe8FB7CF6u-LMYqYlDh7reQf7UNvoTvdfAqHGmPGOSsPmA-- <- ts-api-utils 2.4.0 (2.5.0 is available)
++ nodelite-2-3vLclRofFziIa3J2wDh9jjbkUz9qk5Vi3IZ-FSTKViB0k-ef0fPV7dYrUIugbgupYDx7v9ud-SjrtEP8Y4xLoA-- <- @emotion/utils 1.4.2
++ nodelite-2-3VuV8xXhh5xJA6tzvfDvE0YBCMkIZUmxtRilJQDDdCgJCc-eut6qAv2qbN-pbqvarqcQqPN1UF-8YvsjmyOZpw-- <- lexical 0.35.0 (0.36.2 is available)
++ nodelite-2-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv-41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL-FYEct7A-- <- yallist 4.0.0 (5.0.0 is available)
++ nodelite-2-3wKbRgmzYbw24mDJXT7N-ADXw8BC-imU9yo9c9X9NKaLF1fW-e5H1U5QjMUBe4Qo4Ox-o--IyUkl1sVCLgevKg-- <- @babel/plugin-transform-nullish-coalescing-operator 7.28.6 (8.0.1 is available)
++ nodelite-2-3X3M1PZcHtgQbnwizL-xU8CAgbYbeLHrrDwL9xxcZZrV5J-e7loJm1XrXozHjSkl44J0Zg0SgA8rXbh83kCkcQ-- <- ts-tqdm 0.8.6
++ nodelite-2-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0-bI9MhwmD70S5aTWbXGBwxHrelT-XM1k6dM0pk-SwNkpTRN7Pg-- <- postcss 8.5.6
++ nodelite-2-4-Z-0yiYyEtUVCScyfHCxOYP06L5Ne-JiHhY2IjR2KWMIWhJOYZKLSGZaP5HkZ8-bY0cxfzwDE5uOmzFXyIwxw-- <- tailwindcss 4.1.18
++ nodelite-2-40yHxbNcl2-rzXvZuVkrYohathsSJlMTXKryG5y8uciHv1-xDLHQpgjG64JUO9nrEq2jGLH6IZ8BcZyw3wrweg-- <- responselike 3.0.0
++ nodelite-2-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741-pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng-- <- is-number 7.0.0
++ nodelite-2-42AtmgqjV-X1VpdOfyTGOYRi0-zsoLqtXQckTmqTeybT-BDIbM-Guxo7x3pE2vtpr1ok6xRqM9OpBe-Jyoqyww-- <- wrap-ansi 9.0.2
++ nodelite-2-42hZ8jEXT2uR6YybCzNq9OomqHPw43YIfRfz17biZjMQA4jKSQUaHIl6VvqO2Ddl5904pXg2Yd-ku78S0Ikgog-- <- @aws-sdk/middleware-host-header 3.972.2
++ nodelite-2-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM-hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ-- <- dotenv 16.4.7
++ nodelite-2-4aUIteuyxtBUhVdiQqcDhKFitwfd9hqoSDYY2KRXiWtgoWJ9Bmise-KfEPDiVHWeJepvF8xJO9-9-WDIciMFFw-- <- @smithy/uuid 1.1.0
++ nodelite-2-4bV5BfR2mqfQTJm-V5tPPdf-ZpuhiIvTuAB5g8kcrXOZpTT-QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ-- <- json-buffer 3.0.1
++ nodelite-2-4C0lfJ0-YPjJQHagaE9x2Elb69CIqEPZeG0anQt9SIvIoOH4a4uaRl73IavyO-0qZh6MDLH--DrXThEYKHkmYA-- <- caniuse-lite 1.0.30001766 (1.0.30001810 is available)
++ nodelite-2-4D3B6Wf41KOYRFdszmDqMCGq5VV-uMAB273JILmO-3jAlh8X4qDtdtgCR3fxtbLEMzSx22QdhnDcJvu2u1fVwg-- <- chalk 3.0.0 (5.6.2 is available)
++ nodelite-2-4diC9HaTE-KRAMWhDhrGOECgWZxoevMc5TlkObMqNSsVU62PYzXZ-SMTjzyGAFF1YusgxGcSWTEXBhp0CPwQ1A-- <- clean-stack 2.2.0 (5.2.0 is available)
++ nodelite-2-4Dj6M28JB-oAH8kFkTLUo-a2jwOFkuqb3yucU0CANcRRUbxS0cP0nZYCGjcc3BNXwRIsUVmDGgzawme7zvJHvg-- <- ansi-styles 6.2.3
++ nodelite-2-4EK3-xJl8Ts67nLYNwqw-dsFVnCf-qR7RgXSK9jEEm9unao3njwMDdmsdvoKBKHzxd7tCYz5e5M-SnMjdtXGQQ-- <- qs 6.14.1
++ nodelite-2-4EQQr6wXwS-ZJSzaR5ZCrYgLxqvUjdXctaEtBqHcbkW944B1NQyO4qpdHQbXBONfwxXdkAY81HH4-LUfrg-zPw-- <- eslint-config-prettier 10.1.1
++ nodelite-2-4FbRdAX-bSdmo4AUFuS0WNiPz8NgFt-r8ThgNWmlrjQjt1Q7ZR9-zTlce2859x4KSXrwIsaeTqDoKQmtP8pLmQ-- <- http-errors 2.0.1
++ nodelite-2-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH-OiuIgU--RB0-94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw-- <- iconv-lite 0.6.3 (0.7.3 is available)
++ nodelite-2-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA-wx9IueI2Y11bfbgwtzuE0KQ-- <- strip-json-comments 2.0.1 (5.0.3 is available)
++ nodelite-2-4gd7VpWNQNB4UKKCFFVcp1AVv-FMOgs9NKzjHKusc8jTMhd5eL1NqQqOpE0KzMds804-yHlglp3uxgluOqAPLw-- <- internal-slot 1.1.0
++ nodelite-2-4Ha641PYOFlYXpWh3BTxM4WTVvxz2u--Nb-bbrPTqBFvW36fdTrD2GC8BJecnj-vF0X-W3DBN2U-EqKM9g-8eg-- <- @next/eslint-plugin-next 16.2.0-canary.9
++ nodelite-2-4hm4VPpIecmlg59CHXnRDnqGplJFrbLG4aFEl5vl6cK1u76ws3LLvX7ikFnTDl5vo39sjWD6AaDPYodJp-NNHg-- <- compare-versions 6.1.1
++ nodelite-2-4HqP9IBC8e7pW9p90P3q4ox0XlbLGme65YTrA3UTLvqvo4Z6b0puqZQP203YFu8m9rE-luLfaG7-xrwwqMUpJw-- <- @opentelemetry/instrumentation-ioredis 0.47.0
++ nodelite-2-4I7Td01quW-RpocfNayFdFVk1qSuoh0E7JrbRJ16nH01HhKFQ88INq9Sd-nd72zqRySlr9BmDA8xlEJ6vJMrYA-- <- aggregate-error 3.1.0 (5.0.0 is available)
++ nodelite-2-4jiAqBfX6JgnmKVhuOIqHT5gAvZF5I-xXU32E79EFIgaDs0rFEy0KL-EcZJsXB20cMajg0pEiKXVWFgFwbxFPw-- <- @eslint-react/var 1.31.0 (2.7.2 is available)
++ nodelite-2-4JQNk-3mVzK3xh2rqd6RB4J46qUR19azEHBneZyTZM-c456qOrbbM-5xcR8huNCCcbVt7-UmizG6GuUvPvKUYg-- <- @jsdevtools/ono 7.1.3
++ nodelite-2-4JX6rEatQEvlmgU80wZyq9RT96HZJa88q8hp0pBd-LrczeDI4o6uA2M-uvxngVHo4Ihr8uibXxH6-70zhAFrVw-- <- @floating-ui/react-dom 2.1.6
++ nodelite-2-4LCcse-U2MHZ63HAJVE-v71o7yOdIe4cZ70Wpf8D-IyjDKYQLV5GD46B-hSTjJsvV5PztjvHoU580EftxjDZFQ-- <- yocto-queue 1.2.2
++ nodelite-2-4LtOzh58S-5lX4ITKxnAK2USuNEvpdVV9AlgGQb8rJDHaLeHciwG4zlGr0j-SNWlr7x3vO1lDEsuePvtcDNCkw-- <- @webassemblyjs/ieee754 1.13.2
++ nodelite-2-4Lup7Ezn8W3d52-xBhZBVdx323ckxa7DEvd9kPQHppTkLoJXw6ltrBCyj5pnrxj0qKDxYMJ56CoxNuFCscdTiw-- <- unique-slug 6.0.0
++ nodelite-2-4PRT4nh1EImPbt2jASOKHX7PB7I-e4IWNLvkKFDxNhJlfjbYlleYQh285Z-3mPTHSAK-AvdMmw5BNNuYH8ShgQ-- <- spdx-license-ids 3.0.22
++ nodelite-2-4R-hR6N2LbvTIf6Y2e9b9PQlVkAD5WmSRMAGslul5L-jCE0LzOYC-4RQ7u5EOv0mERozcYleLPK2Zc0jTn4gTg-- <- @aws-sdk/client-sesv2 3.975.0
++ nodelite-2-4rb8XtXNx7ZaOZarKKnckgz4xLMvds-YrU6mpJfGhGAsy2Mg4mIw1x-DCCGngVGq2soTBVVOxx2s-C6mTX9-pA-- <- react-image-crop 10.1.8 (11.0.7 is available)
++ nodelite-2-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ-- <- @aws-crypto/util 5.2.0
++ nodelite-2-4tvttepXG1VaYGrRibk5EwJd1t4udunSOVMdLSAL6mId1ix438oPwPZMALY41FCijukO1L0twNcGsdzS7dHgDg-- <- defer-to-connect 2.0.1
++ nodelite-2-4UEqdc2RYGHZc7Doyqkrqiln3p9X2DZVxaGbwhn2pi7MrRagKaOcIKe8L3OxYcbhXLgLFUS3zAYuQjKBQgmuNg-- <- yargs 18.0.0
++ nodelite-2-4Wlbdl-sIZjzi-8St0evF0gEZrgOswVO6aOzqxh1kDZOl9WmLrHq2HtGhnOJZmHZYKP8WZ1MDLCt5DAWwRo57A-- <- @babel/plugin-transform-unicode-property-regex 7.28.6 (8.0.1 is available)
++ nodelite-2-4wqOafJdk2tqZC--cjcbGcaJ13BZ3kwldf06PTiAQRAB76Z1KJwZNL1SaRZMi2w1FM9RYTgZ6QErS8NUl-GBmQ-- <- convert-gitmoji 0.1.5
++ nodelite-2-4zFBCU5Pf-4Z6v-rwnZ1HU1yzOKKvDkMXZrymE2PBlbjKJRlrOxbvpfPSvJTGRIwGoahaOGvp-kbCoxifhzJ1Q-- <- @vitest/utils 3.2.3 (4.0.7 is available)
++ nodelite-2-4zNhdJD-iOjSH0A05ea-Ke6MU5mmpQcbQsSOkgdaUMJ9zTlDTD-GYlwohmIE2u0gaxHYiVHEn1Fw9mZ-ktJWgw-- <- chai 5.3.3 (6.2.2 is available)
++ nodelite-2-5-5HqXnsZPE65IJZSMkZtURARZelel2oXUEO8rH83VS-hxH5vv1uHquPg5wZs8yMAfdv971IU-kcPUczi7NVBQ-- <- postgres-bytea 1.0.1 (3.0.0 is available)
++ nodelite-2-5-fP8P8MFNC-AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA-- <- @types/json-schema 7.0.15
++ nodelite-2-5-kmIOY9FF32nicXH-5yLNTX4NJ4atl7jRgqAJuIn-iyDFXBktOKDxCvyGE-EzmF4ngSUvjXxQUQlQiZ5lfw-w-- <- @sindresorhus/transliterate 0.1.2 (1.6.0 is available)
++ nodelite-2-51w-ZZGt7Zw5q7rM3nC4t3aLn-xvKDETsXqMczndvwyVQhAHfUmUuFBRFcos8Iyebtk7OAE9dL26wFNzZVVOkw-- <- hookified 1.15.0
+
+Done in 1.1s using pnpm v10.27.0

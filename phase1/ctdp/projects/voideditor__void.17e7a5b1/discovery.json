@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/voideditor__void.17e7a5b1",
+  "safe_profile_id": "voideditor__void.17e7a5b1",
+  "owner": "voideditor",
+  "repo": "void",
+  "commit": "17e7a5b1524345b19ab4ee38ec4f9b1b75a1bd00",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "0426f7949e038fd4f4b54341aeb3f2411912b968f1bbead698e9e5f3e85d0b8a",
+          "size_bytes": 10747,
+          "source_url": "https://raw.githubusercontent.com/voideditor/void/17e7a5b1524345b19ab4ee38ec4f9b1b75a1bd00/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "3b56a2a56a2459f1c32c72ba68486cd916325412d3b20fe9df851013c2104292",
+          "size_bytes": 163,
+          "source_url": "https://raw.githubusercontent.com/voideditor/void/17e7a5b1524345b19ab4ee38ec4f9b1b75a1bd00/.npmrc"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "f5f654fa918a0acf3b8333fb98fe9ce191b5b7e56f7d05ea4e8bc69ca0d24526",
+          "size_bytes": 8,
+          "source_url": "https://raw.githubusercontent.com/voideditor/void/17e7a5b1524345b19ab4ee38ec4f9b1b75a1bd00/.nvmrc"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "6522748bd07c0bd9960d528eda611017ee0b128eb112eb53849b8058205cfa32",
+          "size_bytes": 892108,
+          "source_url": "https://raw.githubusercontent.com/voideditor/void/17e7a5b1524345b19ab4ee38ec4f9b1b75a1bd00/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/voideditor__void.17e7a5b1/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L4028",
+  "dockerfile_sha256": "8bc6665c27c008743865110dc861ea1089096af13648a450cd7e7695e3b45afa",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-bookworm"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1094,
+  "discovered_at": "2026-09-04T06:20:50.578547+00:00"
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+  "safe_profile_id": "FuelLabs__fuels-ts.b3f37c91",
+  "owner": "FuelLabs",
+  "repo": "fuels-ts",
+  "commit": "b3f37c91aca4aa9d5e4c0d3967f66237190826ea",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "pnpm",
+  "package_manager_version": "9.4.0",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install && pnpm build:packages"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    "pnpm-workspace.yaml",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "9.4.0",
+      "install_commands": [
+        "pnpm install && pnpm build:packages"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        "pnpm-workspace.yaml",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "b55338e227a8b7362f51a3a339e93b0a959fdb91a60a41ff8a2da7737030b942",
+          "size_bytes": 5700,
+          "source_url": "https://raw.githubusercontent.com/FuelLabs/fuels-ts/b3f37c91aca4aa9d5e4c0d3967f66237190826ea/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "a28bc5d34c04161cc4df783b2905a4bd662cc6ff3792949610232cc0a7d8893e",
+          "size_bytes": 72,
+          "source_url": "https://raw.githubusercontent.com/FuelLabs/fuels-ts/b3f37c91aca4aa9d5e4c0d3967f66237190826ea/.npmrc"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "6f6789ac0fa69771ce086b9227d1c1c1018e595c3015828943e6c742b2ad98ba",
+          "size_bytes": 75,
+          "source_url": "https://raw.githubusercontent.com/FuelLabs/fuels-ts/b3f37c91aca4aa9d5e4c0d3967f66237190826ea/pnpm-workspace.yaml"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "be01fc79c0419d8130d654533e1cf518a9ffdcd105c0ec4864fb406accf218a5",
+          "size_bytes": 8,
+          "source_url": "https://raw.githubusercontent.com/FuelLabs/fuels-ts/b3f37c91aca4aa9d5e4c0d3967f66237190826ea/.nvmrc"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "471ddc5c5a27de320e8248d36bdb2249c0247127d789b2745f7ea0fda18a5982",
+          "size_bytes": 961726,
+          "source_url": "https://raw.githubusercontent.com/FuelLabs/fuels-ts/b3f37c91aca4aa9d5e4c0d3967f66237190826ea/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install && pnpm build:packages",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.4.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/FuelLabs__fuels-ts.b3f37c91/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L313",
+  "dockerfile_sha256": "6270402987a4f7b742d365270116259faf98b3b43c6b0db0016444dd9443beff",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 5,
+      "value": "npm install -g pnpm@9.4.0"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install && pnpm build:packages",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1130,
+  "discovered_at": "2026-09-04T06:20:02.359534+00:00"
+}

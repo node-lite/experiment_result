@@ -1,0 +1,22 @@
+➤ YN0000: · Yarn 4.9.1
+➤ YN0000: ┌ Resolution step
+➤ YN0000: └ Completed in 0s 310ms
+➤ YN0000: ┌ Post-resolution validation
+➤ YN0060: │ @babel/core is listed by your project with version 8.0.0-beta.0 (p5fada), which doesn't satisfy what @babel/eslint-parser and other dependencies request (but they have non-overlapping ranges!).
+➤ YN0060: │ eslint is listed by your project with version 9.22.0 (p10c3b), which doesn't satisfy what eslint-plugin-jest and other dependencies request (^8.57.0).
+➤ YN0060: │ rollup is listed by your project with version 4.22.4 (p32d0c), which doesn't satisfy what rollup-plugin-dts and other dependencies request (^3.29.4).
+➤ YN0002: │ @babel/core@workspace:packages/babel-core doesn't provide @types/node (p7ceb2), requested by ts-node.
+➤ YN0002: │ @babel/core@workspace:packages/babel-core doesn't provide typescript (p53120), requested by ts-node.
+➤ YN0002: │ @babel/eslint-parser@workspace:eslint/babel-eslint-parser [2c186] doesn't provide typescript (pc924f), requested by typescript-eslint.
+➤ YN0002: │ @babel/eslint-parser@workspace:eslint/babel-eslint-parser [9548c] doesn't provide typescript (pd9271), requested by typescript-eslint.
+➤ YN0002: │ @babel/eslint-parser@workspace:eslint/babel-eslint-parser doesn't provide typescript (pe26c8), requested by typescript-eslint.
+➤ YN0002: │ @babel/parser@workspace:packages/babel-parser doesn't provide @babel/core (pa7227), requested by @babel/helper-fixtures.
+➤ YN0086: │ Some peer dependencies are incorrectly met by your project; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code.
+➤ YN0086: │ Some peer dependencies are incorrectly met by dependencies; run yarn explain peer-requirements for details.
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Fetch step
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Link step
+➤ YN0073: │ Skipped due to mode=update-lockfile
+➤ YN0000: └ Completed
+➤ YN0000: · Done with warnings in 0s 661ms

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/nightwatchjs__nightwatch.54c8550c",
+  "safe_profile_id": "nightwatchjs__nightwatch.54c8550c",
+  "owner": "nightwatchjs",
+  "repo": "nightwatch",
+  "commit": "54c8550c75a16c61827c0bad043c7ffa073a52e6",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install --ignore-scripts"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install --ignore-scripts"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "34743ed160a3ff0ee2c412b356ea48aab564693f4bdb57b15488f8f7ec61fa78",
+          "size_bytes": 4045,
+          "source_url": "https://raw.githubusercontent.com/nightwatchjs/nightwatch/54c8550c75a16c61827c0bad043c7ffa073a52e6/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "4a947b8a3bf3968752c6fdffebbc28514219451c5d5af645523a25e902cdcda3",
+          "size_bytes": 360907,
+          "source_url": "https://raw.githubusercontent.com/nightwatchjs/nightwatch/54c8550c75a16c61827c0bad043c7ffa073a52e6/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --ignore-scripts",
+          "install_fragment": "npm install --ignore-scripts",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/nightwatchjs__nightwatch.54c8550c/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L2167",
+  "dockerfile_sha256": "b7070fc90d737fc3e47784b0d91a8cabe6004a7c62071b59801808b332348ab0",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install --ignore-scripts",
+      "install_fragment": "npm install --ignore-scripts",
+      "dockerfile_line": 9
+    }
+  ],
+  "discovery_elapsed_ms": 1085,
+  "discovered_at": "2026-09-04T06:20:26.005478+00:00"
+}

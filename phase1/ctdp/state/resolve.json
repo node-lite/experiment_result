@@ -1,0 +1,8 @@
+{
+  "stage": "resolve",
+  "status": "partial",
+  "fingerprint": "b1ab51a6c819bad9fa92c6124bad999d0bff7db49e966be18288cfd107c2f353",
+  "updated_at": "2026-09-04T06:47:26.436453+00:00",
+  "roots": 65,
+  "failures": 9
+}

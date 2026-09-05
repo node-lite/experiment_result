@@ -1,0 +1,23 @@
+warning " > nodelite-2-eqn4m70P031PF7ZQIvSgy9RSJ5uI2171O-OO-zcRNYpJbvaeKFUlar1aJ7rmgiQtbm0FSPsRewjpdS0Oew7MPA--@6.0.5" has unmet peer dependency "postcss@^8.2".
+warning " > nodelite-2-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB-fob-zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ--@10.9.2" has unmet peer dependency "@types/node@*".
+warning " > nodelite-2-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB-fob-zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ--@10.9.2" has unmet peer dependency "typescript@>=2.7".
+warning " > nodelite-2-fgVkmyiWDwmD3JbpCmB45SvvlCD6z9CG6Ie6Iere22W5aHea6oWa7EM2bpnv2Fj3I94L3VbtvX9KqwSi5aFzSg--@6.0.3" has unmet peer dependency "postcss@^8.3".
+warning " > nodelite-2-fm4idjKla0YahUNgFNLCB0qySdsoPiZP3iQE3rky0mBUtMZ23yDJ9SJdg6dXTSDnulOVqiF3Hgr9nbXvXTQZYA--@7.12.13" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > nodelite-2-g38K9Cm5WRwlaH6g03B9OEz-0qRizI-2I7n-Gz-L5DxXJAPAiWQvwlYNm1V1jkdpUv95bOe-ASm2vfi-G560jQ--@5.2.2" has unmet peer dependency "webpack@>=4.0.1".
+warning " > nodelite-2-gEy2w9AnJNnD9Kuo4XAP9VflW-ujKoS9c-syO-uWMlm5igc7LysKzPXaDoR2vroROkSwsTS2tGr1yGGEbZOYZQ--@6.5.1" has unmet peer dependency "webpack@^5.0.0".
+warning " > nodelite-2-gbOIhwrZKCSSFFbh6nE6LLCvAU7mhSdBSnRiS14YBwJJMu4CRJ0IcaFz58iXqGWZefMivKtkNFtx-zqwUC4ziw--@17.3.2" has unmet peer dependency "nx@>= 16 <= 18".
+warning " > nodelite-2-ggi84RMNQffSDmWSyyt4zxzh2CQGwsxvYYsprgyR1j8ikzIduEdOlcLvXjZGwXG-0j41KUXOWsUCBfbEHPWP9g--@4.0.2" has unmet peer dependency "karma@*".
+warning " > nodelite-2-hj5CYrY0bZLB-eTO-x-j67Pkrquiy7kWepMHmUMoPsmcUaeEnQJqFzHJOyxgWlq746-wUuA64p9ta34Kyb01pA--@5.3.3" has unmet peer dependency "webpack@^4.0.0 || ^5.0.0".
+warning " > nodelite-2-hncihwFA2yPath8oZ15PZqvWGkWf-XUfQgUGamS4LqoP1anQLOsOJw0vr7J7IwLpoY9fatA2qiGUGmuZL0Iqlg--@3.0.0" has unmet peer dependency "postcss@^8.1.0".
+warning " > nodelite-2-hx--upLv5U1rgYfwe1xBQUhRmU41NEvpUvrp8jkrSCdvGSnM5-qdRMtylJ6PG5OFkBaHkbTAKTnd3-YyESRHFw--@7.14.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > nodelite-2-iRkKcCqb7iGnq9-3G6rZ-Ciz5VywC4XNRHe57lKM-jOeYAoR0lVqdeeDRfh0tQcTfw--vBhHn926FmQhLtlFLQ--@7.23.3" has unmet peer dependency "@babel/core@^7.0.0".
+warning " > nodelite-2-jHE9EVVqHKAQx-VePv5LLGHjmHSJR76vawFPTdlxR-LVJPfOEGxREQwQfjuZEOPTwG92X3LINSh3M40Rv4zpVA--@7.23.4" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > nodelite-2-jR3Jn3y7cZp4oEWPFAlRsSWjxKe4PZILGBSd4nis1TsC5qeSpb-nrtihJuDhNI7QHiVbUaiXa0X2RZY3-TI6Nw--@7.23.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > nodelite-2-jvOTR4nicqYC9yzOHIhXG5emiFEOpappSJAl73SDSEDcybD-Puuze8Tnpb9p9qEyYup24tq891gkaygIFvWDqg--@7.23.5" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > nodelite-2-k-24-kBjaOuthfp9RBQB0zH6UqeizZuFQFEuZEQbvirPbdQ2SqNBw7IcmW2Qw1v7fjFe6-6gqK7wm2g7o9ZZvA--@13.5.0" has unmet peer dependency "eslint@^7.0.0 || ^8.0.0".
+warning " > nodelite-2-k-24-kBjaOuthfp9RBQB0zH6UqeizZuFQFEuZEQbvirPbdQ2SqNBw7IcmW2Qw1v7fjFe6-6gqK7wm2g7o9ZZvA--@13.5.0" has unmet peer dependency "typescript@*".
+warning " > nodelite-2-k1NtHyOMvlDDFeb9G5PhUXuGj8m-wiwojgQVEhJ-fsVsMCpLyOP4h0uGEjYJKrRI-EVPlb5Jk-Gt9P97lOGwtA--@7.18.9" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning " > nodelite-2-k5y9HSwJzWgc8S7bHxejojJfuo2heltY9lTa5UgfqoBv2vubCwqXhVxFBXr3nKfymc9YOALCnk10JYeOdVLLWQ--@0.30.0" has unmet peer dependency "dgeni@^0.4.0".
+warning " > nodelite-2-k9o9WIqUkdO8tdYFCJ54PUWsNd9HHflih-GmA13EWciBYx8QxciwBh0u4NSAnbtOwp4Y7juGZ-Dta5ZrT-2VBA--@13.5.0" has unmet peer dependency "eslint@^7.0.0 || ^8.0.0".
+warning " > nodelite-2-k9o9WIqUkdO8tdYFCJ54PUWsNd9HHflih-GmA13EWciBYx8QxciwBh0u4NSAnbtOwp4Y7juGZ-Dta5ZrT-2VBA--@13.5.0" has unmet peer dependency "typescript@*".
+warning Ignored scripts due to flag.

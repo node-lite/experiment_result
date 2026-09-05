@@ -1,0 +1,3 @@
+warning " > nodelite-2-z5aQKU4IzbqCC1XH0nAqfsFLMVSo22SBKUc0BxGrLkolTdPTructy0ToNnlO2zA4j9Q-7pjMZf0DSY-DSTYzww--@0.3.3" has unmet peer dependency "@babel/core@^7.4.0-0".
+warning " > nodelite-2-zHsy9iXX2nIsCBFPud3jKn1IRPWg3Ing1qOZgeKV39m1ZgIdpJqvlWVeiHBZC6ITRG0MfskhYe9cLgntfSFPIg--@7.23.3" has unmet peer dependency "@babel/core@^7.0.0-0".
+warning Ignored scripts due to flag.

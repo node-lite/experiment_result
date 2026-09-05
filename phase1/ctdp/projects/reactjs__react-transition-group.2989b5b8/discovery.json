@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+  "safe_profile_id": "reactjs__react-transition-group.2989b5b8",
+  "owner": "reactjs",
+  "repo": "react-transition-group",
+  "commit": "2989b5b87b4b4d1001f21c8efa503049ffb4fe8d",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install --legacy-peer-deps"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install --legacy-peer-deps"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "d8eb49b0cb73d9839ac24533a018e0a228532838826e392b42ae2d0fdd802864",
+          "size_bytes": 4264,
+          "source_url": "https://raw.githubusercontent.com/reactjs/react-transition-group/2989b5b87b4b4d1001f21c8efa503049ffb4fe8d/package.json"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "670f3bc8796f5ef38a1b24a3d07e3f09b34f47bbaf90405a55ecf4c8dde0c2f0",
+          "size_bytes": 785090,
+          "source_url": "https://raw.githubusercontent.com/reactjs/react-transition-group/2989b5b87b4b4d1001f21c8efa503049ffb4fe8d/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --legacy-peer-deps",
+          "install_fragment": "npm install --legacy-peer-deps",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/reactjs__react-transition-group.2989b5b8/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L2348",
+  "dockerfile_sha256": "20b8de09a48626bf8b3d238f83afc0ac4cbede28529eb17cc0146ca3f2466398",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install --legacy-peer-deps",
+      "install_fragment": "npm install --legacy-peer-deps",
+      "dockerfile_line": 7
+    }
+  ],
+  "discovery_elapsed_ms": 1152,
+  "discovered_at": "2026-09-04T06:20:33.680774+00:00"
+}

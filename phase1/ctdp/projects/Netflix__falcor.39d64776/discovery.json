@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/Netflix__falcor.39d64776",
+  "safe_profile_id": "Netflix__falcor.39d64776",
+  "owner": "Netflix",
+  "repo": "falcor",
+  "commit": "39d64776cf9d87781b2791615dcbae73b2bcd2e1",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install --legacy-peer-deps"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install --legacy-peer-deps"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "8290bb56acfcedd613261db27882fee7d3965e888e090bd84dfba18c7ead8a11",
+          "size_bytes": 2240,
+          "source_url": "https://raw.githubusercontent.com/Netflix/falcor/39d64776cf9d87781b2791615dcbae73b2bcd2e1/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "6dce701d46a8886b1a127a2d414c6dee6e9f1acd60955125f4539ee29ecf6fc0",
+          "size_bytes": 36,
+          "source_url": "https://raw.githubusercontent.com/Netflix/falcor/39d64776cf9d87781b2791615dcbae73b2bcd2e1/.npmrc"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "b4ab94ecdb361f4b88af5fd1cad3b42aa6600f29415a789f792da77928f8768b",
+          "size_bytes": 649058,
+          "source_url": "https://raw.githubusercontent.com/Netflix/falcor/39d64776cf9d87781b2791615dcbae73b2bcd2e1/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --legacy-peer-deps",
+          "install_fragment": "npm install --legacy-peer-deps",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/Netflix__falcor.39d64776/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1419",
+  "dockerfile_sha256": "1d23230d790de2a9e2bbf6c6a25b92b01569b8ba14c292a0a520036cc55d5766",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install --legacy-peer-deps",
+      "install_fragment": "npm install --legacy-peer-deps",
+      "dockerfile_line": 9
+    }
+  ],
+  "discovery_elapsed_ms": 1142,
+  "discovered_at": "2026-09-04T06:20:24.917863+00:00"
+}

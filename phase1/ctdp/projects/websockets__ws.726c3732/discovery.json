@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/websockets__ws.726c3732",
+  "safe_profile_id": "websockets__ws.726c3732",
+  "owner": "websockets",
+  "repo": "ws",
+  "commit": "726c3732b3e5319219ed73cac4826fd36917e2e1",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "aaedef2a72b60db8fb36d9b46c48d44986051785a2b6450c62994603c85dd959",
+          "size_bytes": 1723,
+          "source_url": "https://raw.githubusercontent.com/websockets/ws/726c3732b3e5319219ed73cac4826fd36917e2e1/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "f3fc23758ab91be5f94a8c5eaff433d1ccd6a206cf1d381d332eb63716009337",
+          "size_bytes": 19,
+          "source_url": "https://raw.githubusercontent.com/websockets/ws/726c3732b3e5319219ed73cac4826fd36917e2e1/.npmrc"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 8
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/websockets__ws.726c3732/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L2542",
+  "dockerfile_sha256": "9099a09fbc757082c754ca3a0df793d10af5e2d68702495eaee3ac141fd35cf7",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 8
+    }
+  ],
+  "discovery_elapsed_ms": 1062,
+  "discovered_at": "2026-09-04T06:20:52.742163+00:00"
+}

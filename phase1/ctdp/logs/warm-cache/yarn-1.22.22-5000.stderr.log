@@ -1,0 +1,3 @@
+warning url-loader@1.1.2: Invalid bin field for "url-loader".
+error nodelite-2-d2fjLjzrKGUIn5hWK8gMuyAh2pqXSxBqOHpU1jR3jxbrO3MilunKNijaSstv7CZn067Jpc36VfaKQodaXNZzUA--@9.4.0: The engine "node" is incompatible with this module. Expected version ">=20". Got "18.19.1"
+error Found incompatible module.

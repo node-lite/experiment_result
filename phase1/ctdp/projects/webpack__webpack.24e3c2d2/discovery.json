@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/webpack__webpack.24e3c2d2",
+  "safe_profile_id": "webpack__webpack.24e3c2d2",
+  "owner": "webpack",
+  "repo": "webpack",
+  "commit": "24e3c2d2c9f8c6d60810302b2ea70ed86e2863dc",
+  "language": "javascript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": "1.22.22",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install && yarn setup"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": "1.22.22",
+      "install_commands": [
+        "yarn install && yarn setup"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "8138d968425dce261f4bdc25cda64f3c2b3ab905eaf926b37501aafa2dd80ffb",
+          "size_bytes": 9445,
+          "source_url": "https://raw.githubusercontent.com/webpack/webpack/24e3c2d2c9f8c6d60810302b2ea70ed86e2863dc/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "bb86f50ed938dde85fe15920dabc48dfe1afb043178f76cb24086e1a57fe3275",
+          "size_bytes": 18,
+          "source_url": "https://raw.githubusercontent.com/webpack/webpack/24e3c2d2c9f8c6d60810302b2ea70ed86e2863dc/.npmrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "2a4de1074e7ce9a83bacd329adf17ec4eb2d1df6f7509e138678a0a16dc30661",
+          "size_bytes": 428547,
+          "source_url": "https://raw.githubusercontent.com/webpack/webpack/24e3c2d2c9f8c6d60810302b2ea70ed86e2863dc/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install && yarn setup",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@1.22.22",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/webpack__webpack.24e3c2d2/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L2515",
+  "dockerfile_sha256": "9b7196bf419cc9bc9a7a8f6474500d4d376542620ab70b80071070eeba6c7bd4",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install && yarn setup",
+      "install_fragment": "yarn install",
+      "dockerfile_line": 9
+    }
+  ],
+  "discovery_elapsed_ms": 1096,
+  "discovered_at": "2026-09-04T06:20:51.677632+00:00"
+}

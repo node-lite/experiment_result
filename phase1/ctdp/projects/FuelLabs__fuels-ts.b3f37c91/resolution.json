@@ -1,0 +1,120 @@
+{
+  "profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+  "roots": [
+    {
+      "profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_version": "9.4.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver_failed",
+      "classification": "unsupported_or_manual_review",
+      "source_lockfile": "pnpm-lock.yaml",
+      "resolved_lockfile": null,
+      "source_lockfile_sha256": "471ddc5c5a27de320e8248d36bdb2249c0247127d789b2745f7ea0fda18a5982",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 4013,
+      "exit_code": 1,
+      "command": [
+        "npx",
+        "--yes",
+        "--package",
+        "pnpm@9.4.0",
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.4.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/FuelLabs__fuels-ts.b3f37c91/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/FuelLabs__fuels-ts.b3f37c91/logs/resolution/root.stderr.log",
+      "manual_review": [
+        null
+      ],
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install && pnpm build:packages",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.4.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install && pnpm build:packages",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.4.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "b3f37c91aca4aa9d5e4c0d3967f66237190826ea",
+          "path": "/tmp/nodelite-deps-resolve-kvpftm15/checkout"
+        },
+        {
+          "source": "npx",
+          "version": "9.4.0"
+        }
+      ]
+    }
+  ]
+}

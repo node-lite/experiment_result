@@ -1,0 +1,90 @@
+{
+  "profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+  "roots": [
+    {
+      "profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver_failed",
+      "classification": "unsupported_or_manual_review",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": null,
+      "source_lockfile_sha256": "c9d26828be2c203c9da841fc0c3c0e6b7385ca57f94eaf23bc932e897b97d859",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 1496,
+      "exit_code": 1,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/jantimon__html-webpack-plugin.9a39db80/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/jantimon__html-webpack-plugin.9a39db80/logs/resolution/root.stderr.log",
+      "manual_review": [
+        null
+      ],
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --legacy-peer-deps",
+          "install_fragment": "npm install --legacy-peer-deps",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".node-version"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --legacy-peer-deps",
+          "install_fragment": "npm install --legacy-peer-deps",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".node-version"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "9a39db807c09d8e6145e5047cfe2ec5e928e1dee",
+          "path": "/tmp/nodelite-deps-resolve-21ammmpx/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        }
+      ]
+    }
+  ]
+}

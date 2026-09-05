@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/nestjs__nest.346c9543",
+  "safe_profile_id": "nestjs__nest.346c9543",
+  "owner": "nestjs",
+  "repo": "nest",
+  "commit": "346c9543120c692f314bdbf55fc9956d2fa6d87e",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "892e8dc67f5f88d0ad734adcc4db8678d5d8f7c4eff696e39563a57aa9009387",
+          "size_bytes": 8713,
+          "source_url": "https://raw.githubusercontent.com/nestjs/nest/346c9543120c692f314bdbf55fc9956d2fa6d87e/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "4d82c730c747052258c37039d87b75ac12d95e26d49854cb5fca5282ac1fe20b",
+          "size_bytes": 1318125,
+          "source_url": "https://raw.githubusercontent.com/nestjs/nest/346c9543120c692f314bdbf55fc9956d2fa6d87e/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/nestjs__nest.346c9543/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L2502",
+  "dockerfile_sha256": "d49c0618f593b5257090e936e11701a209d6e374185042959715e8c8bdf92daa",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1105,
+  "discovered_at": "2026-09-04T06:20:23.772726+00:00"
+}

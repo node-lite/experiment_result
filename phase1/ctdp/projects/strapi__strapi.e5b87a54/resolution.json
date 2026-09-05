@@ -1,0 +1,103 @@
+{
+  "profile_id": "swesmith/strapi__strapi.e5b87a54",
+  "roots": [
+    {
+      "profile_id": "swesmith/strapi__strapi.e5b87a54",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_version": "4.12.0",
+      "resolution_mode": "authoritative_existing",
+      "resolution_source": "existing_lockfile",
+      "classification": "authoritative_existing",
+      "source_lockfile": "yarn.lock",
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
+      "source_lockfile_sha256": "6fe14b23a9f92e6c6eab617286f2bfdd7be125d09a007247b1bc0813f930dd04",
+      "resolved_lockfile_sha256": "6fe14b23a9f92e6c6eab617286f2bfdd7be125d09a007247b1bc0813f930dd04",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 4,
+      "exit_code": 0,
+      "command": [
+        "yarn install --immutable"
+      ],
+      "tool_version": "4.12.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": false,
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --immutable",
+          "install_fragment": "yarn install --immutable",
+          "dockerfile_line": 16
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@4.12.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --immutable",
+          "install_fragment": "yarn install --immutable",
+          "dockerfile_line": 16
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@4.12.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "kind": "strict_install",
+          "commands": [
+            "yarn install --immutable"
+          ]
+        },
+        {
+          "kind": "authority_reason",
+          "reason": "strict/immutable install command"
+        }
+      ]
+    }
+  ]
+}

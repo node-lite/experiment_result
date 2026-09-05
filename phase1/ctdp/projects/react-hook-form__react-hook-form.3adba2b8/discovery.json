@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/react-hook-form__react-hook-form.3adba2b8",
+  "safe_profile_id": "react-hook-form__react-hook-form.3adba2b8",
+  "owner": "react-hook-form",
+  "repo": "react-hook-form",
+  "commit": "3adba2b816dd50bbca460bbe61df64b50bc6b1da",
+  "language": "typescript",
+  "node_version": "18",
+  "package_manager": "pnpm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "pnpm install"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "759c3e15fb5557d2b5ab8164f7149b40caa95f7aa21e87567da3a7c3c831350c",
+          "size_bytes": 4401,
+          "source_url": "https://raw.githubusercontent.com/react-hook-form/react-hook-form/3adba2b816dd50bbca460bbe61df64b50bc6b1da/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "c9b2bfaa64b4a1f0393b77c307494c187060c10b236bd9a5f26103edf5bd65e7",
+          "size_bytes": 24,
+          "source_url": "https://raw.githubusercontent.com/react-hook-form/react-hook-form/3adba2b816dd50bbca460bbe61df64b50bc6b1da/.npmrc"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "f10d22bc872be4f07fe84e1f7669fd2510acb3945dfe5f77bcb25b2d97be8635",
+          "size_bytes": 284565,
+          "source_url": "https://raw.githubusercontent.com/react-hook-form/react-hook-form/3adba2b816dd50bbca460bbe61df64b50bc6b1da/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/react-hook-form__react-hook-form.3adba2b8/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L2951",
+  "dockerfile_sha256": "aaaadb8075572b1dfe09b03d30327e7ea2272a44529a2b153d6c22f557d1c6e6",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1074,
+  "discovered_at": "2026-09-04T06:20:31.382972+00:00"
+}

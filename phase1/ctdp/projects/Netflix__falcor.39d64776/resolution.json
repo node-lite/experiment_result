@@ -1,0 +1,29 @@
+{
+  "profile_id": "swesmith/Netflix__falcor.39d64776",
+  "roots": [
+    {
+      "profile_id": "swesmith/Netflix__falcor.39d64776",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": null,
+      "classification": "unsupported_or_manual_review",
+      "resolution_mode": "manual_review",
+      "resolution_source": "invalid_source_lockfile",
+      "source_lockfile": "package-lock.json",
+      "source_lockfile_sha256": null,
+      "resolved_lockfile": null,
+      "lockfile_changed": false,
+      "exit_code": null,
+      "resolve_elapsed_ms": 1,
+      "manual_review": [
+        "lockfile contains Git conflict markers"
+      ],
+      "evidence": [
+        {
+          "kind": "invalid_lockfile",
+          "reason": "lockfile contains Git conflict markers"
+        }
+      ]
+    }
+  ]
+}

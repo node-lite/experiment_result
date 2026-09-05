@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/marmelab__react-admin.823caa0b",
+  "safe_profile_id": "marmelab__react-admin.823caa0b",
+  "owner": "marmelab",
+  "repo": "react-admin",
+  "commit": "823caa0b6489fc8133685525e22d30ddf57643fa",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": "4.0.2",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".yarnrc.yml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "berry",
+      "package_manager_version": "4.0.2",
+      "install_commands": [
+        "yarn install"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".yarnrc.yml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "2ae6a8efe6cf9d306ddeff11b1bd30a431930c81ba9cdbf4bdc859a30325535e",
+          "size_bytes": 5146,
+          "source_url": "https://raw.githubusercontent.com/marmelab/react-admin/823caa0b6489fc8133685525e22d30ddf57643fa/package.json"
+        },
+        {
+          "path": ".yarnrc.yml",
+          "output_path": "source-files/root/.yarnrc.yml",
+          "sha256": "78b2b1cca964a387f44542a940ecf48dfcb9b947ca14ca46d43632b43461b87f",
+          "size_bytes": 138,
+          "source_url": "https://raw.githubusercontent.com/marmelab/react-admin/823caa0b6489fc8133685525e22d30ddf57643fa/.yarnrc.yml"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "f178fcbaf6a59b3b9201813bfac6acea0b669bead44e696adc8ec5854da748c5",
+          "size_bytes": 881862,
+          "source_url": "https://raw.githubusercontent.com/marmelab/react-admin/823caa0b6489fc8133685525e22d30ddf57643fa/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 14
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@4.0.2",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/marmelab__react-admin.823caa0b/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L2216",
+  "dockerfile_sha256": "788edff4e986c44c58069f0e69baff227921b05433202f402f71378bc7442fcf",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-bullseye-slim"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 12,
+      "value": "corepack prepare yarn@4.0.2"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install",
+      "install_fragment": "yarn install",
+      "dockerfile_line": 14
+    }
+  ],
+  "discovery_elapsed_ms": 1137,
+  "discovered_at": "2026-09-04T06:20:17.386875+00:00"
+}

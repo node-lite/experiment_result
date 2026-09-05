@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+  "dependency_root": ".",
+  "platform": {
+    "os": "linux",
+    "arch": "x64"
+  },
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "resolution": {
+    "profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+    "dependency_root": ".",
+    "package_manager": "npm",
+    "package_manager_version": "9.2.0",
+    "resolution_mode": "existing_requires_resolution",
+    "resolution_source": "native_resolver_failed",
+    "classification": "unsupported_or_manual_review",
+    "source_lockfile": "yarn.lock",
+    "resolved_lockfile": null,
+    "source_lockfile_sha256": "670f3bc8796f5ef38a1b24a3d07e3f09b34f47bbaf90405a55ecf4c8dde0c2f0",
+    "lockfile_changed": false,
+    "resolve_elapsed_ms": 2090,
+    "exit_code": 1,
+    "command": [
+      "/usr/bin/npm",
+      "install",
+      "--package-lock-only",
+      "--ignore-scripts"
+    ],
+    "requested_command": [
+      "npm",
+      "install",
+      "--package-lock-only",
+      "--ignore-scripts"
+    ],
+    "tool_version": "9.2.0",
+    "scripts_ran": false,
+    "network_metadata_accessed": true,
+    "stdout_path": "/root/phase1/ctdp/projects/reactjs__react-transition-group.2989b5b8/logs/resolution/root.stdout.log",
+    "stderr_path": "/root/phase1/ctdp/projects/reactjs__react-transition-group.2989b5b8/logs/resolution/root.stderr.log",
+    "manual_review": [
+      null
+    ],
+    "manifest_edits_applied": [],
+    "evidence": [
+      {
+        "dependency_root": ".",
+        "package_manager": "npm",
+        "command": "npm install --legacy-peer-deps",
+        "install_fragment": "npm install --legacy-peer-deps",
+        "dockerfile_line": 7
+      },
+      {
+        "kind": "dependency_file",
+        "value": "package.json"
+      },
+      {
+        "kind": "dependency_file",
+        "value": "yarn.lock"
+      },
+      {
+        "dependency_root": ".",
+        "package_manager": "npm",
+        "command": "npm install --legacy-peer-deps",
+        "install_fragment": "npm install --legacy-peer-deps",
+        "dockerfile_line": 7
+      },
+      {
+        "kind": "dependency_file",
+        "value": "package.json"
+      },
+      {
+        "kind": "dependency_file",
+        "value": "yarn.lock"
+      },
+      {
+        "kind": "temporary_checkout",
+        "commit": "2989b5b87b4b4d1001f21c8efa503049ffb4fe8d",
+        "path": "/tmp/nodelite-deps-resolve-zcwvt60z/checkout"
+      },
+      {
+        "source": "installed",
+        "version": "9.2.0"
+      }
+    ]
+  },
+  "artifacts": [],
+  "manual_review": [
+    {
+      "reason": "lockfile parse failed: JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+      "profile_id": "swesmith/reactjs__react-transition-group.2989b5b8",
+      "dependency_root": "."
+    }
+  ],
+  "normalize_elapsed_ms": 1,
+  "generated_at": "2026-09-04T06:47:42.103296+00:00"
+}

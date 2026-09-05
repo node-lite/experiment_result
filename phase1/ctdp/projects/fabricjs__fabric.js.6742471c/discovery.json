@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/fabricjs__fabric.js.6742471c",
+  "safe_profile_id": "fabricjs__fabric.js.6742471c",
+  "owner": "fabricjs",
+  "repo": "fabric.js",
+  "commit": "6742471c23e5fd8afbb1282246b4b785455c8c17",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "bdce61823eabac5336f96aaa9dd65c2393217d28419bed4918523a78ac0f55ec",
+          "size_bytes": 5074,
+          "source_url": "https://raw.githubusercontent.com/fabricjs/fabric.js/6742471c23e5fd8afbb1282246b4b785455c8c17/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "109bd599318340e2b6709dd86541c6e71a0e91ad4cc5b93aeea2974816f0c244",
+          "size_bytes": 38,
+          "source_url": "https://raw.githubusercontent.com/fabricjs/fabric.js/6742471c23e5fd8afbb1282246b4b785455c8c17/.npmrc"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "56b6543f933cb2b31d4c19f5c12488e4bc26c01f969963030f868fa266773bc1",
+          "size_bytes": 364719,
+          "source_url": "https://raw.githubusercontent.com/fabricjs/fabric.js/6742471c23e5fd8afbb1282246b4b785455c8c17/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/fabricjs__fabric.js.6742471c/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L1477",
+  "dockerfile_sha256": "290ace919b83ef19c2b2e366895f0e8b9519a733c9eff136eb54269a75babb60",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1122,
+  "discovered_at": "2026-09-04T06:19:59.095346+00:00"
+}

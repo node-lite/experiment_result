@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/enzymejs__enzyme.61e1b47c",
+  "safe_profile_id": "enzymejs__enzyme.61e1b47c",
+  "owner": "enzymejs",
+  "repo": "enzyme",
+  "commit": "61e1b47c4bdc4509b2ac286c0d3ae3df172d26f0",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "4103008f3c25787aecbbace2ded1e70062ac254407a23086c3d926341378fc4d",
+          "size_bytes": 4531,
+          "source_url": "https://raw.githubusercontent.com/enzymejs/enzyme/61e1b47c4bdc4509b2ac286c0d3ae3df172d26f0/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "690d0ce5111e0184a52251fb1e6bcd116ba082c1b2bc8fa00c5ea22e878f3a66",
+          "size_bytes": 63,
+          "source_url": "https://raw.githubusercontent.com/enzymejs/enzyme/61e1b47c4bdc4509b2ac286c0d3ae3df172d26f0/.npmrc"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 10
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/enzymejs__enzyme.61e1b47c/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1641",
+  "dockerfile_sha256": "8fdf6a98c96411694d464a216896be0bd0289358cdd29c49ea3e04d7c8826644",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 10
+    }
+  ],
+  "discovery_elapsed_ms": 1026,
+  "discovered_at": "2026-09-04T06:19:57.971064+00:00"
+}

@@ -1,0 +1,26 @@
+ WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/create-payload-app              |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/email-nodemailer                |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/email-resend                    |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/kv-redis                        |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/next                            |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/payload                         |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/richtext-lexical                |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/richtext-slate                  |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/storage-azure                   |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/storage-gcs                     |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/storage-r2                      |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/storage-s3                      |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/storage-uploadthing             |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/storage-vercel-blob             |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+packages/ui                              |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+templates/blank                          |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+templates/blank                          |  WARN  The field "pnpm.onlyBuiltDependencies" was found in /tmp/nodelite-deps-resolve-r4tdnru8/checkout/templates/blank/package.json. This will not take effect. You should configure "pnpm.onlyBuiltDependencies" at the root of the workspace instead.
+templates/ecommerce                      |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+templates/ecommerce                      |  WARN  The field "pnpm.onlyBuiltDependencies" was found in /tmp/nodelite-deps-resolve-r4tdnru8/checkout/templates/ecommerce/package.json. This will not take effect. You should configure "pnpm.onlyBuiltDependencies" at the root of the workspace instead.
+templates/website                        |  WARN  Unsupported engine: wanted: {"node":"^18.20.2 || >=20.9.0"} (current: {"node":"v18.19.1","pnpm":"10.27.0"})
+templates/website                        |  WARN  The field "pnpm.onlyBuiltDependencies" was found in /tmp/nodelite-deps-resolve-r4tdnru8/checkout/templates/website/package.json. This will not take effect. You should configure "pnpm.onlyBuiltDependencies" at the root of the workspace instead.
+test                                     |  WARN  The field "pnpm.neverBuiltDependencies" was found in /tmp/nodelite-deps-resolve-r4tdnru8/checkout/test/package.json. This will not take effect. You should configure "pnpm.neverBuiltDependencies" at the root of the workspace instead.
+test                                     |  WARN  The field "pnpm.overrides" was found in /tmp/nodelite-deps-resolve-r4tdnru8/checkout/test/package.json. This will not take effect. You should configure "pnpm.overrides" at the root of the workspace instead.
+Scope: all 51 workspace projects
+Done in 691ms using pnpm v10.27.0

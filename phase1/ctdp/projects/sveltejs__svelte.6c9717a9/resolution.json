@@ -1,0 +1,142 @@
+{
+  "profile_id": "swesmith/sveltejs__svelte.6c9717a9",
+  "roots": [
+    {
+      "profile_id": "swesmith/sveltejs__svelte.6c9717a9",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_version": "10.4.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "pnpm-lock.yaml",
+      "resolved_lockfile": "resolved-lockfiles/root/pnpm-lock.yaml",
+      "source_lockfile_sha256": "b0c07bc3f3203c46b64a85436a5962b620f8da99f7aa934c496a879cdf4343da",
+      "resolved_lockfile_sha256": "b0c07bc3f3203c46b64a85436a5962b620f8da99f7aa934c496a879cdf4343da",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 1289,
+      "exit_code": 0,
+      "command": [
+        "npx",
+        "--yes",
+        "--package",
+        "pnpm@10.4.0",
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "10.4.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/sveltejs__svelte.6c9717a9/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/sveltejs__svelte.6c9717a9/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 6
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm playwright install chromium",
+          "install_fragment": "pnpm playwright install chromium",
+          "dockerfile_line": 7
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm exec playwright install-deps",
+          "install_fragment": "pnpm exec playwright install-deps",
+          "dockerfile_line": 8
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.4.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 6
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm playwright install chromium",
+          "install_fragment": "pnpm playwright install chromium",
+          "dockerfile_line": 7
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm exec playwright install-deps",
+          "install_fragment": "pnpm exec playwright install-deps",
+          "dockerfile_line": 8
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.4.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "6c9717a91f2f6ae10641d1cf502ba13d227fbe45",
+          "path": "/tmp/nodelite-deps-resolve-2xmd8dqr/checkout"
+        },
+        {
+          "source": "npx",
+          "version": "10.4.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "pnpm lockfile-only resolver"
+        }
+      ]
+    }
+  ]
+}

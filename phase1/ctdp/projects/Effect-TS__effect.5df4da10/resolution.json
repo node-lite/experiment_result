@@ -1,0 +1,112 @@
+{
+  "profile_id": "swesmith/Effect-TS__effect.5df4da10",
+  "roots": [
+    {
+      "profile_id": "swesmith/Effect-TS__effect.5df4da10",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_version": "10.17.1",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "pnpm-lock.yaml",
+      "resolved_lockfile": "resolved-lockfiles/root/pnpm-lock.yaml",
+      "source_lockfile_sha256": "f70c234babe55c679a2c5a29b3675bdf39f571a2f1d708971c6b911322a1ef19",
+      "resolved_lockfile_sha256": "61e1a82d9173e1a497eb77f09d3e5bee12de152b828fe2c7c7f2f6076e3af803",
+      "lockfile_changed": true,
+      "resolve_elapsed_ms": 204870,
+      "exit_code": 0,
+      "command": [
+        "npx",
+        "--yes",
+        "--package",
+        "pnpm@10.17.1",
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "10.17.1",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/Effect-TS__effect.5df4da10/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/Effect-TS__effect.5df4da10/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [
+        {
+          "command": "sed -i '/\"@effect\\/docgen\":/d' package.json",
+          "exit_code": 0,
+          "stderr": ""
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install --no-frozen-lockfile",
+          "install_fragment": "pnpm install --no-frozen-lockfile",
+          "dockerfile_line": 17
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.17.1",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install --no-frozen-lockfile",
+          "install_fragment": "pnpm install --no-frozen-lockfile",
+          "dockerfile_line": 17
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.17.1",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "5df4da10de444f379a166f4b28721e75100bb838",
+          "path": "/tmp/nodelite-deps-resolve-pe9ztbbi/checkout"
+        },
+        {
+          "source": "npx",
+          "version": "10.17.1"
+        },
+        {
+          "kind": "resolution",
+          "reason": "pnpm lockfile-only resolver"
+        }
+      ]
+    }
+  ]
+}

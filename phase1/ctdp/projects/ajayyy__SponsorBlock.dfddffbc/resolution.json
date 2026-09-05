@@ -1,0 +1,84 @@
+{
+  "profile_id": "swesmith/ajayyy__SponsorBlock.dfddffbc",
+  "roots": [
+    {
+      "profile_id": "swesmith/ajayyy__SponsorBlock.dfddffbc",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "72aaad849c1946251f0733278e7849cddfd480bab9b34a3b657675847c212039",
+      "resolved_lockfile_sha256": "72aaad849c1946251f0733278e7849cddfd480bab9b34a3b657675847c212039",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 230094,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/ajayyy__SponsorBlock.dfddffbc/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/ajayyy__SponsorBlock.dfddffbc/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "dfddffbc5128dbc55b4dc7c83cdcd18787f48ba4",
+          "path": "/tmp/nodelite-deps-resolve-197wuqj3/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

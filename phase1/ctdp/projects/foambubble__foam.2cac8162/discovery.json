@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/foambubble__foam.2cac8162",
+  "safe_profile_id": "foambubble__foam.2cac8162",
+  "owner": "foambubble",
+  "repo": "foam",
+  "commit": "2cac816272157f3a964b30adf4f29c0b2973cce8",
+  "language": "typescript",
+  "node_version": "18",
+  "package_manager": "yarn",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install && yarn build"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".yarnrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": null,
+      "install_commands": [
+        "yarn install && yarn build"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".yarnrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "2510f8df816533ce1c2850a6142a428563c61f743ed6b8bcdaee9a262c546596",
+          "size_bytes": 1141,
+          "source_url": "https://raw.githubusercontent.com/foambubble/foam/2cac816272157f3a964b30adf4f29c0b2973cce8/package.json"
+        },
+        {
+          "path": ".yarnrc",
+          "output_path": "source-files/root/.yarnrc",
+          "sha256": "3f50b5f75aa8d00a88674d030f04be1ec7d743e342a89f7a5ee0250713af9f11",
+          "size_bytes": 22,
+          "source_url": "https://raw.githubusercontent.com/foambubble/foam/2cac816272157f3a964b30adf4f29c0b2973cce8/.yarnrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "8118db77d559a658a3777013806503463de014ea63b0b1694a1cf690bd88c4b5",
+          "size_bytes": 487374,
+          "source_url": "https://raw.githubusercontent.com/foambubble/foam/2cac816272157f3a964b30adf4f29c0b2973cce8/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install && yarn build",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/foambubble__foam.2cac8162/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L1552",
+  "dockerfile_sha256": "deee573b8538e55d9ee60a599eca11c7fff06be45742db2acfc9e071c2c22017",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:18"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install && yarn build",
+      "install_fragment": "yarn install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1089,
+  "discovered_at": "2026-09-04T06:20:00.186480+00:00"
+}

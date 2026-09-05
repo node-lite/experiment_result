@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/vitejs__vite.8b47ff76",
+  "safe_profile_id": "vitejs__vite.8b47ff76",
+  "owner": "vitejs",
+  "repo": "vite",
+  "commit": "8b47ff76d28630b4dc39c77fbd2762b4c36ad23d",
+  "language": "typescript",
+  "node_version": "22",
+  "package_manager": "pnpm",
+  "package_manager_version": "10.28.2",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install --frozen-lockfile"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    "pnpm-workspace.yaml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "10.28.2",
+      "install_commands": [
+        "pnpm install --frozen-lockfile"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        "pnpm-workspace.yaml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "c0d87b3d747946c307bdddaff39451f014571cc4a5e0180d0d031e1ae9902624",
+          "size_bytes": 3039,
+          "source_url": "https://raw.githubusercontent.com/vitejs/vite/8b47ff76d28630b4dc39c77fbd2762b4c36ad23d/package.json"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "4ea8e7f522d356a2fedcead985a3868c6e8dbf23a44e7043c92a696b05551f32",
+          "size_bytes": 1269,
+          "source_url": "https://raw.githubusercontent.com/vitejs/vite/8b47ff76d28630b4dc39c77fbd2762b4c36ad23d/pnpm-workspace.yaml"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "7fb655fa88697a9a7a5b40502df3677c927d4743606e90eae2a63d05c3378a71",
+          "size_bytes": 461761,
+          "source_url": "https://raw.githubusercontent.com/vitejs/vite/8b47ff76d28630b4dc39c77fbd2762b4c36ad23d/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install --frozen-lockfile",
+          "install_fragment": "pnpm install --frozen-lockfile",
+          "dockerfile_line": 14
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.28.2",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/vitejs__vite.8b47ff76/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L4000",
+  "dockerfile_sha256": "f5944344a12c5e68c11d780a8f917660e484a5bf823ee9f58f0f832231c80e7b",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:22-bullseye-slim"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 7,
+      "value": "npm install -g pnpm@10.28.2"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install --frozen-lockfile",
+      "install_fragment": "pnpm install --frozen-lockfile",
+      "dockerfile_line": 14
+    }
+  ],
+  "discovery_elapsed_ms": 1086,
+  "discovered_at": "2026-09-04T06:20:49.481875+00:00"
+}

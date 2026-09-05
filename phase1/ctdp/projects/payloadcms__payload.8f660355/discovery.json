@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/payloadcms__payload.8f660355",
+  "safe_profile_id": "payloadcms__payload.8f660355",
+  "owner": "payloadcms",
+  "repo": "payload",
+  "commit": "8f66035522f568d42098a7ad525e7bf700662b9a",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "pnpm",
+  "package_manager_version": "10.27.0",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    "pnpm-workspace.yaml",
+    ".nvmrc",
+    ".node-version"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "10.27.0",
+      "install_commands": [
+        "pnpm install"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        "pnpm-workspace.yaml",
+        ".nvmrc",
+        ".node-version"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "096d4a3363456884ac9225ac110dda6c2ab560e96857969f6626e2dca0fc7e0e",
+          "size_bytes": 15898,
+          "source_url": "https://raw.githubusercontent.com/payloadcms/payload/8f66035522f568d42098a7ad525e7bf700662b9a/package.json"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "2ef62677922d0c385f29a0c0aa4c94b24d3a81aa85614b337d0dd1b64cedb5fb",
+          "size_bytes": 310,
+          "source_url": "https://raw.githubusercontent.com/payloadcms/payload/8f66035522f568d42098a7ad525e7bf700662b9a/pnpm-workspace.yaml"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "3ebea09fcbed81499165f8bb4d650d8307e4a759136e5411b9a726504b8fc2ac",
+          "size_bytes": 9,
+          "source_url": "https://raw.githubusercontent.com/payloadcms/payload/8f66035522f568d42098a7ad525e7bf700662b9a/.nvmrc"
+        },
+        {
+          "path": ".node-version",
+          "output_path": "source-files/root/.node-version",
+          "sha256": "3ebea09fcbed81499165f8bb4d650d8307e4a759136e5411b9a726504b8fc2ac",
+          "size_bytes": 9,
+          "source_url": "https://raw.githubusercontent.com/payloadcms/payload/8f66035522f568d42098a7ad525e7bf700662b9a/.node-version"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "a2f282bd4e00dd49275d9bad872567860da509aa2eea585df389601272a8abf8",
+          "size_bytes": 948467,
+          "source_url": "https://raw.githubusercontent.com/payloadcms/payload/8f66035522f568d42098a7ad525e7bf700662b9a/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 14
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.27.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".node-version"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/payloadcms__payload.8f660355/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L2642",
+  "dockerfile_sha256": "237844ca6f1ab01446c84e5a07db596f449f0aa096938fee4220bcc332670663",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 7,
+      "value": "npm install -g pnpm@10.27.0"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 14
+    }
+  ],
+  "discovery_elapsed_ms": 1124,
+  "discovered_at": "2026-09-04T06:20:30.306028+00:00"
+}

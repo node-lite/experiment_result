@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/advplyr__audiobookshelf.626596b1",
+  "safe_profile_id": "advplyr__audiobookshelf.626596b1",
+  "owner": "advplyr",
+  "repo": "audiobookshelf",
+  "commit": "626596b192013ba9f5a011dd110e288124c95ebe",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    ".",
+    "client"
+  ],
+  "install_commands": [
+    "npm ci",
+    "cd client && npm ci && npm run generate"
+  ],
+  "lockfiles": [
+    "package-lock.json",
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm ci"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "12f5a03dadc28eab61cb305b7dc58c86135798959015054a092a192d7151b42d",
+          "size_bytes": 2176,
+          "source_url": "https://raw.githubusercontent.com/advplyr/audiobookshelf/626596b192013ba9f5a011dd110e288124c95ebe/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "671774675e08f64e15a38860f06a4c2b90f5c09d55e66b6819ba2e6af97e07b5",
+          "size_bytes": 206502,
+          "source_url": "https://raw.githubusercontent.com/advplyr/audiobookshelf/626596b192013ba9f5a011dd110e288124c95ebe/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm ci",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 10
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    },
+    {
+      "dependency_root": "client",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "cd client && npm ci && npm run generate"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "client/package.json",
+          "output_path": "source-files/client/package.json",
+          "sha256": "f13240217ba5531fca13f65434880ea09207cb3bcf199023f2ad4af95eae766c",
+          "size_bytes": 1419,
+          "source_url": "https://raw.githubusercontent.com/advplyr/audiobookshelf/626596b192013ba9f5a011dd110e288124c95ebe/client/package.json"
+        },
+        {
+          "path": "client/package-lock.json",
+          "output_path": "source-files/client/package-lock.json",
+          "sha256": "53df8633198c6f333acab870ebdee0bfd1ce1145a71bb1c886a15fd6f09e136e",
+          "size_bytes": 747619,
+          "source_url": "https://raw.githubusercontent.com/advplyr/audiobookshelf/626596b192013ba9f5a011dd110e288124c95ebe/client/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": "client",
+          "package_manager": "npm",
+          "command": "cd client && npm ci && npm run generate",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/advplyr__audiobookshelf.626596b1/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1468",
+  "dockerfile_sha256": "1b4544358fd7683afd2c2ac62a03870e0b4c4aa5848c45fbcf32180970ee3a03",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-bullseye-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm ci",
+      "install_fragment": "npm ci",
+      "dockerfile_line": 10
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": "client",
+      "package_manager": "npm",
+      "command": "cd client && npm ci && npm run generate",
+      "install_fragment": "npm ci",
+      "dockerfile_line": 13
+    }
+  ],
+  "discovery_elapsed_ms": 401911,
+  "discovered_at": "2026-09-04T06:16:41.360319+00:00"
+}

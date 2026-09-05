@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/umijs__qiankun.693cdde7",
+  "safe_profile_id": "umijs__qiankun.693cdde7",
+  "owner": "umijs",
+  "repo": "qiankun",
+  "commit": "693cdde75049830820ff9490dd267f9701db25e6",
+  "language": "typescript",
+  "node_version": "18",
+  "package_manager": "pnpm",
+  "package_manager_version": "9.15.0",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    "pnpm-workspace.yaml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "9.15.0",
+      "install_commands": [
+        "pnpm install"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        "pnpm-workspace.yaml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "39fec7936def90c2db6ac14f744ab7c802f4b4129e26a67cdeba73e15e5c24bb",
+          "size_bytes": 2347,
+          "source_url": "https://raw.githubusercontent.com/umijs/qiankun/693cdde75049830820ff9490dd267f9701db25e6/package.json"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "117aed2a39dec75a424a7e64d207999b2020316f5e452f8736a54d3012288400",
+          "size_bytes": 128,
+          "source_url": "https://raw.githubusercontent.com/umijs/qiankun/693cdde75049830820ff9490dd267f9701db25e6/pnpm-workspace.yaml"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "af8a3045705a19cc8b9fc95c927082f12001bab7fe6f548ecfbef96c7c7ec8a3",
+          "size_bytes": 457591,
+          "source_url": "https://raw.githubusercontent.com/umijs/qiankun/693cdde75049830820ff9490dd267f9701db25e6/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.15.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/umijs__qiankun.693cdde7/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L3889",
+  "dockerfile_sha256": "8c511ca536e3b9b02114a803f8b4b86e0a40b4f827a8c1f057c460cc38835bc4",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 6,
+      "value": "npm install -g pnpm@9.15.0"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1095,
+  "discovered_at": "2026-09-04T06:20:48.393268+00:00"
+}

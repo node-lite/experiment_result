@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/brianc__node-postgres.ecff60dc",
+  "safe_profile_id": "brianc__node-postgres.ecff60dc",
+  "owner": "brianc",
+  "repo": "node-postgres",
+  "commit": "ecff60dc8aa0bd1ad5ea8f4623af0756a86dc110",
+  "language": "javascript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".yarnrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": null,
+      "install_commands": [
+        "yarn install"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".yarnrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "f43ed1faaa9b7a972245797b66a6f91d0e1873f6c5e9b8e9a468af34a08fb1ec",
+          "size_bytes": 1129,
+          "source_url": "https://raw.githubusercontent.com/brianc/node-postgres/ecff60dc8aa0bd1ad5ea8f4623af0756a86dc110/package.json"
+        },
+        {
+          "path": ".yarnrc",
+          "output_path": "source-files/root/.yarnrc",
+          "sha256": "760e7deb39d6b93115f6b8b18c998cdd595c0365184b664e3c9cdd2e11b95f10",
+          "size_bytes": 29,
+          "source_url": "https://raw.githubusercontent.com/brianc/node-postgres/ecff60dc8aa0bd1ad5ea8f4623af0756a86dc110/.yarnrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "ac69cf7675d96f1d569e5a4c4a593b3be2429fd8335a12700c9b7641aee01f67",
+          "size_bytes": 414933,
+          "source_url": "https://raw.githubusercontent.com/brianc/node-postgres/ecff60dc8aa0bd1ad5ea8f4623af0756a86dc110/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/brianc__node-postgres.ecff60dc/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1553",
+  "dockerfile_sha256": "bbb9951c1a6d450d14e94751e0e7cd37232df409fbcd376024f9f53a3d433ca5",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install",
+      "install_fragment": "yarn install",
+      "dockerfile_line": 7
+    }
+  ],
+  "discovery_elapsed_ms": 984,
+  "discovered_at": "2026-09-04T06:19:51.429339+00:00"
+}

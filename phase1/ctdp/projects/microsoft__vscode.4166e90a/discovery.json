@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/microsoft__vscode.4166e90a",
+  "safe_profile_id": "microsoft__vscode.4166e90a",
+  "owner": "microsoft",
+  "repo": "vscode",
+  "commit": "4166e90ac290db7f77800a4f6702903ea4eed476",
+  "language": "typescript",
+  "node_version": "22",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "742f21cec0ed1b76d519cf0c6dd09052b1189881bde6639b3a60d5bfefd8de66",
+          "size_bytes": 9874,
+          "source_url": "https://raw.githubusercontent.com/microsoft/vscode/4166e90ac290db7f77800a4f6702903ea4eed476/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "8841c3078c7721e89fe13de9f2e8991b7354f4ba51fdae6fe33a1b7ccf71b4cc",
+          "size_bytes": 163,
+          "source_url": "https://raw.githubusercontent.com/microsoft/vscode/4166e90ac290db7f77800a4f6702903ea4eed476/.npmrc"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "0775c6feb7638122e8b68d611cd709bf270f7b5adb5d0d2baa9afab8a6c0fc42",
+          "size_bytes": 8,
+          "source_url": "https://raw.githubusercontent.com/microsoft/vscode/4166e90ac290db7f77800a4f6702903ea4eed476/.nvmrc"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "ebafff009f16e7113be2598e37b8ddb424f1dc47bf5da880dcc0f7d1d321e138",
+          "size_bytes": 687710,
+          "source_url": "https://raw.githubusercontent.com/microsoft/vscode/4166e90ac290db7f77800a4f6702903ea4eed476/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/microsoft__vscode.4166e90a/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L2340",
+  "dockerfile_sha256": "0e3e61c29634165008d818bfbd4e8e87b2442742c2f3bcf82532f33807a11ba6",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:22-bookworm"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1100,
+  "discovered_at": "2026-09-04T06:20:19.515417+00:00"
+}

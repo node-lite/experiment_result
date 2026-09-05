@@ -1,0 +1,3 @@
+lerna notice cli v6.6.2
+lerna ERR! ENOLERNA `lerna.json` does not exist, have you run `lerna init`?
+error Command failed with exit code 1.

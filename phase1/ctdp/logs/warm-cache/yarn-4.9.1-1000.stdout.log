@@ -1,0 +1,10 @@
+➤ YN0000: · Yarn 4.9.1-git.20250411.hash-1908ee79f
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + minimist@npm:1.2.8::__archiveUrl=http%3A%2F%2F127.0.0.1%3A46763%2Ftarballs%2Fintegrity%253Asha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8%252BSVD7jkWT4yvsHCpWqqWqAxb0zCA%253D%253D.tgz, and 249 more.
+➤ YN0000: └ Completed in 0s 293ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 250 packages were added to the project (+ 34.98 MiB).
+➤ YN0000: └ Completed in 0s 433ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 371ms
+➤ YN0000: · Done in 1s 143ms

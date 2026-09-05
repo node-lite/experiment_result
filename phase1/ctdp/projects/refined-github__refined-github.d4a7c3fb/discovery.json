@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+  "safe_profile_id": "refined-github__refined-github.d4a7c3fb",
+  "owner": "refined-github",
+  "repo": "refined-github",
+  "commit": "d4a7c3fbfebff5f39a3760effbea7273dea0d01c",
+  "language": "typescript",
+  "node_version": "22",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm ci"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm ci"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "aa1f302ca6406ade41ff3d170af7499a29e20c18d8dece91ef317a1bc442168d",
+          "size_bytes": 6131,
+          "source_url": "https://raw.githubusercontent.com/refined-github/refined-github/d4a7c3fbfebff5f39a3760effbea7273dea0d01c/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "c231d84550f4ab624420ca4d6a015185377705b94f13cf224dd02c226ef016a3",
+          "size_bytes": 84,
+          "source_url": "https://raw.githubusercontent.com/refined-github/refined-github/d4a7c3fbfebff5f39a3760effbea7273dea0d01c/.npmrc"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "f14b4987904bcb5814e4459a057ed4d20f58a633152288a761214dcd28780b56",
+          "size_bytes": 3,
+          "source_url": "https://raw.githubusercontent.com/refined-github/refined-github/d4a7c3fbfebff5f39a3760effbea7273dea0d01c/.nvmrc"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "e375b9cbe15b1aee3c7d6b8ba176ea94cf600178e502f40a09aca23359462cf4",
+          "size_bytes": 361768,
+          "source_url": "https://raw.githubusercontent.com/refined-github/refined-github/d4a7c3fbfebff5f39a3760effbea7273dea0d01c/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm ci",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/refined-github__refined-github.d4a7c3fb/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L3123",
+  "dockerfile_sha256": "52efba1256ed71d13d2f733fb664e450fcded396432c9959389348470d23b89a",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:22-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm ci",
+      "install_fragment": "npm ci",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1106,
+  "discovered_at": "2026-09-04T06:20:37.003257+00:00"
+}

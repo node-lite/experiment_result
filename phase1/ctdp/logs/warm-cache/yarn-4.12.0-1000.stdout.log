@@ -1,0 +1,14 @@
+➤ YN0000: · Yarn 4.12.0
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + ast-types-flow@npm:0.0.7::__archiveUrl=http%3A%2F%2F127.0.0.1%3A46763%2Ftarballs%2Fintegrity%253Asha512-eBvWn1lvIApYMhzQMsu9ciLfkBY499mFZlNqG%252B%252F9WR7PVlroQw0vG30cOQQbaKz3sCEc44TAOu2ykzqXSNnwag%253D%253D.tgz, and 249 more.
+➤ YN0000: └ Completed in 0s 445ms
+➤ YN0000: ┌ Post-resolution validation
+➤ YN0002: │ nodelite-cache-warm@workspace:. doesn't provide @babel/core (pb2477e), requested by babel-plugin-transform-typescript-metadata.
+➤ YN0086: │ Some peer dependencies are incorrectly met by your project; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code.
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 250 packages were added to the project (+ 43.5 MiB).
+➤ YN0000: └ Completed in 0s 667ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 865ms
+➤ YN0000: · Done with warnings in 2s 24ms

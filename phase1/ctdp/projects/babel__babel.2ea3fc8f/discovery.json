@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/babel__babel.2ea3fc8f",
+  "safe_profile_id": "babel__babel.2ea3fc8f",
+  "owner": "babel",
+  "repo": "babel",
+  "commit": "2ea3fc8f9b33a911840f17fbc407e7bfae2ed66f",
+  "language": "javascript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": "4.9.1",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "make bootstrap"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".yarnrc.yml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "berry",
+      "package_manager_version": "4.9.1",
+      "install_commands": [
+        "make bootstrap"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".yarnrc.yml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "c03ce54870025dc1abcae91b38f70cb354599400aa845da4cc27d1cda7636e69",
+          "size_bytes": 5836,
+          "source_url": "https://raw.githubusercontent.com/babel/babel/2ea3fc8f9b33a911840f17fbc407e7bfae2ed66f/package.json"
+        },
+        {
+          "path": ".yarnrc.yml",
+          "output_path": "source-files/root/.yarnrc.yml",
+          "sha256": "8069a51cbb6977c888cf01f4440f2a920a3ff785867e619d30d6381c3efb809d",
+          "size_bytes": 1619,
+          "source_url": "https://raw.githubusercontent.com/babel/babel/2ea3fc8f9b33a911840f17fbc407e7bfae2ed66f/.yarnrc.yml"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "fdd0cb43f8868f9e794fe6111d7033057086132e02b74e7d72257eee7ae64b83",
+          "size_bytes": 694683,
+          "source_url": "https://raw.githubusercontent.com/babel/babel/2ea3fc8f9b33a911840f17fbc407e7bfae2ed66f/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": null,
+          "command": "make bootstrap",
+          "install_fragment": "make bootstrap",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@4.9.1",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/babel__babel.2ea3fc8f/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L392",
+  "dockerfile_sha256": "29567a494ca083309eedea239995c9ea83652abeae62abcd38e7c9d2d98be6fa",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:20-bullseye"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": null,
+      "command": "make bootstrap",
+      "install_fragment": "make bootstrap",
+      "dockerfile_line": 5
+    }
+  ],
+  "discovery_elapsed_ms": 1036,
+  "discovered_at": "2026-09-04T06:19:46.189704+00:00"
+}

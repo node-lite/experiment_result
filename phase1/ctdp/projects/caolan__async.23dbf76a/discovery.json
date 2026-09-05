@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/caolan__async.23dbf76a",
+  "safe_profile_id": "caolan__async.23dbf76a",
+  "owner": "caolan",
+  "repo": "async",
+  "commit": "23dbf76aeb04c7c3dd56276115b277e3fa9dd5cc",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "73168162c1db20ade574d605ac57c6ebd2348a2caa834a54e2cc92381fe704f9",
+          "size_bytes": 2198,
+          "source_url": "https://raw.githubusercontent.com/caolan/async/23dbf76aeb04c7c3dd56276115b277e3fa9dd5cc/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "579fe631d378a055a8fe3a108308cfdd9bcefb801cef87cfbf02f32a17d849ed",
+          "size_bytes": 354567,
+          "source_url": "https://raw.githubusercontent.com/caolan/async/23dbf76aeb04c7c3dd56276115b277e3fa9dd5cc/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/caolan__async.23dbf76a/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L474",
+  "dockerfile_sha256": "7509495a68e338bc85f0618905dd5f8ec54833f0cecd6778e1966e10333566cb",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-bullseye"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 5
+    }
+  ],
+  "discovery_elapsed_ms": 1078,
+  "discovered_at": "2026-09-04T06:19:52.509597+00:00"
+}

@@ -1,0 +1,85 @@
+{
+  "profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+  "roots": [
+    {
+      "profile_id": "swesmith/refined-github__refined-github.d4a7c3fb",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": null,
+      "resolution_mode": "authoritative_existing",
+      "resolution_source": "existing_lockfile",
+      "classification": "authoritative_existing",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "e375b9cbe15b1aee3c7d6b8ba176ea94cf600178e502f40a09aca23359462cf4",
+      "resolved_lockfile_sha256": "e375b9cbe15b1aee3c7d6b8ba176ea94cf600178e502f40a09aca23359462cf4",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 4,
+      "exit_code": 0,
+      "command": [
+        "npm ci"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": false,
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm ci",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm ci",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "strict_install",
+          "commands": [
+            "npm ci"
+          ]
+        },
+        {
+          "kind": "authority_reason",
+          "reason": "strict/immutable install command"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/ajayyy__SponsorBlock.dfddffbc",
+  "safe_profile_id": "ajayyy__SponsorBlock.dfddffbc",
+  "owner": "ajayyy",
+  "repo": "SponsorBlock",
+  "commit": "dfddffbc5128dbc55b4dc7c83cdcd18787f48ba4",
+  "language": "typescript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "d8254aa65fa639e6626786782ce77b83ab99e1ab07724b472880987664cfd898",
+          "size_bytes": 3823,
+          "source_url": "https://raw.githubusercontent.com/ajayyy/SponsorBlock/dfddffbc5128dbc55b4dc7c83cdcd18787f48ba4/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "72aaad849c1946251f0733278e7849cddfd480bab9b34a3b657675847c212039",
+          "size_bytes": 826964,
+          "source_url": "https://raw.githubusercontent.com/ajayyy/SponsorBlock/dfddffbc5128dbc55b4dc7c83cdcd18787f48ba4/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/ajayyy__SponsorBlock.dfddffbc/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L680",
+  "dockerfile_sha256": "8fdd546ea8f9664c6fe0fed4b38aff76cdf8b74cb3e35a7db9952829447f5877",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 9
+    }
+  ],
+  "discovery_elapsed_ms": 180698,
+  "discovered_at": "2026-09-04T06:19:42.060596+00:00"
+}

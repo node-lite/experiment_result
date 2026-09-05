@@ -1,0 +1,90 @@
+{
+  "profile_id": "swesmith/Shopify__draggable.8a1eed57",
+  "roots": [
+    {
+      "profile_id": "swesmith/Shopify__draggable.8a1eed57",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_version": "1.22.22",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "yarn.lock",
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
+      "source_lockfile_sha256": "5951b44524aa69b11a88dbe4cb594f47763a182f5ab364b5200f79461c226ea4",
+      "resolved_lockfile_sha256": "5951b44524aa69b11a88dbe4cb594f47763a182f5ab364b5200f79461c226ea4",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 30357,
+      "exit_code": 0,
+      "command": [
+        "/usr/local/bin/yarn",
+        "install",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "yarn",
+        "install",
+        "--ignore-scripts"
+      ],
+      "tool_version": "1.22.22",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/Shopify__draggable.8a1eed57/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/Shopify__draggable.8a1eed57/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d",
+          "path": "/tmp/nodelite-deps-resolve-y_d9z3lp/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "1.22.22"
+        },
+        {
+          "kind": "resolution",
+          "reason": "Yarn Classic native resolver"
+        }
+      ]
+    }
+  ]
+}

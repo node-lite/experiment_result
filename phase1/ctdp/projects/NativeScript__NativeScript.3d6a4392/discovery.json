@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/NativeScript__NativeScript.3d6a4392",
+  "safe_profile_id": "NativeScript__NativeScript.3d6a4392",
+  "owner": "NativeScript",
+  "repo": "NativeScript",
+  "commit": "3d6a4392f6008e4f43f8f5439a256c50e3707101",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install --legacy-peer-deps"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install --legacy-peer-deps"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "66d2167c1bf8b218eac359cdec3c6b09d8af5eca99dd2602ecd6ad381ba89d3a",
+          "size_bytes": 3693,
+          "source_url": "https://raw.githubusercontent.com/NativeScript/NativeScript/3d6a4392f6008e4f43f8f5439a256c50e3707101/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "085e1f7ccbe42f2531cc038f7170ef183820336f6604a3e3b2757e1d48101913",
+          "size_bytes": 966059,
+          "source_url": "https://raw.githubusercontent.com/NativeScript/NativeScript/3d6a4392f6008e4f43f8f5439a256c50e3707101/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --legacy-peer-deps",
+          "install_fragment": "npm install --legacy-peer-deps",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/NativeScript__NativeScript.3d6a4392/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L442",
+  "dockerfile_sha256": "25a02365a0ed340c1fca3bf1a69fb01b8c2500cfbafc8353ead6930948747e50",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install --legacy-peer-deps",
+      "install_fragment": "npm install --legacy-peer-deps",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1038,
+  "discovered_at": "2026-09-04T06:20:21.681491+00:00"
+}

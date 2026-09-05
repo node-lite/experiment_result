@@ -1,0 +1,10 @@
+➤ YN0000: · Yarn 4.0.2
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + is-stream@npm:1.1.0::__archiveUrl=http%3A%2F%2F127.0.0.1%3A46763%2Ftarballs%2Fintegrity%253Asha512-uQPm8kcs47jx38atAcWTVxyltQYoPT68y9aWYdV6yWXSyW8mzSat0TL6CiWdZeCdF3KrAvpVtnHbTv4RN%252BrqdQ%253D%253D.tgz, and 249 more.
+➤ YN0000: └ Completed in 0s 640ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 250 packages were added to the project (+ 48.31 MiB).
+➤ YN0000: └ Completed in 0s 713ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 535ms
+➤ YN0000: · Done in 1s 933ms

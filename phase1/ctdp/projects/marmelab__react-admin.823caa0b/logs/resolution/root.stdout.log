@@ -1,0 +1,45 @@
+➤ YN0000: · Yarn 4.0.2
+➤ YN0000: ┌ Resolution step
+➤ YN0000: └ Completed in 0s 347ms
+➤ YN0000: ┌ Post-resolution validation
+➤ YN0060: │ @tiptap/core is listed by your project with version 2.0.3, which doesn't satisfy what @tiptap/extension-link (p29b5b) requests (^2.7.0).
+➤ YN0060: │ @tiptap/core is listed by your project with version 2.0.3, which doesn't satisfy what @tiptap/extension-link (p2bcd4) requests (^2.7.0).
+➤ YN0060: │ @tiptap/core is listed by your project with version 2.0.3, which doesn't satisfy what @tiptap/extension-link (p85bf5) requests (^2.7.0).
+➤ YN0060: │ @tiptap/pm is listed by your project with version 2.0.3, which doesn't satisfy what @tiptap/extension-link (p1f096) requests (^2.7.0).
+➤ YN0060: │ @tiptap/pm is listed by your project with version 2.0.3, which doesn't satisfy what @tiptap/extension-link (p6af67) requests (^2.7.0).
+➤ YN0060: │ @tiptap/pm is listed by your project with version 2.0.3, which doesn't satisfy what @tiptap/extension-link (pe7f34) requests (^2.7.0).
+➤ YN0060: │ graphql is listed by your project with version 15.8.0, which doesn't satisfy what ra-data-graphql-simple (p0156c) and other dependencies request (but they have non-overlapping ranges!).
+➤ YN0060: │ react is listed by your project with version 19.0.0, which doesn't satisfy what ra-input-rich-text (pe33c9) and other dependencies request (^18.0.0 || 18.0.0).
+➤ YN0060: │ react-dom is listed by your project with version 19.0.0, which doesn't satisfy what ra-input-rich-text (pfd6be) and other dependencies request (^18.0.0).
+➤ YN0002: │ demo@workspace:examples/demo doesn't provide ra-core (p9405b), requested by ra-data-graphql.
+➤ YN0002: │ demo@workspace:examples/demo doesn't provide ra-core (pc173a), requested by ra-data-graphql-simple.
+➤ YN0002: │ demo@workspace:examples/demo doesn't provide rollup (pe1ab2), requested by rollup-preserve-directives.
+➤ YN0002: │ e2e@workspace:cypress doesn't provide vite (pae6e8), requested by cypress-vite.
+➤ YN0002: │ no-code@workspace:examples/no-code doesn't provide @mui/icons-material (pd3d14), requested by ra-no-code.
+➤ YN0002: │ no-code@workspace:examples/no-code doesn't provide ra-core (pd315b), requested by ra-data-local-storage.
+➤ YN0002: │ ra-core-doc@workspace:docs_headless doesn't provide @expressive-code/core (pc72f9), requested by expressive-code-fullscreen.
+➤ YN0002: │ ra-core-doc@workspace:docs_headless doesn't provide vite (pdfe75), requested by @tailwindcss/vite.
+➤ YN0002: │ ra-no-code@workspace:packages/ra-no-code [74faf] doesn't provide @testing-library/dom (p713ad), requested by @testing-library/user-event.
+➤ YN0002: │ ra-no-code@workspace:packages/ra-no-code [74faf] doesn't provide ra-core (pfe508), requested by ra-data-local-storage.
+➤ YN0002: │ ra-no-code@workspace:packages/ra-no-code doesn't provide @testing-library/dom (p24f2b), requested by @testing-library/user-event.
+➤ YN0002: │ ra-no-code@workspace:packages/ra-no-code doesn't provide ra-core (pd9c09), requested by ra-data-local-storage.
+➤ YN0002: │ react-admin-crm@workspace:examples/crm doesn't provide @nivo/tooltip (pc8141), requested by @nivo/core.
+➤ YN0002: │ react-admin-crm@workspace:examples/crm doesn't provide @testing-library/dom (pb6741), requested by @testing-library/user-event.
+➤ YN0002: │ react-admin-crm@workspace:examples/crm doesn't provide prop-types (p22f10), requested by @nivo/core.
+➤ YN0002: │ react-admin-crm@workspace:examples/crm doesn't provide rollup (p303a0), requested by rollup-preserve-directives.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p00baa), requested by @babel/plugin-proposal-private-methods.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p1e32a), requested by @babel/plugin-proposal-private-property-in-object.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p404d5), requested by @babel/preset-react.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p4bae7), requested by @babel/preset-typescript.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (p74480), requested by @babel/plugin-proposal-class-properties.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide @babel/core (pca95b), requested by @babel/preset-env.
+➤ YN0002: │ react-admin-lerna@workspace:. doesn't provide jsdom (pded67), requested by global-jsdom.
+➤ YN0086: │ Some peer dependencies are incorrectly met; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code.
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 9 packages were added to the project (+ 120.88 MiB).
+➤ YN0000: └ Completed in 1m 55s
+➤ YN0000: ┌ Link step
+➤ YN0073: │ Skipped due to mode=update-lockfile
+➤ YN0000: └ Completed
+➤ YN0000: · Done with warnings in 1m 56s

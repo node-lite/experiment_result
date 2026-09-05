@@ -1,0 +1,68 @@
+Scope: all 38 workspace projects
+ WARN  There are cyclic workspace dependencies: /tmp/nodelite-deps-resolve-pe9ztbbi/checkout/packages/cluster, /tmp/nodelite-deps-resolve-pe9ztbbi/checkout/packages/platform-node, /tmp/nodelite-deps-resolve-pe9ztbbi/checkout/packages/platform-node-shared
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 14, reused 0, downloaded 0, added 0
+Progress: resolved 17, reused 0, downloaded 0, added 0
+ WARN  deprecated glob@11.0.3: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+Progress: resolved 30, reused 0, downloaded 0, added 0
+Progress: resolved 35, reused 0, downloaded 0, added 0
+Progress: resolved 49, reused 0, downloaded 0, added 0
+Progress: resolved 68, reused 0, downloaded 0, added 0
+packages/platform-node-shared            |  WARN  deprecated tar@6.2.1
+ WARN  deprecated eslint@9.31.0: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+Progress: resolved 89, reused 0, downloaded 0, added 0
+Progress: resolved 102, reused 0, downloaded 0, added 0
+Progress: resolved 109, reused 0, downloaded 0, added 0
+Progress: resolved 110, reused 0, downloaded 0, added 0
+Progress: resolved 111, reused 0, downloaded 0, added 0
+Progress: resolved 112, reused 0, downloaded 0, added 0
+Progress: resolved 192, reused 0, downloaded 0, added 0
+Progress: resolved 257, reused 0, downloaded 0, added 0
+Progress: resolved 313, reused 0, downloaded 0, added 0
+Progress: resolved 330, reused 0, downloaded 0, added 0
+Progress: resolved 354, reused 0, downloaded 0, added 0
+Progress: resolved 368, reused 0, downloaded 0, added 0
+Progress: resolved 402, reused 0, downloaded 0, added 0
+Progress: resolved 419, reused 0, downloaded 0, added 0
+Progress: resolved 438, reused 0, downloaded 0, added 0
+Progress: resolved 541, reused 0, downloaded 0, added 0
+Progress: resolved 565, reused 0, downloaded 0, added 0
+Progress: resolved 673, reused 0, downloaded 0, added 0
+Progress: resolved 709, reused 0, downloaded 0, added 0
+Progress: resolved 731, reused 0, downloaded 0, added 0
+Progress: resolved 747, reused 0, downloaded 0, added 0
+Progress: resolved 758, reused 0, downloaded 0, added 0
+Progress: resolved 801, reused 0, downloaded 0, added 0
+Progress: resolved 809, reused 0, downloaded 0, added 0
+Progress: resolved 815, reused 0, downloaded 0, added 0
+Progress: resolved 915, reused 0, downloaded 0, added 0
+Progress: resolved 948, reused 0, downloaded 0, added 0
+Progress: resolved 1007, reused 0, downloaded 0, added 0
+Progress: resolved 1146, reused 0, downloaded 0, added 0
+Progress: resolved 1161, reused 0, downloaded 0, added 0
+Progress: resolved 1162, reused 0, downloaded 0, added 0
+Progress: resolved 1163, reused 0, downloaded 0, added 0
+Progress: resolved 1164, reused 0, downloaded 0, added 0
+Progress: resolved 1165, reused 0, downloaded 0, added 0
+Progress: resolved 1175, reused 0, downloaded 0, added 0
+Progress: resolved 1183, reused 0, downloaded 0, added 0
+Progress: resolved 1184, reused 0, downloaded 0, added 0
+Progress: resolved 1192, reused 0, downloaded 0, added 0
+ WARN  GET https://registry.npmjs.org/@unrs%2Fresolver-binding-linux-x64-gnu error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+Progress: resolved 1193, reused 0, downloaded 0, added 0
+Progress: resolved 1195, reused 0, downloaded 0, added 0
+Progress: resolved 1200, reused 0, downloaded 0, added 0
+Progress: resolved 1203, reused 0, downloaded 0, added 0
+Progress: resolved 1219, reused 0, downloaded 0, added 0
+Progress: resolved 1224, reused 0, downloaded 0, added 0
+Progress: resolved 1229, reused 0, downloaded 0, added 0
+Progress: resolved 1246, reused 0, downloaded 0, added 0
+Progress: resolved 1251, reused 0, downloaded 0, added 0
+Progress: resolved 1301, reused 0, downloaded 0, added 0
+Progress: resolved 1346, reused 0, downloaded 0, added 0
+Progress: resolved 1379, reused 0, downloaded 0, added 0
+Progress: resolved 1380, reused 0, downloaded 0, added 0
+ WARN  13 deprecated subdependencies found: @clickhouse/client-common@1.11.2, @types/minimatch@6.0.0, eslint-plugin-markdown@4.0.1, glob@10.4.5, glob@7.2.3, inflight@1.0.6, is-relative-path@1.0.2, node-domexception@1.0.0, prebuild-install@7.1.3, rimraf@3.0.2, uuid@10.0.0, uuid@8.3.2, whatwg-encoding@3.1.1
+Progress: resolved 1383, reused 0, downloaded 0, added 0, done
+
+Done in 3m 24.3s using pnpm v10.17.1

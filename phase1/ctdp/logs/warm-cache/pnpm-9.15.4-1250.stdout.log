@@ -1,0 +1,29 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +21
++++++++++++++++++++++
+Progress: resolved 21, reused 0, downloaded 21, added 21, done
+
+dependencies:
++ nodelite-2-yaduQFRKLXYOGgEn6AZau90j3ggSOyiqXU0F9JZfeXYhNa-Jk4X-s45A2zg5jns87GAFa34BBm2kXw4XpNcbdg-- <- figures 3.2.0 (6.1.0 is available)
++ nodelite-2-ybx0WO1-8bSBLEWXZvEd7gMW3Sn3JFlW3TvX1nREbDLRNQNaeNN8WK0meBwPdAaOI7TtRRRJn-Es1zhrrCHu7g-- <- siginfo 2.0.0
++ nodelite-2-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY-Zia0mtdHsOo9y-hP-CxMN0TU9QxoOtG4g-- <- fs-extra 8.1.0 (9.1.0 is available)
++ nodelite-2-yNy088miE52stCI3dhG-vvxFo9e4jFkU1Mj3xECfzp-bIS-JUay4491huAlVcffOoMK1cd296q0W92NlER6r3A-- <- @commitlint/format 19.5.0 (20.4.0 is available)
++ nodelite-2-yoxstj7Rg9dlNn9UQxzk4fcNivwv4nUYz7fYXBaKxvw-lnmPuOm-ikoELygbYq68Bls3D-D-NBPHiLwZdZZ4HA-- <- @babel/plugin-transform-unicode-regex 7.25.9 (8.0.1 is available)
++ nodelite-2-ypowyDxpVSYpkXr9WPv2PAZCtNip1Mv5KTW0SCurXv-9iOpcrH9PaqUElksqEB6pChqHGDRCFTyrZlGhnLNGiA-- <- eslint 8.57.1 (9.9.1 is available)
++ nodelite-2-yQbXgO-OSZVD2IsiLlro-7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj-EDe8gO-lxc1BzfMpxvA-- <- braces 3.0.3
++ nodelite-2-yS-Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w-- <- doctrine 3.0.0
++ nodelite-2-ywqV-5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg-- <- cli-spinners 2.9.2
++ nodelite-2-z81GNO7nnYMEhrGh9LeymoE4-Yr0Wn5McHIZMK5cfQCl-NDX08sCZgUc9-6MHni9IWuFLm1Z3HTCXu2z9fN62Q-- <- mz 2.7.0
++ nodelite-2-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx-IDohdPlFp222wVALIheZJQSEg-- <- ansi-styles 4.3.0 (6.2.3 is available)
++ nodelite-2-zFDAD-tlpf2r4asuHEj0XH6pY6i0g5NeAHPn-15wk3BV6JA69eERFXC1gyGThDkVa1zCyKr5jox1-2LbV-AMLg-- <- @types/use-sync-external-store 0.0.6
++ nodelite-2-zfETvRFA8o7EiNn--N5f-kaCw221hrpGsDmcpndVupkPzEc1Wuf3VgC0qby1BbHs7f5DVYjgtEU2LLh5bqeGfQ-- <- array.prototype.findlastindex 1.2.5 (1.2.6 is available)
++ nodelite-2-zg-chbXyeBtMQ1LbD-WSoW2DpC3I0mpmPdW-ynRTj-x2DAWYrIY7qeZIHidozwV24m4iavr15lNwIwLxRmOxhA-- <- d3-color 3.1.0
++ nodelite-2-zgVZuo2WcZgfUEmsn6eO3kINexW8RAE4maiQ8QNs8CtpPCSyMiYsULR3HQYkm3w8FIA3SberyMJMSldGsW-U3w-- <- chalk 5.4.1 (5.6.2 is available)
++ nodelite-2-zHig5N-tPWARooBnb0Zx1MFcdfpyJrfTJ3Y5L-IFvUm8rM74hHz66z0gw0x4tijh5CorKkKUCnW82R2vmpeCRA-- <- compare-func 2.0.0
++ nodelite-2-zrceR-XhGYU-d-opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa-PixpPrR289-I0A-- <- regenerate 1.4.2
++ nodelite-2-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg-d2wi9EXsPvAPKe7i7WjfVWB8g-- <- @rtsao/scc 1.1.0
++ nodelite-2-zxV-SsA-U4yte8051P4ECydjD-S-qeYtnaIyAs9tgHCqfguma-aAQDjo85A9Z6EKhBirHRJHXIgJUlffT4wdLg-- <- d3-force 3.0.0
++ nodelite-2-zymm5-u-sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk-KY7BMAlsWeK4Ueg6EV6XQg-- <- is-fullwidth-code-point 3.0.0 (5.1.0 is available)
++ nodelite-2-zz06S8t0ozoDXMG-ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg-- <- is-arrayish 0.2.1 (0.3.4 is available)
+
+Done in 794ms

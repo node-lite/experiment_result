@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/jantimon__html-webpack-plugin.9a39db80",
+  "safe_profile_id": "jantimon__html-webpack-plugin.9a39db80",
+  "owner": "jantimon",
+  "repo": "html-webpack-plugin",
+  "commit": "9a39db807c09d8e6145e5047cfe2ec5e928e1dee",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install --legacy-peer-deps"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".node-version"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install --legacy-peer-deps"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".node-version"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "03abf47fc17965b798b6265da1126c238c58663da7bb08301b14cc2dfb1018e2",
+          "size_bytes": 3163,
+          "source_url": "https://raw.githubusercontent.com/jantimon/html-webpack-plugin/9a39db807c09d8e6145e5047cfe2ec5e928e1dee/package.json"
+        },
+        {
+          "path": ".node-version",
+          "output_path": "source-files/root/.node-version",
+          "sha256": "f6f4723874c06097b71e3e1bba35f042f0efb07932e13ca85235a52a90681db4",
+          "size_bytes": 8,
+          "source_url": "https://raw.githubusercontent.com/jantimon/html-webpack-plugin/9a39db807c09d8e6145e5047cfe2ec5e928e1dee/.node-version"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "c9d26828be2c203c9da841fc0c3c0e6b7385ca57f94eaf23bc932e897b97d859",
+          "size_bytes": 463777,
+          "source_url": "https://raw.githubusercontent.com/jantimon/html-webpack-plugin/9a39db807c09d8e6145e5047cfe2ec5e928e1dee/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --legacy-peer-deps",
+          "install_fragment": "npm install --legacy-peer-deps",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".node-version"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/jantimon__html-webpack-plugin.9a39db80/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1919",
+  "dockerfile_sha256": "9be704eedbddd8a1fbb8c09905318e76041965569a72c332bb709d731787d1e3",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install --legacy-peer-deps",
+      "install_fragment": "npm install --legacy-peer-deps",
+      "dockerfile_line": 9
+    }
+  ],
+  "discovery_elapsed_ms": 5117,
+  "discovered_at": "2026-09-04T06:20:11.966358+00:00"
+}

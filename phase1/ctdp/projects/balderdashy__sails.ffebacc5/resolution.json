@@ -1,0 +1,76 @@
+{
+  "profile_id": "swesmith/balderdashy__sails.ffebacc5",
+  "roots": [
+    {
+      "profile_id": "swesmith/balderdashy__sails.ffebacc5",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "missing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "missing_requires_resolution",
+      "source_lockfile": null,
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": null,
+      "resolved_lockfile_sha256": "033ccb77bf41090664d2d7b9f7e1551becb9650a67bdad54d10ebf260a00c6f6",
+      "lockfile_changed": true,
+      "resolve_elapsed_ms": 383378,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/balderdashy__sails.ffebacc5/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/balderdashy__sails.ffebacc5/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "ffebacc58c27f878c9373702bc3a3f91a02bca0c",
+          "path": "/tmp/nodelite-deps-resolve-2bm_4xpk/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

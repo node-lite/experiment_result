@@ -1,0 +1,69 @@
+{
+  "profile_id": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+  "roots": [
+    {
+      "profile_id": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_version": null,
+      "resolution_mode": "authoritative_existing",
+      "resolution_source": "existing_lockfile",
+      "classification": "authoritative_existing",
+      "source_lockfile": "yarn.lock",
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
+      "source_lockfile_sha256": "d41e6daa3c1000168a423461798bfc4e8003b6f08f493a0fd6764b9c8bda8a61",
+      "resolved_lockfile_sha256": "d41e6daa3c1000168a423461798bfc4e8003b6f08f493a0fd6764b9c8bda8a61",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 3,
+      "exit_code": 0,
+      "command": [
+        "yarn install --frozen-lockfile"
+      ],
+      "tool_version": "1.22.22",
+      "scripts_ran": false,
+      "network_metadata_accessed": false,
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "kind": "strict_install",
+          "commands": [
+            "yarn install --frozen-lockfile"
+          ]
+        },
+        {
+          "kind": "authority_reason",
+          "reason": "strict/immutable install command"
+        }
+      ]
+    }
+  ]
+}

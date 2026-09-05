@@ -1,0 +1,10 @@
+➤ YN0000: · Yarn 4.10.3
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + @ampproject/remapping@npm:2.3.0::__archiveUrl=http%3A%2F%2F127.0.0.1%3A46763%2Ftarballs%2Fintegrity%253Asha512-30iZtAPgz%252BLTIYoeivqYo853f02jBYSd5uGnGpkFV0M3xOt9aN73erkgYAmZU43x4VfqcnLxW9Kpg3R5LC4YYw%253D%253D.tgz, and 250 more.
+➤ YN0000: └ Completed in 0s 830ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 251 packages were added to the project (+ 36.78 MiB).
+➤ YN0000: └ Completed in 0s 485ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 460ms
+➤ YN0000: · Done in 1s 821ms

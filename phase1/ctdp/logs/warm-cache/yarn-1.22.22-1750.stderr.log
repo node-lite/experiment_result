@@ -1,0 +1,2 @@
+error nodelite-2-CgeuL5uom6j-ZVrg7G--1IXqRY8JXX4Hghfy5YE0EhoYQWvndP1kufu58cmZLNIDKnRhZrXfdS9urVWx98AipQ--@11.0.1: The engine "node" is incompatible with this module. Expected version "20 || >=22". Got "18.19.1"
+error Found incompatible module.

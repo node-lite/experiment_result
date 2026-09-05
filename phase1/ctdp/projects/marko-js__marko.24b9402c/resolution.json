@@ -1,0 +1,82 @@
+{
+  "profile_id": "swesmith/marko-js__marko.24b9402c",
+  "roots": [
+    {
+      "profile_id": "swesmith/marko-js__marko.24b9402c",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver_failed",
+      "classification": "unsupported_or_manual_review",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": null,
+      "source_lockfile_sha256": "ee77bb8c40aead106918916e39039aa8683962223d8eedddd2b207f9dbd325ce",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 634,
+      "exit_code": 236,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/marko-js__marko.24b9402c/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/marko-js__marko.24b9402c/logs/resolution/root.stderr.log",
+      "manual_review": [
+        null
+      ],
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install && npm run build",
+          "install_fragment": "npm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install && npm run build",
+          "install_fragment": "npm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "24b9402cd54c3a74f200da0f79dd19350995a9ba",
+          "path": "/tmp/nodelite-deps-resolve-eokmmw4c/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+Lockfile is up to date, resolution step is skipped
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +191
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 191, reused 191, downloaded 0, added 191, done
+
+dependencies:
++ highlight.js 11.11.1
++ react-colorful 5.6.1
+
+devDependencies:
++ @biomejs/biome 1.9.4
++ @changesets/changelog-github 0.5.2
++ @changesets/cli 2.27.8
++ @types/jest 29.5.14
++ @types/picomatch 3.0.2
++ picomatch 4.0.3
++ pretty-quick 3.3.1
++ turbo 2.6.3
++ typescript 5.9.3
++ vite 4.5.14
+
+Done in 820ms

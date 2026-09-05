@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/directus__directus.ac922d18",
+  "safe_profile_id": "directus__directus.ac922d18",
+  "owner": "directus",
+  "repo": "directus",
+  "commit": "ac922d18f6039582a18737a6dc6d1d9a08a194e8",
+  "language": "typescript",
+  "node_version": "22",
+  "package_manager": "pnpm",
+  "package_manager_version": "10",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    "pnpm-workspace.yaml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "10",
+      "install_commands": [
+        "pnpm install"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        "pnpm-workspace.yaml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "43e01073c1cbff3ebc6060440b31e3a46c152ad333b58968e8b6fbae76f194cd",
+          "size_bytes": 1491,
+          "source_url": "https://raw.githubusercontent.com/directus/directus/ac922d18f6039582a18737a6dc6d1d9a08a194e8/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "bbaea0ccbb4fa45d4fe72e896462fdf8eee9a5fd2e56673bf53d065416af5497",
+          "size_bytes": 54,
+          "source_url": "https://raw.githubusercontent.com/directus/directus/ac922d18f6039582a18737a6dc6d1d9a08a194e8/.npmrc"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "acb1d8a56c1929214a1041391014e270af2bca9c81d406bbfcf73c47168dea07",
+          "size_bytes": 8067,
+          "source_url": "https://raw.githubusercontent.com/directus/directus/ac922d18f6039582a18737a6dc6d1d9a08a194e8/pnpm-workspace.yaml"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "2b92fcea821d07329341c89167fb98effae03374b816ad54d1f5c6798395ded7",
+          "size_bytes": 902993,
+          "source_url": "https://raw.githubusercontent.com/directus/directus/ac922d18f6039582a18737a6dc6d1d9a08a194e8/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.27.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/directus__directus.ac922d18/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L1353",
+  "dockerfile_sha256": "f095fcc79edf9b3fa4b70c63e8d4cab850bfac2b0c81b19b8a606a5d00fda2cd",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:22-slim"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 6,
+      "value": "npm install -g pnpm@10"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 13
+    }
+  ],
+  "discovery_elapsed_ms": 1135,
+  "discovered_at": "2026-09-04T06:19:54.638624+00:00"
+}

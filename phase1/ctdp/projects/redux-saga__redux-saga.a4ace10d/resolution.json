@@ -1,0 +1,87 @@
+{
+  "profile_id": "swesmith/redux-saga__redux-saga.a4ace10d",
+  "roots": [
+    {
+      "profile_id": "swesmith/redux-saga__redux-saga.a4ace10d",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_version": "1.22.22",
+      "resolution_mode": "authoritative_existing",
+      "resolution_source": "existing_lockfile",
+      "classification": "authoritative_existing",
+      "source_lockfile": "yarn.lock",
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
+      "source_lockfile_sha256": "c1bcbd93da3b0eeb85fd8c4b2f447f836537153412db58d7184d6368b3607f67",
+      "resolved_lockfile_sha256": "c1bcbd93da3b0eeb85fd8c4b2f447f836537153412db58d7184d6368b3607f67",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 2,
+      "exit_code": 0,
+      "command": [
+        "yarn install --frozen-lockfile"
+      ],
+      "tool_version": "1.22.22",
+      "scripts_ran": false,
+      "network_metadata_accessed": false,
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@1.22.22",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@1.22.22",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "kind": "strict_install",
+          "commands": [
+            "yarn install --frozen-lockfile"
+          ]
+        },
+        {
+          "kind": "authority_reason",
+          "reason": "strict/immutable install command"
+        }
+      ]
+    }
+  ]
+}

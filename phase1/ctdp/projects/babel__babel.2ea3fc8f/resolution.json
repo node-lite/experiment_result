@@ -1,0 +1,101 @@
+{
+  "profile_id": "swesmith/babel__babel.2ea3fc8f",
+  "roots": [
+    {
+      "profile_id": "swesmith/babel__babel.2ea3fc8f",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_version": "4.9.1",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "yarn.lock",
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
+      "source_lockfile_sha256": "fdd0cb43f8868f9e794fe6111d7033057086132e02b74e7d72257eee7ae64b83",
+      "resolved_lockfile_sha256": "fdd0cb43f8868f9e794fe6111d7033057086132e02b74e7d72257eee7ae64b83",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 1232,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/node",
+        "/tmp/nodelite-deps-resolve-vjs52qsc/checkout/.yarn/releases/yarn-4.9.1.cjs",
+        "install",
+        "--mode=update-lockfile"
+      ],
+      "requested_command": [
+        "yarn",
+        "install",
+        "--mode=update-lockfile"
+      ],
+      "tool_version": "4.9.1",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/babel__babel.2ea3fc8f/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/babel__babel.2ea3fc8f/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": null,
+          "command": "make bootstrap",
+          "install_fragment": "make bootstrap",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@4.9.1",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": null,
+          "command": "make bootstrap",
+          "install_fragment": "make bootstrap",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@4.9.1",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "2ea3fc8f9b33a911840f17fbc407e7bfae2ed66f",
+          "path": "/tmp/nodelite-deps-resolve-vjs52qsc/checkout"
+        },
+        {
+          "source": "project_yarn_path",
+          "version": "4.9.1"
+        },
+        {
+          "kind": "resolution",
+          "reason": "Yarn native lockfile resolver"
+        }
+      ]
+    }
+  ]
+}

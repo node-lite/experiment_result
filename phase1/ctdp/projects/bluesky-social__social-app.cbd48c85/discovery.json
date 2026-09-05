@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/bluesky-social__social-app.cbd48c85",
+  "safe_profile_id": "bluesky-social__social-app.cbd48c85",
+  "owner": "bluesky-social",
+  "repo": "social-app",
+  "commit": "cbd48c855a57f1a294f4b7362eaadb505bf5f9f6",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": "1.22.22",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install --network-timeout 1000000"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": "1.22.22",
+      "install_commands": [
+        "yarn install --network-timeout 1000000"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "4a9667753d9fc0b7f5b242f01cbe79921e2d7f01aff470dedcf1d48981a8ad52",
+          "size_bytes": 14627,
+          "source_url": "https://raw.githubusercontent.com/bluesky-social/social-app/cbd48c855a57f1a294f4b7362eaadb505bf5f9f6/package.json"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "5378796307535df3ec8d8b15a2e2dc5641419c3d3060cfe32238c0fa973f7aa3",
+          "size_bytes": 3,
+          "source_url": "https://raw.githubusercontent.com/bluesky-social/social-app/cbd48c855a57f1a294f4b7362eaadb505bf5f9f6/.nvmrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "109982c53979748a0616c4a18cb79dd7ab2498abbcf9b4d63bf17bbea5372507",
+          "size_bytes": 950314,
+          "source_url": "https://raw.githubusercontent.com/bluesky-social/social-app/cbd48c855a57f1a294f4b7362eaadb505bf5f9f6/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --network-timeout 1000000",
+          "install_fragment": "yarn install --network-timeout 1000000",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@1.22.22",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/bluesky-social__social-app.cbd48c85/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L967",
+  "dockerfile_sha256": "3567102fd0d6d365117bd695046ebd337980729ca851e4956f0aa737e1a7895d",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install --network-timeout 1000000",
+      "install_fragment": "yarn install --network-timeout 1000000",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1140,
+  "discovered_at": "2026-09-04T06:19:48.324092+00:00"
+}

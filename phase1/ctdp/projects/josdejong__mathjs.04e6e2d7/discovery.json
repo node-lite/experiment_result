@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/josdejong__mathjs.04e6e2d7",
+  "safe_profile_id": "josdejong__mathjs.04e6e2d7",
+  "owner": "josdejong",
+  "repo": "mathjs",
+  "commit": "04e6e2d7a949d6ddc7d7139bf1e3a88e6fe5365b",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "4c7f724eabb47b6e26b816bd0322a1aceedc5ff0ce629417df6278e07ea2ee7b",
+          "size_bytes": 5465,
+          "source_url": "https://raw.githubusercontent.com/josdejong/mathjs/04e6e2d7a949d6ddc7d7139bf1e3a88e6fe5365b/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "653bb0be0a5e4b8c639de15ef02a3a5923fffbdc397a184b902813468683e4c1",
+          "size_bytes": 495439,
+          "source_url": "https://raw.githubusercontent.com/josdejong/mathjs/04e6e2d7a949d6ddc7d7139bf1e3a88e6fe5365b/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/josdejong__mathjs.04e6e2d7/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L895",
+  "dockerfile_sha256": "37088cf71e4ea072058032f5e875f390694b2bd4cf8e6fd9dca7bccc805512a5",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1063,
+  "discovered_at": "2026-09-04T06:20:15.144683+00:00"
+}

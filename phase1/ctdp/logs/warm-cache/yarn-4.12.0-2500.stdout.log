@@ -1,0 +1,10 @@
+➤ YN0000: · Yarn 4.12.0
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + rfdc@npm:1.4.1::__archiveUrl=http%3A%2F%2F127.0.0.1%3A46763%2Ftarballs%2Fintegrity%253Asha512-q1b3N5QkRUWUl7iyylaaj3kOpIT0N2i9MqIEQXP73GVsN9cw3fdx8X63cEmWhJGi2PPCF23Ijp7ktmd39rawIA%253D%253D.tgz, and 249 more.
+➤ YN0000: └ Completed in 0s 421ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 250 packages were added to the project (+ 57.69 MiB).
+➤ YN0000: └ Completed in 0s 653ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 648ms
+➤ YN0000: · Done in 1s 768ms

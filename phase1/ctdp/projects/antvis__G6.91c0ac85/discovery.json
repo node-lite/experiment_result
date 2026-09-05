@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/antvis__G6.91c0ac85",
+  "safe_profile_id": "antvis__G6.91c0ac85",
+  "owner": "antvis",
+  "repo": "G6",
+  "commit": "91c0ac85e4e636a05bd1a3c5e56a4928d1242a9b",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "pnpm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install"
+  ],
+  "lockfiles": [],
+  "manifest_files": [
+    "package.json",
+    "pnpm-workspace.yaml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "pnpm install"
+      ],
+      "lockfiles": [],
+      "manifest_files": [
+        "package.json",
+        "pnpm-workspace.yaml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "632cb8ca84bf03c56b40778b6dc1741b375cfa83930c4720d05222f120bbc647",
+          "size_bytes": 2793,
+          "source_url": "https://raw.githubusercontent.com/antvis/G6/91c0ac85e4e636a05bd1a3c5e56a4928d1242a9b/package.json"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "2b301a839e5c9c30090f6824bb94489e8b2e1a49befc33b9d75f00f7acf7ce13",
+          "size_bytes": 26,
+          "source_url": "https://raw.githubusercontent.com/antvis/G6/91c0ac85e4e636a05bd1a3c5e56a4928d1242a9b/pnpm-workspace.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 14
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/antvis__G6.91c0ac85/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L806",
+  "dockerfile_sha256": "d47fde17808dbf2b305beaf967ddcf00786b5de193eeae49b7b132b623d31426",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 14
+    }
+  ],
+  "discovery_elapsed_ms": 1045,
+  "discovered_at": "2026-09-04T06:19:43.108694+00:00"
+}

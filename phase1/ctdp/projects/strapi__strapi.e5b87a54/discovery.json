@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/strapi__strapi.e5b87a54",
+  "safe_profile_id": "strapi__strapi.e5b87a54",
+  "owner": "strapi",
+  "repo": "strapi",
+  "commit": "e5b87a54008c9de2b3286a4774635dcf69895d9b",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": "4.12.0",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install --immutable"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    ".yarnrc.yml",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "berry",
+      "package_manager_version": "4.12.0",
+      "install_commands": [
+        "yarn install --immutable"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        ".yarnrc.yml",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "dc747f5541b9845fae09bfc722e3a61fc04ae460a65563230b6766d83a13def7",
+          "size_bytes": 7152,
+          "source_url": "https://raw.githubusercontent.com/strapi/strapi/e5b87a54008c9de2b3286a4774635dcf69895d9b/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "be85cc462e740587626bbcbb1c3ed1c40b26e62ec072e8cbd2768f23915c28e6",
+          "size_bytes": 16,
+          "source_url": "https://raw.githubusercontent.com/strapi/strapi/e5b87a54008c9de2b3286a4774635dcf69895d9b/.npmrc"
+        },
+        {
+          "path": ".yarnrc.yml",
+          "output_path": "source-files/root/.yarnrc.yml",
+          "sha256": "3fd1d564fcb0d382339201b1fa6417caa17b0996cd848d6c7eb02d07ae16eb3a",
+          "size_bytes": 122,
+          "source_url": "https://raw.githubusercontent.com/strapi/strapi/e5b87a54008c9de2b3286a4774635dcf69895d9b/.yarnrc.yml"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "5378796307535df3ec8d8b15a2e2dc5641419c3d3060cfe32238c0fa973f7aa3",
+          "size_bytes": 3,
+          "source_url": "https://raw.githubusercontent.com/strapi/strapi/e5b87a54008c9de2b3286a4774635dcf69895d9b/.nvmrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "6fe14b23a9f92e6c6eab617286f2bfdd7be125d09a007247b1bc0813f930dd04",
+          "size_bytes": 1236916,
+          "source_url": "https://raw.githubusercontent.com/strapi/strapi/e5b87a54008c9de2b3286a4774635dcf69895d9b/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --immutable",
+          "install_fragment": "yarn install --immutable",
+          "dockerfile_line": 16
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@4.12.0",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/strapi__strapi.e5b87a54/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L3437",
+  "dockerfile_sha256": "2e6ebeefdeb78a887be1df5b2e14103ecfb20bcf4053382929f95898c8445e56",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install --immutable",
+      "install_fragment": "yarn install --immutable",
+      "dockerfile_line": 16
+    }
+  ],
+  "discovery_elapsed_ms": 1644,
+  "discovered_at": "2026-09-04T06:20:41.908167+00:00"
+}

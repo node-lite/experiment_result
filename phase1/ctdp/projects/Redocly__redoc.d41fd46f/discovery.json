@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/Redocly__redoc.d41fd46f",
+  "safe_profile_id": "Redocly__redoc.d41fd46f",
+  "owner": "Redocly",
+  "repo": "redoc",
+  "commit": "d41fd46f7cbee86bf83dc17b7ec51baf54f72a54",
+  "language": "typescript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "68063787fe822f2df32999abc4bcdd1facc17a235116b01f4e97dbb85aee2372",
+          "size_bytes": 6986,
+          "source_url": "https://raw.githubusercontent.com/Redocly/redoc/d41fd46f7cbee86bf83dc17b7ec51baf54f72a54/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "398d8eda0bb00a78cfeda10fa713d7f94403e56456d5374e5772ab6f93903083",
+          "size_bytes": 1323177,
+          "source_url": "https://raw.githubusercontent.com/Redocly/redoc/d41fd46f7cbee86bf83dc17b7ec51baf54f72a54/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/Redocly__redoc.d41fd46f/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L568",
+  "dockerfile_sha256": "1397c3708648ded07e1cce886b0ff7841886a0a4651087a7343d02aced41377f",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1120,
+  "discovered_at": "2026-09-04T06:20:34.802948+00:00"
+}

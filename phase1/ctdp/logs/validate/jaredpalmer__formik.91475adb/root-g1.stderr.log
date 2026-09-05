@@ -1,0 +1,10 @@
+error Error: https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz: tunneling socket could not be established, statusCode=502
+    at ClientRequest.onConnect (/usr/local/lib/node_modules/yarn/lib/cli.js:152885:19)
+    at Object.onceWrapper (node:events:632:26)
+    at ClientRequest.emit (node:events:517:28)
+    at Socket.socketOnData (node:_http_client:581:11)
+    at Socket.emit (node:events:517:28)
+    at addChunk (node:internal/streams/readable:368:12)
+    at readableAddChunk (node:internal/streams/readable:341:9)
+    at Readable.push (node:internal/streams/readable:278:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)

@@ -1,0 +1,84 @@
+{
+  "profile_id": "swesmith/necolas__react-native-web.a9de220b",
+  "roots": [
+    {
+      "profile_id": "swesmith/necolas__react-native-web.a9de220b",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "40742e8c9629eceb0f932b6a7fe18d46014a89fea75b35d83faaa5b8b362bcef",
+      "resolved_lockfile_sha256": "40742e8c9629eceb0f932b6a7fe18d46014a89fea75b35d83faaa5b8b362bcef",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 342130,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/necolas__react-native-web.a9de220b/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/necolas__react-native-web.a9de220b/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "a9de220ba9e65bdea540fb5322ffb1da2b0bf442",
+          "path": "/tmp/nodelite-deps-resolve-ifyz_wa8/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

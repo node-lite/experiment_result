@@ -1,0 +1,9 @@
+
+> axios@1.10.0 prepare
+> husky install && npm run prepare:hooks
+
+husky - git command not found, skipping install
+
+> axios@1.10.0 prepare:hooks
+> npx husky set .husky/commit-msg "npx commitlint --edit $1"
+

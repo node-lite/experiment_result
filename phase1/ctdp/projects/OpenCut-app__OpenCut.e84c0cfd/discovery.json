@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/OpenCut-app__OpenCut.e84c0cfd",
+  "safe_profile_id": "OpenCut-app__OpenCut.e84c0cfd",
+  "owner": "OpenCut-app",
+  "repo": "OpenCut",
+  "commit": "e84c0cfda6784abb9bcb72aae757233cd8951780",
+  "language": "typescript",
+  "node_version": null,
+  "package_manager": "bun",
+  "package_manager_version": "1.2.18",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "bun install"
+  ],
+  "lockfiles": [
+    "bun.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "bun",
+      "package_manager_variant": null,
+      "package_manager_version": "1.2.18",
+      "install_commands": [
+        "bun install"
+      ],
+      "lockfiles": [
+        "bun.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "f3e6c1048a0e5f887823091a22df862a761ea321827b96bc3db47d5cc7fbc96a",
+          "size_bytes": 967,
+          "source_url": "https://raw.githubusercontent.com/OpenCut-app/OpenCut/e84c0cfda6784abb9bcb72aae757233cd8951780/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "7a53be0676aefee8599b74d24032c196180500105e6cacaff8fb20f51268ab8e",
+          "size_bytes": 46,
+          "source_url": "https://raw.githubusercontent.com/OpenCut-app/OpenCut/e84c0cfda6784abb9bcb72aae757233cd8951780/.npmrc"
+        },
+        {
+          "path": "bun.lock",
+          "output_path": "source-files/root/bun.lock",
+          "sha256": "34da0118cee1c5ca60c259e06483b1e65c7fb185abbdcb5d8472358903951b1c",
+          "size_bytes": 196821,
+          "source_url": "https://raw.githubusercontent.com/OpenCut-app/OpenCut/e84c0cfda6784abb9bcb72aae757233cd8951780/bun.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "bun",
+          "command": "bun install",
+          "install_fragment": "bun install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "bun@1.2.18",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "bun.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/OpenCut-app__OpenCut.e84c0cfd/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L467",
+  "dockerfile_sha256": "6bb3f5c1c3e394338dc138d427aa4c85289c2a9b7231cdf6dc8375e571957dd7",
+  "discovery_evidence": [
+    {
+      "kind": "bun_image",
+      "line": 2,
+      "value": "oven/bun:1.2.18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "bun",
+      "command": "bun install",
+      "install_fragment": "bun install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1072,
+  "discovered_at": "2026-09-04T06:20:29.179461+00:00"
+}

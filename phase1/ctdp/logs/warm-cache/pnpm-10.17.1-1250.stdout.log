@@ -1,0 +1,33 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Packages: +25
++++++++++++++++++++++++++
+Progress: resolved 25, reused 0, downloaded 25, added 25, done
+
+dependencies:
++ nodelite-2-yhlQgA6mnOJUKOsRUFsgJdQCvkKhcz8tlZG5HBQfReYZy46OwLcY-Zia0mtdHsOo9y-hP-CxMN0TU9QxoOtG4g-- <- fs-extra 8.1.0 (9.1.0 is available)
++ nodelite-2-yn-4Tp6Or5JA2-VNPLKtm9ib17PZxmJGyEq-vtcmAch5qG2PAJLvuzuoAwYRBMN9GR8Cb-W5qO6eIHg0AdYL0Q-- <- @tim-smart/openapi-gen 0.4.13
++ nodelite-2-ypGJsmGtdXUOeM5u93TyeIEfEhM6s-ljAhrk5vAvSx8uyY-02OvrZnA0YNGUrPXfpJMgI1ODd3nwz8Npx4O4cg-- <- path-scurry 2.0.0 (2.0.2 is available)
++ nodelite-2-ywqV-5MmyL4E7ybXgKys4DugZbX0FC6LnwrhjuykIjnK9k8OQacQ7axGKnjDXWNhns0xot3bZI5h55H8yo9cJg-- <- cli-spinners 2.9.2
++ nodelite-2-yzMTt9lEb8Gv7zRioUilSglI0c0smZ9k5D65677DLWLtWJaXIS3CqcGyUFByYKlnUj6TkjLVs54fBl6-TiGQDQ-- <- @isaacs/balanced-match 4.0.1
++ nodelite-2-z0yWI-4FDrrweS8Zmt4Ej5HdJmky15-L2e6Wgn3-iK5fWzb6T3fhNFq2-MeTRb064c6Wr4N-wv0DzQTjNzHNGQ-- <- mimic-response 3.1.0 (4.0.0 is available)
++ nodelite-2-z1HGKcYy2xA8AGQfwrn0PAy-PB7X-GSj3UVJW9qKyn43xWa-gl5nXmU4qqLMRzWVLFC8KusUX8T-0kCiOYpAIQ-- <- csstype 3.2.3
++ nodelite-2-z597WicA7nDZxK12kZqHr2TcvwNU1GCfA5UwfDY-HDp3hXPoPlb5rlEx9bwGTiJnc0OqbBTkU975jDToth8Gxw-- <- properties-reader 2.3.0
++ nodelite-2-z6EbKajIpqGKU56y5KBUgy1dt1ihhQJgWzUlZHArA--X2ad7Cb5iF-AK1EWVL-Bo7Rz9uurpqw6SiBCefUbCGA-- <- jest-util 29.7.0 (30.2.0 is available)
++ nodelite-2-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx-IDohdPlFp222wVALIheZJQSEg-- <- ansi-styles 4.3.0 (6.2.3 is available)
++ nodelite-2-zdLEwNo3aUVzIhKhTtXfxhdvZhUghrnmkvcAq2NoDd-LeOHKf03H5jwZ8T-STsAlzyALkBVK552iaG1fGf1xVQ-- <- chrome-launcher 0.15.2 (1.2.0 is available)
++ nodelite-2-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I-XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q-- <- fresh 0.5.2 (2.0.0 is available)
++ nodelite-2-zK0TB7Xd6JpCLmlLmufqykGE--TlOePD6qKClNW7hHDKFh-J7-7gCWGR7joEQEW1bKq3a3yUZSObOoWLFQ4ohg-- <- read-pkg-up 7.0.1 (8.0.0 is available)
++ nodelite-2-zK7YHHz4ZXpW89AHXUPbQVGKI7uvkd3hzusTdotCg1UxyaVtg0zFJSTfW-Dq5f7OBBVnq6cZIaC8Ti4hb6dtCA-- <- zip-stream 6.0.1
++ nodelite-2-zmPitbQ8-6zNutpwgcQuLcsEpn-Cj54Kbn7L5pX0Os5kdWplB7xPgEh-g-SWOB-qmows2gpuCaPyduq8ZZRnxA-- <- @types/minimatch 6.0.0
++ nodelite-2-znKXEBxfatz2GBNK02kRnCXjV-AA4kjZIUxeWSr3UGirZMJfTE9uiwKHobnbgxWyL-JWro8tTq-vOqAK1-qbSA-- <- streamx 2.22.1 (2.28.1 is available)
++ nodelite-2-zptv57P3GpL-O0I7VdMJNBZCu-BPHVQUk55Ft8-QCJjTVxrnJHuVuX-0Bl2A6--2oyR-ZMEuFKwmzqqZ-U5nPQ-- <- jackspeak 4.1.1 (4.2.3 is available)
++ nodelite-2-zRpUiDwd-xk6ADqPMATG8vc9VPrkck7T07OIx0gnjmJAnHnTVXNQG3vfvWNuiZIkwu9KrKdA1iJKfsfTVxE6NA-- <- buffer-equal-constant-time 1.0.1
++ nodelite-2-zrteXnqYxfQh7l5FHyL38jL39di8H8rHoecLH3JNxH3BwOrBsNeabdap5e0I23lD4HHI8W5VFBZqG4Eaq5LNcw-- <- jest-get-type 29.6.3
++ nodelite-2-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg-d2wi9EXsPvAPKe7i7WjfVWB8g-- <- @rtsao/scc 1.1.0
++ nodelite-2-zuWDMDuzMRbQOM-bHyU4-slw27bAUEcKSKKs3hcv2aNnc-tvE-h7w60dwVw8vnal2Pub6RT1T7BI8tFZ1fE-yg-- <- @typescript-eslint/typescript-estree 8.37.0
++ nodelite-2-zYiwtZUcYyXKo-np96AGZAckk-FWWsUdJ3cHGGmld7-AhvcWmQyGCYUh1hc4Q-pkOhb65dQR-pqCyK0cOaHz4Q-- <- memoize-one 5.2.1 (6.0.0 is available)
++ nodelite-2-zymm5-u-sCsSWyD9qNaejV3DFvhCKclKdizYaJUuHA83RLjb7nSuGnddCHGv0hk-KY7BMAlsWeK4Ueg6EV6XQg-- <- is-fullwidth-code-point 3.0.0 (5.1.0 is available)
++ nodelite-2-zz06S8t0ozoDXMG-ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg-- <- is-arrayish 0.2.1 (0.3.4 is available)
++ nodelite-2-zzNR-SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw-- <- @jridgewell/trace-mapping 0.3.31
+
+Done in 597ms using pnpm v10.17.1

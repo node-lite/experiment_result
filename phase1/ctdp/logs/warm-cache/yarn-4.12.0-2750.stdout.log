@@ -1,0 +1,10 @@
+➤ YN0000: · Yarn 4.12.0
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + tsconfig-paths@npm:3.14.2::__archiveUrl=http%3A%2F%2F127.0.0.1%3A46763%2Ftarballs%2Fintegrity%253Asha512-o%252F9iXgCYc5L%252FJxCHPe3Hvh8Q%252F2xm5Z%252Bp18PESBU6Ff33695QnCHBEjcytY2q19ua7Mbl%252FDavtBOLq%252BoG0RCL%252Bg%253D%253D.tgz, and 202 more.
+➤ YN0000: └ Completed in 0s 436ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 203 packages were added to the project (+ 117.85 MiB).
+➤ YN0000: └ Completed in 1s 558ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 672ms
+➤ YN0000: · Done in 2s 709ms

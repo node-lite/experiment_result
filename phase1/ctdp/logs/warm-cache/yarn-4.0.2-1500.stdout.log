@@ -1,0 +1,10 @@
+➤ YN0000: · Yarn 4.0.2
+➤ YN0000: ┌ Resolution step
+➤ YN0085: │ + minipass-pipeline@npm:1.2.4::__archiveUrl=http%3A%2F%2F127.0.0.1%3A46763%2Ftarballs%2Fintegrity%253Asha512-xuIq7cIOt09RPRJ19gdi4b%252BRiNvDFYe5JH%252BggNvBqGqpQXcru3PcRmOZuHBKWK1Txf9%252BcQ%252BHMVN4d6z46LZP7A%253D%253D.tgz, and 249 more.
+➤ YN0000: └ Completed in 0s 586ms
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 250 packages were added to the project (+ 54.35 MiB).
+➤ YN0000: └ Completed in 0s 705ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 0s 540ms
+➤ YN0000: · Done in 1s 876ms

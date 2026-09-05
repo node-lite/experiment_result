@@ -1,0 +1,66 @@
+profile_id,owner,repo,dependency_root,package_manager,profile_status,g1_status,g1_elapsed_ms,g2_status,g2_elapsed_ms,root_elapsed_ms,outbound_request_count,fresh_install_elapsed_ms,pm_cache_install_elapsed_ms,ctdp_install_elapsed_ms,latency_comparison_status,reason
+swesmith/advplyr__audiobookshelf.626596b1,advplyr,audiobookshelf,.,npm,success,success,2288,success,,2689,0,,,2288,not_measured_for_phase1,native package-manager install with local registry
+swesmith/advplyr__audiobookshelf.626596b1,advplyr,audiobookshelf,client,npm,success,success,14802,success,21862,38000,1,,,14802,not_measured_for_phase1,native package-manager install with local registry
+swesmith/ajayyy__SponsorBlock.dfddffbc,ajayyy,SponsorBlock,.,npm,success,success,10530,success,,11166,0,,,10530,not_measured_for_phase1,native package-manager install with local registry
+swesmith/antvis__G6.91c0ac85,antvis,G6,.,pnpm,other_failure,success,1672,other_failure,60056,69813,0,,,1672,not_measured_for_phase1,native package-manager install with local registry
+swesmith/Automattic__mongoose.5f57a5bb,Automattic,mongoose,.,npm,success,success,4925,success,,5165,0,,,4925,not_measured_for_phase1,native package-manager install with local registry
+swesmith/axios__axios.ef36347f,axios,axios,.,npm,other_failure,success,8638,other_failure,10391,20170,0,,,8638,not_measured_for_phase1,native package-manager install with local registry
+swesmith/babel__babel.2ea3fc8f,babel,babel,.,yarn,other_failure,other_failure,369,other_failure,13,6221,0,,,369,not_measured_for_phase1,native package-manager install with local registry
+swesmith/balderdashy__sails.ffebacc5,balderdashy,sails,.,npm,success,success,3749,success,,3928,0,,,3749,not_measured_for_phase1,native package-manager install with local registry
+swesmith/bluesky-social__social-app.cbd48c85,bluesky-social,social-app,.,yarn,other_failure,,,,,4,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/bootstrap-vue__bootstrap-vue.9a246f45,bootstrap-vue,bootstrap-vue,.,yarn,external_artifact_miss,external_artifact_miss,12690,external_artifact_miss,12691,31522,80,,,12690,not_measured_for_phase1,native package-manager install with local registry
+swesmith/bpampuch__pdfmake.719e7314,bpampuch,pdfmake,.,npm,success,success,4022,success,,4275,0,,,4022,not_measured_for_phase1,native package-manager install with local registry
+swesmith/brianc__node-postgres.ecff60dc,brianc,node-postgres,.,yarn,external_artifact_miss,external_artifact_miss,12542,external_artifact_miss,,14375,40,,,12542,not_measured_for_phase1,native package-manager install with local registry
+swesmith/caolan__async.23dbf76a,caolan,async,.,npm,success,success,3529,success,,3694,0,,,3529,not_measured_for_phase1,native package-manager install with local registry
+swesmith/coder__code-server.e90504b8,coder,code-server,.,npm,other_failure,success,2552,other_failure,3252,5988,0,,,2552,not_measured_for_phase1,native package-manager install with local registry
+swesmith/directus__directus.ac922d18,directus,directus,.,pnpm,other_failure,,,,,3,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/Effect-TS__effect.5df4da10,Effect-TS,effect,.,pnpm,external_artifact_miss,other_failure,433,other_failure,,2461,0,,,433,not_measured_for_phase1,native package-manager install with local registry
+swesmith/emotion-js__emotion.b882bcba,emotion-js,emotion,.,yarn,other_failure,other_failure,358,other_failure,364,10119,0,,,358,not_measured_for_phase1,native package-manager install with local registry
+swesmith/enzymejs__enzyme.61e1b47c,enzymejs,enzyme,.,npm,external_artifact_miss,,,,,2,0,,,,not_measured_for_phase1,Git/VCS dependency is not served by the local registry
+swesmith/fabricjs__fabric.js.6742471c,fabricjs,fabric.js,.,npm,external_artifact_miss,,,,,2,0,,,,not_measured_for_phase1,Git/VCS dependency is not served by the local registry
+swesmith/foambubble__foam.2cac8162,foambubble,foam,.,yarn,external_artifact_miss,external_artifact_miss,12517,other_failure,4037,21154,40,,,12517,not_measured_for_phase1,native package-manager install with local registry
+swesmith/foliojs__pdfkit.d0108157,foliojs,pdfkit,.,yarn,other_failure,other_failure,348,other_failure,,1945,0,,,348,not_measured_for_phase1,native package-manager install with local registry
+swesmith/FuelLabs__fuels-ts.b3f37c91,FuelLabs,fuels-ts,.,pnpm,other_failure,,,,,3,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/GitbookIO__gitbook.81f8ddcf,GitbookIO,gitbook,.,bun,other_failure,,,,,2,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/homebridge__homebridge.3a341e08,homebridge,homebridge,.,npm,other_failure,success,3165,other_failure,5403,8961,0,,,3165,not_measured_for_phase1,native package-manager install with local registry
+swesmith/humanlayer__12-factor-agents.d20c7283,humanlayer,12-factor-agents,packages/walkthroughgen,npm,success,success,1975,success,,2024,0,,,1975,not_measured_for_phase1,native package-manager install with local registry
+swesmith/iamkun__dayjs.c8a26460,iamkun,dayjs,.,npm,success,success,6877,success,,7389,0,,,6877,not_measured_for_phase1,native package-manager install with local registry
+swesmith/jantimon__html-webpack-plugin.9a39db80,jantimon,html-webpack-plugin,.,npm,other_failure,,,,,3,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/jaredpalmer__formik.91475adb,jaredpalmer,formik,.,yarn,external_artifact_miss,,,,,3,0,,,,not_measured_for_phase1,Git/VCS dependency is not served by the local registry
+swesmith/josdejong__jsoneditor.0319b213,josdejong,jsoneditor,.,npm,success,success,4151,success,,4345,0,,,4151,not_measured_for_phase1,native package-manager install with local registry
+swesmith/josdejong__mathjs.04e6e2d7,josdejong,mathjs,.,npm,success,success,4746,success,,5032,0,,,4746,not_measured_for_phase1,native package-manager install with local registry
+swesmith/marko-js__marko.24b9402c,marko-js,marko,.,npm,other_failure,,,,,4,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/marmelab__react-admin.823caa0b,marmelab,react-admin,.,yarn,other_failure,other_failure,364,other_failure,,4099,0,,,364,not_measured_for_phase1,native package-manager install with local registry
+swesmith/mholt__PapaParse.b10b87ef,mholt,PapaParse,.,npm,success,success,1622,success,,1668,0,,,1622,not_measured_for_phase1,native package-manager install with local registry
+swesmith/microsoft__vscode.4166e90a,microsoft,vscode,.,npm,external_artifact_miss,success,8029,external_artifact_miss,10323,18816,5,,,8029,not_measured_for_phase1,native package-manager install with local registry
+swesmith/mochajs__mocha.410ce0d2,mochajs,mocha,.,npm,other_failure,other_failure,9261,other_failure,,9318,0,,,9261,not_measured_for_phase1,native package-manager install with local registry
+swesmith/NativeScript__NativeScript.3d6a4392,NativeScript,NativeScript,.,npm,external_artifact_miss,,,,,2,0,,,,not_measured_for_phase1,Git/VCS dependency is not served by the local registry
+swesmith/necolas__react-native-web.a9de220b,necolas,react-native-web,.,npm,success,success,7713,success,8109,16282,0,,,7713,not_measured_for_phase1,native package-manager install with local registry
+swesmith/nestjs__nest.346c9543,nestjs,nest,.,npm,external_artifact_miss,success,19186,external_artifact_miss,24124,45436,6,,,19186,not_measured_for_phase1,native package-manager install with local registry
+swesmith/Netflix__falcor.39d64776,Netflix,falcor,.,npm,other_failure,,,,,3,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/nightwatchjs__nightwatch.54c8550c,nightwatchjs,nightwatch,.,npm,success,success,4756,success,5239,10457,0,,,4756,not_measured_for_phase1,native package-manager install with local registry
+swesmith/nock__nock.e7418da2,nock,nock,.,npm,success,success,5202,success,,5565,0,,,5202,not_measured_for_phase1,native package-manager install with local registry
+swesmith/novnc__noVNC.d44f7e04,novnc,noVNC,.,npm,success,success,3023,success,,3147,0,,,3023,not_measured_for_phase1,native package-manager install with local registry
+swesmith/OpenCut-app__OpenCut.e84c0cfd,OpenCut-app,OpenCut,.,bun,other_failure,other_failure,370,other_failure,,1184,0,,,370,not_measured_for_phase1,native package-manager install with local registry
+swesmith/payloadcms__payload.8f660355,payloadcms,payload,.,pnpm,other_failure,other_failure,398,other_failure,366,8011,0,,,398,not_measured_for_phase1,native package-manager install with local registry
+swesmith/react-hook-form__react-hook-form.3adba2b8,react-hook-form,react-hook-form,.,pnpm,other_failure,success,1466,other_failure,60069,64098,0,,,1466,not_measured_for_phase1,native package-manager install with local registry
+swesmith/ReactiveX__rxjs.c15b37f8,ReactiveX,rxjs,.,yarn,other_failure,other_failure,406,other_failure,,4025,0,,,406,not_measured_for_phase1,native package-manager install with local registry
+swesmith/reactjs__react-transition-group.2989b5b8,reactjs,react-transition-group,.,npm,other_failure,,,,,3,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/Redocly__redoc.d41fd46f,Redocly,redoc,.,npm,external_artifact_miss,,,,,2,0,,,,not_measured_for_phase1,Git/VCS dependency is not served by the local registry
+swesmith/redux-saga__redux-saga.a4ace10d,redux-saga,redux-saga,.,yarn,external_artifact_miss,external_artifact_miss,24625,external_artifact_miss,24616,53901,90,,,24625,not_measured_for_phase1,native package-manager install with local registry
+swesmith/refined-github__refined-github.d4a7c3fb,refined-github,refined-github,.,npm,other_failure,other_failure,426,other_failure,,456,0,,,426,not_measured_for_phase1,native package-manager install with local registry
+swesmith/remy__nodemon.daad5c16,remy,nodemon,.,npm,success,success,3241,success,,3410,0,,,3241,not_measured_for_phase1,native package-manager install with local registry
+swesmith/segmentio__evergreen.9b774aee,segmentio,evergreen,.,yarn,external_artifact_miss,external_artifact_miss,12710,external_artifact_miss,,15563,40,,,12710,not_measured_for_phase1,native package-manager install with local registry
+swesmith/Shopify__draggable.8a1eed57,Shopify,draggable,.,yarn,external_artifact_miss,external_artifact_miss,12563,external_artifact_miss,,14107,40,,,12563,not_measured_for_phase1,native package-manager install with local registry
+swesmith/strapi__strapi.e5b87a54,strapi,strapi,.,yarn,other_failure,other_failure,356,other_failure,362,10792,0,,,356,not_measured_for_phase1,native package-manager install with local registry
+swesmith/sveltejs__svelte.6c9717a9,sveltejs,svelte,.,pnpm,external_artifact_miss,other_failure,350,other_failure,361,2425,0,,,350,not_measured_for_phase1,native package-manager install with local registry
+swesmith/svg__svgo.c06d8f68,svg,svgo,.,yarn,other_failure,other_failure,350,other_failure,,1532,0,,,350,not_measured_for_phase1,native package-manager install with local registry
+swesmith/tinacms__tinacms.dffb104f,tinacms,tinacms,.,pnpm,success,success,951,success,,4507,0,,,951,not_measured_for_phase1,native package-manager install with local registry
+swesmith/trpc__trpc.2f40ba93,trpc,trpc,.,pnpm,other_failure,other_failure,346,other_failure,,5672,0,,,346,not_measured_for_phase1,native package-manager install with local registry
+swesmith/ueberdosis__tiptap.2d6de06c,ueberdosis,tiptap,.,pnpm,other_failure,other_failure,355,other_failure,379,4495,0,,,355,not_measured_for_phase1,native package-manager install with local registry
+swesmith/umijs__qiankun.693cdde7,umijs,qiankun,.,pnpm,other_failure,other_failure,355,other_failure,348,4484,0,,,355,not_measured_for_phase1,native package-manager install with local registry
+swesmith/vitejs__vite.8b47ff76,vitejs,vite,.,pnpm,other_failure,other_failure,338,other_failure,348,4554,0,,,338,not_measured_for_phase1,native package-manager install with local registry
+swesmith/voideditor__void.17e7a5b1,voideditor,void,.,npm,external_artifact_miss,success,14649,external_artifact_miss,17299,33670,3,,,14649,not_measured_for_phase1,native package-manager install with local registry
+swesmith/webpack__webpack.24e3c2d2,webpack,webpack,.,yarn,other_failure,,,,,4,0,,,,not_measured_for_phase1,resolution record unavailable or manual review
+swesmith/websockets__ws.726c3732,websockets,ws,.,npm,success,success,1518,success,,1585,0,,,1518,not_measured_for_phase1,native package-manager install with local registry
+swesmith/welldone-software__why-did-you-render.3ec3512d,welldone-software,why-did-you-render,.,yarn,other_failure,,,,,2,0,,,,not_measured_for_phase1,resolution record unavailable or manual review

@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/Effect-TS__effect.5df4da10",
+  "safe_profile_id": "Effect-TS__effect.5df4da10",
+  "owner": "Effect-TS",
+  "repo": "effect",
+  "commit": "5df4da10de444f379a166f4b28721e75100bb838",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "pnpm",
+  "package_manager_version": "10.17.1",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install --no-frozen-lockfile"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    "pnpm-workspace.yaml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "10.17.1",
+      "install_commands": [
+        "pnpm install --no-frozen-lockfile"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        "pnpm-workspace.yaml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "3936ee7940b95838964942b38419571fdfc8c867281f19cd1c617c1ce4612af1",
+          "size_bytes": 3592,
+          "source_url": "https://raw.githubusercontent.com/Effect-TS/effect/5df4da10de444f379a166f4b28721e75100bb838/package.json"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "c021825e3024efac130bb79db13b02a716f0c0b5cba682219577578ea39120bc",
+          "size_bytes": 58,
+          "source_url": "https://raw.githubusercontent.com/Effect-TS/effect/5df4da10de444f379a166f4b28721e75100bb838/pnpm-workspace.yaml"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "f70c234babe55c679a2c5a29b3675bdf39f571a2f1d708971c6b911322a1ef19",
+          "size_bytes": 450684,
+          "source_url": "https://raw.githubusercontent.com/Effect-TS/effect/5df4da10de444f379a166f4b28721e75100bb838/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install --no-frozen-lockfile",
+          "install_fragment": "pnpm install --no-frozen-lockfile",
+          "dockerfile_line": 17
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@10.17.1",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [
+    {
+      "dependency_root": ".",
+      "command": "sed -i '/\"@effect\\/docgen\":/d' package.json",
+      "dockerfile_line": 15
+    }
+  ],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/Effect-TS__effect.5df4da10/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L283",
+  "dockerfile_sha256": "b8bc5861d34755fcc83e7e2647f3e61aaec7a55075e7cc15e2c3b62e18f992dc",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "package_manager_version",
+      "line": 7,
+      "value": "npm install -g pnpm@10.17.1"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install --no-frozen-lockfile",
+      "install_fragment": "pnpm install --no-frozen-lockfile",
+      "dockerfile_line": 17
+    }
+  ],
+  "discovery_elapsed_ms": 1151,
+  "discovered_at": "2026-09-04T06:19:55.792720+00:00"
+}

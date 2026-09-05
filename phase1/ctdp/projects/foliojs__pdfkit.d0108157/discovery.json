@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/foliojs__pdfkit.d0108157",
+  "safe_profile_id": "foliojs__pdfkit.d0108157",
+  "owner": "foliojs",
+  "repo": "pdfkit",
+  "commit": "d0108157f13d763ad5287a2293436b5a1aecf055",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "yarn",
+  "package_manager_version": "4.10.3",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".yarnrc.yml"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "berry",
+      "package_manager_version": "4.10.3",
+      "install_commands": [
+        "yarn install"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".yarnrc.yml"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "bbc97774e07e117a51eda5ac925d8b926dcbe2cd3c166b5e608e2069fd448b0b",
+          "size_bytes": 2534,
+          "source_url": "https://raw.githubusercontent.com/foliojs/pdfkit/d0108157f13d763ad5287a2293436b5a1aecf055/package.json"
+        },
+        {
+          "path": ".yarnrc.yml",
+          "output_path": "source-files/root/.yarnrc.yml",
+          "sha256": "cf62555f8feac5516efeaada22a02c198b7511deb6c16db504f6844394b74fbc",
+          "size_bytes": 67,
+          "source_url": "https://raw.githubusercontent.com/foliojs/pdfkit/d0108157f13d763ad5287a2293436b5a1aecf055/.yarnrc.yml"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "11c27c17439e5efbed5ba50178dd7e20d6f749dfc860b9e9ba8c7e64dd87406d",
+          "size_bytes": 299850,
+          "source_url": "https://raw.githubusercontent.com/foliojs/pdfkit/d0108157f13d763ad5287a2293436b5a1aecf055/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 16
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@4.10.3",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc.yml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/foliojs__pdfkit.d0108157/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L855",
+  "dockerfile_sha256": "ab8b60ee8ec9270d1cb8856b2f3d53f3b54c3cff0c62de0292d40f8ffbe8b52c",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install",
+      "install_fragment": "yarn install",
+      "dockerfile_line": 16
+    }
+  ],
+  "discovery_elapsed_ms": 1039,
+  "discovered_at": "2026-09-04T06:20:01.227375+00:00"
+}

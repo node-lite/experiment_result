@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/necolas__react-native-web.a9de220b",
+  "safe_profile_id": "necolas__react-native-web.a9de220b",
+  "owner": "necolas",
+  "repo": "react-native-web",
+  "commit": "a9de220ba9e65bdea540fb5322ffb1da2b0bf442",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "ff4b31c887fd478b5490dc88ae7938cdc752336cf7814c1018249757ac9b3bac",
+          "size_bytes": 3464,
+          "source_url": "https://raw.githubusercontent.com/necolas/react-native-web/a9de220ba9e65bdea540fb5322ffb1da2b0bf442/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "40742e8c9629eceb0f932b6a7fe18d46014a89fea75b35d83faaa5b8b362bcef",
+          "size_bytes": 382620,
+          "source_url": "https://raw.githubusercontent.com/necolas/react-native-web/a9de220ba9e65bdea540fb5322ffb1da2b0bf442/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/necolas__react-native-web.a9de220b/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1042",
+  "dockerfile_sha256": "e83150dd9b4d331dee832c44cd5a5ba9c54a91020feba22d6e0407f631aeb10e",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 13
+    }
+  ],
+  "discovery_elapsed_ms": 982,
+  "discovered_at": "2026-09-04T06:20:22.665971+00:00"
+}

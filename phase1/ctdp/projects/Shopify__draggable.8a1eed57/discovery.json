@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/Shopify__draggable.8a1eed57",
+  "safe_profile_id": "Shopify__draggable.8a1eed57",
+  "owner": "Shopify",
+  "repo": "draggable",
+  "commit": "8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d",
+  "language": "javascript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": null,
+      "install_commands": [
+        "yarn install"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "75fa7c4af02e6d6259d58edb693faaa4df84763ba6e83e59d35ecb62176bc74a",
+          "size_bytes": 3305,
+          "source_url": "https://raw.githubusercontent.com/Shopify/draggable/8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d/package.json"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "1239eb0dd7b27ecad7ea4bf3e4474836e49387f612bb1840345d7910e1d8a083",
+          "size_bytes": 9,
+          "source_url": "https://raw.githubusercontent.com/Shopify/draggable/8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d/.nvmrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "5951b44524aa69b11a88dbe4cb594f47763a182f5ab364b5200f79461c226ea4",
+          "size_bytes": 359802,
+          "source_url": "https://raw.githubusercontent.com/Shopify/draggable/8a1eed57f3ab2dff9371e8ce60fb39ac85871e8d/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 7
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/Shopify__draggable.8a1eed57/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L753",
+  "dockerfile_sha256": "c0cc5b051447b3b69c08fc0a56ce59c70fab58ac65bd18035b7f333934805ad1",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:20"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install",
+      "install_fragment": "yarn install",
+      "dockerfile_line": 7
+    }
+  ],
+  "discovery_elapsed_ms": 1097,
+  "discovered_at": "2026-09-04T06:20:40.261313+00:00"
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/trpc__trpc.2f40ba93",
+  "safe_profile_id": "trpc__trpc.2f40ba93",
+  "owner": "trpc",
+  "repo": "trpc",
+  "commit": "2f40ba935ad7f7d29eec3f9c45d353450b43e852",
+  "language": "typescript",
+  "node_version": "22",
+  "package_manager": "pnpm",
+  "package_manager_version": "9.12.2",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "pnpm install"
+  ],
+  "lockfiles": [
+    "pnpm-lock.yaml"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc",
+    "pnpm-workspace.yaml",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_variant": null,
+      "package_manager_version": "9.12.2",
+      "install_commands": [
+        "pnpm install"
+      ],
+      "lockfiles": [
+        "pnpm-lock.yaml"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc",
+        "pnpm-workspace.yaml",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "8fa8b455044856eb5a08c3076709efdbd80b1af8259d448181c32f14e1e6349f",
+          "size_bytes": 3565,
+          "source_url": "https://raw.githubusercontent.com/trpc/trpc/2f40ba935ad7f7d29eec3f9c45d353450b43e852/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "5084d3991d052b1c427c6960a0d3645ce39df479e8143e9999e010273a4ffb6f",
+          "size_bytes": 354,
+          "source_url": "https://raw.githubusercontent.com/trpc/trpc/2f40ba935ad7f7d29eec3f9c45d353450b43e852/.npmrc"
+        },
+        {
+          "path": "pnpm-workspace.yaml",
+          "output_path": "source-files/root/pnpm-workspace.yaml",
+          "sha256": "58cf768f46ddc71ea51c0908c675ecfd7d8003da3d6afa5b85a71ba64ac348a0",
+          "size_bytes": 188,
+          "source_url": "https://raw.githubusercontent.com/trpc/trpc/2f40ba935ad7f7d29eec3f9c45d353450b43e852/pnpm-workspace.yaml"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "8fb7215a78fb2dacb282d6fca135a48bd69892ad6560efa3c5a9c12b0200ac7c",
+          "size_bytes": 8,
+          "source_url": "https://raw.githubusercontent.com/trpc/trpc/2f40ba935ad7f7d29eec3f9c45d353450b43e852/.nvmrc"
+        },
+        {
+          "path": "pnpm-lock.yaml",
+          "output_path": "source-files/root/pnpm-lock.yaml",
+          "sha256": "781fb8f3cbe882e8d7d3ec29e3d590a042471d87056f29c513c9ba383e576db4",
+          "size_bytes": 1357268,
+          "source_url": "https://raw.githubusercontent.com/trpc/trpc/2f40ba935ad7f7d29eec3f9c45d353450b43e852/pnpm-lock.yaml"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.12.2",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/trpc__trpc.2f40ba93/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L97",
+  "dockerfile_sha256": "50b6ec730023eb8de4de9103af68fb85c8422049b21193e436e878cbd630b980",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:22"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "command": "pnpm install",
+      "install_fragment": "pnpm install",
+      "dockerfile_line": 9
+    }
+  ],
+  "discovery_elapsed_ms": 1076,
+  "discovered_at": "2026-09-04T06:20:46.218584+00:00"
+}

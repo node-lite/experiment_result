@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/Automattic__mongoose.5f57a5bb",
+  "safe_profile_id": "Automattic__mongoose.5f57a5bb",
+  "owner": "Automattic",
+  "repo": "mongoose",
+  "commit": "5f57a5bbb2e8dfed8d04be47cdd17728633c44c1",
+  "language": "javascript",
+  "node_version": "18",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "0f744702c7e77289adfea776b086d93715601e67d31d2673c964d6810b269d22",
+          "size_bytes": 6316,
+          "source_url": "https://raw.githubusercontent.com/Automattic/mongoose/5f57a5bbb2e8dfed8d04be47cdd17728633c44c1/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "f3fc23758ab91be5f94a8c5eaff433d1ccd6a206cf1d381d332eb63716009337",
+          "size_bytes": 19,
+          "source_url": "https://raw.githubusercontent.com/Automattic/mongoose/5f57a5bbb2e8dfed8d04be47cdd17728633c44c1/.npmrc"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 5
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/Automattic__mongoose.5f57a5bb/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L441",
+  "dockerfile_sha256": "2e812108346b8dd3cb4cb80e45887a48d5e239b8a3b4f13326966d513fc95066",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:18-bullseye"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 5
+    }
+  ],
+  "discovery_elapsed_ms": 987,
+  "discovered_at": "2026-09-04T06:19:44.098097+00:00"
+}

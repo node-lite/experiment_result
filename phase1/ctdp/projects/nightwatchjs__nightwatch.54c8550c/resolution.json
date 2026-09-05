@@ -1,0 +1,84 @@
+{
+  "profile_id": "swesmith/nightwatchjs__nightwatch.54c8550c",
+  "roots": [
+    {
+      "profile_id": "swesmith/nightwatchjs__nightwatch.54c8550c",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "4a947b8a3bf3968752c6fdffebbc28514219451c5d5af645523a25e902cdcda3",
+      "resolved_lockfile_sha256": "4a947b8a3bf3968752c6fdffebbc28514219451c5d5af645523a25e902cdcda3",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 303491,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/nightwatchjs__nightwatch.54c8550c/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/nightwatchjs__nightwatch.54c8550c/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --ignore-scripts",
+          "install_fragment": "npm install --ignore-scripts",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install --ignore-scripts",
+          "install_fragment": "npm install --ignore-scripts",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "54c8550c75a16c61827c0bad043c7ffa073a52e6",
+          "path": "/tmp/nodelite-deps-resolve-779vzhkl/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "profile_id": "swesmith/segmentio__evergreen.9b774aee",
+  "roots": [
+    {
+      "profile_id": "swesmith/segmentio__evergreen.9b774aee",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_version": null,
+      "resolution_mode": "authoritative_existing",
+      "resolution_source": "existing_lockfile",
+      "classification": "authoritative_existing",
+      "source_lockfile": "yarn.lock",
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
+      "source_lockfile_sha256": "c290fc2f869fd91a7641c454789a4ab4cacae4fba4e803a14ccd1176d3ae25c4",
+      "resolved_lockfile_sha256": "c290fc2f869fd91a7641c454789a4ab4cacae4fba4e803a14ccd1176d3ae25c4",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 2,
+      "exit_code": 0,
+      "command": [
+        "yarn install --frozen-lockfile"
+      ],
+      "tool_version": "1.22.22",
+      "scripts_ran": false,
+      "network_metadata_accessed": false,
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 8
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 8
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "kind": "strict_install",
+          "commands": [
+            "yarn install --frozen-lockfile"
+          ]
+        },
+        {
+          "kind": "authority_reason",
+          "reason": "strict/immutable install command"
+        }
+      ]
+    }
+  ]
+}

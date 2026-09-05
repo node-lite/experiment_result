@@ -1,0 +1,84 @@
+{
+  "profile_id": "swesmith/enzymejs__enzyme.61e1b47c",
+  "roots": [
+    {
+      "profile_id": "swesmith/enzymejs__enzyme.61e1b47c",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "missing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "missing_requires_resolution",
+      "source_lockfile": null,
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": null,
+      "resolved_lockfile_sha256": "878d7d6e962e7cf825476ecbac9d665f4f866f30d033518a7dc54c011666b151",
+      "lockfile_changed": true,
+      "resolve_elapsed_ms": 445440,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/enzymejs__enzyme.61e1b47c/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/enzymejs__enzyme.61e1b47c/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 10
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 10
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "61e1b47c4bdc4509b2ac286c0d3ae3df172d26f0",
+          "path": "/tmp/nodelite-deps-resolve-e64mg7qr/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

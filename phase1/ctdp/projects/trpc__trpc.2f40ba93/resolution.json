@@ -1,0 +1,122 @@
+{
+  "profile_id": "swesmith/trpc__trpc.2f40ba93",
+  "roots": [
+    {
+      "profile_id": "swesmith/trpc__trpc.2f40ba93",
+      "dependency_root": ".",
+      "package_manager": "pnpm",
+      "package_manager_version": "9.12.2",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "pnpm-lock.yaml",
+      "resolved_lockfile": "resolved-lockfiles/root/pnpm-lock.yaml",
+      "source_lockfile_sha256": "781fb8f3cbe882e8d7d3ec29e3d590a042471d87056f29c513c9ba383e576db4",
+      "resolved_lockfile_sha256": "781fb8f3cbe882e8d7d3ec29e3d590a042471d87056f29c513c9ba383e576db4",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 2701,
+      "exit_code": 0,
+      "command": [
+        "npx",
+        "--yes",
+        "--package",
+        "pnpm@9.12.2",
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "pnpm",
+        "install",
+        "--lockfile-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.12.2",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/trpc__trpc.2f40ba93/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/trpc__trpc.2f40ba93/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.12.2",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "pnpm",
+          "command": "pnpm install",
+          "install_fragment": "pnpm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "pnpm@9.12.2",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-workspace.yaml"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "pnpm-lock.yaml"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "2f40ba935ad7f7d29eec3f9c45d353450b43e852",
+          "path": "/tmp/nodelite-deps-resolve-qmqpenf5/checkout"
+        },
+        {
+          "source": "npx",
+          "version": "9.12.2"
+        },
+        {
+          "kind": "resolution",
+          "reason": "pnpm lockfile-only resolver"
+        }
+      ]
+    }
+  ]
+}

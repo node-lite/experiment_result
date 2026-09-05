@@ -1,0 +1,76 @@
+{
+  "profile_id": "swesmith/novnc__noVNC.d44f7e04",
+  "roots": [
+    {
+      "profile_id": "swesmith/novnc__noVNC.d44f7e04",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": "9.2.0",
+      "resolution_mode": "missing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "missing_requires_resolution",
+      "source_lockfile": null,
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": null,
+      "resolved_lockfile_sha256": "76f1f2f658ef2585dbc12f1c1ad3382719c765b7c26e14965d3e9d093a524c8e",
+      "lockfile_changed": true,
+      "resolve_elapsed_ms": 440561,
+      "exit_code": 0,
+      "command": [
+        "/usr/bin/npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "npm",
+        "install",
+        "--package-lock-only",
+        "--ignore-scripts"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/novnc__noVNC.d44f7e04/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/novnc__noVNC.d44f7e04/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 19
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 19
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "d44f7e04fc456844836c7c5ac911d0f4e8dd06e6",
+          "path": "/tmp/nodelite-deps-resolve-um_5j8ki/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "9.2.0"
+        },
+        {
+          "kind": "resolution",
+          "reason": "npm package-lock-only resolver"
+        }
+      ]
+    }
+  ]
+}

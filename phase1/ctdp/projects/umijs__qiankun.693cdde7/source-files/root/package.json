@@ -1,0 +1,69 @@
+{
+  "name": "qiankun-monorepo",
+  "private": true,
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start:example": "pnpm run build && npm run start:main && npm run start:react15",
+    "start:main": "cd ./examples/main && npm start",
+    "start:react15": "cd ./examples/react15 && npm start",
+    "build": "pnpm -r run build",
+    "prerelease:alpha": "changeset pre enter alpha && changeset && changeset version",
+    "release:alpha": "pnpm run build && changeset publish && changeset pre exit",
+    "eslint": "eslint packages/",
+    "prettier": "prettier --write .",
+    "prettier:check": "prettier -c .",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "ci": "pnpm run build && pnpm run eslint && pnpm run prettier:check",
+    "ci:publish": "changeset publish",
+    "test": "pnpm -r run test",
+    "prepare": "husky install",
+    "clean": "rimraf node_modules **/*/node_modules"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.29.5",
+    "@commitlint/cli": "^20.2.0",
+    "@commitlint/config-conventional": "^20.2.0",
+    "@edge-runtime/vm": "^3.2.0",
+    "@types/lodash": "^4.17.18",
+    "@types/node": "^18.19.112",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "babel-plugin-import": "^1.13.8",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-formatter-pretty": "^5.0.0",
+    "father": "^4.5.6",
+    "happy-dom": "^12.10.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^9.5.0",
+    "mermaid": "^11.8.1",
+    "prettier": "^3.6.0",
+    "rimraf": "^3.0.2",
+    "typescript": "^5.8.3",
+    "vitepress": "^1.3.4",
+    "vitest": "^0.34.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umijs/qiankun.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umijs/qiankun/issues"
+  },
+  "homepage": "https://github.com/umijs/qiankun#readme",
+  "lint-staged": {
+    "**/*.{js,ts,json,css,md}": ["prettier --write --ignore-unknown"],
+    "packages/*/{src,types}/**/*.ts": ["eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty --fix"],
+    "packages/**/*.d.ts": ["eslint --ext .ts"]
+  },
+  "packageManager": "pnpm@9.15.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

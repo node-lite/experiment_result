@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/welldone-software__why-did-you-render.3ec3512d",
+  "safe_profile_id": "welldone-software__why-did-you-render.3ec3512d",
+  "owner": "welldone-software",
+  "repo": "why-did-you-render",
+  "commit": "3ec3512d750c49448fe2241e26d05db9e42f0c21",
+  "language": "javascript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": null,
+      "install_commands": [
+        "yarn install"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "3d9083a10a5d4e19565d85edc3fecb9863da5992dea14f44f76c31193afc24f2",
+          "size_bytes": 4326,
+          "source_url": "https://raw.githubusercontent.com/welldone-software/why-did-you-render/3ec3512d750c49448fe2241e26d05db9e42f0c21/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "3c09c8ead7ede8f51bd21b78364bd059e55599d8777a10958e24d12623d39359",
+          "size_bytes": 22,
+          "source_url": "https://raw.githubusercontent.com/welldone-software/why-did-you-render/3ec3512d750c49448fe2241e26d05db9e42f0c21/.npmrc"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "773c5e8f586ea9c4d07578e5815495749143e3f74aebdc883ac73de838b0059d",
+          "size_bytes": 329286,
+          "source_url": "https://raw.githubusercontent.com/welldone-software/why-did-you-render/3ec3512d750c49448fe2241e26d05db9e42f0c21/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/welldone-software__why-did-you-render.3ec3512d/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1267",
+  "dockerfile_sha256": "83aac5879c5fc108478b1525032fab12e49a5ebcce25211cb534be498cae8a02",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install",
+      "install_fragment": "yarn install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1093,
+  "discovered_at": "2026-09-04T06:20:53.837871+00:00"
+}

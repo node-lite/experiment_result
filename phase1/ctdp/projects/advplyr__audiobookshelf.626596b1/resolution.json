@@ -1,0 +1,133 @@
+{
+  "profile_id": "swesmith/advplyr__audiobookshelf.626596b1",
+  "roots": [
+    {
+      "profile_id": "swesmith/advplyr__audiobookshelf.626596b1",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_version": null,
+      "resolution_mode": "authoritative_existing",
+      "resolution_source": "existing_lockfile",
+      "classification": "authoritative_existing",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/root/package-lock.json",
+      "source_lockfile_sha256": "671774675e08f64e15a38860f06a4c2b90f5c09d55e66b6819ba2e6af97e07b5",
+      "resolved_lockfile_sha256": "671774675e08f64e15a38860f06a4c2b90f5c09d55e66b6819ba2e6af97e07b5",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 20,
+      "exit_code": 0,
+      "command": [
+        "npm ci"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": false,
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm ci",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 10
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm ci",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 10
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "strict_install",
+          "commands": [
+            "npm ci"
+          ]
+        },
+        {
+          "kind": "authority_reason",
+          "reason": "strict/immutable install command"
+        }
+      ]
+    },
+    {
+      "profile_id": "swesmith/advplyr__audiobookshelf.626596b1",
+      "dependency_root": "client",
+      "package_manager": "npm",
+      "package_manager_version": null,
+      "resolution_mode": "authoritative_existing",
+      "resolution_source": "existing_lockfile",
+      "classification": "authoritative_existing",
+      "source_lockfile": "package-lock.json",
+      "resolved_lockfile": "resolved-lockfiles/client/package-lock.json",
+      "source_lockfile_sha256": "53df8633198c6f333acab870ebdee0bfd1ce1145a71bb1c886a15fd6f09e136e",
+      "resolved_lockfile_sha256": "53df8633198c6f333acab870ebdee0bfd1ce1145a71bb1c886a15fd6f09e136e",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 6,
+      "exit_code": 0,
+      "command": [
+        "cd client && npm ci && npm run generate"
+      ],
+      "tool_version": "9.2.0",
+      "scripts_ran": false,
+      "network_metadata_accessed": false,
+      "evidence": [
+        {
+          "dependency_root": "client",
+          "package_manager": "npm",
+          "command": "cd client && npm ci && npm run generate",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "dependency_root": "client",
+          "package_manager": "npm",
+          "command": "cd client && npm ci && npm run generate",
+          "install_fragment": "npm ci",
+          "dockerfile_line": 13
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        },
+        {
+          "kind": "strict_install",
+          "commands": [
+            "cd client && npm ci && npm run generate"
+          ]
+        },
+        {
+          "kind": "authority_reason",
+          "reason": "strict/immutable install command"
+        }
+      ]
+    }
+  ]
+}

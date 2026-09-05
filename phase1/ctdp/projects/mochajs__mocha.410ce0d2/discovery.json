@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/mochajs__mocha.410ce0d2",
+  "safe_profile_id": "mochajs__mocha.410ce0d2",
+  "owner": "mochajs",
+  "repo": "mocha",
+  "commit": "410ce0d2a0f799aaca2c0bc627294d70c62dd3f4",
+  "language": "javascript",
+  "node_version": "22",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".npmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".npmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "077a5f518284e73df62cd58bcff965f8479a2af51b4e14012b26ad0c928e636c",
+          "size_bytes": 8507,
+          "source_url": "https://raw.githubusercontent.com/mochajs/mocha/410ce0d2a0f799aaca2c0bc627294d70c62dd3f4/package.json"
+        },
+        {
+          "path": ".npmrc",
+          "output_path": "source-files/root/.npmrc",
+          "sha256": "60d30e3ff84ce5657955dc13d8c2b48c503738c16d3ad45330852a9103f0082b",
+          "size_bytes": 21,
+          "source_url": "https://raw.githubusercontent.com/mochajs/mocha/410ce0d2a0f799aaca2c0bc627294d70c62dd3f4/.npmrc"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "77b617ee60467b9aad3786bd5fa8b04e228477eb2691f100d52de42ff513e079",
+          "size_bytes": 1162575,
+          "source_url": "https://raw.githubusercontent.com/mochajs/mocha/410ce0d2a0f799aaca2c0bc627294d70c62dd3f4/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".npmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/mochajs__mocha.410ce0d2/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L1013",
+  "dockerfile_sha256": "a48cad28fcd8ca55ad12729d8086ca1fe6f71addbed86d85ae104205e67625fb",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:22-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1123,
+  "discovered_at": "2026-09-04T06:20:20.641492+00:00"
+}

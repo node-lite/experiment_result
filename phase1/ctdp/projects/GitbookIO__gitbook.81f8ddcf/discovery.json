@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/GitbookIO__gitbook.81f8ddcf",
+  "safe_profile_id": "GitbookIO__gitbook.81f8ddcf",
+  "owner": "GitbookIO",
+  "repo": "gitbook",
+  "commit": "81f8ddcf27ec398a33b6f676a81e9a791b673ce2",
+  "language": "typescript",
+  "node_version": null,
+  "package_manager": "bun",
+  "package_manager_version": "1.3.7",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "bun install"
+  ],
+  "lockfiles": [
+    "bun.lock"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".nvmrc"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "bun",
+      "package_manager_variant": null,
+      "package_manager_version": "1.3.7",
+      "install_commands": [
+        "bun install"
+      ],
+      "lockfiles": [
+        "bun.lock"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".nvmrc"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "88b89ad9c0ff3401aa636b156db60793c3caffede6c413891ded1f50e8e462f5",
+          "size_bytes": 2222,
+          "source_url": "https://raw.githubusercontent.com/GitbookIO/gitbook/81f8ddcf27ec398a33b6f676a81e9a791b673ce2/package.json"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "3f6268d794d10d75b70ca7d06054743c4d18e8842c28703937de94056ed3692b",
+          "size_bytes": 6,
+          "source_url": "https://raw.githubusercontent.com/GitbookIO/gitbook/81f8ddcf27ec398a33b6f676a81e9a791b673ce2/.nvmrc"
+        },
+        {
+          "path": "bun.lock",
+          "output_path": "source-files/root/bun.lock",
+          "sha256": "b1ab37fbc3435ed44a679bc1bc392a031f947cbd0d84aee3c91dcec267e3739c",
+          "size_bytes": 748030,
+          "source_url": "https://raw.githubusercontent.com/GitbookIO/gitbook/81f8ddcf27ec398a33b6f676a81e9a791b673ce2/bun.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "bun",
+          "command": "bun install",
+          "install_fragment": "bun install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "bun@1.3.7",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "bun.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/GitbookIO__gitbook.81f8ddcf/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L365",
+  "dockerfile_sha256": "db72a5f9da4fb7fb1e5d454a1cbecabc3097e212a248a9cda12d327c30512822",
+  "discovery_evidence": [
+    {
+      "kind": "bun_image",
+      "line": 2,
+      "value": "oven/bun:1.3.7"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "bun",
+      "command": "bun install",
+      "install_fragment": "bun install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1102,
+  "discovered_at": "2026-09-04T06:20:03.464043+00:00"
+}

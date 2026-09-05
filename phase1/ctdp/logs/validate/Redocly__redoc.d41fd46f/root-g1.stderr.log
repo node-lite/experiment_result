@@ -1,0 +1,8 @@
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+npm ERR! code 128
+npm ERR! An unknown git error occurred
+npm ERR! command git --no-replace-objects ls-remote https://git@github.com/redocly/workerize-loader.git
+npm ERR! fatal: unable to access 'https://github.com/redocly/workerize-loader.git/': CONNECT tunnel failed, response 502
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/phase1/ctdp/native-cache/npm/9.2.0/_logs/2026-09-04T16_03_27_953Z-debug-0.log

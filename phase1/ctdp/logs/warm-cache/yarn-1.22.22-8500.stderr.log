@@ -1,0 +1,5 @@
+warning " > nodelite-istry-npmjs-org-react-dock---react-dock-0-2-4-tgz-e727dc7550b3b73116635dcb9c0e04d0b7afe17c@0.2.4" has unmet peer dependency "react@>=0.13.0".
+warning " > nodelite-istry-npmjs-org-react-dock---react-dock-0-2-4-tgz-e727dc7550b3b73116635dcb9c0e04d0b7afe17c@0.2.4" has unmet peer dependency "babel-runtime@^6.3.13".
+warning " > nodelite-og-monitor---redux-devtools-log-monitor-1-4-0-tgz-716b9580eda2a331cd359a36aa09e3a1602a854b@1.4.0" has unmet peer dependency "react@^15.0.0 || ^16.0.0".
+warning " > nodelite-og-monitor---redux-devtools-log-monitor-1-4-0-tgz-716b9580eda2a331cd359a36aa09e3a1602a854b@1.4.0" has unmet peer dependency "redux-devtools@^3.4.0".
+warning Ignored scripts due to flag.

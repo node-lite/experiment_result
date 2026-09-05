@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+  "safe_profile_id": "ReactiveX__rxjs.c15b37f8",
+  "owner": "ReactiveX",
+  "repo": "rxjs",
+  "commit": "c15b37f81ba5f5abea8c872b0189a70b150df4cb",
+  "language": "typescript",
+  "node_version": "20",
+  "package_manager": "yarn",
+  "package_manager_version": "1.22.21",
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "yarn install --frozen-lockfile"
+  ],
+  "lockfiles": [
+    "yarn.lock"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_variant": "classic",
+      "package_manager_version": "1.22.21",
+      "install_commands": [
+        "yarn install --frozen-lockfile"
+      ],
+      "lockfiles": [
+        "yarn.lock"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "2403aec3ebd51afdbbf2347881bc006cfd16c09a9135f8da4c47c10c802e0553",
+          "size_bytes": 1418,
+          "source_url": "https://raw.githubusercontent.com/ReactiveX/rxjs/c15b37f81ba5f5abea8c872b0189a70b150df4cb/package.json"
+        },
+        {
+          "path": "yarn.lock",
+          "output_path": "source-files/root/yarn.lock",
+          "sha256": "c5fbb2e88b68c3b9d7818b6956ab16863309671ee5971121f8b3131ad37edd59",
+          "size_bytes": 823539,
+          "source_url": "https://raw.githubusercontent.com/ReactiveX/rxjs/c15b37f81ba5f5abea8c872b0189a70b150df4cb/yarn.lock"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install --frozen-lockfile",
+          "install_fragment": "yarn install --frozen-lockfile",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "package_json_package_manager",
+          "value": "yarn@1.22.21",
+          "path": "./package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/ReactiveX__rxjs.c15b37f8/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L543",
+  "dockerfile_sha256": "593d037145a0e145348fb74b58097016522d2bb893cb08362815734c3c18f0d0",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "command": "yarn install --frozen-lockfile",
+      "install_fragment": "yarn install --frozen-lockfile",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 1141,
+  "discovered_at": "2026-09-04T06:20:32.526296+00:00"
+}

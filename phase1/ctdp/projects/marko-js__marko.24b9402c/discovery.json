@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/marko-js__marko.24b9402c",
+  "safe_profile_id": "marko-js__marko.24b9402c",
+  "owner": "marko-js",
+  "repo": "marko",
+  "commit": "24b9402cd54c3a74f200da0f79dd19350995a9ba",
+  "language": "javascript",
+  "node_version": "20",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install && npm run build"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install && npm run build"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "ae9158e5e1025a5c365d51a9109d0cbf1a76e5957595f83696e3bbd6a8525384",
+          "size_bytes": 3128,
+          "source_url": "https://raw.githubusercontent.com/marko-js/marko/24b9402cd54c3a74f200da0f79dd19350995a9ba/package.json"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "ee77bb8c40aead106918916e39039aa8683962223d8eedddd2b207f9dbd325ce",
+          "size_bytes": 383108,
+          "source_url": "https://raw.githubusercontent.com/marko-js/marko/24b9402cd54c3a74f200da0f79dd19350995a9ba/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install && npm run build",
+          "install_fragment": "npm install",
+          "dockerfile_line": 9
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/marko-js__marko.24b9402c/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/javascript.py#L2061",
+  "dockerfile_sha256": "0c8797cadbb41e697b534eb6e1a7b5806dddc9009e9578ec104d0557a7c9c388",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 1,
+      "value": "node:20-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install && npm run build",
+      "install_fragment": "npm install",
+      "dockerfile_line": 9
+    }
+  ],
+  "discovery_elapsed_ms": 1101,
+  "discovered_at": "2026-09-04T06:20:16.248141+00:00"
+}

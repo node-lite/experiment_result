@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "profile_id": "swesmith/coder__code-server.e90504b8",
+  "safe_profile_id": "coder__code-server.e90504b8",
+  "owner": "coder",
+  "repo": "code-server",
+  "commit": "e90504b8cf1d73c36d902bbaaec7bab33f15c42e",
+  "language": "typescript",
+  "node_version": "22",
+  "package_manager": "npm",
+  "package_manager_version": null,
+  "install_workdirs": [
+    "."
+  ],
+  "install_commands": [
+    "npm install"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "manifest_files": [
+    "package.json",
+    ".nvmrc",
+    ".node-version"
+  ],
+  "dependency_roots": [
+    {
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "package_manager_variant": null,
+      "package_manager_version": null,
+      "install_commands": [
+        "npm install"
+      ],
+      "lockfiles": [
+        "package-lock.json"
+      ],
+      "manifest_files": [
+        "package.json",
+        ".nvmrc",
+        ".node-version"
+      ],
+      "source_files": [
+        {
+          "path": "package.json",
+          "output_path": "source-files/root/package.json",
+          "sha256": "c6af34ea9ec9387e3d0d665f209c395045c3f58093757325f9bd7fd3d526254a",
+          "size_bytes": 4652,
+          "source_url": "https://raw.githubusercontent.com/coder/code-server/e90504b8cf1d73c36d902bbaaec7bab33f15c42e/package.json"
+        },
+        {
+          "path": ".nvmrc",
+          "output_path": "source-files/root/.nvmrc",
+          "sha256": "2e3b78afed59645cf5dec2a3b273df0ef8e815a1190c6106ab867f886c808af9",
+          "size_bytes": 13,
+          "source_url": "https://raw.githubusercontent.com/coder/code-server/e90504b8cf1d73c36d902bbaaec7bab33f15c42e/.nvmrc"
+        },
+        {
+          "path": ".node-version",
+          "output_path": "source-files/root/.node-version",
+          "sha256": "0775c6feb7638122e8b68d611cd709bf270f7b5adb5d0d2baa9afab8a6c0fc42",
+          "size_bytes": 8,
+          "source_url": "https://raw.githubusercontent.com/coder/code-server/e90504b8cf1d73c36d902bbaaec7bab33f15c42e/.node-version"
+        },
+        {
+          "path": "package-lock.json",
+          "output_path": "source-files/root/package-lock.json",
+          "sha256": "cc86648d271cc663639ac7964332665a75f6c6fe8f5a4001f1a9cd52e5790022",
+          "size_bytes": 231429,
+          "source_url": "https://raw.githubusercontent.com/coder/code-server/e90504b8cf1d73c36d902bbaaec7bab33f15c42e/package-lock.json"
+        }
+      ],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "npm",
+          "command": "npm install",
+          "install_fragment": "npm install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".nvmrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".node-version"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package-lock.json"
+        }
+      ]
+    }
+  ],
+  "manifest_edits": [],
+  "environment_source": "SWE-bench/SWE-smith-envs@21549127f50e75d0ed62db9740d6b458f09683f7:env/coder__code-server.e90504b8/Dockerfile",
+  "profile_source": "SWE-bench/SWE-smith@9b74ac08118a85c39c356802f7961893af73e07f:swesmith/profiles/typescript.py#L1177",
+  "dockerfile_sha256": "617f34876bbf594b28bf1c1a6c11818697737c300966b23af496b58603b786b1",
+  "discovery_evidence": [
+    {
+      "kind": "node_image",
+      "line": 2,
+      "value": "node:22-bookworm-slim"
+    },
+    {
+      "kind": "install_command",
+      "dependency_root": ".",
+      "package_manager": "npm",
+      "command": "npm install",
+      "install_fragment": "npm install",
+      "dockerfile_line": 12
+    }
+  ],
+  "discovery_elapsed_ms": 989,
+  "discovered_at": "2026-09-04T06:19:53.500859+00:00"
+}

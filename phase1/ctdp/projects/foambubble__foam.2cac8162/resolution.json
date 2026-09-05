@@ -1,0 +1,90 @@
+{
+  "profile_id": "swesmith/foambubble__foam.2cac8162",
+  "roots": [
+    {
+      "profile_id": "swesmith/foambubble__foam.2cac8162",
+      "dependency_root": ".",
+      "package_manager": "yarn",
+      "package_manager_version": "1.22.22",
+      "resolution_mode": "existing_requires_resolution",
+      "resolution_source": "native_resolver",
+      "classification": "existing_requires_resolution",
+      "source_lockfile": "yarn.lock",
+      "resolved_lockfile": "resolved-lockfiles/root/yarn.lock",
+      "source_lockfile_sha256": "8118db77d559a658a3777013806503463de014ea63b0b1694a1cf690bd88c4b5",
+      "resolved_lockfile_sha256": "8118db77d559a658a3777013806503463de014ea63b0b1694a1cf690bd88c4b5",
+      "lockfile_changed": false,
+      "resolve_elapsed_ms": 116173,
+      "exit_code": 0,
+      "command": [
+        "/usr/local/bin/yarn",
+        "install",
+        "--ignore-scripts"
+      ],
+      "requested_command": [
+        "yarn",
+        "install",
+        "--ignore-scripts"
+      ],
+      "tool_version": "1.22.22",
+      "scripts_ran": false,
+      "network_metadata_accessed": true,
+      "stdout_path": "/root/phase1/ctdp/projects/foambubble__foam.2cac8162/logs/resolution/root.stdout.log",
+      "stderr_path": "/root/phase1/ctdp/projects/foambubble__foam.2cac8162/logs/resolution/root.stderr.log",
+      "manifest_edits_applied": [],
+      "evidence": [
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install && yarn build",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "dependency_root": ".",
+          "package_manager": "yarn",
+          "command": "yarn install && yarn build",
+          "install_fragment": "yarn install",
+          "dockerfile_line": 12
+        },
+        {
+          "kind": "dependency_file",
+          "value": "package.json"
+        },
+        {
+          "kind": "dependency_file",
+          "value": ".yarnrc"
+        },
+        {
+          "kind": "dependency_file",
+          "value": "yarn.lock"
+        },
+        {
+          "kind": "temporary_checkout",
+          "commit": "2cac816272157f3a964b30adf4f29c0b2973cce8",
+          "path": "/tmp/nodelite-deps-resolve-l6t4us6s/checkout"
+        },
+        {
+          "source": "installed",
+          "version": "1.22.22"
+        },
+        {
+          "kind": "resolution",
+          "reason": "Yarn Classic native resolver"
+        }
+      ]
+    }
+  ]
+}
