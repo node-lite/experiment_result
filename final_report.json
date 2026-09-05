@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "title": "NodeLite 七阶段实验最终报告",
+  "generated_at": "2026-09-06",
+  "scope": {
+    "phases": [1, 2, 3, 4, 5, 6, 7],
+    "plan_source": "/root/CODEX_NODELITE_7_PHASE_EXPERIMENT_PLAN_CN.md"
+  },
+  "phase_results": [
+    {
+      "phase": 1,
+      "name": "CTDP Dependency Preparation Validation",
+      "status": "partial",
+      "highlights": {
+        "coverage_profiles": "64/64",
+        "dedup_ratio": 0.6720933994310019,
+        "first_run_network_bytes": 9234461362,
+        "second_run_network_bytes": 213832627,
+        "targeted_rerun_fixed_external_misses": 21
+      }
+    },
+    {
+      "phase": 2,
+      "name": "Object / Action Latency Profiling",
+      "status": "passed_with_constraints",
+      "highlights": {
+        "raw_observation_count": 8589,
+        "transition_summary_count": 1190,
+        "scheduler_relevant_exact_measured_count": 207,
+        "scheduler_relevant_exact_coverage_percent": 53.90625
+      }
+    },
+    {
+      "phase": 3,
+      "name": "Resource Reuse Validation",
+      "status": "passed_with_constraints",
+      "highlights": {
+        "fresh_total_ms": 8028246.815401,
+        "reuse_total_ms": 144898.130729,
+        "saved_ms": 7883348.684672,
+        "speedup_ratio": 55.40614482057098,
+        "reuse_hit_rate": 0.9898580121703854
+      }
+    },
+    {
+      "phase": 4,
+      "name": "Transition Cost Model Validation",
+      "status": "passed_with_constraints",
+      "highlights": {
+        "full_pair_count": 4032,
+        "fully_predictable_count": 4032,
+        "mae_ms": 19744.346676,
+        "pearson": 0.9975,
+        "spearman": 0.9946
+      }
+    },
+    {
+      "phase": 5,
+      "name": "Resource-Aware Scheduling",
+      "status": "passed_with_constraints",
+      "highlights": {
+        "fifo_measured_transition_time_ms": 9514323.562306,
+        "nodelite_measured_transition_time_ms": 8875263.447135,
+        "nodelite_vs_fifo_saved_ms": 639060.1151710004,
+        "nodelite_vs_similarity_saved_ms": -425534.3750640005
+      }
+    },
+    {
+      "phase": 6,
+      "name": "Seed Priority Queue Validation",
+      "status": "passed_with_constraints",
+      "highlights": {
+        "random_mean_full_remaining_workload_ms": 3772018.00557804,
+        "fastest_mean_full_remaining_workload_ms": 4583694.0155577995,
+        "degree_mean_full_remaining_workload_ms": 2887614.513709,
+        "weighted_mean_full_remaining_workload_ms": 3333976.2665012,
+        "starvation_prevented": true,
+        "weighted_reach_is_best": false
+      }
+    },
+    {
+      "phase": 7,
+      "name": "Online Sliding-Window Adaptation",
+      "status": "passed_with_constraints",
+      "highlights": {
+        "online_observation_count": 8589,
+        "static_mae_ms": 489.601176122133,
+        "latest_mae_ms": 454.5517787132961,
+        "fifo5_mean_mae_ms": 366.998917128129,
+        "fifo5_median_mae_ms": 343.64418172895563,
+        "recommended_policy": "fifo5_median"
+      }
+    }
+  ],
+  "conclusions": [
+    "CTDP 的去重和重复下载减少已经被证明有效，但 Phase 1 仍然是 partial。",
+    "Resource Reuse 带来了数量级收益，是七阶段里最强的单项收益之一。",
+    "Transition cost model 足够可信，可以支撑 scheduler 和 seed queue。",
+    "NodeLite scheduler 优于 FIFO，但在当前 replay 中没有赢过 Similarity greedy。",
+    "Weighted Reach 是一个安全的 fallback seed policy，但不是当前 replay 下的全局最优。",
+    "Online FIFO 的最终推荐是 FIFO-5 Median。"
+  ],
+  "pending_items": [
+    "Docker warm-image baseline 缺少独立测量 artifact",
+    "Full ablation 缺少独立测量 artifact"
+  ],
+  "final_answers": {
+    "ctdp_contribution": "dedup ratio 0.6721; second-run network bytes 213.8MB vs first-run 9.23GB; targeted rerun fixed 21 external artifact misses",
+    "reuse_contribution": "saved 7,883,348.684672 ms; speedup 55.406x; reuse hit rate 98.99%",
+    "scheduler_contribution": "NodeLite saved 639,060.115 ms vs FIFO but lost 425,534.375 ms vs Similarity greedy",
+    "online_fifo_contribution": "FIFO-5 Median is the recommended online window policy and beats Static / Latest overall",
+    "docker_baseline_comparison": "not available in current artifacts"
+  }
+}
