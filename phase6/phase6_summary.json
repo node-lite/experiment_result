@@ -1,0 +1,362 @@
+{
+  "artifacts": [
+    "seed_states.json",
+    "random_seed_results.csv",
+    "fastest_seed_results.csv",
+    "degree_seed_results.csv",
+    "weighted_reach_results.csv",
+    "starvation_analysis.csv",
+    "phase6_summary.md",
+    "phase6_summary.json"
+  ],
+  "comparisons": {
+    "degree_minus_weighted_full_mean_ms": -446361.7527922001,
+    "fastest_minus_weighted_full_mean_ms": 1249717.7490565996
+  },
+  "fallback_trigger_count": 5,
+  "measurement_environment_id": "derived:phase5-replay",
+  "outcome": {
+    "weighted_reach_beats_degree": false,
+    "weighted_reach_beats_fastest": true,
+    "weighted_reach_is_best": false
+  },
+  "phase": "phase6",
+  "policy_aggregate": {
+    "degree": {
+      "cluster_switch_count": {
+        "max_ms": 7.0,
+        "mean_ms": 7.0,
+        "median_ms": 7.0,
+        "min_ms": 7.0,
+        "p95_ms": 7.0,
+        "sample_count": 5,
+        "stddev_ms": 0.0
+      },
+      "cold_start_count": {
+        "max_ms": 5.0,
+        "mean_ms": 4.6,
+        "median_ms": 5.0,
+        "min_ms": 4.0,
+        "p95_ms": 5.0,
+        "sample_count": 5,
+        "stddev_ms": 0.4898979485566356
+      },
+      "full_transition_time": {
+        "max_ms": 2887614.513709,
+        "mean_ms": 2887614.513709,
+        "median_ms": 2887614.513709,
+        "min_ms": 2887614.513709,
+        "p95_ms": 2887614.513709,
+        "sample_count": 5,
+        "stddev_ms": 0.0
+      },
+      "horizon_20_transition_time": {
+        "max_ms": 2887614.513709,
+        "mean_ms": 2887614.513709,
+        "median_ms": 2887614.513709,
+        "min_ms": 2887614.513709,
+        "p95_ms": 2887614.513709,
+        "sample_count": 5,
+        "stddev_ms": 0.0
+      },
+      "horizon_50_transition_time": {
+        "max_ms": 2887614.513709,
+        "mean_ms": 2887614.513709,
+        "median_ms": 2887614.513709,
+        "min_ms": 2887614.513709,
+        "p95_ms": 2887614.513709,
+        "sample_count": 5,
+        "stddev_ms": 0.0
+      },
+      "reachable_task_count": {
+        "max_ms": 43.0,
+        "mean_ms": 43.0,
+        "median_ms": 43.0,
+        "min_ms": 43.0,
+        "p95_ms": 43.0,
+        "sample_count": 5,
+        "stddev_ms": 0.0
+      },
+      "reuse_hit_rate": {
+        "max_ms": 0.6,
+        "mean_ms": 0.54,
+        "median_ms": 0.5,
+        "min_ms": 0.5,
+        "p95_ms": 0.6,
+        "sample_count": 5,
+        "stddev_ms": 0.04898979485566355
+      },
+      "waiting_seconds": {
+        "max_ms": 0.0,
+        "mean_ms": 0.0,
+        "median_ms": 0.0,
+        "min_ms": 0.0,
+        "p95_ms": 0.0,
+        "sample_count": 5,
+        "stddev_ms": 0.0
+      }
+    },
+    "fastest": {
+      "cluster_switch_count": {
+        "max_ms": 13.0,
+        "mean_ms": 11.4,
+        "median_ms": 13.0,
+        "min_ms": 5.0,
+        "p95_ms": 13.0,
+        "sample_count": 5,
+        "stddev_ms": 3.2
+      },
+      "cold_start_count": {
+        "max_ms": 11.0,
+        "mean_ms": 9.4,
+        "median_ms": 11.0,
+        "min_ms": 3.0,
+        "p95_ms": 11.0,
+        "sample_count": 5,
+        "stddev_ms": 3.2
+      },
+      "full_transition_time": {
+        "max_ms": 5119423.27767,
+        "mean_ms": 4583694.0155577995,
+        "median_ms": 5119423.27767,
+        "min_ms": 2440776.967109,
+        "p95_ms": 5119423.27767,
+        "sample_count": 5,
+        "stddev_ms": 1071458.5242244
+      },
+      "horizon_20_transition_time": {
+        "max_ms": 4727017.189402,
+        "mean_ms": 4269769.144943399,
+        "median_ms": 4727017.189402,
+        "min_ms": 2440776.967109,
+        "p95_ms": 4727017.189402,
+        "sample_count": 5,
+        "stddev_ms": 914496.0889172001
+      },
+      "horizon_50_transition_time": {
+        "max_ms": 5119423.27767,
+        "mean_ms": 4583694.0155577995,
+        "median_ms": 5119423.27767,
+        "min_ms": 2440776.967109,
+        "p95_ms": 5119423.27767,
+        "sample_count": 5,
+        "stddev_ms": 1071458.5242244
+      },
+      "reachable_task_count": {
+        "max_ms": 0.0,
+        "mean_ms": 0.0,
+        "median_ms": 0.0,
+        "min_ms": 0.0,
+        "p95_ms": 0.0,
+        "sample_count": 5,
+        "stddev_ms": 0.0
+      },
+      "reuse_hit_rate": {
+        "max_ms": 0.625,
+        "mean_ms": 0.5059523809523809,
+        "median_ms": 0.47619047619047616,
+        "min_ms": 0.47619047619047616,
+        "p95_ms": 0.5952380952380952,
+        "sample_count": 5,
+        "stddev_ms": 0.059523809523809534
+      },
+      "waiting_seconds": {
+        "max_ms": 2000000.0,
+        "mean_ms": 400000.0,
+        "median_ms": 0.0,
+        "min_ms": 0.0,
+        "p95_ms": 1599999.9999999995,
+        "sample_count": 5,
+        "stddev_ms": 800000.0
+      }
+    },
+    "random": {
+      "cluster_switch_count": {
+        "max_ms": 22.0,
+        "mean_ms": 9.36,
+        "median_ms": 9.0,
+        "min_ms": 2.0,
+        "p95_ms": 16.19999999999999,
+        "sample_count": 75,
+        "stddev_ms": 4.643676704221918
+      },
+      "cold_start_count": {
+        "max_ms": 16.0,
+        "mean_ms": 6.973333333333334,
+        "median_ms": 8.0,
+        "min_ms": 1.0,
+        "p95_ms": 12.299999999999997,
+        "sample_count": 75,
+        "stddev_ms": 3.939452866692136
+      },
+      "full_transition_time": {
+        "max_ms": 8023236.094966,
+        "mean_ms": 3772018.00557804,
+        "median_ms": 3757714.385286,
+        "min_ms": 701759.226737,
+        "p95_ms": 6770866.292103498,
+        "sample_count": 75,
+        "stddev_ms": 1920250.266897633
+      },
+      "horizon_20_transition_time": {
+        "max_ms": null,
+        "mean_ms": null,
+        "median_ms": null,
+        "min_ms": null,
+        "p95_ms": null,
+        "sample_count": 0,
+        "stddev_ms": null
+      },
+      "horizon_50_transition_time": {
+        "max_ms": null,
+        "mean_ms": null,
+        "median_ms": null,
+        "min_ms": null,
+        "p95_ms": null,
+        "sample_count": 0,
+        "stddev_ms": null
+      },
+      "reachable_task_count": {
+        "max_ms": 43.0,
+        "mean_ms": 26.56,
+        "median_ms": 30.0,
+        "min_ms": 0.0,
+        "p95_ms": 42.0,
+        "sample_count": 75,
+        "stddev_ms": 16.63028562592958
+      },
+      "reuse_hit_rate": {
+        "max_ms": 0.8,
+        "mean_ms": 0.540738616567258,
+        "median_ms": 0.55,
+        "min_ms": 0.3571428571428571,
+        "p95_ms": 0.6533333333333331,
+        "sample_count": 75,
+        "stddev_ms": 0.08688657986802316
+      },
+      "waiting_seconds": {
+        "max_ms": 0.0,
+        "mean_ms": 0.0,
+        "median_ms": 0.0,
+        "min_ms": 0.0,
+        "p95_ms": 0.0,
+        "sample_count": 75,
+        "stddev_ms": 0.0
+      }
+    },
+    "weighted": {
+      "cluster_switch_count": {
+        "max_ms": 13.0,
+        "mean_ms": 8.2,
+        "median_ms": 7.0,
+        "min_ms": 7.0,
+        "p95_ms": 11.799999999999999,
+        "sample_count": 5,
+        "stddev_ms": 2.4
+      },
+      "cold_start_count": {
+        "max_ms": 11.0,
+        "mean_ms": 6.0,
+        "median_ms": 5.0,
+        "min_ms": 4.0,
+        "p95_ms": 9.799999999999999,
+        "sample_count": 5,
+        "stddev_ms": 2.5298221281347035
+      },
+      "full_transition_time": {
+        "max_ms": 5119423.27767,
+        "mean_ms": 3333976.2665012,
+        "median_ms": 2887614.513709,
+        "min_ms": 2887614.513709,
+        "p95_ms": 4673061.5248778,
+        "sample_count": 5,
+        "stddev_ms": 892723.5055843999
+      },
+      "horizon_20_transition_time": {
+        "max_ms": 4727017.189402,
+        "mean_ms": 3255495.0488476,
+        "median_ms": 2887614.513709,
+        "min_ms": 2887614.513709,
+        "p95_ms": 4359136.6542634,
+        "sample_count": 5,
+        "stddev_ms": 735761.0702772001
+      },
+      "horizon_50_transition_time": {
+        "max_ms": 5119423.27767,
+        "mean_ms": 3333976.2665012,
+        "median_ms": 2887614.513709,
+        "min_ms": 2887614.513709,
+        "p95_ms": 4673061.5248778,
+        "sample_count": 5,
+        "stddev_ms": 892723.5055843999
+      },
+      "reachable_task_count": {
+        "max_ms": 43.0,
+        "mean_ms": 34.4,
+        "median_ms": 43.0,
+        "min_ms": 0.0,
+        "p95_ms": 43.0,
+        "sample_count": 5,
+        "stddev_ms": 17.2
+      },
+      "reuse_hit_rate": {
+        "max_ms": 0.6,
+        "mean_ms": 0.5152380952380952,
+        "median_ms": 0.5,
+        "min_ms": 0.47619047619047616,
+        "p95_ms": 0.58,
+        "sample_count": 5,
+        "stddev_ms": 0.04337256204470742
+      },
+      "waiting_seconds": {
+        "max_ms": 2000000.0,
+        "mean_ms": 400000.0,
+        "median_ms": 0.0,
+        "min_ms": 0.0,
+        "p95_ms": 1599999.9999999995,
+        "sample_count": 5,
+        "stddev_ms": 800000.0
+      }
+    }
+  },
+  "random_aggregate": {
+    "full_transition_time_mean_ms": 3772018.00557804,
+    "full_transition_time_median_ms": 3757714.385286,
+    "full_transition_time_p95_ms": 6770866.292103498,
+    "full_transition_time_stddev_ms": 1920250.266897633,
+    "reuse_hit_rate_mean": 0.540738616567258,
+    "seed_count": 5
+  },
+  "schema_version": 1,
+  "seed_state_count": 5,
+  "source_environment_ids": [
+    "derived:phase2-phase3-phase4-replay",
+    ""
+  ],
+  "starvation_probe": {
+    "break_even_waiting_seconds": 1144223.0731,
+    "candidate_count": 48,
+    "current_profile_id": "swesmith/NativeScript__NativeScript.3d6a4392",
+    "degree_selected_profile_id": "swesmith/payloadcms__payload.8f660355",
+    "fastest_selected_profile_id": "swesmith/GitbookIO__gitbook.81f8ddcf",
+    "random_selected_profile_ids": "swesmith/bpampuch__pdfmake.719e7314;swesmith/marmelab__react-admin.823caa0b;swesmith/Shopify__draggable.8a1eed57;swesmith/josdejong__mathjs.04e6e2d7;swesmith/fabricjs__fabric.js.6742471c",
+    "starvation_prevented": true,
+    "starved_base_priority_score": 0.0,
+    "starved_priority_score_with_age": 20000.0,
+    "starved_profile_id": "swesmith/GitbookIO__gitbook.81f8ddcf",
+    "starved_seed_value": 0.0,
+    "starved_waiting_seconds": 2000000.0,
+    "state_id": "starvation_probe",
+    "weighted_selected_priority_score": 20000.0,
+    "weighted_selected_profile_id": "swesmith/GitbookIO__gitbook.81f8ddcf",
+    "weighted_selected_rank": 48,
+    "weighted_selected_waiting_seconds": 2000000.0
+  },
+  "status": "passed_with_constraints",
+  "validation": {
+    "age_bonus_prevents_starvation": true,
+    "random_seed_count": 5,
+    "same_candidate_pool_shape": true,
+    "weighted_reach_selected_starved_candidate": true
+  }
+}
