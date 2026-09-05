@@ -2,7 +2,7 @@
   "schema_version": 1,
   "phase": "phase2",
   "status": "passed_with_constraints",
-  "result_generated_at": "2026-09-05T09:38:21Z",
+  "result_generated_at": "2026-09-05T14:15:15Z",
   "protocol": {
     "warmups": 2,
     "samples": 7,
@@ -10,22 +10,29 @@
       "median_ms",
       "p95_ms"
     ],
-    "resume_policy": "existing exact-workload object_status defines the original target set; successful observation keys are skipped unless --force is used",
+    "resume_policy": "existing exact-workload object_status defines the original target set; --retry-failed retains measured/manual-review objects and retries blocked/failed/unsupported objects; successful observation keys are skipped unless --force is used",
     "cross_environment_policy": "group by measurement_environment_id and never average direct_ms windows across hosts"
   },
   "result_counts": {
     "scheduler_relevant_objects": 384,
-    "scheduler_relevant_measured": 8,
-    "scheduler_relevant_blocked": 363,
-    "scheduler_relevant_manual_review": 13,
+    "scheduler_relevant_measured": 207,
+    "scheduler_relevant_blocked": 102,
+    "scheduler_relevant_manual_review": 75,
+    "scheduler_relevant_failed": 0,
     "scheduler_relevant_unmeasured": 0,
     "exact_target_objects": 380,
     "exact_accounted_objects": 380,
-    "exact_new_measured_objects": 4,
-    "exact_successful_observations": 84,
-    "raw_observations_after_merge": 5306,
-    "active_observations_after_merge": 5236,
-    "transition_summaries_after_merge": 748
+    "exact_measured_objects": 203,
+    "exact_blocked_objects": 102,
+    "exact_manual_review_objects": 75,
+    "exact_failed_objects": 0,
+    "exact_raw_observations": 3367,
+    "exact_successful_observations": 3329,
+    "exact_failed_observations": 38,
+    "exact_active_observations": 3170,
+    "raw_observations_after_merge": 8589,
+    "active_observations_after_merge": 8322,
+    "transition_summaries_after_merge": 1190
   },
   "commands": {
     "exact_workload": [
@@ -42,7 +49,8 @@
       "--warmups",
       "2",
       "--samples",
-      "7"
+      "7",
+      "--retry-failed"
     ],
     "export": [
       "python3",
@@ -60,20 +68,26 @@
     "NodeLite-Schduler": {
       "path": "/root/NodeLite-Schduler",
       "commit": "0632830e8d23e9638bb0e63201cacf7ead314049",
-      "working_tree_clean": true
-    },
-    "CTDP": {
-      "path": "/root/CTDP",
-      "commit": "9640a8ba8ed99c1f2df2e524888f46f9f46b5aa4",
       "working_tree_clean": false,
       "modified_files": [
         "README.md",
-        "src/nodelite_deps/reports.py",
-        "src/nodelite_deps/resolution.py",
-        "src/nodelite_deps/toolchain.py",
-        "src/nodelite_deps/util.py",
-        "src/nodelite_deps/validation.py"
+        "nodelite_bench/cli.py",
+        "nodelite_bench/exact_workload.py",
+        "nodelite_bench/reporting.py",
+        "out/exact-workload/action_registry.json",
+        "out/exact-workload/capabilities.json",
+        "out/exact-workload/direct_ms.json",
+        "out/exact-workload/measurement_environment.json",
+        "out/exact-workload/object_action_summary.csv",
+        "out/exact-workload/object_observations.jsonl",
+        "out/exact-workload/object_status.json",
+        "out/exact-workload/summary.json"
       ]
+    },
+    "CTDP": {
+      "path": "/root/CTDP",
+      "commit": "f7357454e749fa53989e2e548319f835adf4c121",
+      "working_tree_clean": true
     }
   },
   "measurement_environment_ids": [
@@ -81,14 +95,14 @@
     "env:0fd7b54e0a2a55d4208d"
   ],
   "sha256": {
-    "phase2_summary.json": "2f1dbcfc2719bc3e26dd5330c731498b4b60cf0e22085b1076d284ddb4ad6ad4",
-    "unmeasured_objects.json": "e5e1f603c1ab94f9ff57b683dd5681118c469a3d40adb7100b6c9d008a3a8439",
-    "object_action_summary.csv": "b77c4d1baef42128389b30d77547861fc4776b1a7a416ddcba03176aa6faba1c",
-    "object_switch_matrix.csv": "b77c4d1baef42128389b30d77547861fc4776b1a7a416ddcba03176aa6faba1c",
-    "measurement_environments.json": "238c5b41f9155e39f0aa5e8158b561615a52b8e43711cd98cfaa9b34fbaaa0ac",
+    "phase2_summary.json": "c848b7f1462120645cc8ce98fe8165023e4a745bed65510eb1deaba0b743e3d0",
+    "unmeasured_objects.json": "a371e669654c65654b55a33271d3ee137bc6eb35f13c297c9bf5a55fe0bd5d0a",
+    "object_action_summary.csv": "fba2f04b848cc60f7f2883d24e4ca7c0a1441f715c51a663f01f92da7e283020",
+    "object_switch_matrix.csv": "fba2f04b848cc60f7f2883d24e4ca7c0a1441f715c51a663f01f92da7e283020",
+    "measurement_environments.json": "4391b6e280dd6a080c36b63e1b99a4dad641bfca87c530d48893810ecc147f73",
     "direct_ms_by_environment.json": "65ed0735f21c9ff87b27babafa5891f09c1f4709d6278ea29e5d31d65bd23b78",
-    "exact_workload/object_status.json": "42d51a99770c8837dc60f6b2f46f657c9f5e6c3129f795a901b06f19d750ce02",
-    "exact_workload/object_observations.jsonl": "3417eefc37cd9eb33905317976bc13fd6a9c0deb68433afde8abaf50dbd888e6",
-    "exact_workload/summary.json": "e6c6753303ddd8acb75d2ef2900d55ab5c1bbc2bed0a7c2fe7183edaee3ebcb0"
+    "exact_workload/object_status.json": "a22c493fb2da42b254d06f9bd451f40eff783c526ccc8f1960afb66cb94dc93b",
+    "exact_workload/object_observations.jsonl": "21d3047a5781efc9c46c608c3cfecb35665942d2cd17daada25ae8189de1fa20",
+    "exact_workload/summary.json": "affcb48c4e8225617795a9c1e7363d91bc45a18dac983edaefb22e957b3a786c"
   }
 }

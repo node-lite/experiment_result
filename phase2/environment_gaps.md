@@ -1,6 +1,8 @@
 # Measurement Environment Gaps
 
-The following benchmark IDs have no fabricated latency value. They remain explicit gaps for a capable host.
+The following benchmark IDs are the explicit gaps retained from the original generic benchmark environment `env:7a9cda66bc6b151a7886`. They do not describe the capability of the later exact-workload host `env:0fd7b54e0a2a55d4208d`.
+
+The exact-workload host has working GitHub access, Docker, mount, and exact Node 18/20/22 runtimes. Its repo/source/rootfs/profile-specific measurements are stored under `exact_workload/`; the generic benchmark gaps below remain unchanged because those benchmark IDs were not silently rerun or mixed across environments.
 
 | Benchmark ID | Status | Required capability / reason |
 |---|---|---|
