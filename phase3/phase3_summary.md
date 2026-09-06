@@ -1,6 +1,6 @@
-# Phase 3 Resource Reuse Validation
+# Phase 3 Resource Reuse Validation (derived replay)
 
-Status: **passed_with_constraints**
+Status: **passed_with_constraints (derived replay)**
 
 ## Input
 

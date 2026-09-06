@@ -18,6 +18,7 @@
   },
   "measurement_environment_id": "derived:phase2-phase3-phase4-replay",
   "phase": "phase5",
+  "validation_mode": "derived replay",
   "random_aggregate": {
     "decision_overhead_mean_ms": 0.025618181098252535,
     "decision_overhead_stddev_ms": 0.004082691796569793,

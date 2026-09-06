@@ -1,4 +1,4 @@
-# Phase 4 Transition Cost Model Validation
+# Phase 4 Transition Cost Model Validation (derived exact-oracle replay)
 
 - Calibration environment: `env:7a9cda66bc6b151a7886`
 - Full directed pairs evaluated: `4032` / `4032`

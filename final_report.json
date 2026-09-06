@@ -11,6 +11,7 @@
       "phase": 1,
       "name": "CTDP Dependency Preparation Validation",
       "status": "partial",
+      "validation_mode": "targeted live revalidation + baseline replay",
       "highlights": {
         "coverage_profiles": "64/64",
         "dedup_ratio": 0.6720933994310019,
@@ -23,6 +24,7 @@
       "phase": 2,
       "name": "Object / Action Latency Profiling",
       "status": "passed_with_constraints",
+      "validation_mode": "mixed direct measurement",
       "highlights": {
         "raw_observation_count": 8589,
         "transition_summary_count": 1190,
@@ -34,6 +36,7 @@
       "phase": 3,
       "name": "Resource Reuse Validation",
       "status": "passed_with_constraints",
+      "validation_mode": "derived replay",
       "highlights": {
         "fresh_total_ms": 8028246.815401,
         "reuse_total_ms": 144898.130729,
@@ -46,6 +49,7 @@
       "phase": 4,
       "name": "Transition Cost Model Validation",
       "status": "passed_with_constraints",
+      "validation_mode": "derived exact-oracle replay",
       "highlights": {
         "full_pair_count": 4032,
         "fully_predictable_count": 4032,
@@ -58,6 +62,7 @@
       "phase": 5,
       "name": "Resource-Aware Scheduling",
       "status": "passed_with_constraints",
+      "validation_mode": "derived replay",
       "highlights": {
         "fifo_measured_transition_time_ms": 9514323.562306,
         "nodelite_measured_transition_time_ms": 8875263.447135,
@@ -69,6 +74,7 @@
       "phase": 6,
       "name": "Seed Priority Queue Validation",
       "status": "passed_with_constraints",
+      "validation_mode": "derived replay",
       "highlights": {
         "random_mean_full_remaining_workload_ms": 3772018.00557804,
         "fastest_mean_full_remaining_workload_ms": 4583694.0155577995,
@@ -82,6 +88,7 @@
       "phase": 7,
       "name": "Online Sliding-Window Adaptation",
       "status": "passed_with_constraints",
+      "validation_mode": "observation-stream replay",
       "highlights": {
         "online_observation_count": 8589,
         "static_mae_ms": 489.601176122133,
@@ -94,19 +101,21 @@
   ],
   "conclusions": [
     "CTDP 的去重和重复下载减少已经被证明有效，但 Phase 1 仍然是 partial。",
+    "Resource Reuse、Transition Cost、Scheduler、Seed Queue 的核心结果都来自 derived replay，而不是 live host 端到端实测。",
     "Resource Reuse 带来了数量级收益，是七阶段里最强的单项收益之一。",
-    "Transition cost model 足够可信，可以支撑 scheduler 和 seed queue。",
+    "Transition cost model 足够可信，可以支撑 scheduler 和 seed queue，但仍然是 derived exact-oracle replay。",
     "NodeLite scheduler 优于 FIFO，但在当前 replay 中没有赢过 Similarity greedy。",
     "Weighted Reach 是一个安全的 fallback seed policy，但不是当前 replay 下的全局最优。",
     "Online FIFO 的最终推荐是 FIFO-5 Median。"
   ],
   "pending_items": [
-    "Docker warm-image baseline 缺少独立测量 artifact",
-    "Full ablation 缺少独立测量 artifact"
+    "真实 A→B transition 测量：20 个 profile，100–200 个 pair",
+    "真实 scheduler workload：500 tasks 起步，再扩大到 2000+",
+    "Docker warm-image baseline 与 full ablation 的独立测量 artifact"
   ],
   "final_answers": {
     "ctdp_contribution": "dedup ratio 0.6721; second-run network bytes 213.8MB vs first-run 9.23GB; targeted rerun fixed 21 external artifact misses",
-    "reuse_contribution": "saved 7,883,348.684672 ms; speedup 55.406x; reuse hit rate 98.99%",
+    "reuse_contribution": "saved 7,883,348.684672 ms (~131.4 min); speedup 55.406x; reuse hit rate 98.99%",
     "scheduler_contribution": "NodeLite saved 639,060.115 ms vs FIFO but lost 425,534.375 ms vs Similarity greedy",
     "online_fifo_contribution": "FIFO-5 Median is the recommended online window policy and beats Static / Latest overall",
     "docker_baseline_comparison": "not available in current artifacts"

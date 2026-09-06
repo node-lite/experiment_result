@@ -235,6 +235,7 @@
   "measurement_environment_id": "env:7a9cda66bc6b151a7886",
   "median_absolute_error_ms": 18022.738422,
   "p95_absolute_error_ms": 39640.127396,
+  "validation_mode": "derived exact-oracle replay",
   "pair_coverage_counts": {
     "diff_node_diff_rootfs": 2526,
     "low_overlap": 3318,

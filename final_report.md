@@ -12,7 +12,9 @@
 - Phase 1 仍然是 `partial`，没有达到严格意义上的完全通过。
 - Phase 2 到 Phase 7 都是 `passed_with_constraints`。
 - 最终在线窗口策略推荐 `FIFO-5 Median`。
-- 这套结果仍然是以 replay / derived validation 为主，Docker warm-image baseline 和 full ablation 在当前仓库快照里没有独立测量，因此不能在这个报告里被写成已完成结论。
+- Phase 3-6 是 replay / derived validation，不是 live host 上的端到端实测。
+- Phase 7 是 observation-stream replay，不是 scheduler 现场闭环。
+- Docker warm-image baseline 和 full ablation 在当前仓库快照里没有独立测量，因此不能在这个报告里被写成已完成结论。
 
 ## 七个 Phase 汇总
 
@@ -20,11 +22,11 @@
 |---|---|---|---|
 | Phase 1 | CTDP Dependency Preparation Validation | `partial` | 64 / 64 profiles 覆盖；dedup ratio `0.6721`；first-run network bytes `9.23 GB`；second-run network bytes `213.8 MB`；targeted rerun 修复了 21 个外部 artifact miss，但严格 G2 验证仍有未解决项 |
 | Phase 2 | Object / Action Latency Profiling | `passed_with_constraints` | 8,589 条原始 observation；316 个 benchmark 全覆盖；64 个 profile 的成本库和对象/动作延迟数据可用于后续 phase |
-| Phase 3 | Resource Reuse Validation | `passed_with_constraints` | 64-profile 固定序列下，总 Fresh `8,028,246.815 ms`，总 Reuse `144,898.131 ms`，节省 `7,883,348.685 ms`，speedup `55.41x`，reuse hit rate `98.99%` |
-| Phase 4 | Transition Cost Model Validation | `passed_with_constraints` | 4,032 / 4,032 directed pairs 可预测；MAE `19,744.347 ms`；Pearson `0.9975`；Spearman `0.9946` |
-| Phase 5 | Resource-Aware Scheduling | `passed_with_constraints` | NodeLite 比 FIFO 少 `639,060.115 ms`；但比 Similarity greedy 多 `425,534.375 ms`；决策开销仅 `0.607 ms` 总计 |
-| Phase 6 | Seed Priority Queue Validation | `passed_with_constraints` | Weighted Reach 比 Fastest 好，但在这份 replay 里不如 Degree；starvation probe 通过，age bonus 可以把长期等待 seed 拉回前面 |
-| Phase 7 | Online Sliding-Window Adaptation | `passed_with_constraints` | 推荐 `FIFO-5 Median`；overall MAE `343.644 ms`，优于 Static `489.601 ms` 和 Latest `454.552 ms`；drift host 上也更稳 |
+| Phase 3 | Resource Reuse Validation | `passed_with_constraints` | derived replay；64-profile 固定序列下，总 Fresh `8,028,246.815 ms`，总 Reuse `144,898.131 ms`，节省 `7,883,348.685 ms`，speedup `55.41x`，reuse hit rate `98.99%` |
+| Phase 4 | Transition Cost Model Validation | `passed_with_constraints` | derived exact-oracle replay；4,032 / 4,032 directed pairs 可预测；MAE `19,744.347 ms`；Pearson `0.9975`；Spearman `0.9946` |
+| Phase 5 | Resource-Aware Scheduling | `passed_with_constraints` | derived replay；NodeLite 比 FIFO 少 `639,060.115 ms`；但比 Similarity greedy 多 `425,534.375 ms`；决策开销仅 `0.607 ms` 总计 |
+| Phase 6 | Seed Priority Queue Validation | `passed_with_constraints` | derived replay；Weighted Reach 比 Fastest 好，但在这份 replay 里不如 Degree；starvation probe 通过，age bonus 可以把长期等待 seed 拉回前面 |
+| Phase 7 | Online Sliding-Window Adaptation | `passed_with_constraints` | observation-stream replay；推荐 `FIFO-5 Median`；overall MAE `343.644 ms`，优于 Static `489.601 ms` 和 Latest `454.552 ms`；drift host 上也更稳 |
 
 ## 关键发现
 
@@ -42,12 +44,13 @@ Phase 1 的核心信号是正向的：
 
 Phase 3 给出的结论很强：
 
-- Fresh `8.028 s` 级别总开销
-- Reuse 只有 `0.145 s` 级别
-- 总体节省接近 `7.88 s` 级别
+- Fresh `8,028,246.815 ms`，约 `133.8 min`
+- Reuse `144,898.131 ms`，约 `2.42 min`
+- 总体节省 `7,883,348.685 ms`，约 `131.4 min`
 - reuse hit rate 接近 `99%`
 
-这说明在固定 64-profile 序列里，warm state 复用不是小修小补，而是决定量级的收益来源。
+这说明在固定 64-profile 序列里，warm state 复用不是小修小补，而是决定量级的收益来源。  
+但它仍然是 derived replay，不是 live host 上的真实 end-to-end transition。
 
 ### 3. Cost Model 足够可信，能支撑后续 scheduler 和 seed queue
 
@@ -55,6 +58,8 @@ Phase 4 的 pair 预测几乎覆盖完全：
 
 - 4,032 / 4,032 directed pairs 都能预测
 - 相关性很高，说明对象级 cost 具备很强的排序和比较能力
+
+这里仍然是 derived exact-oracle replay，不是 live A→B transition 的真实 wall-clock pair-run。
 
 这使得后面的 Phase 5 / 6 / 7 都有了可用的基础，而不是在不稳的成本表上空转。
 
@@ -65,7 +70,8 @@ Phase 5 证明了 NodeLite scheduling 不是白忙：
 - 对 FIFO 有明确收益
 - 决策开销极小
 
-但它在这份 replay 里仍然输给 Similarity greedy，说明 cost-aware scheduling 有价值，但还没有在当前任务分布上全面压过相似性启发式。
+但它在这份 replay 里仍然输给 Similarity greedy，说明 cost-aware scheduling 有价值，但还没有在当前任务分布上全面压过相似性启发式。  
+这仍然是 64-profile derived replay，不是完整的 500+ task live workload。
 
 ### 5. Seed Queue 是一个“约束下有效”的 fallback 方案
 
@@ -75,7 +81,8 @@ Phase 6 的结论比较克制，也比较真实：
 - 但它确实比 Fastest cold start 更合理
 - starvation probe 证明 age bonus 能防止长期饿死
 
-所以它更像是一个可靠的 fallback policy，而不是在所有 replay 状态下都最优的 policy。
+所以它更像是一个可靠的 fallback policy，而不是在所有 replay 状态下都最优的 policy。  
+这里的 seed fallback 仍然是基于 Phase 5 order 的 derived replay，不是 live scheduler 触发后的现场 fallback。
 
 ### 6. Online FIFO 的最终推荐是 FIFO-5 Median
 
@@ -121,7 +128,7 @@ Phase 5 里，NodeLite cost greedy 相比 FIFO：
 
 ### Online FIFO 是否继续提升 prediction / scheduling？
 
-是，至少在 Phase 7 的这个 replay 里是这样。
+是，至少在 Phase 7 的这个 observation-stream replay 里是这样。
 
 - `FIFO-5 Median` 是最优的在线窗口策略
 - 它比 Static 和 Latest 都好
@@ -135,6 +142,55 @@ Phase 5 里，NodeLite cost greedy 相比 FIFO：
 
 - 七个 phase 的验证已经完成
 - 但 Docker baseline / full ablation 这一条，当前只能记为后续补测项
+
+## 未完成的现场验证
+
+下面三项现在仍然是后续 live validation，而不是当前 artifact 里已经完成的结果：
+
+1. 真实 A→B transition 测量
+
+   目标：
+
+   - 选 20 个 representative profile
+   - 采 100–200 个真实 pair
+   - 用真实 wall-clock 重新验证 Phase 4 口径
+
+   需要产物：
+
+   - `measured_pair_transitions.jsonl`
+   - `predicted_vs_measured.csv`
+   - `phase4_live_summary.md`
+
+2. 真实 scheduler workload
+
+   目标：
+
+   - 不再只用 64 profile 单次顺序 replay
+   - 先做 500 tasks，再扩大到 2000+
+   - 让真实 task frequency distribution 进入 scheduler
+
+   需要产物：
+
+   - `live_scheduler_runs.csv`
+   - `live_transition_breakdown.csv`
+   - `phase5_live_summary.md`
+
+3. Docker warm-image baseline + full ablation
+
+   目标：
+
+   - `docker create`
+   - `docker start`
+   - `semantic ready`
+   - `task`
+   - `stop/remove`
+   - 对比 `Fresh Baseline / CTDP Only / CTDP + Reuse / Full NodeLite`
+
+   需要产物：
+
+   - `docker_baseline.csv`
+   - `ablation.csv`
+   - `final_ablation_summary.md`
 
 ## 结论
 
@@ -159,4 +215,4 @@ Phase 5 里，NodeLite cost greedy 相比 FIFO：
 - [phase5/phase5_summary.md](/root/experiment_result/phase5/phase5_summary.md)
 - [phase6/phase6_summary.md](/root/experiment_result/phase6/phase6_summary.md)
 - [phase7/phase7_summary.md](/root/experiment_result/phase7/phase7_summary.md)
-
+- [live_validation_plan.md](/root/experiment_result/live_validation_plan.md)

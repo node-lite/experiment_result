@@ -2,6 +2,7 @@
   "schema_version": 1,
   "phase": "phase3",
   "status": "passed_with_constraints",
+  "validation_mode": "derived replay",
   "measurement_environment_id": "derived:phase2-merged",
   "source_environment_ids": [
     "env:0fd7b54e0a2a55d4208d",

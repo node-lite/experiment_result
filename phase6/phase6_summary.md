@@ -1,6 +1,6 @@
-# Phase 6 Seed Priority Queue Validation
+# Phase 6 Seed Priority Queue Validation (derived replay)
 
-Status: **passed_with_constraints**
+Status: **passed_with_constraints (derived replay)**
 
 ## Input
 - Phase 5 schedule source: `phase5/nodelite_schedule.json`

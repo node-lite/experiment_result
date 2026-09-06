@@ -15,6 +15,7 @@
   },
   "fallback_trigger_count": 5,
   "measurement_environment_id": "derived:phase5-replay",
+  "validation_mode": "derived replay",
   "outcome": {
     "weighted_reach_beats_degree": false,
     "weighted_reach_beats_fastest": true,

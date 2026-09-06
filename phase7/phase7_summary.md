@@ -1,6 +1,6 @@
-# Phase 7 Online Sliding-Window Adaptation
+# Phase 7 Online Sliding-Window Adaptation (observation-stream replay)
 
-Status: **passed_with_constraints**
+Status: **passed_with_constraints (observation-stream replay)**
 
 ## Input
 - Phase 2 observation stream: `phase2/object_action_observations.jsonl`

@@ -1,6 +1,6 @@
-# Phase 5 Resource-Aware Scheduling
+# Phase 5 Resource-Aware Scheduling (derived replay)
 
-Status: **passed_with_constraints**
+Status: **passed_with_constraints (derived replay)**
 
 ## Input
 - Phase 2 cost database: `env:7a9cda66bc6b151a7886`

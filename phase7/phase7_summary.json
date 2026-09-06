@@ -11,6 +11,7 @@
     "phase7_summary.md",
     "phase7_summary.json"
   ],
+  "validation_mode": "observation-stream replay",
   "by_environment": {
     "env:0fd7b54e0a2a55d4208d": {
       "fifo5_mean": {
