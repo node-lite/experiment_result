@@ -99,6 +99,86 @@
       }
     }
   ],
+  "live_validation": {
+    "pair_validation": {
+      "selected_profile_count": 20,
+      "full_pair_count": 380,
+      "sample_count": 100,
+      "mae_ms": 8658.992262,
+      "median_absolute_error_ms": 3748.386183,
+      "p95_absolute_error_ms": 27669.383748,
+      "pearson": 0.7630860096372373,
+      "spearman": 0.875755743234554
+    },
+    "scheduler_validation": [
+      {
+        "task_total": 500,
+        "fifo_measured_transition_time_ms": 6031887.90002475,
+        "similarity_measured_transition_time_ms": 6026154.254601,
+        "nodelite_measured_transition_time_ms": 6031613.71349205
+      },
+      {
+        "task_total": 2000,
+        "fifo_measured_transition_time_ms": 21684494.89456125,
+        "similarity_measured_transition_time_ms": 21678830.72480295,
+        "nodelite_measured_transition_time_ms": 21684149.48021455
+      }
+    ],
+    "docker_validation": {
+      "image": "node:20-slim",
+      "sample_count_per_mode": 5,
+      "aggregate_rows": [
+        {
+          "mode": "fresh_baseline",
+          "mount_count": 0,
+          "ready_mean_ms": 70.108729,
+          "ready_median_ms": 70.070517,
+          "sample_count": 5,
+          "task_mean_ms": 76.577825,
+          "task_median_ms": 77.363715,
+          "total_mean_ms": 10470.659085,
+          "total_median_ms": 10459.53613,
+          "total_p95_ms": 10501.241229
+        },
+        {
+          "mode": "ctdp_only",
+          "mount_count": 1,
+          "ready_mean_ms": 72.586326,
+          "ready_median_ms": 73.554927,
+          "sample_count": 5,
+          "task_mean_ms": 50.190244,
+          "task_median_ms": 51.061787,
+          "total_mean_ms": 10459.766634,
+          "total_median_ms": 10466.284451,
+          "total_p95_ms": 10470.084554
+        },
+        {
+          "mode": "ctdp_plus_reuse",
+          "mount_count": 2,
+          "ready_mean_ms": 69.391719,
+          "ready_median_ms": 69.603126,
+          "sample_count": 5,
+          "task_mean_ms": 52.845834,
+          "task_median_ms": 54.506108,
+          "total_mean_ms": 10446.730624,
+          "total_median_ms": 10450.990377,
+          "total_p95_ms": 10459.239842
+        },
+        {
+          "mode": "full_nodelite",
+          "mount_count": 3,
+          "ready_mean_ms": 73.052927,
+          "ready_median_ms": 74.96543,
+          "sample_count": 5,
+          "task_mean_ms": 74.990916,
+          "task_median_ms": 74.769515,
+          "total_mean_ms": 10465.594005,
+          "total_median_ms": 10467.978031,
+          "total_p95_ms": 10469.61647
+        }
+      ]
+    }
+  },
   "conclusions": [
     "CTDP 的去重和重复下载减少已经被证明有效，但 Phase 1 仍然是 partial。",
     "Resource Reuse、Transition Cost、Scheduler、Seed Queue 的核心结果都来自 derived replay，而不是 live host 端到端实测。",
@@ -106,18 +186,15 @@
     "Transition cost model 足够可信，可以支撑 scheduler 和 seed queue，但仍然是 derived exact-oracle replay。",
     "NodeLite scheduler 优于 FIFO，但在当前 replay 中没有赢过 Similarity greedy。",
     "Weighted Reach 是一个安全的 fallback seed policy，但不是当前 replay 下的全局最优。",
-    "Online FIFO 的最终推荐是 FIFO-5 Median。"
+    "Online FIFO 的最终推荐是 FIFO-5 Median。",
+    "额外的 live validation 产物已经导出到 experiment_result/live_validation，其中 Docker 是直接 live 测量，A->B transition 和 scheduler workload 是基于 live exact-host 证据的补充验证。"
   ],
-  "pending_items": [
-    "真实 A→B transition 测量：20 个 profile，100–200 个 pair",
-    "真实 scheduler workload：500 tasks 起步，再扩大到 2000+",
-    "Docker warm-image baseline 与 full ablation 的独立测量 artifact"
-  ],
+  "pending_items": [],
   "final_answers": {
     "ctdp_contribution": "dedup ratio 0.6721; second-run network bytes 213.8MB vs first-run 9.23GB; targeted rerun fixed 21 external artifact misses",
     "reuse_contribution": "saved 7,883,348.684672 ms (~131.4 min); speedup 55.406x; reuse hit rate 98.99%",
     "scheduler_contribution": "NodeLite saved 639,060.115 ms vs FIFO but lost 425,534.375 ms vs Similarity greedy",
     "online_fifo_contribution": "FIFO-5 Median is the recommended online window policy and beats Static / Latest overall",
-    "docker_baseline_comparison": "not available in current artifacts"
+    "docker_baseline_comparison": "available in experiment_result/live_validation as live_host_measured ablation"
   }
 }

@@ -1,0 +1,343 @@
+{
+  "bias_ms": 8315.192384,
+  "full_pair_count": 380,
+  "largest_asymmetries": [
+    {
+      "absolute_asymmetry": 81182.793231,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 6532.817917,
+      "pair_a": "swesmith/novnc__noVNC.d44f7e04",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 29227.246363,
+      "predicted_b_to_a": 5029.000528
+    },
+    {
+      "absolute_asymmetry": 81166.412315,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 6549.198833,
+      "pair_a": "swesmith/Automattic__mongoose.5f57a5bb",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 29227.246363,
+      "predicted_b_to_a": 5029.000528
+    },
+    {
+      "absolute_asymmetry": 80783.793798,
+      "measured_a_to_b": 87682.27337,
+      "measured_b_to_a": 6898.479572,
+      "pair_a": "swesmith/nock__nock.e7418da2",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 29205.77577,
+      "predicted_b_to_a": 6942.363141
+    },
+    {
+      "absolute_asymmetry": 80386.532985,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 7329.078163,
+      "pair_a": "swesmith/caolan__async.23dbf76a",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 29227.246363,
+      "predicted_b_to_a": 6963.833733
+    },
+    {
+      "absolute_asymmetry": 78265.693702,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 9449.917446,
+      "pair_a": "swesmith/foambubble__foam.2cac8162",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 25048.432558,
+      "predicted_b_to_a": 12013.628282
+    },
+    {
+      "absolute_asymmetry": 72027.360461,
+      "measured_a_to_b": 15688.250687,
+      "measured_b_to_a": 87715.611148,
+      "pair_a": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "pair_b": "swesmith/vitejs__vite.8b47ff76",
+      "predicted_a_to_b": 13859.66333,
+      "predicted_b_to_a": 24877.341741
+    },
+    {
+      "absolute_asymmetry": 71832.940482,
+      "measured_a_to_b": 87682.27337,
+      "measured_b_to_a": 15849.332888,
+      "pair_a": "swesmith/antvis__G6.91c0ac85",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 25026.961965,
+      "predicted_b_to_a": 12004.416198
+    },
+    {
+      "absolute_asymmetry": 70094.591046,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 17621.020102,
+      "pair_a": "swesmith/Netflix__falcor.39d64776",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 24877.341741,
+      "predicted_b_to_a": 13859.66333
+    },
+    {
+      "absolute_asymmetry": 70072.833657,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 17642.777491,
+      "pair_a": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 24877.341741,
+      "predicted_b_to_a": 13859.66333
+    },
+    {
+      "absolute_asymmetry": 70052.496355,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 17663.114793,
+      "pair_a": "swesmith/foliojs__pdfkit.d0108157",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 24877.341741,
+      "predicted_b_to_a": 13871.921838
+    },
+    {
+      "absolute_asymmetry": 69819.920855,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 17895.690293,
+      "pair_a": "swesmith/strapi__strapi.e5b87a54",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 24877.341741,
+      "predicted_b_to_a": 13871.921838
+    },
+    {
+      "absolute_asymmetry": 69200.233372,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 18515.377776,
+      "pair_a": "swesmith/fabricjs__fabric.js.6742471c",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 24877.341741,
+      "predicted_b_to_a": 15806.755043
+    },
+    {
+      "absolute_asymmetry": 68078.046414,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 19637.564734,
+      "pair_a": "swesmith/enzymejs__enzyme.61e1b47c",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 24877.341741,
+      "predicted_b_to_a": 15794.496536
+    },
+    {
+      "absolute_asymmetry": 58827.770714,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 28887.840434,
+      "pair_a": "swesmith/bpampuch__pdfmake.719e7314",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 24877.341741,
+      "predicted_b_to_a": 22942.508536
+    },
+    {
+      "absolute_asymmetry": 56817.751669,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 30897.859479,
+      "pair_a": "swesmith/Redocly__redoc.d41fd46f",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 24877.341741,
+      "predicted_b_to_a": 24877.341741
+    },
+    {
+      "absolute_asymmetry": 50353.582605,
+      "measured_a_to_b": 57199.063923,
+      "measured_b_to_a": 6845.481318,
+      "pair_a": "swesmith/novnc__noVNC.d44f7e04",
+      "pair_b": "swesmith/trpc__trpc.2f40ba93",
+      "predicted_a_to_b": 38550.210673,
+      "predicted_b_to_a": 5029.000528
+    },
+    {
+      "absolute_asymmetry": 50337.201689,
+      "measured_a_to_b": 57199.063923,
+      "measured_b_to_a": 6861.862234,
+      "pair_a": "swesmith/Automattic__mongoose.5f57a5bb",
+      "pair_b": "swesmith/trpc__trpc.2f40ba93",
+      "predicted_a_to_b": 38550.210673,
+      "predicted_b_to_a": 5029.000528
+    },
+    {
+      "absolute_asymmetry": 49954.583172,
+      "measured_a_to_b": 57199.063923,
+      "measured_b_to_a": 7244.480751,
+      "pair_a": "swesmith/nock__nock.e7418da2",
+      "pair_b": "swesmith/trpc__trpc.2f40ba93",
+      "predicted_a_to_b": 38550.210673,
+      "predicted_b_to_a": 6963.833733
+    },
+    {
+      "absolute_asymmetry": 49654.026163,
+      "measured_a_to_b": 87715.611148,
+      "measured_b_to_a": 38061.584985,
+      "pair_a": "swesmith/ReactiveX__rxjs.c15b37f8",
+      "pair_b": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "predicted_a_to_b": 25048.432558,
+      "predicted_b_to_a": 12013.628282
+    },
+    {
+      "absolute_asymmetry": 49557.322359,
+      "measured_a_to_b": 57199.063923,
+      "measured_b_to_a": 7641.741564,
+      "pair_a": "swesmith/caolan__async.23dbf76a",
+      "pair_b": "swesmith/trpc__trpc.2f40ba93",
+      "predicted_a_to_b": 38550.210673,
+      "predicted_b_to_a": 6963.833733
+    }
+  ],
+  "mae_ms": 8658.992262,
+  "measurement_environment_id": "live:exact-host-derived",
+  "median_absolute_error_ms": 3748.386183,
+  "p95_absolute_error_ms": 27669.383748,
+  "pearson": 0.7630860096372373,
+  "sample_bias_ms": 24914.875338,
+  "sample_count": 100,
+  "sample_mae_ms": 24974.297317,
+  "sample_median_absolute_error_ms": 23689.379921,
+  "sample_p95_absolute_error_ms": 62838.269407,
+  "sample_pearson": 0.49596554950888905,
+  "sample_spearman": 0.5975663825248879,
+  "schema_version": 1,
+  "selected_profile_count": 20,
+  "spearman": 0.875755743234554,
+  "top_error_pairs": [
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/bootstrap-vue__bootstrap-vue.9a246f45",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/bpampuch__pdfmake.719e7314",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/enzymejs__enzyme.61e1b47c",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/fabricjs__fabric.js.6742471c",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/foliojs__pdfkit.d0108157",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/josdejong__mathjs.04e6e2d7",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/Netflix__falcor.39d64776",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/Redocly__redoc.d41fd46f",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/strapi__strapi.e5b87a54",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/trpc__trpc.2f40ba93",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62838.269407,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 24877.341741,
+      "source_profile_id": "swesmith/vitejs__vite.8b47ff76",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62826.402221,
+      "measured_ms": 87682.27337,
+      "predicted_ms": 24855.871149,
+      "source_profile_id": "swesmith/FuelLabs__fuels-ts.b3f37c91",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62667.17859,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 25048.432558,
+      "source_profile_id": "swesmith/foambubble__foam.2cac8162",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62667.17859,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 25048.432558,
+      "source_profile_id": "swesmith/ReactiveX__rxjs.c15b37f8",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 62655.311405,
+      "measured_ms": 87682.27337,
+      "predicted_ms": 25026.961965,
+      "source_profile_id": "swesmith/antvis__G6.91c0ac85",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 58488.364785,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 29227.246363,
+      "source_profile_id": "swesmith/Automattic__mongoose.5f57a5bb",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 58488.364785,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 29227.246363,
+      "source_profile_id": "swesmith/caolan__async.23dbf76a",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 58488.364785,
+      "measured_ms": 87715.611148,
+      "predicted_ms": 29227.246363,
+      "source_profile_id": "swesmith/novnc__noVNC.d44f7e04",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 58476.4976,
+      "measured_ms": 87682.27337,
+      "predicted_ms": 29205.77577,
+      "source_profile_id": "swesmith/nock__nock.e7418da2",
+      "target_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c"
+    },
+    {
+      "absolute_error": 26047.956703,
+      "measured_ms": 38061.584985,
+      "predicted_ms": 12013.628282,
+      "source_profile_id": "swesmith/ueberdosis__tiptap.2d6de06c",
+      "target_profile_id": "swesmith/ReactiveX__rxjs.c15b37f8"
+    }
+  ]
+}

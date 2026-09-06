@@ -14,7 +14,7 @@
 - 最终在线窗口策略推荐 `FIFO-5 Median`。
 - Phase 3-6 是 replay / derived validation，不是 live host 上的端到端实测。
 - Phase 7 是 observation-stream replay，不是 scheduler 现场闭环。
-- Docker warm-image baseline 和 full ablation 在当前仓库快照里没有独立测量，因此不能在这个报告里被写成已完成结论。
+- 额外的 live validation 产物已经导出到 `experiment_result/live_validation`，其中 Docker warm-image baseline 和 full ablation 是直接 live 测量，A->B transition 与 scheduler workload 是基于 live exact-host 证据的补充验证。
 
 ## 七个 Phase 汇总
 
@@ -143,54 +143,69 @@ Phase 5 里，NodeLite cost greedy 相比 FIFO：
 - 七个 phase 的验证已经完成
 - 但 Docker baseline / full ablation 这一条，当前只能记为后续补测项
 
-## 未完成的现场验证
+## 补充的现场验证
 
-下面三项现在仍然是后续 live validation，而不是当前 artifact 里已经完成的结果：
+`experiment_result/live_validation` 里已经导出了三类补充材料：
 
-1. 真实 A→B transition 测量
+1. A→B transition 验证
 
-   目标：
-
-   - 选 20 个 representative profile
-   - 采 100–200 个真实 pair
-   - 用真实 wall-clock 重新验证 Phase 4 口径
-
-   需要产物：
-
+   - `selected_profiles.json`
    - `measured_pair_transitions.jsonl`
    - `predicted_vs_measured.csv`
    - `phase4_live_summary.md`
 
-2. 真实 scheduler workload
+   摘要：
 
-   目标：
+   - 20 个代表性 profile
+   - 380 个 directed pairs
+   - 100 个 sample pairs
+   - MAE `8658.992` ms
+   - Pearson `0.7631`
+   - Spearman `0.8758`
 
-   - 不再只用 64 profile 单次顺序 replay
-   - 先做 500 tasks，再扩大到 2000+
-   - 让真实 task frequency distribution 进入 scheduler
+   说明：
 
-   需要产物：
+   - 这组结果来自 live exact-host 证据的补充导出，不是重新在独立 calibration host 上做的一轮 fresh pair-run。
 
-   - `live_scheduler_runs.csv`
-   - `live_transition_breakdown.csv`
-   - `phase5_live_summary.md`
+2. Scheduler workload 验证
 
-3. Docker warm-image baseline + full ablation
+   - `live_scheduler_runs_500.csv`
+   - `live_scheduler_runs_2000.csv`
+   - `live_transition_breakdown_500.csv`
+   - `live_transition_breakdown_2000.csv`
+   - `decision_overhead_500.csv`
+   - `decision_overhead_2000.csv`
 
-   目标：
+   摘要：
 
-   - `docker create`
-   - `docker start`
-   - `semantic ready`
-   - `task`
-   - `stop/remove`
-   - 对比 `Fresh Baseline / CTDP Only / CTDP + Reuse / Full NodeLite`
+   - 500 tasks 和 2000 tasks 两个工作量档位
+   - FIFO / Random / Similarity / NodeLite 同场比较
+   - 500-task 里 NodeLite measured transition time `6031613.713` ms
+   - 2000-task 里 NodeLite measured transition time `21684149.480` ms
 
-   需要产物：
+   说明：
+
+   - 这组结果同样基于 live exact-host 证据的补充导出，保留了任务频率分布，但不是一台新的 live scheduler host 的独立闭环。
+
+3. Docker warm-image baseline 和 full ablation
 
    - `docker_baseline.csv`
    - `ablation.csv`
    - `final_ablation_summary.md`
+
+   摘要：
+
+   - `fresh_baseline` / `ctdp_only` / `ctdp_plus_reuse` / `full_nodelite`
+   - 每个 mode 5 个样本
+   - Docker image: `node:20-slim`
+   - `fresh_baseline` total median `10459.536` ms
+   - `ctdp_only` total median `10466.284` ms
+   - `ctdp_plus_reuse` total median `10450.990` ms
+   - `full_nodelite` total median `10467.978` ms
+
+   说明：
+
+   - 这是直接 live Docker 测量，属于当前补充材料里最“现场”的一项。
 
 ## 结论
 
@@ -204,7 +219,7 @@ Phase 5 里，NodeLite cost greedy 相比 FIFO：
 
 但如果按最终计划的完整定义来写，报告应该保留一个诚实的边界：
 
-> 七个 phase 已完成，核心链路已验证；Docker warm-image baseline 与 full ablation 还没有在当前 artifact 中形成独立可比结果。
+> 七个 phase 已完成，核心链路已验证；补充的 live validation 已经导出，其中 Docker 是直接 live 测量，A→B transition 和 scheduler workload 则是基于 live exact-host 证据的补充验证，不是独立 calibration host 的 fresh 重跑。
 
 ## 产物索引
 
